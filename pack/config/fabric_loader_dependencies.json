@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "overrides": {
+    "fabricloader": {
+      "+depends": {
+        "fabricloader": ">=0.18.0"
+      }
+    },
+    "minecraft": {
+      "+recommends": {
+        "Fabulously Create": ">=1.0.0"
+      }
+    },
+    "debugify": {
+      "recommends": {}
+    },
+    "lambdynlights": {
+      "recommends": {}
+    }
+  }
+}

@@ -1,0 +1,90 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve release version
+        id: version
+        run: |
+          if [[ "${{ github.event_name }}" == "release" ]]; then
+            tag="${{ github.event.release.tag_name }}"
+          else
+            tag="v$(grep '^version' pack/pack.toml | sed 's/.*"\(.*\)".*/\1/')"
+            echo "Manual run: using pack.toml version → ${tag#v}"
+          fi
+          version="${tag#v}"
+          if [[ -z "$version" ]]; then
+            echo "Could not determine release version from tag: $tag" >&2
+            exit 1
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Verify pack.toml version matches tag
+        if: github.event_name == 'release'
+        run: |
+          pack_version="$(grep '^version' pack/pack.toml | sed 's/.*"\(.*\)".*/\1/')"
+          if [[ "${{ steps.version.outputs.version }}" != "$pack_version" ]]; then
+            echo "Tag v${{ steps.version.outputs.version }} does not match pack.toml version $pack_version" >&2
+            exit 1
+          fi
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Build release artifacts
+        env:
+          EXPECTED_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          export PATH="$HOME/go/bin:$PATH"
+          ./scripts/build-release.sh
+
+      - name: Publish to GitHub Release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
+            dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
+            dist/release/Fabulously-Create-Prism-${{ steps.version.outputs.version }}.zip
+
+      - name: Publish to Modrinth
+        if: vars.MODRINTH_PROJECT_ID != '' && github.event_name == 'release'
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: ${{ vars.MODRINTH_PROJECT_ID }}
+          name: Fabulously Create ${{ steps.version.outputs.version }}
+          version: ${{ steps.version.outputs.version }}
+          changelog: ${{ github.event.release.body || format('Release {0}', steps.version.outputs.version) }}
+          loaders: fabric
+          game-versions: 1.20.1
+          files: |
+            dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
+            dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
+
+      - name: Upload artifacts (manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: fabulously-create-${{ steps.version.outputs.version }}
+          path: dist/release/*
+          retention-days: 14

@@ -1,0 +1,52 @@
+# Client-only mods excluded from the dedicated server pack (match pack/mods/*.pw.toml stems).
+# Lines starting with # are comments.
+
+# Rendering / client performance
+sodium
+iris
+indium
+sodium-extra
+reeses-sodium-options
+puzzle
+lambdynlights
+zoomify
+dynamic_fps
+fastquit
+immediatelyfast
+moreculling
+entityculling
+entity_model_features
+entity_texture_features
+enhancedblockentities
+modelfix
+animatica
+continuity
+citresewn
+fadeless
+fabricskyboxes
+yosbr
+fsb-interop
+
+# Client UI / input
+modmenu
+controlify
+optigui
+bettermounthud
+borderlessmining
+isxander-main-menu-credits
+languagereload
+advancementinfo
+rrls
+capes
+mixintrace
+fabrishot
+morechathistory
+
+# Client inventory / recipes (players bring their own)
+inventory-profiles-next
+libipn
+invtweaks-emu-for-ipn
+jei
+
+# LAN / client utilities
+e4mc_minecraft

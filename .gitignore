@@ -1,0 +1,13 @@
+# Downloaded mod jars (metadata only in git)
+*.jar
+.mods/
+instance/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Packwiz cache
+.packwiz/

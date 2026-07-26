@@ -1,0 +1,13 @@
+name = "St'ructure Tools Continued (Building Gadget)"
+filename = "[1.20.1] structure-tools-continued-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2rwk4wic/versions/NUJFKSm9/%5B1.20.1%5D%20structure-tools-continued-1.2.2.jar"
+hash-format = "sha512"
+hash = "09c68f8117fd18e1b26bc7955659a5db75ccd07de0204c811a6fd4da51b9e413de5c1a803ec30394ed7039ac831bd47e28db892da656373123742d5fcc2d3cef"
+
+[update]
+[update.modrinth]
+mod-id = "2rwk4wic"
+version = "NUJFKSm9"
