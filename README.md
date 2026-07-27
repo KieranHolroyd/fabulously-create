@@ -53,7 +53,8 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 
 **Highlights:**
 
-- **Create** + NeoForge addons (Deco, Crafts & Additions, Copycats+, Big Cannons, New Age, Jetpack, Interiors, Bells & Whistles, Ore Excavation, Steam 'n' Rails beta)
+- **Create** + NeoForge addons (Aeronautics, Deco, Crafts & Additions, Copycats+, Big Cannons, New Age, Jetpack, Interiors, Bells & Whistles, Ore Excavation, Steam 'n' Rails beta)
+- **Farmer's Delight** (expanded farming and cooking)
 - **Silent Gear** + Silent Lib (modular tools/armor)
 - **Sophisticated Backpacks** + **Sophisticated Storage** (official)
 - **Functional Storage** + Tom's Simple Storage + **Pipez**

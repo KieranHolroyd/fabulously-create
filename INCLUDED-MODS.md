@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.0.7** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.0.8** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -9,6 +9,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | Mod | Purpose |
 | --- | --- |
 | [Create](https://modrinth.com/mod/create) | Kinetic engineering, contraptions, trains |
+| [Create Aeronautics](https://modrinth.com/mod/create-aeronautics) | Physics-based airships, aircraft, boats, and vehicles |
 | [Create Deco](https://modrinth.com/mod/create-deco) | Industrial decorative blocks |
 | [Create Crafts & Additions](https://modrinth.com/mod/createaddition) | Electricity ↔ kinetic energy bridge |
 | [Create: Copycats+](https://modrinth.com/mod/copycats) | Copycat blocks for builds |
@@ -25,6 +26,13 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | Mod | Purpose |
 | --- | --- |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/ritchies-projectile-lib) | Required by Create Big Cannons |
+| [Sable](https://modrinth.com/mod/sable) | Physics engine required by Create Aeronautics |
+
+## Farming & cooking
+
+| Mod | Purpose |
+| --- | --- |
+| [Farmer's Delight](https://modrinth.com/mod/farmers-delight) | Expanded farming, cooking, meals, and kitchen tools |
 
 ## Building
 
@@ -106,5 +114,5 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | | Client (Prism) | Server |
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
-| Mods | Full NeoForge pack (48 jars) | Server-side subset (36 jars) |
+| Mods | Full NeoForge pack (51 jars) | Server-side subset (39 jars) |
 | Excludes | — | Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, Controlling, … |
