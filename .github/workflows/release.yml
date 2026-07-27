@@ -76,7 +76,9 @@ jobs:
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
-          files: '["dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack", "dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip"]'
+          files: |
+            dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
+            dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
             dist/release/Fabulously-Create-Prism-${{ steps.version.outputs.version }}.zip
           overwrite_files: true
 
@@ -118,6 +120,4 @@ jobs:
           changelog: ${{ github.event.release.body || format('Release {0}', steps.version.outputs.version) }}
           loaders: neoforge
           game-versions: 1.21.1
-          files: |
-            dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
-            dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
+          files: '["dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack", "dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip"]'
