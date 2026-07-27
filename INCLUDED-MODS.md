@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.0.8** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.0.9** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -77,7 +77,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Inventory mouse shortcuts |
-| [Nemo's Inventory Sorting](https://modrinth.com/mod/nemos-inventory-sorting) | Inventory sorting, transfer, and stack-management buttons |
+| [Sophisticated Sorter](https://modrinth.com/mod/sophisticated-sorter) | Sophisticated Core sorting controls for player inventories and containers |
 | [Bring Back Chat](https://modrinth.com/mod/bringbackchat) | Bypass client chat restrictions from Microsoft account settings |
 | [Sinytra Connector](https://modrinth.com/mod/connector) | Runs Bring Back Chat on NeoForge |
 | [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | Fabric compatibility API for NeoForge |
@@ -114,5 +114,5 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | | Client (Prism) | Server |
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
-| Mods | Full NeoForge pack (51 jars) | Server-side subset (39 jars) |
+| Mods | Full NeoForge pack (51 jars) | Server-side subset (40 jars) |
 | Excludes | — | Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, Controlling, … |

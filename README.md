@@ -62,7 +62,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Building Gadgets 2** + **Construction Sticks**
 - **FTB Ultimine** (vein mining)
 - Sodium, Iris (beta), ModernFix, FerriteCore
-- JourneyMap, JEI, Mouse Tweaks, Nemo's Inventory Sorting, GraveStone Mod, Just Zoom, Controlling
+- JourneyMap, JEI, Mouse Tweaks, Sophisticated Sorter, GraveStone Mod, Just Zoom, Controlling
 
 **Dropped / replaced vs Fabric FO pack:**
 
