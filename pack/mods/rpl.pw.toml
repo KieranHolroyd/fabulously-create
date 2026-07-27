@@ -1,13 +1,13 @@
 name = "Ritchie's Projectile Library"
-filename = "ritchiesprojectilelib-2.1.1+mc.1.20.1-fabric.jar"
+filename = "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/B3pb093D/versions/OHbO1aoO/ritchiesprojectilelib-2.1.1%2Bmc.1.20.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "5867f21105721f7aa530341d0aabddbf12fb507238ce1d7c8db22559d10f5bfd3e7e5543f134fb84701c054f09235edf14096a371039fa7abb1d7b8d6e43c3c2"
+hash = "6d64c84505a5a8fbb96d106603065465c5a2314ec09636900c5c1a31014c12fa68f1a41e758313cbf0d6f95d9a1f53bd67339020f7d8db0e184c23f66aee0330"
 
 [update]
 [update.modrinth]
 mod-id = "B3pb093D"
-version = "OHbO1aoO"
+version = "hZ6B2Z0x"

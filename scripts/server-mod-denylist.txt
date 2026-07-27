@@ -4,47 +4,13 @@
 # Rendering / client performance
 sodium
 iris
-indium
-sodium-extra
-reeses-sodium-options
-puzzle
-lambdynlights
-zoomify
-dynamic_fps
-fastquit
-immediatelyfast
-moreculling
-entityculling
-entity_model_features
-entity_texture_features
-enhancedblockentities
-modelfix
-animatica
-continuity
-citresewn
-fadeless
-fabricskyboxes
-yosbr
-fsb-interop
 
 # Client UI / input
-modmenu
-controlify
-optigui
-bettermounthud
-borderlessmining
-isxander-main-menu-credits
-languagereload
-advancementinfo
-rrls
-capes
-mixintrace
-fabrishot
-morechathistory
+controlling
+searchables
+mouse-tweaks
+just-zoom
+konkrete
 
 # Client inventory / recipes (players bring their own)
-inventory-sorting
 jei
-
-# LAN / client utilities
-e4mc_minecraft

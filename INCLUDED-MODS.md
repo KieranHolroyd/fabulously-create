@@ -1,91 +1,96 @@
 # Included mods
 
-Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) **1.20.1** (v5.4.x), plus Create and quality-of-life additions.
+**Fabulously Create v2.0.3** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
-**Minecraft 1.20.1 · Fabric 0.18.6**
+Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
-## Create (core + addons)
+## Create
 
 | Mod | Purpose |
 | --- | --- |
-| [Create Fabric](https://modrinth.com/mod/create-fabric) | Official Fabric port — kinetic engineering, contraptions, trains |
+| [Create](https://modrinth.com/mod/create) | Kinetic engineering, contraptions, trains |
 | [Create Deco](https://modrinth.com/mod/create-deco) | Industrial decorative blocks |
 | [Create Crafts & Additions](https://modrinth.com/mod/createaddition) | Electricity ↔ kinetic energy bridge |
 | [Create: Copycats+](https://modrinth.com/mod/copycats) | Copycat blocks for builds |
-| [Create: Steam 'n' Rails](https://modrinth.com/mod/create-steam-n-rails) | Expanded rails and steam |
-| [Create: New Age](https://modrinth.com/mod/create-new-age) | Electricity integration |
 | [Create Big Cannons](https://modrinth.com/mod/create-big-cannons) | Buildable cannons |
-| [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles) | Platform edges, conductors, etc. |
-| [Create: Interiors](https://modrinth.com/mod/interiors) | Create-themed furniture |
+| [Create: New Age](https://modrinth.com/mod/create-new-age) | Electricity integration |
 | [Create Jetpack](https://modrinth.com/mod/create-jetpack) | Backtank-powered flight |
+| [Create: Interiors](https://modrinth.com/mod/interiors) | Create-themed furniture |
+| [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles) | Platform edges, conductors, etc. |
 | [Create Ore Excavation](https://modrinth.com/mod/create-ore-excavation) | Vein mining with rotational force |
-| [Create Goggles](https://modrinth.com/mod/create-goggles) | Goggle helmets and armored backtanks |
-| [Create: Framed](https://modrinth.com/mod/create-framed) | More framed glass variants |
-| [Rechiseled: Create](https://modrinth.com/mod/rechiseled-create) | Decorative Create block variants |
+| [Steam 'n' Rails Neoforge](https://modrinth.com/mod/create-steam-n-rails-1.21.1) | Expanded rails and steam (**unofficial beta** port) |
 
-### Create dependencies (auto-added)
+### Create dependencies
 
 | Mod | Purpose |
 | --- | --- |
 | [Ritchie's Projectile Library](https://modrinth.com/mod/ritchies-projectile-lib) | Required by Create Big Cannons |
-| [Architectury API](https://modrinth.com/mod/architectury-api) | Required by Create Goggles |
-| [Rechiseled](https://modrinth.com/mod/rechiseled) | Required by Rechiseled: Create |
 
-### Library dependencies (auto-added)
+## Building
 
 | Mod | Purpose |
 | --- | --- |
-| [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib) | Required by Rechiseled |
-| [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Required by Rechiseled |
-| [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Rechiseled |
-| [Sophisticated Core (Fabric)](https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)) | Required by Sophisticated Backpacks and Storage |
-| [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Required by Sophisticated mods |
-| [Porting Lib](https://modrinth.com/mod/porting_lib) | Required by Sophisticated mods |
+| [Building Gadgets 2](https://www.curseforge.com/minecraft/mc-mods/building-gadgets) | Copy/paste/exchange/destruction gadgets |
+| [Construction Sticks](https://modrinth.com/mod/construction-sticks) | Extend/fill sticks (Construction Wand successor) |
 
-## Building, storage & automation
+## Storage
 
 | Mod | Purpose |
 | --- | --- |
-| [St'ructure Tools Continued](https://modrinth.com/mod/structure-tools-continued-(building-gadget)) | Building Gadget-style copy/paste builds (Fabric) |
-| [Construction Wand (Fabric)](https://modrinth.com/mod/construction-wand-fabric) | Extend blocks, fill areas, build faster |
-| [Extended Drawers](https://modrinth.com/mod/extended-drawers) | Compact item storage drawers |
+| [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) | Upgradable wearable/portable backpacks |
+| [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) | Upgradable chests, barrels, shulker boxes |
+| [Sophisticated Core](https://modrinth.com/mod/sophisticated-core) | Required by Sophisticated mods |
+| [Functional Storage](https://modrinth.com/mod/functional-storage) | Drawers, barrels, storage controller |
+| [Titanium](https://modrinth.com/mod/titanium) | Required by Functional Storage |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
-| [Functional Storage (Fabric)](https://modrinth.com/mod/functional-storage-fabric) | Drawers, barrels, and storage controller |
-| [Sophisticated Backpacks (Fabric)](https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)) | Upgradable wearable/portable backpacks |
-| [Sophisticated Storage (Fabric)](https://modrinth.com/mod/sophisticated-storage-(unofficial-fabric-port)) | Upgradable chests, barrels, and shulker boxes |
 
-> **Just Dire Things** is Forge/NeoForge only on 1.20.1 — no Fabric port exists. It cannot be added without switching the whole pack off Fabric.
+## Tools & combat
+
+| Mod | Purpose |
+| --- | --- |
+| [Silent Gear](https://modrinth.com/mod/silent-gear) | Modular tools, weapons, and armor |
+| [Silent Lib](https://modrinth.com/mod/silent-lib) | Required by Silent Gear |
+| [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | Hold key to vein-mine connected blocks |
+| [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | Required by FTB Ultimine |
 
 ## Quality of life
 
 | Mod | Purpose |
 | --- | --- |
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
-| [Inventory Sorting](https://modrinth.com/mod/inventory-sorting) | Middle-click chest/player inventory sort |
-| [FTB Ultimine (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric) | Hold key to vein-mine connected blocks |
-| [FTB Library (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | Required by FTB Ultimine |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
+| [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Inventory mouse shortcuts |
+| [Just Zoom](https://modrinth.com/mod/just-zoom) | Hold-to-zoom (replaces Zoomify) |
+| [Rapid Leaf Decay](https://modrinth.com/mod/rapid-leaf-decay) | Fast leaf decay after chopping trees |
+| [Controlling](https://modrinth.com/mod/controlling) | Searchable keybind menu |
+| [Searchables](https://modrinth.com/mod/searchables) | Required by Controlling |
+| [Konkrete](https://modrinth.com/mod/konkrete) | Required by Just Zoom |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | Config UI library |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | Cross-loader API |
+| [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | Kotlin runtime for NeoForge mods |
 
-## Fabulously Optimized base
+## Performance
 
-Performance and visual mods from FO 1.20.1 — Sodium, Lithium, Iris, FerriteCore, Entity Culling, LambDynamicLights, Continuity, Mod Menu, Fabric API, and others. Run `packwiz list` in `pack/` for the complete set.
+| Mod | Purpose |
+| --- | --- |
+| [Sodium](https://modrinth.com/mod/sodium) | High-performance renderer (official NeoForge) |
+| [Iris Shaders](https://modrinth.com/mod/iris) | Shader loader (**beta** on NeoForge 1.21.1) |
+| [ModernFix](https://modrinth.com/mod/modernfix) | Performance and bug fixes |
+| [FerriteCore](https://modrinth.com/mod/ferrite-core) | Memory usage reductions |
 
 ## Notes
 
-- **1.20.1** is the sweet spot for Fabric Create: official port, broad addon support, stable FO base.
-- **Inventory Tweaks** is replaced by **[Inventory Sorting](https://modrinth.com/mod/inventory-sorting)** — lighter, middle-click sort for chests and player inventory.
-- **Create: Design n' Decor** and **Create: Dreams & Desires** removed — incompatible with Create 6.x on Fabric.
-- **JourneyMap** pinned to **5.10.3** — 6.0 beta breaks Create’s map integration mixin.
-- **Controlify** removed — 2.x crashes on startup; 1.6.0 has broken controller HID on Apple Silicon. Use keyboard/mouse or wait for a fixed release.
-- **Zoomify** pinned to **2.11.2** (FO original).
-- Uses **Fabric Loader 0.18.6** and **Fabric API 0.92.11+** (required by Create and addons; FO's original 0.14.23 base is too old).
-- For multiplayer, sync the full server mod list with clients.
-- **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods. Players use the Prism client pack separately.
+- **1.21.1 NeoForge** is the target for official Create, Silent Gear, and Sophisticated mods.
+- **Java 21+** is required for client and server.
+- **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
+- Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
+- **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
+- Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.
 
 ## Server vs client
 
 | | Client (Prism) | Server |
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
-| Mods | ~82 (full FO + Create + QoL + building) | ~34 (Create + server-side FO + storage) |
-| Excludes | — | Sodium, Iris, JEI, Inventory Sorting, Mod Menu, … |
+| Mods | Full NeoForge pack (~37 jars) | Server-side subset (~29 jars) |
+| Excludes | — | Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, Controlling, … |

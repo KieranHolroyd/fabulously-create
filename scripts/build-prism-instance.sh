@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build a Prism Launcher / MultiMC instance folder for Fabulously Create (1.20.1).
+# Build a Prism Launcher / MultiMC instance folder for Fabulously Create (NeoForge 1.21.1).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -8,13 +8,20 @@ OUT_DIR="${1:-$ROOT/dist/Fabulously Create}"
 PRISM_INSTANCES="${PRISM_INSTANCES:-$HOME/Library/Application Support/PrismLauncher/instances}"
 INSTALL="${INSTALL:-0}"
 
-MC_VERSION="1.20.1"
-FABRIC_VERSION="0.18.6"
-LWJGL_VERSION="3.3.1"
+MC_VERSION="1.21.1"
+NEOFORGE_VERSION="21.1.244"
+LWJGL_VERSION="3.3.3"
 PACK_VERSION="$(grep '^version' "$PACK_DIR/pack.toml" | sed 's/.*"\(.*\)".*/\1/')"
+# Prism ships java-runtime-delta as Java 21 on macOS; override via JAVA_PATH if needed.
+PRISM_ROOT="${PRISM_ROOT:-$HOME/Library/Application Support/PrismLauncher}"
+PRISM_JAVA_DELTA="${PRISM_JAVA_DELTA:-$PRISM_ROOT/java/java-runtime-delta/bin/java}"
+JAVA_PATH="${JAVA_PATH:-$PRISM_JAVA_DELTA}"
+# Match Prism's stored metadata for java-runtime-delta (avoids auto-switch back to Java 17).
+JAVA_SIGNATURE="${JAVA_SIGNATURE:-fa5f76517923fd49498ea181ba6e2aa62643a065}"
+JAVA_VERSION_STR="${JAVA_VERSION_STR:-21.0.7}"
 
 echo "Building Prism instance → $OUT_DIR"
-echo "  Minecraft $MC_VERSION · Fabric $FABRIC_VERSION"
+echo "  Minecraft $MC_VERSION · NeoForge $NEOFORGE_VERSION"
 
 rm -rf "$OUT_DIR"
 mkdir -p "$OUT_DIR/minecraft"
@@ -23,7 +30,16 @@ cat > "$OUT_DIR/instance.cfg" << EOF
 InstanceType=OneSix
 iconKey=pack
 name=Fabulously Create
-notes=Fabulously Optimized + Create (Fabric) and addons. MC $MC_VERSION Fabric $FABRIC_VERSION. Pack v$PACK_VERSION.
+notes=Create + Silent Gear + Sophisticated Storage on NeoForge. MC $MC_VERSION NeoForge $NEOFORGE_VERSION. Pack v$PACK_VERSION. Requires Java 21.
+AutomaticJava=false
+OverrideJavaLocation=true
+JavaPath=$JAVA_PATH
+JavaSignature=$JAVA_SIGNATURE
+JavaVersion=$JAVA_VERSION_STR
+JavaVendor=Microsoft
+JavaArchitecture=64
+JavaRealArchitecture=aarch64
+IgnoreJavaCompatibility=false
 EOF
 
 cat > "$OUT_DIR/mmc-pack.json" << EOF
@@ -51,29 +67,16 @@ cat > "$OUT_DIR/mmc-pack.json" << EOF
       "version": "$LWJGL_VERSION"
     },
     {
-      "cachedName": "Intermediary Mappings",
+      "cachedName": "NeoForge",
       "cachedRequires": [
         {
-          "equals": "$MC_VERSION",
-          "uid": "net.minecraft"
+          "uid": "net.minecraft",
+          "equals": "$MC_VERSION"
         }
       ],
-      "cachedVersion": "$MC_VERSION",
-      "cachedVolatile": true,
-      "dependencyOnly": true,
-      "uid": "net.fabricmc.intermediary",
-      "version": "$MC_VERSION"
-    },
-    {
-      "cachedName": "Fabric Loader",
-      "cachedRequires": [
-        {
-          "uid": "net.fabricmc.intermediary"
-        }
-      ],
-      "cachedVersion": "$FABRIC_VERSION",
-      "uid": "net.fabricmc.fabric-loader",
-      "version": "$FABRIC_VERSION"
+      "cachedVersion": "$NEOFORGE_VERSION",
+      "uid": "net.neoforged",
+      "version": "$NEOFORGE_VERSION"
     }
   ],
   "formatVersion": 1
@@ -91,7 +94,7 @@ if [[ "$INSTALL" == "1" ]]; then
   echo "Installing to $DEST ..."
   rm -rf "$DEST"
   cp -R "$OUT_DIR" "$DEST"
-  echo "Done. Open Prism Launcher and launch 'Fabulously Create'."
+  echo "Done. Open Prism Launcher and launch 'Fabulously Create' (Java 21)."
 else
   echo ""
   echo "To install into Prism Launcher:"

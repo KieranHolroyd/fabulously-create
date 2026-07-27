@@ -11,3 +11,4 @@ dist/
 
 # Packwiz cache
 .packwiz/
+.official-server
