@@ -3,10 +3,17 @@ name: Release
 on:
   release:
     types: [published]
+  push:
+    tags:
+      - "v*"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: release-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-and-publish:
@@ -21,6 +28,8 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "release" ]]; then
             tag="${{ github.event.release.tag_name }}"
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            tag="${GITHUB_REF_NAME}"
           else
             tag="v$(grep '^version' pack/pack.toml | sed 's/.*"\(.*\)".*/\1/')"
             echo "Manual run: using pack.toml version → ${tag#v}"
@@ -34,7 +43,7 @@ jobs:
           echo "version=$version" >> "$GITHUB_OUTPUT"
 
       - name: Verify pack.toml version matches tag
-        if: github.event_name == 'release'
+        if: github.event_name == 'release' || github.event_name == 'push'
         run: |
           pack_version="$(grep '^version' pack/pack.toml | sed 's/.*"\(.*\)".*/\1/')"
           if [[ "${{ steps.version.outputs.version }}" != "$pack_version" ]]; then
@@ -57,7 +66,7 @@ jobs:
           export PATH="$HOME/go/bin:$PATH"
           ./scripts/build-release.sh
 
-      - name: Publish to GitHub Release
+      - name: Publish to GitHub Release (existing release)
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
@@ -65,9 +74,38 @@ jobs:
             dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
             dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
             dist/release/Fabulously-Create-Prism-${{ steps.version.outputs.version }}.zip
+          overwrite_files: true
+
+      - name: Publish to GitHub Release (tag push or manual)
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Fabulously Create ${{ steps.version.outputs.version }}
+          files: |
+            dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
+            dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
+            dist/release/Fabulously-Create-Prism-${{ steps.version.outputs.version }}.zip
+          generate_release_notes: true
+          overwrite_files: true
+          make_latest: true
+
+      - name: Check Modrinth config
+        id: modrinth
+        if: github.event_name != 'workflow_dispatch'
+        env:
+          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          if [[ -n "$MODRINTH_PROJECT_ID" && -n "$MODRINTH_TOKEN" ]]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping Modrinth upload (optional). Set MODRINTH_PROJECT_ID and MODRINTH_TOKEN to enable."
+          fi
 
       - name: Publish to Modrinth
-        if: vars.MODRINTH_PROJECT_ID != '' && github.event_name == 'release'
+        if: steps.modrinth.outputs.enabled == 'true'
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
@@ -80,11 +118,3 @@ jobs:
           files: |
             dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
             dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
-
-      - name: Upload artifacts (manual runs)
-        if: github.event_name == 'workflow_dispatch'
-        uses: actions/upload-artifact@v4
-        with:
-          name: fabulously-create-${{ steps.version.outputs.version }}
-          path: dist/release/*
-          retention-days: 14

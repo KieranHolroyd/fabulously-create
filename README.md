@@ -58,7 +58,12 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 
 ## Releases
 
-Bump `version` in `pack/pack.toml`, commit, then create a GitHub release with tag `vX.Y.Z` matching that version (e.g. `v1.0.5`). CI builds and uploads:
+Bump `version` in `pack/pack.toml`, commit, then either:
+
+- Push a tag: `git tag v1.0.10 && git push origin v1.0.10` — CI builds and creates/updates the GitHub Release, or
+- Create a GitHub Release in the UI with tag `vX.Y.Z` matching `pack.toml`
+
+CI always uploads to **GitHub Releases**:
 
 - `Fabulously-Create-X.Y.Z.mrpack` — Modrinth / launcher client pack
 - `Fabulously-Create-Server-X.Y.Z.zip` — dedicated server pack
@@ -70,9 +75,9 @@ Build locally:
 ./scripts/build-release.sh
 ```
 
-**Modrinth auto-upload (optional):** In repo **Settings → Secrets and variables → Actions**, add secret `MODRINTH_TOKEN` (Modrinth PAT with *Create versions* scope) and variable `MODRINTH_PROJECT_ID` (your Modrinth project ID). Without the variable, CI still attaches files to GitHub Releases only.
+**Modrinth auto-upload (optional):** Add secret `MODRINTH_TOKEN` and variable `MODRINTH_PROJECT_ID` in repo **Settings → Secrets and variables → Actions**. If either is missing, CI skips Modrinth and still publishes to GitHub Releases.
 
-You can also trigger a test build from **Actions → Release → Run workflow**; artifacts are kept for 14 days.
+You can also run **Actions → Release → Run workflow** to build from `pack.toml` and publish a GitHub Release without Modrinth.
 
 ## Developing / updating the pack
 
