@@ -1,0 +1,13 @@
+name = "Bring Back Chat"
+filename = "bringbackchat-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jkKJgVI9/versions/B8s0mtI5/bringbackchat-1.0.0.jar"
+hash-format = "sha512"
+hash = "81fe47b6510d8a4772c63df00aa54e005cd7c0e38275b8d27197fa6434de8892217c0bb635c9dce3491aebcac356168df94828d9bbc51104d679f0fda2f7a14f"
+
+[update]
+[update.modrinth]
+mod-id = "jkKJgVI9"
+version = "B8s0mtI5"

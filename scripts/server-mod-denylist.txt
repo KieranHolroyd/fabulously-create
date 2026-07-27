@@ -14,3 +14,8 @@ konkrete
 
 # Client inventory / recipes (players bring their own)
 jei
+
+# Client chat account-settings bypass and its Fabric compatibility layer
+bringbackchat
+connector
+forgified-fabric-api

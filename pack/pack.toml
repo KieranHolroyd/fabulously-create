@@ -1,12 +1,12 @@
 name = "Fabulously Create"
 author = "kieranholroyd"
-version = "2.0.4"
+version = "2.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c04660f47d5f70643927b101e14f9ff82ca83269e00f8560848973c8d4ebad3c"
+hash = "0cd4ba5ccc4e5eab27a51b4ec145f75349a6977f0a6bf4523a3b4266f5e28dfd"
 
 [versions]
 minecraft = "1.21.1"
