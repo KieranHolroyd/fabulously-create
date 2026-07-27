@@ -62,6 +62,12 @@ add_mr sophisticated-backpacks
 add_mr sophisticated-storage
 add_mr functional-storage
 add_mr toms-storage
+add_mr pipez
+
+echo "Adding Integrated Dynamics..."
+add_mr cyclops-core
+add_mr common-capabilities
+add_mr integrated-dynamics
 
 echo "Adding Silent Gear..."
 add_mr silent-lib

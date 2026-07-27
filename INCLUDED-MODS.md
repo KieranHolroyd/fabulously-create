@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.0.3** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.0.4** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -43,6 +43,15 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Functional Storage](https://modrinth.com/mod/functional-storage) | Drawers, barrels, storage controller |
 | [Titanium](https://modrinth.com/mod/titanium) | Required by Functional Storage |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
+| [Pipez](https://modrinth.com/mod/pipez) | Item/fluid/energy/gas pipes |
+
+## Logistics & automation
+
+| Mod | Purpose |
+| --- | --- |
+| [Integrated Dynamics](https://modrinth.com/mod/integrated-dynamics) | Logic networks, readers/writers, cable systems |
+| [Cyclops Core](https://modrinth.com/mod/cyclops-core) | Required by Integrated Dynamics |
+| [Common Capabilities](https://modrinth.com/mod/common-capabilities) | Required by Integrated Dynamics |
 
 ## Tools & combat
 
