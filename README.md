@@ -1,6 +1,6 @@
 # Fabulously Create
 
-A Minecraft **Fabric 1.20.1** modpack built on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) — keeping its performance and visual polish — with the **official [Create Fabric](https://modrinth.com/mod/create-fabric)** port, a wide set of Create addons, **JourneyMap**, **Inventory Profiles Next**, and **JEI**.
+A Minecraft **Fabric 1.20.1** modpack built on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) — keeping its performance and visual polish — with the **official [Create Fabric](https://modrinth.com/mod/create-fabric)** port, a wide set of Create addons, **JourneyMap**, **Inventory Sorting**, and **JEI**.
 
 ## Quick install (Prism Launcher)
 
@@ -17,7 +17,7 @@ Open Prism Launcher and launch **Fabulously Create**. Prism downloads Minecraft 
 
 ## Dedicated server
 
-Build a server pack (client-only mods stripped — Sodium, Iris, JEI, IPN, etc.):
+Build a server pack (client-only mods stripped — Sodium, Iris, JEI, Inventory Sorting, etc.):
 
 ```bash
 ./scripts/build-server-pack.sh
@@ -47,9 +47,11 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 
 - Full Fabulously Optimized stack (Sodium, Lithium, Iris, …)
 - **Create Fabric** + 15 Create addons (Deco, Copycats+, Steam 'n' Rails, Big Cannons, …)
-- St'ructure Tools Continued (Building Gadget), Construction Wand, Extended Drawers, Tom's Storage
+- St'ructure Tools Continued (Building Gadget), Construction Wand, Extended Drawers, Tom's Storage, Functional Storage
 - JourneyMap
-- Inventory Profiles Next + InvTweaks Emu
+- Inventory Sorting
+- FTB Ultimine (vein mining)
+- Sophisticated Backpacks
 - JEI
 
 > **Just Dire Things** isn't available on Fabric 1.20.1 (Forge/NeoForge only).
@@ -92,7 +94,7 @@ packwiz update --all && packwiz refresh
 ## Multiplayer
 
 - **Create Fabric** and all Create addons must be on both client and server.
-- JourneyMap and Inventory Profiles Next are client-side optional.
+- JourneyMap and Inventory Sorting are client-side optional.
 - Match the full mod list on the server for best compatibility.
 
 ## Credits

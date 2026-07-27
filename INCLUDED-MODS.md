@@ -38,6 +38,9 @@ Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimize
 | [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib) | Required by Rechiseled |
 | [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Required by Rechiseled |
 | [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Rechiseled |
+| [Sophisticated Core (Fabric)](https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)) | Required by Sophisticated Backpacks |
+| [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Required by Sophisticated mods |
+| [Porting Lib](https://modrinth.com/mod/porting_lib) | Required by Sophisticated mods |
 
 ## Building, storage & automation
 
@@ -47,6 +50,8 @@ Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimize
 | [Construction Wand (Fabric)](https://modrinth.com/mod/construction-wand-fabric) | Extend blocks, fill areas, build faster |
 | [Extended Drawers](https://modrinth.com/mod/extended-drawers) | Compact item storage drawers |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
+| [Functional Storage (Fabric)](https://modrinth.com/mod/functional-storage-fabric) | Drawers, barrels, and storage controller |
+| [Sophisticated Backpacks (Fabric)](https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)) | Upgradable wearable/portable backpacks |
 
 > **Just Dire Things** is Forge/NeoForge only on 1.20.1 — no Fabric port exists. It cannot be added without switching the whole pack off Fabric.
 
@@ -55,10 +60,10 @@ Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimize
 | Mod | Purpose |
 | --- | --- |
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
-| [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) | Inventory/chest sorting, locked slots |
-| [InvTweaks Emu for IPN](https://modrinth.com/mod/invtweaks-emu-for-ipn) | Inventory Tweaks-style shortcuts |
+| [Inventory Sorting](https://modrinth.com/mod/inventory-sorting) | Middle-click chest/player inventory sort |
+| [FTB Ultimine (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric) | Hold key to vein-mine connected blocks |
+| [FTB Library (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | Required by FTB Ultimine |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
-| [libIPN](https://modrinth.com/mod/libipn) | IPN library |
 
 ## Fabulously Optimized base
 
@@ -67,7 +72,7 @@ Performance and visual mods from FO 1.20.1 — Sodium, Lithium, Iris, FerriteCor
 ## Notes
 
 - **1.20.1** is the sweet spot for Fabric Create: official port, broad addon support, stable FO base.
-- **Inventory Tweaks** is replaced by **Inventory Profiles Next** + **InvTweaks Emu**.
+- **Inventory Tweaks** is replaced by **[Inventory Sorting](https://modrinth.com/mod/inventory-sorting)** — lighter, middle-click sort for chests and player inventory.
 - **Create: Design n' Decor** and **Create: Dreams & Desires** removed — incompatible with Create 6.x on Fabric.
 - **JourneyMap** pinned to **5.10.3** — 6.0 beta breaks Create’s map integration mixin.
 - **Controlify** removed — 2.x crashes on startup; 1.6.0 has broken controller HID on Apple Silicon. Use keyboard/mouse or wait for a fixed release.
@@ -82,4 +87,4 @@ Performance and visual mods from FO 1.20.1 — Sodium, Lithium, Iris, FerriteCor
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
 | Mods | ~82 (full FO + Create + QoL + building) | ~34 (Create + server-side FO + storage) |
-| Excludes | — | Sodium, Iris, JEI, IPN, Mod Menu, … |
+| Excludes | — | Sodium, Iris, JEI, Inventory Sorting, Mod Menu, … |

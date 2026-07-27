@@ -1,12 +1,12 @@
 name = "Fabulously Create"
 author = "kieranholroyd"
-version = "1.0.6"
+version = "1.0.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fee841189bb270b9a81c7812c81c325f62c1b6d6e78371b8bb0a97de12b4065c"
+hash = "12284b202d2276b196b30e67242fd56e7356c300c0becab8f919a8f344225ceb"
 
 [versions]
 fabric = "0.18.6"

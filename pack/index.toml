@@ -290,8 +290,28 @@ hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
+metafile = true
+
+[[files]]
 file = "mods/fsb-interop.pw.toml"
 hash = "6501e582c96ed5783a706c8b6faf34bb6d040a787f807c182383d7e014848341"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "c7a7385b0e5276a080ac0a005ddb7d8ca030db0995c512a1f2c0a61f8150c9ac"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-fabric.pw.toml"
+hash = "bcbfae029f8f1d7229407fbc87f0b67a08c24182edc0a4dbfdf41c835a4f7556"
+metafile = true
+
+[[files]]
+file = "mods/functional-storage-fabric.pw.toml"
+hash = "62326499d7c237ee798ec7bb536910a1b0c5e7f9e5b8fdfe0a419b9a9a6596f6"
 metafile = true
 
 [[files]]
@@ -315,13 +335,8 @@ hash = "e01aa3b603de9bdfbaf3a22b30494ee628a377a2326ff0dabcb7f7787ca63104"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "ce1e5e716166d72f41fc45950db9346934201c3522f333e08de13412d0588141"
-metafile = true
-
-[[files]]
-file = "mods/invtweaks-emu-for-ipn.pw.toml"
-hash = "5d29b40b793952824c26b7f7243fd12c08a495a485a215afe187af035af135f9"
+file = "mods/inventory-sorting.pw.toml"
+hash = "6933b774d6c29d4dba95b39edf25fe8c4ce8efbd01624417ac46555fcf1baf37"
 metafile = true
 
 [[files]]
@@ -352,11 +367,6 @@ metafile = true
 [[files]]
 file = "mods/languagereload.pw.toml"
 hash = "0510e4f09d949d40e88572573041124d7f37f8bdf56c38098e0c84c29c7b3615"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "cc298019c2d3a47a97e72363b942fe408e5ecb7ff476fe08155793f2f1578317"
 metafile = true
 
 [[files]]
@@ -410,6 +420,11 @@ hash = "d5d4ba828c6c91d0b4f3f130939caa5a1af26d6cd7bfa70a38b976ac7071000a"
 metafile = true
 
 [[files]]
+file = "mods/porting_lib.pw.toml"
+hash = "adcbc2ed7ace252fabce9a1a6320b938d04b62e37cd21d250f0851fd3a116d5d"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "8528923c409fef362717ee4865831bf5980e68e7761e02897e6e62702db0228a"
 metafile = true
@@ -447,6 +462,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "b8c36530344c91053dc578d006ebb0a098b1c1a5df7426a1d7e946902553e334"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-(unoffical-fabric-port).pw.toml"
+hash = "0238d3e484f1829aaabb3b2482e528e192f3124fad89d81f43d7b60406e17d71"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
+hash = "7bbc2d52041fddcb8572b50cbe39cdff6f83060da3b16eb965d882bb7ee852c3"
 metafile = true
 
 [[files]]

@@ -43,9 +43,7 @@ fabrishot
 morechathistory
 
 # Client inventory / recipes (players bring their own)
-inventory-profiles-next
-libipn
-invtweaks-emu-for-ipn
+inventory-sorting
 jei
 
 # LAN / client utilities

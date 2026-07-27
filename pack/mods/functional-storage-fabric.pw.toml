@@ -1,0 +1,13 @@
+name = "Functional Storage Fabric"
+filename = "functionalstorage-1.1.0-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8GYTtjvJ/versions/sdGO89KU/functionalstorage-1.1.0-release.jar"
+hash-format = "sha512"
+hash = "76fca2235ef8f7a1cb8cebfb779ad5e8ab7784429ad4f55c6c2411f9668edf8445f0f5337fdb067191362283617a077cb91fe07fe5367d88cc9d2598401b0c51"
+
+[update]
+[update.modrinth]
+mod-id = "8GYTtjvJ"
+version = "sdGO89KU"

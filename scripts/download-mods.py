@@ -8,12 +8,33 @@ import hashlib
 import shutil
 import sys
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
 from pathlib import Path
 
 try:
     import tomllib
 except ImportError:
     import tomli as tomllib  # type: ignore
+
+
+DEFAULT_WORKERS = 8
+USER_AGENT = "fabulously-create/1.0"
+
+
+@dataclass(frozen=True)
+class DownloadTask:
+    name: str
+    url: str
+    dest: Path
+    expected_hash: str | None
+    hash_fmt: str | None
+
+
+@dataclass(frozen=True)
+class DownloadResult:
+    dest: Path
+    status: str
 
 
 def parse_pw_toml(path: Path) -> dict:
@@ -30,6 +51,29 @@ def load_denylist(path: Path) -> set[str]:
     return entries
 
 
+def curseforge_download_url(file_id: int, filename: str) -> str:
+    return f"https://edge.forgecdn.net/files/{file_id // 1000}/{file_id % 1000}/{filename}"
+
+
+def resolve_download(meta: dict) -> tuple[str | None, str | None, str | None]:
+    download = meta.get("download", {})
+    url = download.get("url")
+    expected_hash = download.get("hash")
+    hash_fmt = download.get("hash-format")
+
+    if url:
+        return url, expected_hash, hash_fmt
+
+    if download.get("mode") == "metadata:curseforge":
+        update = meta.get("update", {}).get("curseforge", {})
+        file_id = update.get("file-id")
+        filename = meta.get("filename")
+        if file_id and filename:
+            return curseforge_download_url(int(file_id), filename), expected_hash, hash_fmt
+
+    return None, expected_hash, hash_fmt
+
+
 def verify_hash(data: bytes, expected: str, fmt: str) -> bool:
     if fmt == "sha512":
         actual = hashlib.sha512(data).hexdigest()
@@ -43,21 +87,54 @@ def verify_hash(data: bytes, expected: str, fmt: str) -> bool:
     return actual == expected
 
 
-def download_file(url: str, dest: Path, expected_hash: str | None, hash_fmt: str | None) -> None:
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    if dest.exists():
-        print(f"  skip (exists): {dest.name}")
-        return
+def download_file(task: DownloadTask) -> DownloadResult:
+    task.dest.parent.mkdir(parents=True, exist_ok=True)
+    if task.dest.exists():
+        return DownloadResult(task.dest, f"skip (exists): {task.dest.name}")
 
-    print(f"  download: {dest.name}")
-    req = urllib.request.Request(url, headers={"User-Agent": "fabulously-create/1.0"})
+    req = urllib.request.Request(task.url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req) as resp:
         data = resp.read()
 
-    if expected_hash and hash_fmt and not verify_hash(data, expected_hash, hash_fmt):
-        raise RuntimeError(f"hash mismatch for {dest.name}")
+    if task.expected_hash and task.hash_fmt and not verify_hash(
+        data, task.expected_hash, task.hash_fmt
+    ):
+        raise RuntimeError(f"hash mismatch for {task.dest.name}")
 
-    dest.write_bytes(data)
+    task.dest.write_bytes(data)
+    return DownloadResult(task.dest, f"download: {task.dest.name}")
+
+
+def download_files(tasks: list[DownloadTask], workers: int) -> list[str]:
+    if not tasks:
+        return []
+
+    messages: list[str] = []
+    if workers <= 1 or len(tasks) == 1:
+        for task in tasks:
+            try:
+                result = download_file(task)
+            except Exception as exc:
+                raise RuntimeError(f"{task.dest.name}: {exc}") from exc
+            messages.append(result.status)
+        return messages
+
+    errors: list[str] = []
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(download_file, task): task for task in tasks}
+        for future in as_completed(futures):
+            task = futures[future]
+            try:
+                result = future.result()
+            except Exception as exc:
+                errors.append(f"{task.dest.name}: {exc}")
+                continue
+            messages.append(result.status)
+
+    if errors:
+        raise RuntimeError("download failed:\n  " + "\n  ".join(sorted(errors)))
+
+    return sorted(messages, key=lambda line: line.split(": ", 1)[-1])
 
 
 def collect_pw_files(pack_dir: Path) -> list[tuple[Path, str]]:
@@ -157,7 +234,17 @@ def main() -> int:
         default=str(scripts_dir / "server-mod-denylist.txt"),
         help="Server denylist file (used with --profile server)",
     )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=DEFAULT_WORKERS,
+        help=f"Parallel download workers (default: {DEFAULT_WORKERS})",
+    )
     args = parser.parse_args()
+
+    if args.workers < 1:
+        print("error: --workers must be at least 1", file=sys.stderr)
+        return 1
 
     pack_dir = Path(args.pack_dir).resolve()
     output = Path(args.output).resolve()
@@ -174,6 +261,8 @@ def main() -> int:
     print(f"Profile: {args.profile}\n")
 
     skipped = 0
+    tasks: list[DownloadTask] = []
+    seen_dest: set[Path] = set()
     for pw_path, category in collect_pw_files(pack_dir):
         meta = parse_pw_toml(pw_path)
         name = meta.get("name", pw_path.stem)
@@ -183,18 +272,32 @@ def main() -> int:
             continue
 
         filename = meta["filename"]
-        download = meta.get("download", {})
-        url = download.get("url")
+        url, expected_hash, hash_fmt = resolve_download(meta)
         if not url:
             print(f"skip (no url): {name}")
             continue
 
         dest = (mods_dir if category == "mods" else rp_dir) / filename
-        try:
-            download_file(url, dest, download.get("hash"), download.get("hash-format"))
-        except Exception as exc:
-            print(f"  error: {exc}", file=sys.stderr)
-            return 1
+        if dest in seen_dest:
+            continue
+        seen_dest.add(dest)
+
+        tasks.append(
+            DownloadTask(
+                name=name,
+                url=url,
+                dest=dest,
+                expected_hash=expected_hash,
+                hash_fmt=hash_fmt,
+            )
+        )
+
+    try:
+        for line in download_files(tasks, args.workers):
+            print(f"  {line}")
+    except RuntimeError as exc:
+        print(f"  error: {exc}", file=sys.stderr)
+        return 1
 
     if args.profile == "server":
         print("\nCopying server configs...")
