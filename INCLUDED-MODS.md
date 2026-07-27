@@ -38,7 +38,7 @@ Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimize
 | [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib) | Required by Rechiseled |
 | [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Required by Rechiseled |
 | [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Rechiseled |
-| [Sophisticated Core (Fabric)](https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)) | Required by Sophisticated Backpacks |
+| [Sophisticated Core (Fabric)](https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)) | Required by Sophisticated Backpacks and Storage |
 | [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Required by Sophisticated mods |
 | [Porting Lib](https://modrinth.com/mod/porting_lib) | Required by Sophisticated mods |
 
@@ -52,6 +52,7 @@ Based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimize
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
 | [Functional Storage (Fabric)](https://modrinth.com/mod/functional-storage-fabric) | Drawers, barrels, and storage controller |
 | [Sophisticated Backpacks (Fabric)](https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)) | Upgradable wearable/portable backpacks |
+| [Sophisticated Storage (Fabric)](https://modrinth.com/mod/sophisticated-storage-(unofficial-fabric-port)) | Upgradable chests, barrels, and shulker boxes |
 
 > **Just Dire Things** is Forge/NeoForge only on 1.20.1 — no Fabric port exists. It cannot be added without switching the whole pack off Fabric.
 

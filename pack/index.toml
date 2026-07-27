@@ -475,6 +475,11 @@ hash = "7bbc2d52041fddcb8572b50cbe39cdff6f83060da3b16eb965d882bb7ee852c3"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
+hash = "bea3eb40b001f45dc4c09a7c94aa022c007810fab79dfabdb5ede8c2594cb5a0"
+metafile = true
+
+[[files]]
 file = "mods/structure-tools-continued-(building-gadget).pw.toml"
 hash = "f15d1d194a330ae8791fb8edd5e1f3124429814d4b8a6581482494521288d8dd"
 metafile = true

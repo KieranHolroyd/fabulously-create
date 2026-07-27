@@ -51,7 +51,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - JourneyMap
 - Inventory Sorting
 - FTB Ultimine (vein mining)
-- Sophisticated Backpacks
+- Sophisticated Backpacks + Sophisticated Storage
 - JEI
 
 > **Just Dire Things** isn't available on Fabric 1.20.1 (Forge/NeoForge only).
