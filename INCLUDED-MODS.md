@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.0.6** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.0.7** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -75,6 +75,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | Fabric compatibility API for NeoForge |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Hold-to-zoom (replaces Zoomify) |
 | [Rapid Leaf Decay](https://modrinth.com/mod/rapid-leaf-decay) | Fast leaf decay after chopping trees |
+| [GraveStone Mod](https://modrinth.com/mod/gravestone-mod) | Stores inventory safely in a gravestone on death |
 | [Controlling](https://modrinth.com/mod/controlling) | Searchable keybind menu |
 | [Searchables](https://modrinth.com/mod/searchables) | Required by Controlling |
 | [Konkrete](https://modrinth.com/mod/konkrete) | Required by Just Zoom |
@@ -105,5 +106,5 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | | Client (Prism) | Server |
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
-| Mods | Full NeoForge pack (47 jars) | Server-side subset (35 jars) |
+| Mods | Full NeoForge pack (48 jars) | Server-side subset (36 jars) |
 | Excludes | — | Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, Controlling, … |

@@ -121,6 +121,11 @@ hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+metafile = true
+
+[[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "888d4264484fa2dba09d1e8a964bb28f2a4fcb641af5373d752aa3a4ada50aad"
 metafile = true
