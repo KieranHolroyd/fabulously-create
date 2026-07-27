@@ -76,7 +76,7 @@ jobs:
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
-          files: |
+          files: |-
             dist/release/Fabulously-Create-${{ steps.version.outputs.version }}.mrpack
             dist/release/Fabulously-Create-Server-${{ steps.version.outputs.version }}.zip
             dist/release/Fabulously-Create-Prism-${{ steps.version.outputs.version }}.zip
@@ -98,7 +98,6 @@ jobs:
 
       - name: Check Modrinth config
         id: modrinth
-        if: github.event_name != 'workflow_dispatch'
         env:
           MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
