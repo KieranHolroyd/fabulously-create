@@ -1,0 +1,13 @@
+name = "Integrated Terminals"
+filename = "integratedterminals-1.21.1-neoforge-1.7.0-797.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HmLJoQ1K/versions/hMhFeg7E/integratedterminals-1.21.1-neoforge-1.7.0-797.jar"
+hash-format = "sha512"
+hash = "24467c195c1c7b671feed467a3338203893b1c8bf719a9a81fedd09e8170ca5a2bfc987269238f2420639964add641e63a3fb3bab097863834af209924c06cdb"
+
+[update]
+[update.modrinth]
+mod-id = "HmLJoQ1K"
+version = "hMhFeg7E"

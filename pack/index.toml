@@ -1,8 +1,76 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/largeoreveins-common.toml"
+hash = "3cea2c49019d7e5ad0cf7f34ed40baa8dc5068c6b73398094d532099046a9e46"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/coal_vein.json"
+hash = "d4fdc375d01b422c105dd3b270065c6815168682af440dde33fc01766ae93d9a"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/copper_vein.json"
+hash = "0ff3fdc28c206be674176f7ccc6238ca2c2231706d2b5454ae17e9a11b5e0187"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/diamond_vein.json"
+hash = "be2a0d0a0b88558cb15e8e7d5adac2e3be2084a51faa16f4cf00a9e4e79c36db"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/emerald_vein.json"
+hash = "5375873ef46788782b8b9d01441ba17a276d1300523dcbae6b700b3abd868abe"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/iron_vein.json"
+hash = "4bdf3f0c1207a830e873ebd0b9b1771e949ec970c1b635fba167cd9e01414498"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/lapis_vein.json"
+hash = "f8a6ff4c8f2fa6dc6d0b4549eddc1ae31636da88eaba259a7d0bdd0020fc941e"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/nether_gold_vein.json"
+hash = "64dc8516a78d1cb2449ed0ea72c5796c2c19685906ecc37b53c2f674b62b4f85"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/overworld_gold_vein.json"
+hash = "4ddd70e7dce450ad22bbc86079381d18648a25f1e5732bfb701e06fe5ef2d74b"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/quartz_vein.json"
+hash = "3a4ea2fed9eada6fb1b9d077295c98009d3b4f62ed80b1c191f0f68770b0be1a"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/redstone_vein.json"
+hash = "fcb331390d3a68ab4f2b5da64bb8124c709e339ddba71a0b275d69c535e0ad8c"
+
+[[files]]
+file = "datapacks/fabulously-create-ore-veins/pack.mcmeta"
+hash = "6c2e56e53302acba0058ec247f0b06e794d53119d6bd54b4283f147652c6466b"
+
+[[files]]
+file = "mods/another-furniture.pw.toml"
+hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
 metafile = true
 
 [[files]]
@@ -23,6 +91,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
@@ -51,6 +124,16 @@ hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
 
 [[files]]
+file = "mods/corail-tombstone.pw.toml"
+hash = "62b9fca367396bb95e8b0920bc270e8acb07424b0066bffe91aa29a954af2ead"
+metafile = true
+
+[[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "4c074275546b78d3f7cefff44ac4fa4f69376f24710c0985decc8c2aa9ebadbc"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
 metafile = true
@@ -61,8 +144,28 @@ hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "8c13c49284e9c2f9007874916ab401799f66f5549779881ab2b9bcc57d450f13"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
@@ -86,6 +189,11 @@ hash = "a02a4145f4b9396ef8ed4a982ac653f5bf4be28d48b54f6fcf96e1a375b3f6b1"
 metafile = true
 
 [[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "17a87ed421639310e22a1e1d2b693dbe04c69282f2a083e030ee24f969e4b08b"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -96,8 +204,23 @@ hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "ef0760a149c267b7b46784e034b0338422fdaa3b06c84ce40e0a38fff97f33f8"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
+metafile = true
+
+[[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
@@ -131,8 +254,18 @@ hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
 metafile = true
 
 [[files]]
-file = "mods/gravestone-mod.pw.toml"
-hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "94af73eec28b59b314b2c6ef9dfb98f37d7bbcbcb482c278570cc15e44b6a559"
+metafile = true
+
+[[files]]
+file = "mods/integrated-crafting.pw.toml"
+hash = "88ffbf441f1e5157dee3328b114167d60a937364e1cb985f46d1cec7045e5317"
 metafile = true
 
 [[files]]
@@ -141,8 +274,23 @@ hash = "888d4264484fa2dba09d1e8a964bb28f2a4fcb641af5373d752aa3a4ada50aad"
 metafile = true
 
 [[files]]
+file = "mods/integrated-terminals.pw.toml"
+hash = "2c4315826c4e4f01b4a420477477e4820947e52bfecf55e016c7b77f3fac0cbc"
+metafile = true
+
+[[files]]
+file = "mods/integrated-tunnels.pw.toml"
+hash = "ec3978b0e36a8bae1420e9e0581ba54a4c968136e384fe7c736360301583a835"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
+metafile = true
+
+[[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "8e5e8e0c5e2a5f1de43a73d3e81d0397a3873d383d885a9aaa080a7e0c2b242f"
 metafile = true
 
 [[files]]
@@ -151,8 +299,13 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "ce3ed3f2ccd764bfa6571ce5e7f21cfbe3eeccbe29a1c11311fb217124cfc492"
+hash = "da9be0546df74454a23be94eebebb4a1e6590ee9d20b1c030971751ec5ca8612"
 metafile = true
 
 [[files]]
@@ -176,13 +329,33 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/large-ore-veins.pw.toml"
+hash = "b849aeb58e9d34d46e2079066ae2fbe023ff86a2d1a8a2edd8b47167a0daaa49"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "6d3ff3b7bbcc97fa06bdddcf2b3b7646168497ba6d7104bdea376f1bc65f9a93"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "688a2fcd58d20df93c57e571b054b3c582932a795a255dc13c65b055dc1880b1"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
@@ -221,6 +394,11 @@ hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "abc285fb28b8df872e4c2bb31e04fc23e2724d9c84b4cb6fbc4320fc569c758f"
 metafile = true
@@ -246,6 +424,11 @@ hash = "8c6a1b99d6b1987fff088ee0fe08303789dc2bf71739c392de8c3ffa13ff0b1b"
 metafile = true
 
 [[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "805c7b44181e5826bdbf4fcc21b14d93cd8ff656747356d325a5cb81a8fa3de5"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "5b6a8b957c193e3433593c71b2e397698c5216cce763ee973e60b1f48d79a052"
 metafile = true
@@ -253,4 +436,14 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "8757967b6fda327281f7f360f2ac4f8d6aab217ad9d1ce3d8fa5141b18a36175"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "b7549da2e8e2a3e91b49a7154f7d248c5fd46fed051dbdc5561439fe83eb3e97"
 metafile = true

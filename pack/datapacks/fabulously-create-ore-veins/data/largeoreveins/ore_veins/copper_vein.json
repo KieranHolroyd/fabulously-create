@@ -1,0 +1,23 @@
+{
+  "id": "largeoreveins:copper_vein",
+  "dimension": "minecraft:overworld",
+  "replace_blocks": {
+    "minecraft:stone": "minecraft:copper_ore",
+    "minecraft:deepslate": "minecraft:deepslate_copper_ore",
+    "minecraft:andesite": "minecraft:copper_ore",
+    "minecraft:diorite": "minecraft:copper_ore",
+    "minecraft:granite": "minecraft:copper_ore",
+    "minecraft:tuff": "minecraft:deepslate_copper_ore"
+  },
+  "rare_block": "minecraft:raw_copper_block",
+  "rare_block_chance": 0.05,
+  "maxY": 63,
+  "minY": -10,
+  "size": 57,
+  "type": "VEIN",
+  "default_weight": 8,
+  "biome_weights": {
+    "#c:is_plains": 14
+  },
+  "enabled": true
+}

@@ -4,6 +4,8 @@
 # Rendering / client performance
 sodium
 iris
+entityculling
+immediatelyfast
 
 # Client UI / input
 controlling
@@ -12,11 +14,10 @@ mouse-tweaks
 just-zoom
 konkrete
 
-# Client inventory / recipes (players bring their own)
-jei
-
 # Client chat account-settings bypass and its Fabric compatibility layer
 bringbackchat
 connector
 forgified-fabric-api
 nemos-inventory-sorting
+
+# JEI, Jade, JourneyMap, etc. stay on the server (optional but useful for multiplayer sync).

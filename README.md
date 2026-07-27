@@ -13,13 +13,15 @@ A Minecraft **NeoForge 1.21.1** modpack focused on **Create**, **Silent Gear**, 
 INSTALL=1 ./scripts/build-prism-instance.sh
 ```
 
-The first command writes `dist/Fabulously Create/`. The second copies it into Prism's instances folder (macOS: `~/Library/Application Support/PrismLauncher/instances/`).
+The first command writes `dist/Fabulously Create/`. The second installs into Prism's instances folder (macOS: `~/Library/Application Support/PrismLauncher/instances/`).
+
+`INSTALL=1` on an existing instance updates mods and loader metadata only — it keeps `options.txt`, `config/`, worlds, servers, resource packs, and Prism RAM/JVM settings.
 
 Open Prism Launcher and launch **Fabulously Create**. Use a **Java 21** runtime in instance settings if Prism does not pick one automatically.
 
 ## Dedicated server
 
-Build a server pack (client-only mods stripped — Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, etc.):
+Build a server pack (client-only mods stripped — Sodium, Iris, Mouse Tweaks, Just Zoom, Controlling, etc.):
 
 ```bash
 ./scripts/build-server-pack.sh
@@ -53,16 +55,15 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 
 **Highlights:**
 
-- **Create** + NeoForge addons (Aeronautics, Deco, Crafts & Additions, Copycats+, Big Cannons, New Age, Jetpack, Interiors, Bells & Whistles, Ore Excavation, Steam 'n' Rails beta)
-- **Farmer's Delight** (expanded farming and cooking)
-- **Silent Gear** + Silent Lib (modular tools/armor)
-- **Sophisticated Backpacks** + **Sophisticated Storage** (official)
-- **Functional Storage** + Tom's Simple Storage + **Pipez**
-- **Integrated Dynamics** (logic networks)
-- **Building Gadgets 2** + **Construction Sticks**
-- **FTB Ultimine** (vein mining)
-- Sodium, Iris (beta), ModernFix, FerriteCore
-- JourneyMap, JEI, Mouse Tweaks, Sophisticated Sorter, GraveStone Mod, Just Zoom, Controlling
+- **Create** + addons (Aeronautics, Slice & Dice, Connected, Enchantment Industry, Diesel Generators, Stuff 'N Additions, Steam 'n' Rails beta, …)
+- **Farmer's Delight** + Create food automation
+- **Integrated Dynamics** + Tunnels / Terminals / Crafting
+- **Silent Gear**, **Curios**, **Artifacts**
+- **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez
+- **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
+- **FTB Ultimine**, Large Ore Veins, Corail Tombstone
+- Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
+- JourneyMap, Jade, JEI, AppleSkin, TrashSlot, Inventory Essentials
 
 **Dropped / replaced vs Fabric FO pack:**
 
@@ -121,7 +122,7 @@ Rebuild the curated NeoForge list from scratch:
 
 - Create and all Create addons must be on both client and server.
 - Silent Gear, Sophisticated mods, and Functional Storage must match on both sides.
-- JourneyMap / JEI / Mouse Tweaks / Just Zoom are client-side optional (JEI excluded from the server pack).
+- Mouse Tweaks / Just Zoom / Controlling are client-only (excluded from the server pack). JEI, Jade, and JourneyMap are included on the server.
 
 ## Credits
 

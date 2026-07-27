@@ -1,0 +1,13 @@
+name = "Large Ore Veins"
+filename = "largeoreveins-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e4MqDPej/versions/fdQ5HBNm/largeoreveins-0.2.2.jar"
+hash-format = "sha512"
+hash = "6f81d0ff416828c1807d29226c9712f0b50c4debb055721bcef1d0efc3515b0456001796cb578b0f48e301b90b6d56468cee874eb2a82e4ede03f52f6c5980c4"
+
+[update]
+[update.modrinth]
+mod-id = "e4MqDPej"
+version = "fdQ5HBNm"

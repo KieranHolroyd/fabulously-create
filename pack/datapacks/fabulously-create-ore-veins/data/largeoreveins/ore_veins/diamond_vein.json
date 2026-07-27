@@ -1,0 +1,21 @@
+{
+  "id": "largeoreveins:diamond_vein",
+  "dimension": "minecraft:overworld",
+  "replace_blocks": {
+    "minecraft:stone": "minecraft:diamond_ore",
+    "minecraft:deepslate": "minecraft:deepslate_diamond_ore",
+    "minecraft:andesite": "minecraft:diamond_ore",
+    "minecraft:diorite": "minecraft:diamond_ore",
+    "minecraft:granite": "minecraft:diamond_ore",
+    "minecraft:tuff": "minecraft:deepslate_diamond_ore"
+  },
+  "maxY": -30,
+  "minY": -55,
+  "size": 21,
+  "type": "BLOB",
+  "default_weight": 4,
+  "biome_weights": {
+    "#c:is_jungle": 9
+  },
+  "enabled": true
+}

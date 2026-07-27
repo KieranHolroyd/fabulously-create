@@ -181,6 +181,19 @@ def should_include(
     return True
 
 
+def copy_datapacks(pack_dir: Path, output: Path) -> None:
+    datapacks_src = pack_dir / "datapacks"
+    if not datapacks_src.is_dir():
+        return
+
+    dest = output / "datapacks"
+    import shutil
+
+    if dest.exists():
+        shutil.rmtree(dest, ignore_errors=True)
+    shutil.copytree(datapacks_src, dest, dirs_exist_ok=True)
+
+
 def copy_server_configs(pack_dir: Path, output: Path) -> None:
     """Copy only configs useful on a dedicated server."""
     config_src = pack_dir / "config"
@@ -190,7 +203,7 @@ def copy_server_configs(pack_dir: Path, output: Path) -> None:
     dest = output / "config"
     dest.mkdir(parents=True, exist_ok=True)
 
-    for name in ("fabric_loader_dependencies.json",):
+    for name in ("fabric_loader_dependencies.json", "largeoreveins-common.toml"):
         src = config_src / name
         if src.is_file():
             shutil.copy2(src, dest / name)
@@ -302,9 +315,13 @@ def main() -> int:
     if args.profile == "server":
         print("\nCopying server configs...")
         copy_server_configs(pack_dir, output)
+        print("Copying datapacks...")
+        copy_datapacks(pack_dir, output)
     else:
         print("\nCopying configs...")
         copy_all_configs(pack_dir, output)
+        print("Copying datapacks...")
+        copy_datapacks(pack_dir, output)
 
     mod_count = len(list(mods_dir.glob("*.jar")))
     print(f"\nDone. {mod_count} mods in {mods_dir}")
