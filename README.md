@@ -61,13 +61,13 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Building Gadgets 2** + **Construction Sticks**
 - **FTB Ultimine** (vein mining)
 - Sodium, Iris (beta), ModernFix, FerriteCore
-- JourneyMap, JEI, Mouse Tweaks, Just Zoom, Controlling
+- JourneyMap, JEI, Mouse Tweaks, Nemo's Inventory Sorting, Just Zoom, Controlling
 
 **Dropped / replaced vs Fabric FO pack:**
 
 - Most FO visual QoL (YOSBR, Continuity, LambDynamicLights, …) — not FO parity
 - Zoomify → Just Zoom; Construction Wand → Construction Sticks
-- Inventory Sorting (use Mouse Tweaks); Extended Drawers (use Functional Storage)
+- Extended Drawers (use Functional Storage)
 
 ## Releases
 

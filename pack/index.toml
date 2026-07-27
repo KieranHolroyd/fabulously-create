@@ -171,6 +171,11 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
+file = "mods/nemos-inventory-sorting.pw.toml"
+hash = "fdf4ea21466a92d1c6616fa5dd0a575294fd93a8c3bbb27ea67f800d6c66637d"
+metafile = true
+
+[[files]]
 file = "mods/pipez.pw.toml"
 hash = "03c2188c7c5aa4407964fd3bb20074b52eb2adf8897c3a22897cc037446450ce"
 metafile = true

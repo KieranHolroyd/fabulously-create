@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.0.4** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.0.6** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -69,6 +69,10 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Inventory mouse shortcuts |
+| [Nemo's Inventory Sorting](https://modrinth.com/mod/nemos-inventory-sorting) | Inventory sorting, transfer, and stack-management buttons |
+| [Bring Back Chat](https://modrinth.com/mod/bringbackchat) | Bypass client chat restrictions from Microsoft account settings |
+| [Sinytra Connector](https://modrinth.com/mod/connector) | Runs Bring Back Chat on NeoForge |
+| [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | Fabric compatibility API for NeoForge |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Hold-to-zoom (replaces Zoomify) |
 | [Rapid Leaf Decay](https://modrinth.com/mod/rapid-leaf-decay) | Fast leaf decay after chopping trees |
 | [Controlling](https://modrinth.com/mod/controlling) | Searchable keybind menu |
@@ -101,5 +105,5 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | | Client (Prism) | Server |
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
-| Mods | Full NeoForge pack (~37 jars) | Server-side subset (~29 jars) |
+| Mods | Full NeoForge pack (47 jars) | Server-side subset (35 jars) |
 | Excludes | — | Sodium, Iris, JEI, Mouse Tweaks, Just Zoom, Controlling, … |

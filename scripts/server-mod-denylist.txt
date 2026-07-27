@@ -19,3 +19,4 @@ jei
 bringbackchat
 connector
 forgified-fabric-api
+nemos-inventory-sorting
