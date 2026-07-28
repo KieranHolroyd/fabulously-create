@@ -6,31 +6,31 @@ hash = "d17cae28cb10ad5f21bfd95034c831abfefa43dbb335f27888420140431295b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automation.snbt"
-hash = "738622ae9be823fcba8ae3d77b83e01df7205c729243e00cb8ca9b865b0e37ec"
+hash = "1734175aabd58d197ad7bdbbe61f9023e12238708ac6e17f21fcf9f1b86e1adb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_factory.snbt"
-hash = "7934591a95743cb60de9d8cfb1dfd152663a8870e104601ca48c468e1c0f0da2"
+hash = "b8b6b8e16e36db9d4992fca9c4fde47dddca6a27bfb5b9b5dc1540143edee16d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/foundations.snbt"
-hash = "71beb475102713a986004f027e4b3e3f9a7f45c7ef6c48d00d30bdbe73f77989"
+hash = "628404d3e506b9e3c871a6850f2a680b7c1cc7e98c783655b4b96bdeafa5560f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/late_game.snbt"
-hash = "d98ee4cd5af62cd9eaf0505641c6fada622ab453991f41953aaa4844dfbf40d5"
+hash = "97beba97f2de117ffd86eaf19b0706bf4bd0dbf494a3904386e5800337c7eb64"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_gear.snbt"
-hash = "38c6eda6f1f0034197ec83e977456ba2b6a6c11553ddda640b67b804f9e6e86f"
+hash = "b5c40bfaa88021c678ab99a89b9369686c8cab4e6a32f406f88725d0d8e79c33"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "711c8c905c0c2b2fcbb78d4d1975238300fd9c6e9e90c904df31467358e34047"
+hash = "004c2ddc0e660b2d0d8c91912fab99a4ebbd7c5f564afe5dcbd905ea75b3b81f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
-hash = "10b4ff3ae7f6203a925a44d1a6cd9c94799d7eb5b7a4d90dde2c185bf1e5c52e"
+hash = "9f399f6fc5f6fccb0bb802d567a50f0a6f087d3e13ab41c615306c7170db4cc6"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter_group.snbt"
@@ -38,23 +38,23 @@ hash = "342b8da3f7dd4a9c3c700b9d31dd7f25eab87398d9c00ba80de359de83c5ce41"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/automation.snbt"
-hash = "f475d2ea4c59255a7030a6149fca01a4cd28fd7a1a4029fe6031c1d248eaa5bf"
+hash = "5aad8b6650b6f6178c5819179e82c0768814025ada5376864583da104baec2b3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/create_factory.snbt"
-hash = "7dd0e6c8914d47562f304279260361adf572e573f7be4004d08e61ae221d63f6"
+hash = "1b30162e449e51bb93e79a6f9e558f079c582956f23c826005170502167788b7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/foundations.snbt"
-hash = "16e69d6e52e263160ba24fc62069590ef362c8a001773b9a6bc2ab3491a7406b"
+hash = "83e43b81475753db6116c6fce153dbebb89816fad1be8d122238517345b20c19"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/late_game.snbt"
-hash = "773dfa5cef294fa74e48026602308e1a132bb9f35775dda0235806304aa1fe2c"
+hash = "9fad538d9d7a164bbd8a05ce2d64973d3b5105a9fa150dbdf87bce87050bae37"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/storage_gear.snbt"
-hash = "1270f14fb1141c28973e8e1058a9df765ea3a2fe023039cc2539dff8e8e1c616"
+hash = "0e290132c597d69d8fc50e972db44581de28716046ef6aeb87a290356bae2412"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/file.snbt"
