@@ -59,7 +59,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Farmer's Delight** + Create food automation
 - **Integrated Dynamics** + Tunnels / Terminals / Crafting
 - **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
-- **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests
+- **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
 - **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
 - **FTB Ultimine**, Large Ore Veins, Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore

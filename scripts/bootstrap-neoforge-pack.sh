@@ -70,6 +70,7 @@ add_mr functional-storage
 add_mr toms-storage
 add_mr pipez
 add_mr iron-chests
+add_mr iron-furnaces
 
 echo "Adding Integrated Dynamics stack..."
 add_mr cyclops-core

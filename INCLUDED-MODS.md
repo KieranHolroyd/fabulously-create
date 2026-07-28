@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.3** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.4** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -69,6 +69,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
 | [Pipez](https://modrinth.com/mod/pipez) | Item/fluid/energy/gas pipes |
 | [Iron Chests](https://modrinth.com/mod/iron-chests) | Larger metal chests (Iron → Obsidian, etc.) |
+| [Iron Furnaces](https://modrinth.com/mod/iron-furnaces) | Faster upgradeable furnaces |
 
 ## Logistics & automation
 
