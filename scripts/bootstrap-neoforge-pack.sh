@@ -69,6 +69,7 @@ add_mr sophisticated-storage
 add_mr functional-storage
 add_mr toms-storage
 add_mr pipez
+add_mr iron-chests
 
 echo "Adding Integrated Dynamics stack..."
 add_mr cyclops-core
@@ -81,6 +82,10 @@ add_mr integrated-crafting
 echo "Adding Silent Gear..."
 add_mr silent-lib
 add_mr silent-gear
+
+echo "Adding Iron Jetpacks..."
+add_mr cucumber
+add_mr iron-jetpacks
 
 echo "Adding curios / artifacts..."
 add_mr curios

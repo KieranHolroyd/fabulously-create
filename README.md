@@ -58,8 +58,8 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Create** + addons (Aeronautics, Slice & Dice, Connected, Enchantment Industry, Diesel Generators, Stuff 'N Additions, Steam 'n' Rails beta, …)
 - **Farmer's Delight** + Create food automation
 - **Integrated Dynamics** + Tunnels / Terminals / Crafting
-- **Silent Gear**, **Curios**, **Artifacts**
-- **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez
+- **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
+- **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests
 - **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
 - **FTB Ultimine**, Large Ore Veins, Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore

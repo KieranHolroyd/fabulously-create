@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.0** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.2** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -69,6 +69,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Titanium](https://modrinth.com/mod/titanium) | Required by Functional Storage |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
 | [Pipez](https://modrinth.com/mod/pipez) | Item/fluid/energy/gas pipes |
+| [Iron Chests](https://modrinth.com/mod/iron-chests) | Larger metal chests (Iron → Obsidian, etc.) |
 
 ## Logistics & automation
 
@@ -87,6 +88,8 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | --- | --- |
 | [Silent Gear](https://modrinth.com/mod/silent-gear) | Modular tools, weapons, and armor |
 | [Silent Lib](https://modrinth.com/mod/silent-lib) | Required by Silent Gear |
+| [Iron Jetpacks](https://modrinth.com/mod/iron-jetpacks) | Tiered energy jetpacks |
+| [Cucumber Library](https://modrinth.com/mod/cucumber) | Required by Iron Jetpacks |
 | [Curios API](https://modrinth.com/mod/curios) | Extra equipment slots |
 | [Artifacts](https://modrinth.com/mod/artifacts) | Curios trinkets and relics |
 | [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | Hold key to vein-mine connected blocks |
