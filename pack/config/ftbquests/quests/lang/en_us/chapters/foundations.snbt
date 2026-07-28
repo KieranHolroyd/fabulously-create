@@ -2,100 +2,209 @@
 	quest.B100000000000064.title: "Welcome to Fabulously Create"
 	quest.B100000000000064.quest_subtitle: "Start here"
 	quest.B100000000000064.quest_desc: [
-		"This quest book is your guided tour of the pack — Create factories, smarter storage, Silent Gear, and late-game toys.",
+		"&6Goal:&r Open this book and claim your starter kit.",
 		"",
-		"&6How to use this book:&r",
-		"• Quests complete when the items are in your inventory (they are &anot consumed&r).",
-		"• Optional quests are dashed — skip them anytime.",
-		"• Chapters are &aflexible&r. Start Create when you have iron; come back for side goals.",
+		"This pack is about &6Create factories&r, smarter storage, Silent Gear tools, Integrated Dynamics logistics, and late-game flight.",
 		"",
-		"Claim rewards from completed quests. Good luck, engineer!"
+		"Quests complete when items are in your inventory — they are &anot consumed&r. Optional quests are dashed outlines; skip them anytime.",
+		"",
+		"Follow the &6dependency lines&r — chapters chain together (iron → Create → brass → automation → netherite). Side paths unlock as you progress.",
+		"",
+		"&7Tip:&r Claim rewards from completed quests. Use JEI (R) on any item you don't recognize.",
+		"&7Next:&r Gather wood, stone, and iron — then plant a Waystone before you dig deep."
 	]
 	quest.B100000000000065.title: "Timber!"
 	quest.B100000000000065.quest_subtitle: "Gathering"
 	quest.B100000000000065.quest_desc: [
-		"Punch a tree and gather &616 oak logs&r. Any wood works for crafting, but oak keeps recipes simple.",
+		"&6Goal:&r Collect &616 oak logs&r.",
 		"",
-		"&7Tip:&r Large Ore Veins is installed — ores spawn in huge clusters later. Explore caves once you have iron."
+		"Wood is your first building block: crafting tables, charcoal, Create casings, and early chests all burn through logs.",
+		"",
+		"&7Tip:&r Any wood works for most recipes. Large Ore Veins makes ores spawn in huge clusters later — explore once you have iron.",
+		"&7Next:&r Craft a workbench, then start a stone stockpile."
 	]
 	quest.B100000000000066.title: "Workbench"
 	quest.B100000000000066.quest_subtitle: "Gathering"
 	quest.B100000000000066.quest_desc: [
-		"Craft a crafting table. This is still your best friend — Create machines automate later, but early recipes start here."
+		"&6Goal:&r Craft a crafting table.",
+		"",
+		"Early recipes still start here. Create automates later — until then, a bench (or Crafting on a Stick) is your workshop.",
+		"",
+		"&7Next:&r Mine cobble for furnaces and generators."
 	]
-	quest.B100000000000067.title: "Stone Age"
+	quest.B100000000000067.title: "Stone Stockpile"
 	quest.B100000000000067.quest_subtitle: "Gathering"
 	quest.B100000000000067.quest_desc: [
-		"Mine &632 cobblestone&r. You'll burn through stone for furnaces, generators, and Create casings.",
+		"&6Goal:&r Mine &664 cobblestone&r.",
 		"",
-		"&7Tip:&r A stone pickaxe unlocks iron ore. Don't dig straight down."
+		"Stone feeds furnaces, cobble gens, Create casings, and endless scaffolding. Grab more than feels polite.",
+		"",
+		"&7Tip:&r A stone pickaxe unlocks iron ore. Don't dig straight down.",
+		"&7Next:&r Smelt a furnace, then hunt iron."
 	]
 	quest.B100000000000068.title: "First Fire"
 	quest.B100000000000068.quest_subtitle: "Smelting"
 	quest.B100000000000068.quest_desc: [
-		"Craft a furnace and start smelting. Coal or charcoal both work — charcoal from log furnaces is fine if coal is scarce."
-	]
-	quest.B100000000000069.title: "Iron Stockpile"
-	quest.B100000000000069.quest_subtitle: "Iron"
-	quest.B100000000000069.quest_desc: [
-		"Smelt &616 iron ingots&r. Iron is the gate into Create (andesite alloy), Pipez, chests, and furnaces.",
+		"&6Goal:&r Craft a furnace.",
 		"",
-		"When you find a vein, FTB Ultimine (hold &6Grave / `&r by default) clears connected blocks fast."
+		"Smelting unlocks metals. Coal is ideal; charcoal from logs works if caves are stingy.",
+		"",
+		"&7Next:&r Smelt a stack of iron — Create starts there."
 	]
-	quest.B10000000000006A.title: "Iron Tools"
+	quest.B100000000000069.title: "Fuel Reserve"
+	quest.B100000000000069.quest_subtitle: "Fuel"
+	quest.B100000000000069.quest_desc: [
+		"&6Goal:&r Stockpile &632 coal&r.",
+		"",
+		"Furnaces, Iron Furnaces, blaze burners (later), and long mining trips all want fuel on hand.",
+		"",
+		"&7Tip:&r Coal blocks compress storage. Charcoal works in furnaces too, but this quest wants coal ore/smelted coal."
+	]
+	quest.B10000000000006A.title: "Iron Stockpile"
 	quest.B10000000000006A.quest_subtitle: "Iron"
 	quest.B10000000000006A.quest_desc: [
-		"Craft an iron pickaxe. Diamonds and better Create ores wait below Y=16 — bring torches and food."
+		"&6Goal:&r Smelt &632 iron ingots&r.",
+		"",
+		"Iron is the pack's first real gate: Create andesite alloy, Pipez, Iron Chests/Furnaces, Construction Sticks, and more.",
+		"",
+		"&7Tip:&r FTB Ultimine (hold Grave / ` by default) clears connected ore fast when you hit a Large Ore Vein.",
+		"&7Next:&r Make an iron pickaxe, then set a Waystone before deep caves."
 	]
-	quest.B10000000000006B.title: "Sparkly Rocks"
-	quest.B10000000000006B.quest_subtitle: "Diamonds"
+	quest.B10000000000006B.title: "Iron Tools"
+	quest.B10000000000006B.quest_subtitle: "Iron"
 	quest.B10000000000006B.quest_desc: [
-		"Find &63 diamonds&r. Save them for a pickaxe or enchanting table — Create's midgame wants brass more than full diamond armor."
+		"&6Goal:&r Craft an iron pickaxe.",
+		"",
+		"Diamonds and Create's deeper ores wait below. Bring food, torches, and a way home.",
+		"",
+		"&7Next:&r Find diamonds, then plant a Waystone at base."
 	]
-	quest.B10000000000006C.title: "Set a Waystone"
-	quest.B10000000000006C.quest_subtitle: "Travel"
+	quest.B10000000000006C.title: "Copper Cache"
+	quest.B10000000000006C.quest_subtitle: "Metals"
 	quest.B10000000000006C.quest_desc: [
-		"Craft and place a Waystone near your base. Warp back after every mining trip — deaths hurt less with a recall point.",
+		"&6Goal:&r Smelt &632 copper ingots&r.",
 		"",
-		"Scrolls of Warp Stone (from Waystones) make temporary links while exploring."
+		"Copper becomes Create fluid pipes, backtanks, and brass (with zinc). Large copper veins are common — fill a chest.",
+		"",
+		"&7Tip:&r JEI: look ahead at brass and fluid tanks so you know why you're hoarding."
 	]
-	quest.B10000000000006D.title: "Carb Loading"
-	quest.B10000000000006D.quest_subtitle: "Food"
+	quest.B10000000000006D.title: "Sparkly Rocks"
+	quest.B10000000000006D.quest_subtitle: "Diamonds"
 	quest.B10000000000006D.quest_desc: [
-		"Bake &616 bread&r. Hunger kills more early bases than creepers.",
+		"&6Goal:&r Find &65 diamonds&r.",
 		"",
-		"Optional, but your future factory shifts will thank you."
+		"Save some for a pickaxe and enchanting. Create's midgame wants &6brass and precision mechanisms&r more than full diamond armor.",
+		"",
+		"&7Tip:&r Silent Gear can stretch materials further once you unlock blueprints."
 	]
-	quest.B10000000000006E.title: "Farmer's Kitchen"
-	quest.B10000000000006E.quest_subtitle: "Food"
+	quest.B10000000000006E.title: "Set a Waystone"
+	quest.B10000000000006E.quest_subtitle: "Travel"
 	quest.B10000000000006E.quest_desc: [
-		"Craft a Farmer's Delight stove. Cooking meals gives better saturation than plain steaks.",
+		"&6Goal:&r Craft and place a Waystone near your base.",
 		"",
-		"Later, Slice \\& Dice lets Create automate cutting boards — see Automation."
+		"Warp home after every mining trip. Deaths hurt less with a recall point — especially once you hit the Nether for blaze burners.",
+		"",
+		"&7Tip:&r Warp Stones make temporary links while exploring. Sharestones help multiplayer bases.",
+		"&7Next:&r You're ready for Turning Gears — or finish the food/QoL side path first."
 	]
-	quest.B10000000000006F.title: "Portable Bed"
-	quest.B10000000000006F.quest_subtitle: "QoL"
+	quest.B10000000000006F.title: "Carb Loading"
+	quest.B10000000000006F.quest_subtitle: "Food"
 	quest.B10000000000006F.quest_desc: [
-		"Craft a sleeping bag. Unlike beds, it &adoesn't set your respawn&r — perfect for Nether trips and caves."
+		"&6Goal:&r Bake &616 bread&r.",
+		"",
+		"Hunger kills more early bases than creepers. Keep a stack for every cave run."
 	]
-	quest.B100000000000070.title: "Iron Chest"
-	quest.B100000000000070.quest_subtitle: "Storage"
+	quest.B100000000000070.title: "Cooking Pot"
+	quest.B100000000000070.quest_subtitle: "Food"
 	quest.B100000000000070.quest_desc: [
-		"Upgrade to an Iron Chest. More slots than wood, and you can keep upgrading toward gold / diamond / obsidian."
+		"&6Goal:&r Craft a Farmer's Delight cooking pot.",
+		"",
+		"Meals beat plain steaks for saturation. Pair with a cutting board and stove for a proper kitchen.",
+		"",
+		"&7Tip:&r Later, Slice \\& Dice lets Create automate cutting boards — see Wires \\& Wits.",
+		"&7Next:&r Add a stove and knife when you're settled."
 	]
-	quest.B100000000000071.title: "Iron Furnace"
-	quest.B100000000000071.quest_subtitle: "Smelting"
+	quest.B100000000000071.title: "Farmer's Kitchen"
+	quest.B100000000000071.quest_subtitle: "Food"
 	quest.B100000000000071.quest_desc: [
-		"Craft an Iron Furnace for faster smelting. Gold and diamond tiers come later when throughput matters."
+		"&6Goal:&r Craft a Farmer's Delight stove.",
+		"",
+		"The stove is the heart of meal cooking — fire it up next to your cooking pot."
 	]
-	quest.B100000000000072.title: "Nature's Compass"
-	quest.B100000000000072.quest_subtitle: "Exploration"
+	quest.B100000000000072.title: "Kitchen Knife"
+	quest.B100000000000072.quest_subtitle: "Food"
 	quest.B100000000000072.quest_desc: [
-		"Craft a Nature's Compass to hunt biomes for Create rubber trees, Farmer's Delight crops, or building vibes."
+		"&6Goal:&r Craft an iron knife.",
+		"",
+		"Knives process meats and plants on a cutting board — required for many Delight recipes."
 	]
-	quest.B100000000000073.title: "Explorer's Compass"
-	quest.B100000000000073.quest_subtitle: "Exploration"
+	quest.B100000000000073.title: "Portable Bed"
+	quest.B100000000000073.quest_subtitle: "QoL"
 	quest.B100000000000073.quest_desc: [
-		"Craft an Explorer's Compass to locate structures. Handy for villages, strongholds, and loot routes."
+		"&6Goal:&r Craft a sleeping bag.",
+		"",
+		"Unlike beds, it &adoesn't set your respawn&r — perfect for Nether trips and caves without wrecking your Waystone home."
+	]
+	quest.B100000000000074.title: "Crafting on a Stick"
+	quest.B100000000000074.quest_subtitle: "QoL"
+	quest.B100000000000074.quest_desc: [
+		"&6Goal:&r Craft a crafting table on a stick.",
+		"",
+		"Portable crafting from your hotbar — huge quality-of-life while strip-mining or wiring factories.",
+		"",
+		"&7Tip:&r There are sticks for smithing, stonecutter, grindstone, and more."
+	]
+	quest.B100000000000075.title: "Iron Chest"
+	quest.B100000000000075.quest_subtitle: "Storage"
+	quest.B100000000000075.quest_desc: [
+		"&6Goal:&r Upgrade to an Iron Chest.",
+		"",
+		"More slots than wood. Keep upgrading toward gold / diamond / obsidian as junk piles grow.",
+		"",
+		"&7Next:&r Iron Furnaces speed smelting while you prep Create."
+	]
+	quest.B100000000000076.title: "Iron Furnace"
+	quest.B100000000000076.quest_subtitle: "Smelting"
+	quest.B100000000000076.quest_desc: [
+		"&6Goal:&r Craft an Iron Furnace.",
+		"",
+		"Faster smelting now; gold and diamond tiers wait until throughput really matters."
+	]
+	quest.B100000000000077.title: "Nature's Compass"
+	quest.B100000000000077.quest_subtitle: "Exploration"
+	quest.B100000000000077.quest_desc: [
+		"&6Goal:&r Craft a Nature's Compass.",
+		"",
+		"Hunt biomes for crops, building vibes, or menril-friendly areas before Integrated Dynamics."
+	]
+	quest.B100000000000078.title: "Explorer's Compass"
+	quest.B100000000000078.quest_subtitle: "Exploration"
+	quest.B100000000000078.quest_desc: [
+		"&6Goal:&r Craft an Explorer's Compass.",
+		"",
+		"Locate structures for loot. Reminder: &6Lootr&r makes structure chests per-player — no racing friends."
+	]
+	quest.B100000000000079.title: "Supplementaries Wrench"
+	quest.B100000000000079.quest_subtitle: "Building"
+	quest.B100000000000079.quest_desc: [
+		"&6Goal:&r Craft a Supplementaries wrench.",
+		"",
+		"Rotate and tweak functional décor — faucets, turn tables, and more. Great alongside Create's own wrench."
+	]
+	quest.B10000000000007A.title: "Furnish the Base"
+	quest.B10000000000007A.quest_subtitle: "Building"
+	quest.B10000000000007A.quest_desc: [
+		"&6Goal:&r Craft an oak chair (Another Furniture).",
+		"",
+		"Optional décor goal — make the base feel lived-in before the factory takes over every block."
+	]
+	quest.B10000000000007B.title: "Leather Bundle"
+	quest.B10000000000007B.quest_subtitle: "Gathering"
+	quest.B10000000000007B.quest_desc: [
+		"&6Goal:&r Collect &616 leather&r.",
+		"",
+		"Backpacks, books, and early armor all want leather. Breed cows or hunt while exploring.",
+		"",
+		"&7Next:&r Bags \\& Blades opens with a Sophisticated Backpack."
 	]
 }

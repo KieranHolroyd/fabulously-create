@@ -11,12 +11,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["B1000000000000E3"]
 			id: "B1000000000001F4"
 			shape: "gear"
 			size: 2.0d
 			rewards: [
 				{
-					id: "70E0FFD049A37E5C"
+					id: "A91A5DC4C76D99F6"
 					item: {
 						count: 4
 						id: "minecraft:ancient_debris"
@@ -24,13 +25,13 @@
 					type: "item"
 				},
 				{
-					id: "86D875B13BE31DAB"
+					id: "4460A96F06D3F831"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "2B4AEE2C1B32BF6B"
+				id: "BAA9DC6126E443A2"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
@@ -42,7 +43,7 @@
 			id: "B1000000000001F5"
 			rewards: [
 				{
-					id: "96C7B2461C2D8D14"
+					id: "50779FC1062DFDEC"
 					item: {
 						count: 1
 						id: "minecraft:netherite_ingot"
@@ -50,13 +51,13 @@
 					type: "item"
 				},
 				{
-					id: "EF8C22B0FEF3A6C0"
+					id: "3CB1CC00363D1FD2"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6D533DB2353E552C"
+				id: "D73361749CBDF881"
 				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
 				type: "item"
 			}]
@@ -64,12 +65,13 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
+			dependencies: ["B1000000000001F5"]
+			hide_until_deps_visible: true
 			id: "B1000000000001F6"
 			optional: true
 			rewards: [
 				{
-					id: "D00A13BFF89C69B6"
+					id: "CFAA0FEE68B32233"
 					item: {
 						count: 32
 						id: "minecraft:obsidian"
@@ -78,7 +80,7 @@
 				}
 			]
 			tasks: [{
-				id: "C1B37A19CF615791"
+				id: "B82D563ACEE2C2F1"
 				item: { count: 1, id: "ironchest:obsidian_chest" }
 				type: "item"
 			}]
@@ -86,11 +88,34 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
+			dependencies: ["B1000000000001F5"]
+			hide_until_deps_visible: true
 			id: "B1000000000001F7"
+			optional: true
 			rewards: [
 				{
-					id: "D4DEC806566027CE"
+					id: "AF2054A5616BF545"
+					item: {
+						count: 8
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "897782DAB8E5B0AE"
+				item: { count: 1, id: "ironchest:diamond_chest" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		},
+		{
+			dependencies: ["B1000000000001F4"]
+			id: "B1000000000001F8"
+			rewards: [
+				{
+					id: "ACE648C8FA1A2984"
 					item: {
 						count: 2
 						id: "ironjetpacks:basic_coil"
@@ -98,13 +123,13 @@
 					type: "item"
 				},
 				{
-					id: "20EA2228FC323931"
+					id: "586D1FD21C5B4272"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "481F98B0DF9B8241"
+				id: "0A3B2AF907D19E10"
 				item: { count: 2, id: "ironjetpacks:thruster" }
 				type: "item"
 			}]
@@ -112,32 +137,53 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001F7"]
-			id: "B1000000000001F8"
-			shape: "hexagon"
-			size: 1.5d
+			dependencies: ["B1000000000001F8"]
+			id: "B1000000000001F9"
 			rewards: [
 				{
-					id: "DB02ABC26F8D3DEC"
-					type: "xp"
-					xp_levels: 3
+					id: "8B4CA2CBD5B47E1D"
+					item: {
+						count: 1
+						id: "ironjetpacks:capacitor"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
-				id: "78DDD346629D67D9"
-				item: { count: 1, id: "ironjetpacks:jetpack" }
+				id: "66136C270C4457C8"
+				item: { count: 1, id: "ironjetpacks:cell" }
 				type: "item"
 			}]
 			x: 7.5d
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
-			id: "B1000000000001F9"
+			dependencies: ["B1000000000001F9"]
+			id: "B1000000000001FA"
+			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "CFF841CA40CA9F83"
+					id: "EAAE6BCBA6AA8E25"
+					type: "xp"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "2297866FAFD85B86"
+				item: { count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B1000000000001FA"]
+			id: "B1000000000001FB"
+			size: 1.5d
+			rewards: [
+				{
+					id: "6A2DC2E4FC9F1E11"
 					item: {
 						count: 1
 						id: "create:copper_backtank"
@@ -145,13 +191,13 @@
 					type: "item"
 				},
 				{
-					id: "C034A33C9113532A"
+					id: "E46446F001754159"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9B46E680159B958C"
+				id: "2707502A894AC5F7"
 				item: { count: 1, id: "create_jetpack:jetpack" }
 				type: "item"
 			}]
@@ -159,12 +205,13 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B1000000000001F9"]
-			id: "B1000000000001FA"
+			dependencies: ["B1000000000001FB"]
+			hide_until_deps_visible: true
+			id: "B1000000000001FC"
 			optional: true
 			rewards: [
 				{
-					id: "ED4BF0FA094C176C"
+					id: "E814076421F3FCA5"
 					item: {
 						count: 16
 						id: "create:brass_ingot"
@@ -172,13 +219,13 @@
 					type: "item"
 				},
 				{
-					id: "147F3443FEAA1370"
+					id: "8FD48CF63F1E602F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D91068F37CFA70DE"
+				id: "E2ED29520AF38F32"
 				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
 				type: "item"
 			}]
@@ -186,12 +233,13 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
-			id: "B1000000000001FB"
+			dependencies: ["B100000000000202"]
+			hide_until_deps_visible: true
+			id: "B1000000000001FD"
 			optional: true
 			rewards: [
 				{
-					id: "1F735703E0AD9F5A"
+					id: "DDED504B0DC0B46E"
 					item: {
 						count: 4
 						id: "minecraft:iron_block"
@@ -199,26 +247,51 @@
 					type: "item"
 				},
 				{
-					id: "7764B9D1827A3207"
+					id: "4D2D640EEDE80217"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "417E8B9C96C42C53"
-				item: { count: 1, id: "createbigcannons:cannon_end" }
+				id: "6E1DC97449BC10E1"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
 				type: "item"
 			}]
 			x: 5.0d
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
-			id: "B1000000000001FC"
+			dependencies: ["B1000000000001FD"]
+			hide_until_deps_visible: true
+			id: "B1000000000001FE"
 			optional: true
 			rewards: [
 				{
-					id: "F8637645DBA7F260"
+					id: "BB6945DDC780FEFB"
+					item: {
+						count: 16
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D2B7D4A145791161"
+				item: { count: 1, id: "createbigcannons:solid_shot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		},
+		{
+			dependencies: [
+				"B1000000000001F4"
+				"B1000000000000EE"
+			]
+			id: "B1000000000001FF"
+			rewards: [
+				{
+					id: "62B3AD1777A90DA2"
 					item: {
 						count: 2
 						id: "create:precision_mechanism"
@@ -226,26 +299,78 @@
 					type: "item"
 				},
 				{
-					id: "0679D162CBF30709"
+					id: "836C27467AF3E08C"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "262231373AACF40E"
-				item: { count: 1, id: "railways:conductor_whistle" }
+				id: "31C0FB53CC364B34"
+				item: { count: 64, id: "create:track" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000001F8"]
-			id: "B1000000000001FD"
+			dependencies: ["B1000000000001FF"]
+			id: "B100000000000200"
+			rewards: [
+				{
+					id: "FA926868A3FEE6D8"
+					item: {
+						count: 1
+						id: "railways:fuel_tank"
+					}
+					type: "item"
+				},
+				{
+					id: "EA6538797A2C523E"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "DF1FDD30362810FE"
+				item: { count: 1, id: "railways:conductor_whistle" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000200"]
+			hide_until_deps_visible: true
+			id: "B100000000000201"
+			optional: true
+			rewards: [
+				{
+					id: "CA11B3581C3D3097"
+					item: {
+						count: 8
+						id: "bellsandwhistles:metro_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70EFEA2CF4E72D1D"
+				item: { count: 1, id: "bellsandwhistles:headlight" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		},
+		{
+			dependencies: [
+				"B1000000000001FA"
+				"B1000000000000E3"
+			]
+			id: "B100000000000202"
 			size: 1.5d
 			rewards: [
 				{
-					id: "11EC99A362243FFB"
+					id: "157CF5320142A6C6"
 					item: {
 						count: 32
 						id: "create:brass_sheet"
@@ -253,27 +378,27 @@
 					type: "item"
 				},
 				{
-					id: "BD758DBC58A7FA0E"
+					id: "3390BE18394A1103"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "F9C599E2558F08DD"
-				item: { count: 16, id: "create:precision_mechanism" }
+				id: "6DF9E2F95DBF4BF3"
+				item: { count: 32, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001FD"]
-			id: "B1000000000001FE"
+			dependencies: ["B100000000000202"]
+			id: "B100000000000203"
 			shape: "pentagon"
 			size: 1.8d
 			rewards: [
 				{
-					id: "92F20DB71D8BD23E"
+					id: "116549FE301CEE55"
 					item: {
 						count: 2
 						id: "minecraft:diamond_block"
@@ -281,27 +406,56 @@
 					type: "item"
 				},
 				{
-					id: "D920767D42799E07"
+					id: "8F6B22A7AB77DE8C"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "DBB51B27237922F3"
+				id: "A034A2C2446D3472"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001FE"]
-			id: "B1000000000001FF"
+			dependencies: ["B100000000000203"]
+			hide_until_deps_visible: true
+			id: "B100000000000204"
+			optional: true
+			size: 1.5d
+			rewards: [
+				{
+					id: "4BBAD2C7987AC12F"
+					item: {
+						count: 4
+						id: "minecraft:end_crystal"
+					}
+					type: "item"
+				},
+				{
+					id: "FC7D348C9983F732"
+					type: "xp"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "7A71B923FDB87BF7"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000203"]
+			id: "B100000000000205"
 			shape: "gear"
 			size: 2.0d
 			rewards: [
 				{
-					id: "3A8DE446D9986AE6"
+					id: "652DCFFA92AABD58"
 					item: {
 						count: 64
 						id: "minecraft:firework_rocket"
@@ -309,7 +463,7 @@
 					type: "item"
 				},
 				{
-					id: "F2C4A247827A2150"
+					id: "8AC56934FDEE0F64"
 					item: {
 						count: 4
 						id: "minecraft:shulker_shell"
@@ -317,45 +471,47 @@
 					type: "item"
 				},
 				{
-					id: "A5C3F358437365C0"
+					id: "FA928E94C8714DD8"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "2FDF5A4789B9FC7F"
+				id: "906087EB4220E87F"
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 20.0d
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000001F4"]
-			id: "B100000000000200"
+			dependencies: ["B1000000000001F5"]
+			hide_until_deps_visible: true
+			id: "B100000000000206"
 			optional: true
 			rewards: [
 				{
-					id: "EEC11970A40AF57E"
+					id: "BEE83BB1BB4A0E1A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E2AAB1FC082D3389"
+				id: "FDFF02BC3D637D2F"
 				item: { count: 1, id: "constructionstick:netherite_stick" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.5d
+			x: 12.5d
+			y: -2.5d
 		},
 		{
 			dependencies: ["B1000000000001F4"]
-			id: "B100000000000201"
+			hide_until_deps_visible: true
+			id: "B100000000000207"
 			optional: true
 			rewards: [
 				{
-					id: "6C23A68B2BD43B68"
+					id: "23F1C1C344A941DC"
 					item: {
 						count: 32
 						id: "minecraft:bone"
@@ -363,18 +519,69 @@
 					type: "item"
 				},
 				{
-					id: "AC75CCE0ADCC64A1"
+					id: "A324270ACE4B6043"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "062D85EE6145D499"
+				id: "B25279BFD9ED6FE6"
 				item: { count: 8, id: "tombstone:grave_dust" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 15.0d
 			y: -2.5d
+		},
+		{
+			dependencies: ["B100000000000202"]
+			hide_until_deps_visible: true
+			id: "B100000000000208"
+			optional: true
+			rewards: [
+				{
+					id: "CC3A3DCA4D09A620"
+					item: {
+						count: 8
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D491B3B176F165AA"
+				item: { count: 1, id: "create_sa:brass_drill_head" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		},
+		{
+			dependencies: ["B100000000000203"]
+			hide_until_deps_visible: true
+			id: "B100000000000209"
+			optional: true
+			rewards: [
+				{
+					id: "43F9B99227F30374"
+					item: {
+						count: 36
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				},
+				{
+					id: "694B3DEDF11B6F67"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "767766EEB3334EBB"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
 		}
 	]
 	title: "5. Beyond Brass"

@@ -11,12 +11,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["B1000000000000DF"]
 			id: "B100000000000190"
-			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			rewards: [
 				{
-					id: "6AB3FECA2F1B7B5A"
+					id: "B06BDC14D432A254"
 					item: {
 						count: 16
 						id: "integrateddynamics:crystalized_menril_chunk"
@@ -24,14 +24,14 @@
 					type: "item"
 				},
 				{
-					id: "08D6B65C387E087B"
+					id: "30A02BC4C64A5BDF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A32FB43527B54E4B"
-				item: { count: 16, id: "integrateddynamics:cable" }
+				id: "D1FAA5538BD450AE"
+				item: { count: 16, id: "integrateddynamics:menril_log" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -40,19 +40,26 @@
 		{
 			dependencies: ["B100000000000190"]
 			id: "B100000000000191"
+			shape: "gear"
+			size: 2.0d
 			rewards: [
 				{
-					id: "DA3E4189AAEDF6F6"
+					id: "497916D45218A1EA"
 					item: {
-						count: 8
-						id: "integrateddynamics:cable"
+						count: 16
+						id: "integrateddynamics:crystalized_menril_chunk"
 					}
 					type: "item"
+				},
+				{
+					id: "878C85B2114BEA3E"
+					type: "xp"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "24F63A3FB179ACC5"
-				item: { count: 8, id: "integrateddynamics:variable" }
+				id: "E6F4F38017A6F57B"
+				item: { count: 32, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -63,7 +70,54 @@
 			id: "B100000000000192"
 			rewards: [
 				{
-					id: "4BF7D2C4540824FA"
+					id: "4942397AD64EFAC7"
+					item: {
+						count: 16
+						id: "integrateddynamics:variable"
+					}
+					type: "item"
+				},
+				{
+					id: "F478EE8AAD71FDE1"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1D35D70F3D4402A2"
+				item: { count: 1, id: "integrateddynamics:logic_programmer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000192"]
+			id: "B100000000000193"
+			rewards: [
+				{
+					id: "FBA508BBDF40B06C"
+					item: {
+						count: 8
+						id: "integrateddynamics:cable"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "E3C9BB2E34B73E72"
+				item: { count: 16, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000193"]
+			id: "B100000000000194"
+			rewards: [
+				{
+					id: "7396905233A94846"
 					item: {
 						count: 8
 						id: "integrateddynamics:variable"
@@ -71,25 +125,48 @@
 					type: "item"
 				},
 				{
-					id: "0CDF8E67C96D006D"
+					id: "C182EDC14974FFDA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B35E7D6078ED4F70"
+				id: "52CCC89A6F4DBF19"
 				item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 10.0d
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000190"]
-			id: "B100000000000193"
+			dependencies: ["B100000000000193"]
+			hide_until_deps_visible: true
+			id: "B100000000000195"
+			optional: true
 			rewards: [
 				{
-					id: "DE8A8438BACD310F"
+					id: "3C3DC94E1EB4C8D2"
+					item: {
+						count: 16
+						id: "minecraft:glass_pane"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB5F86112375AF3D"
+				item: { count: 1, id: "integrateddynamics:part_display_panel" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000191"]
+			id: "B100000000000196"
+			rewards: [
+				{
+					id: "4FD98A036F65ED81"
 					item: {
 						count: 4
 						id: "minecraft:hopper"
@@ -98,21 +175,70 @@
 				}
 			]
 			tasks: [{
-				id: "8FDD31C4FBDECC54"
-				item: { count: 2, id: "integratedtunnels:part_interface_item" }
+				id: "DEB50D84BDB51620"
+				item: { count: 4, id: "integratedtunnels:part_interface_item" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000193"]
-			id: "B100000000000194"
+			dependencies: ["B100000000000196"]
+			id: "B100000000000197"
+			rewards: [
+				{
+					id: "007E8D11B0C206DF"
+					item: {
+						count: 8
+						id: "integrateddynamics:variable"
+					}
+					type: "item"
+				},
+				{
+					id: "410CEDFCFF030AEE"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "97C07C663F523085"
+				item: { count: 1, id: "integratedtunnels:part_importer_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000196"]
+			hide_until_deps_visible: true
+			id: "B100000000000198"
+			optional: true
+			rewards: [
+				{
+					id: "7A4F9273E75F9737"
+					item: {
+						count: 4
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BF04C397F70085A"
+				item: { count: 2, id: "integratedtunnels:part_interface_fluid" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000197"]
+			id: "B100000000000199"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "8FCB1EB264777258"
+					id: "0030DBEA2A19F578"
 					item: {
 						count: 4
 						id: "minecraft:ender_eye"
@@ -120,26 +246,26 @@
 					type: "item"
 				},
 				{
-					id: "67617301B0709FEB"
+					id: "902FE957200AF500"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "567547B11C4DB975"
+				id: "94A0A0556E5031C0"
 				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 7.5d
+			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000194"]
-			id: "B100000000000195"
+			dependencies: ["B100000000000199"]
+			id: "B10000000000019A"
 			size: 1.5d
 			rewards: [
 				{
-					id: "0EB1E29EEB78FF16"
+					id: "41EDCC99A84A2DE1"
 					item: {
 						count: 1
 						id: "minecraft:crafting_table"
@@ -147,25 +273,25 @@
 					type: "item"
 				},
 				{
-					id: "7DF73EFF0B3499AC"
+					id: "B1D4AE45D5A01B59"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E7B7D7DBD5071504"
+				id: "D2969E61E1C9BD71"
 				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 10.0d
+			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000190"]
-			id: "B100000000000196"
+			dependencies: ["B100000000000191"]
+			id: "B10000000000019B"
 			rewards: [
 				{
-					id: "FBA913C24251ACEB"
+					id: "C2EEF10578F21FDB"
 					item: {
 						count: 2
 						id: "createaddition:capacitor"
@@ -173,13 +299,13 @@
 					type: "item"
 				},
 				{
-					id: "39D2653F528112AD"
+					id: "EFC76C79843EF150"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FF8A178944D3257E"
+				id: "F8C8F2CC8D9497C7"
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
@@ -187,11 +313,11 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B100000000000196"]
-			id: "B100000000000197"
+			dependencies: ["B10000000000019B"]
+			id: "B10000000000019C"
 			rewards: [
 				{
-					id: "E07E383038B26356"
+					id: "14B2E57564FCFC9F"
 					item: {
 						count: 4
 						id: "createaddition:copper_spool"
@@ -199,13 +325,13 @@
 					type: "item"
 				},
 				{
-					id: "1D653428FCDA4D86"
+					id: "3FBECE36B7D86F75"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8B63839DDCCD073C"
+				id: "BEF7708A7527A7D4"
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
@@ -213,12 +339,34 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B100000000000196"]
-			id: "B100000000000198"
-			size: 1.5d
+			dependencies: ["B10000000000019C"]
+			hide_until_deps_visible: true
+			id: "B10000000000019D"
+			optional: true
 			rewards: [
 				{
-					id: "19ACDA995B02865C"
+					id: "A9BD28E418A74C69"
+					item: {
+						count: 16
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "96F26415EE33BA2C"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		},
+		{
+			dependencies: ["B10000000000019C"]
+			id: "B10000000000019E"
+			rewards: [
+				{
+					id: "A1689470BB37F39E"
 					item: {
 						count: 2
 						id: "createdieselgenerators:plant_oil_bucket"
@@ -226,26 +374,107 @@
 					type: "item"
 				},
 				{
-					id: "B6CC45635EBAF30A"
+					id: "5CD59B7B734FEBE6"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "78706F3600B4D4E6"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		},
+		{
+			dependencies: ["B10000000000019E"]
+			id: "B10000000000019F"
+			size: 1.5d
+			rewards: [
+				{
+					id: "F3BD5649C3B9199C"
+					item: {
+						count: 2
+						id: "createdieselgenerators:engine_piston"
+					}
+					type: "item"
+				},
+				{
+					id: "154AF9A1F390680F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "25B3F251D6EEE0D6"
+				id: "3B8F0902C87A1A6F"
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 12.5d
 			y: -2.5d
 		},
 		{
-			dependencies: ["B100000000000194"]
-			id: "B100000000000199"
+			dependencies: ["B10000000000019F"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A0"
+			optional: true
+			rewards: [
+				{
+					id: "377D8A78AE7AE39C"
+					item: {
+						count: 2
+						id: "createdieselgenerators:oil_barrel"
+					}
+					type: "item"
+				},
+				{
+					id: "033B48281F6DD9C8"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "8BF724E329304762"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		},
+		{
+			dependencies: ["B100000000000199"]
+			id: "B1000000000001A1"
+			rewards: [
+				{
+					id: "F63F4F42EF84B7DF"
+					item: {
+						count: 8
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				},
+				{
+					id: "FA8608D7ED93B68A"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "438CB8E88CB67769"
+				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B1000000000001A1"]
+			id: "B1000000000001A2"
 			size: 1.5d
 			rewards: [
 				{
-					id: "29443CE162106B73"
+					id: "90DD1C846E61F85F"
 					item: {
 						count: 2
 						id: "create_enchantment_industry:enchanting_template"
@@ -253,26 +482,55 @@
 					type: "item"
 				},
 				{
-					id: "8FFFC0AA98514F2D"
+					id: "99510A9FA92818DF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "B5555F95766E0EA5"
+				id: "A92FB2C97333AEB8"
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 15.0d
+			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000194"]
-			id: "B10000000000019A"
+			dependencies: ["B1000000000001A2"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A3"
 			optional: true
 			rewards: [
 				{
-					id: "D6AA9463E7EE6C17"
+					id: "65CFF547068E69AA"
+					item: {
+						count: 16
+						id: "minecraft:book"
+					}
+					type: "item"
+				},
+				{
+					id: "F278ED448FD91F6D"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "EA3971D9CE26FD07"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000199"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A4"
+			optional: true
+			rewards: [
+				{
+					id: "AA28E25AC500A749"
 					item: {
 						count: 1
 						id: "farmersdelight:cutting_board"
@@ -280,26 +538,50 @@
 					type: "item"
 				},
 				{
-					id: "C14E2AA5C353A8DE"
+					id: "4582971965D12FCD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "AE5453D3B2FA7913"
+				id: "8AF16420457D9F75"
 				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.5d
+			x: 15.0d
+			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000196"]
-			id: "B10000000000019B"
+			dependencies: ["B1000000000001A4"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A5"
 			optional: true
 			rewards: [
 				{
-					id: "CC116EECC6D29F5A"
+					id: "144F53FC8B0475AF"
+					item: {
+						count: 32
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "864DEACCF90316C2"
+				item: { count: 1, id: "sliceanddice:sprinkler" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		},
+		{
+			dependencies: ["B10000000000019B"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A6"
+			optional: true
+			rewards: [
+				{
+					id: "920F3698C388E069"
 					item: {
 						count: 2
 						id: "create:electron_tube"
@@ -307,18 +589,41 @@
 					type: "item"
 				},
 				{
-					id: "5D56AB8F0D6641A6"
+					id: "74DCD51A4C902AFE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D725016E3708997D"
+				id: "DB4945B8632FB4B7"
 				item: { count: 1, id: "create_connected:brake" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.5d
 			y: -2.5d
+		},
+		{
+			dependencies: ["B1000000000001A6"]
+			hide_until_deps_visible: true
+			id: "B1000000000001A7"
+			optional: true
+			rewards: [
+				{
+					id: "32B47D74DA30908D"
+					item: {
+						count: 8
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "A851432F01B4E471"
+				item: { count: 1, id: "create_connected:parallel_gearbox" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
 		}
 	]
 	title: "4. Wires \\& Wits"

@@ -1,0 +1,13 @@
+name = "Fullbright"
+filename = "fullbright-1.21.x-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L5dyCzCT/versions/uOXEAP0H/fullbright-1.21.x-neoforge.jar"
+hash-format = "sha512"
+hash = "9c1018bc3fb6d48543d92100c24e2a809265a68a9433eefb0af5fa9b720d3a17b52d425721ff4363b95696beee5a28a2a5e8fa2cd7cee63b7a9ad8cca7dbfaba"
+
+[update]
+[update.modrinth]
+mod-id = "L5dyCzCT"
+version = "uOXEAP0H"

@@ -14,7 +14,7 @@
 	}
 	lock_message: ""
 	pause_game: false
-	progression_mode: "flexible"
+	progression_mode: "linear"
 	show_lock_icons: true
 	version: 13
 }

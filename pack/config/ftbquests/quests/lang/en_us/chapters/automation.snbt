@@ -1,64 +1,187 @@
 {
-	quest.B100000000000190.title: "Logic Network"
+	quest.B100000000000190.title: "Menril Wood"
 	quest.B100000000000190.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000190.quest_desc: [
-		"Craft &616 Integrated Dynamics cables&r. ID is this pack's programmable logistics brain — readers, writers, and terminals plug into cable.",
+		"&6Goal:&r Collect &616 menril logs&r.",
 		"",
-		"Menril trees (deep dark / dark forests vibes depending on generation) supply menril for crafting."
+		"Menril fuels Integrated Dynamics crafting. Find menril trees / berries in the world (Nature's Compass helps).",
+		"",
+		"&7Tip:&r Crystalized menril chunks also drop — keep them for cables and variables.",
+		"&7Next:&r Spin up a cable network, then learn variables."
 	]
-	quest.B100000000000191.title: "Variables"
+	quest.B100000000000191.title: "Logic Network"
 	quest.B100000000000191.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000191.quest_desc: [
-		"Craft &68 variables&r. Store numbers, items, lists, and logic — programming cards for your network."
+		"&6Goal:&r Craft &632 Integrated Dynamics cables&r.",
+		"",
+		"ID is this pack's programmable logistics brain — readers, writers, and terminals plug into cable.",
+		"",
+		"&7Tip:&r Think of cables like a tiny computer bus running through your base."
 	]
-	quest.B100000000000192.title: "Inventory Reader"
+	quest.B100000000000192.title: "Logic Programmer"
 	quest.B100000000000192.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000192.quest_desc: [
-		"Craft an Inventory Reader part. Attach to a cable facing an inventory to read contents into variables."
+		"&6Goal:&r Craft a Logic Programmer.",
+		"",
+		"The desk where you write variable cards — numbers, items, lists, operators, and filters.",
+		"",
+		"&7Tip:&r There's also a portable programmer for field work."
 	]
-	quest.B100000000000193.title: "Item Tunnels"
-	quest.B100000000000193.quest_subtitle: "Tunnels"
+	quest.B100000000000193.title: "Variables"
+	quest.B100000000000193.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000193.quest_desc: [
-		"Craft &62 item interfaces&r (Integrated Tunnels). Pull and push items with filters — ID's version of import/export buses."
+		"&6Goal:&r Craft &616 variables&r.",
+		"",
+		"Store numbers, items, lists, and logic — programming cards for your network."
 	]
-	quest.B100000000000194.title: "Storage Terminal"
-	quest.B100000000000194.quest_subtitle: "Tunnels"
+	quest.B100000000000194.title: "Inventory Reader"
+	quest.B100000000000194.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000194.quest_desc: [
-		"Craft a Storage Terminal. Browse and craft from everything your tunnels can see — the AE2 vibe without AE2."
+		"&6Goal:&r Craft an Inventory Reader part.",
+		"",
+		"Attach to a cable facing an inventory to read contents into variables — the eyes of your network."
 	]
-	quest.B100000000000195.title: "Crafting Interface"
-	quest.B100000000000195.quest_subtitle: "Tunnels"
+	quest.B100000000000195.title: "Display Panel"
+	quest.B100000000000195.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000195.quest_desc: [
-		"Craft a Crafting Interface. Request autocrafting through your ID terminal once patterns / recipes are set up."
+		"&6Goal:&r Craft a display panel.",
+		"",
+		"Show variable values on the wall — debug your logic without guessing."
 	]
-	quest.B100000000000196.title: "Alternator"
-	quest.B100000000000196.quest_subtitle: "Power"
+	quest.B100000000000196.title: "Item Tunnels"
+	quest.B100000000000196.quest_subtitle: "Tunnels"
 	quest.B100000000000196.quest_desc: [
-		"Build a Create Crafts \\& Additions Alternator. Spin it with SU to generate FE (Forge Energy) for electric addons."
+		"&6Goal:&r Craft &64 item interfaces&r (Integrated Tunnels).",
+		"",
+		"Pull and push items with filters — ID's version of import/export buses.",
+		"",
+		"&7Next:&r Importers automate continuous transfer; terminals let you browse the network."
 	]
-	quest.B100000000000197.title: "Electric Motor"
-	quest.B100000000000197.quest_subtitle: "Power"
+	quest.B100000000000197.title: "Item Importer"
+	quest.B100000000000197.quest_subtitle: "Tunnels"
 	quest.B100000000000197.quest_desc: [
-		"Build an Electric Motor to turn FE back into SU. Great for remote bases powered by diesel or New Age electricity."
+		"&6Goal:&r Craft an item importer.",
+		"",
+		"Continuously pull items into the network with filters and conditions."
 	]
-	quest.B100000000000198.title: "Diesel Engine"
-	quest.B100000000000198.quest_subtitle: "Power"
+	quest.B100000000000198.title: "Fluid Tunnels"
+	quest.B100000000000198.quest_subtitle: "Tunnels"
 	quest.B100000000000198.quest_desc: [
-		"Build a Diesel Engine. Process plant oil / crude into fuel and burn it for strong kinetic power — Create's combustion route."
+		"&6Goal:&r Craft &62 fluid interfaces&r.",
+		"",
+		"Move Create fluids, diesel fuels, and liquid XP through the ID network."
 	]
-	quest.B100000000000199.title: "Blaze Enchanter"
-	quest.B100000000000199.quest_subtitle: "Magic factories"
+	quest.B100000000000199.title: "Storage Terminal"
+	quest.B100000000000199.quest_subtitle: "Terminals"
 	quest.B100000000000199.quest_desc: [
-		"Build a Blaze Enchanter from Enchantment Industry. Pump liquid experience and automate enchanted books / gear."
+		"&6Goal:&r Craft a Storage Terminal.",
+		"",
+		"Browse and craft from everything your tunnels can see — the AE2 vibe without AE2.",
+		"",
+		"&7Tip:&r Portable terminal exists for on-the-go access once unlocked."
 	]
-	quest.B10000000000019A.title: "Slice \\& Dice"
-	quest.B10000000000019A.quest_subtitle: "Food automation"
+	quest.B10000000000019A.title: "Crafting Interface"
+	quest.B10000000000019A.quest_subtitle: "Autocrafting"
 	quest.B10000000000019A.quest_desc: [
-		"Craft a Slice \\& Dice slicer. Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
+		"&6Goal:&r Craft a Crafting Interface.",
+		"",
+		"Request autocrafting through your ID terminal once patterns / recipes are set up.",
+		"",
+		"&7Next:&r You're ready for factory-scale enchanting and fuel systems."
 	]
-	quest.B10000000000019B.title: "Create: Connected"
-	quest.B10000000000019B.quest_subtitle: "Create extras"
+	quest.B10000000000019B.title: "Alternator"
+	quest.B10000000000019B.quest_subtitle: "Power"
 	quest.B10000000000019B.quest_desc: [
-		"Craft a Brake from Create: Connected. Connected adds practical kinetic utilities — brakes, copycats-adjacent helpers, and more."
+		"&6Goal:&r Build a Create Crafts \\& Additions Alternator.",
+		"",
+		"Spin it with SU to generate FE (Forge Energy) for electric addons and jetpack charging."
+	]
+	quest.B10000000000019C.title: "Electric Motor"
+	quest.B10000000000019C.quest_subtitle: "Power"
+	quest.B10000000000019C.quest_desc: [
+		"&6Goal:&r Build an Electric Motor.",
+		"",
+		"Turn FE back into SU — great for remote bases powered by diesel or New Age electricity."
+	]
+	quest.B10000000000019D.title: "Rolling Mill"
+	quest.B10000000000019D.quest_subtitle: "Power"
+	quest.B10000000000019D.quest_desc: [
+		"&6Goal:&r Build a CCA Rolling Mill.",
+		"",
+		"Roll rods and wires for electrical crafting — pairs with the alternator line."
+	]
+	quest.B10000000000019E.title: "Oil Scanner"
+	quest.B10000000000019E.quest_subtitle: "Diesel"
+	quest.B10000000000019E.quest_desc: [
+		"&6Goal:&r Craft an oil scanner (Create Diesel Generators).",
+		"",
+		"Find crude oil deposits before committing to a pumpjack."
+	]
+	quest.B10000000000019F.title: "Diesel Engine"
+	quest.B10000000000019F.quest_subtitle: "Diesel"
+	quest.B10000000000019F.quest_desc: [
+		"&6Goal:&r Build a Diesel Engine.",
+		"",
+		"Process plant oil / crude into fuel and burn it for strong kinetic power — Create's combustion route.",
+		"",
+		"&7Tip:&r Distillation controller + pumpjacks scale this into a fuel empire."
+	]
+	quest.B1000000000001A0.title: "Distillation"
+	quest.B1000000000001A0.quest_subtitle: "Diesel"
+	quest.B1000000000001A0.quest_desc: [
+		"&6Goal:&r Craft a distillation controller.",
+		"",
+		"Refine crude into diesel, gasoline, and other fractions for engines and asphalt builds."
+	]
+	quest.B1000000000001A1.title: "Experience Hatch"
+	quest.B1000000000001A1.quest_subtitle: "Enchanting"
+	quest.B1000000000001A1.quest_desc: [
+		"&6Goal:&r Craft an experience hatch (Enchantment Industry).",
+		"",
+		"Get liquid XP into Create fluid networks — the fuel for automated enchanting."
+	]
+	quest.B1000000000001A2.title: "Blaze Enchanter"
+	quest.B1000000000001A2.quest_subtitle: "Enchanting"
+	quest.B1000000000001A2.quest_desc: [
+		"&6Goal:&r Build a Blaze Enchanter.",
+		"",
+		"Pump liquid experience and automate enchanted books / gear — factory magic.",
+		"",
+		"&7Tip:&r Printers copy enchanted books once you have templates."
+	]
+	quest.B1000000000001A3.title: "Enchantment Printer"
+	quest.B1000000000001A3.quest_subtitle: "Enchanting"
+	quest.B1000000000001A3.quest_desc: [
+		"&6Goal:&r Craft an Enchantment Industry printer.",
+		"",
+		"Copy enchantments onto books/gear with liquid XP — mass-produce your favorite setups."
+	]
+	quest.B1000000000001A4.title: "Slice \\& Dice"
+	quest.B1000000000001A4.quest_subtitle: "Food automation"
+	quest.B1000000000001A4.quest_desc: [
+		"&6Goal:&r Craft a Slice \\& Dice slicer.",
+		"",
+		"Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
+	]
+	quest.B1000000000001A5.title: "Sprinkler"
+	quest.B1000000000001A5.quest_subtitle: "Food automation"
+	quest.B1000000000001A5.quest_desc: [
+		"&6Goal:&r Craft a Slice \\& Dice sprinkler.",
+		"",
+		"Automate crop hydration / fertilizer vibes for bigger farms."
+	]
+	quest.B1000000000001A6.title: "Kinetic Brake"
+	quest.B1000000000001A6.quest_subtitle: "Create extras"
+	quest.B1000000000001A6.quest_desc: [
+		"&6Goal:&r Craft a Brake (Create: Connected).",
+		"",
+		"Connected adds practical kinetic utilities — brakes, clutches, copycats-adjacent helpers, and more."
+	]
+	quest.B1000000000001A7.title: "Parallel Gearbox"
+	quest.B1000000000001A7.quest_subtitle: "Create extras"
+	quest.B1000000000001A7.quest_desc: [
+		"&6Goal:&r Craft a parallel gearbox (Create: Connected).",
+		"",
+		"Compact kinetic routing for dense factory floors — squeeze more shafts into less space."
 	]
 }

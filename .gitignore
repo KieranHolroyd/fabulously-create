@@ -12,3 +12,8 @@ dist/
 # Packwiz cache
 .packwiz/
 .official-server
+
+# Python
+scripts/__pycache__/
+__pycache__/
+*.py[cod]

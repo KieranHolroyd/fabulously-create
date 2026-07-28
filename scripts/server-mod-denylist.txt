@@ -13,6 +13,7 @@ searchables
 mouse-tweaks
 just-zoom
 konkrete
+fullbright-forge
 
 # Client chat account-settings bypass and its Fabric compatibility layer
 bringbackchat
