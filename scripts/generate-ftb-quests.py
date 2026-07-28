@@ -19,11 +19,37 @@ GROUP_MAIN = "A100000000000001"
 FILE_ID = "0000000000000001"
 
 CHAPTERS = {
-    "foundations": ("A200000000000001", "minecraft:iron_pickaxe"),
-    "create_factory": ("A200000000000002", "create:cogwheel"),
-    "storage_gear": ("A200000000000003", "sophisticatedbackpacks:backpack"),
-    "automation": ("A200000000000004", "integrateddynamics:cable"),
-    "late_game": ("A200000000000005", "minecraft:netherite_ingot"),
+    # filename -> (id, icon, title, subtitle)
+    "foundations": (
+        "A200000000000001",
+        "minecraft:iron_pickaxe",
+        "1. Getting Started",
+        "Survive, smelt iron, set a waystone",
+    ),
+    "create_factory": (
+        "A200000000000002",
+        "create:cogwheel",
+        "2. Turning Gears",
+        "Kinetics, brass, and ore drills",
+    ),
+    "storage_gear": (
+        "A200000000000003",
+        "sophisticatedbackpacks:backpack",
+        "3. Bags & Blades",
+        "Backpacks, pipes, Silent Gear",
+    ),
+    "automation": (
+        "A200000000000004",
+        "integrateddynamics:cable",
+        "4. Wires & Wits",
+        "Integrated Dynamics, diesel, enchanting",
+    ),
+    "late_game": (
+        "A200000000000005",
+        "minecraft:netherite_ingot",
+        "5. Beyond Brass",
+        "Netherite, flight, and the finale",
+    ),
 }
 
 
@@ -125,6 +151,7 @@ def write_chapter(
     filename: str,
     chapter_id: str,
     icon: str,
+    title: str,
     quests_meta: list[dict],
     lang_quests: dict[str, dict],
 ) -> None:
@@ -169,6 +196,8 @@ def write_chapter(
             "\tquests: [",
             ",\n".join(blocks),
             "\t]",
+            # Embedded so the UI never falls back to the filename
+            f'\ttitle: "{snbt_escape(title)}"',
             "}",
             "",
         ]
@@ -1826,32 +1855,23 @@ def main() -> None:
         "}\n",
         encoding="utf-8",
     )
+    chapter_lang = ["{"]
+    for _key, (cid, _icon, title, subtitle) in CHAPTERS.items():
+        chapter_lang.append(f'\tchapter.{cid}.title: "{snbt_escape(title)}"')
+        chapter_lang.append(
+            f'\tchapter.{cid}.chapter_subtitle: ["{snbt_escape(subtitle)}"]'
+        )
+    chapter_lang.extend(["}", ""])
     (QUESTS / "lang" / "en_us" / "chapter.snbt").write_text(
-        "\n".join(
-            [
-                "{",
-                f'\tchapter.{CHAPTERS["foundations"][0]}.title: "1. Foundations"',
-                f'\tchapter.{CHAPTERS["foundations"][0]}.chapter_subtitle: ["Survive, smelt iron, set a waystone"]',
-                f'\tchapter.{CHAPTERS["create_factory"][0]}.title: "2. Create Factory"',
-                f'\tchapter.{CHAPTERS["create_factory"][0]}.chapter_subtitle: ["Kinetics, brass, and ore drills"]',
-                f'\tchapter.{CHAPTERS["storage_gear"][0]}.title: "3. Storage & Gear"',
-                f'\tchapter.{CHAPTERS["storage_gear"][0]}.chapter_subtitle: ["Backpacks, pipes, Silent Gear"]',
-                f'\tchapter.{CHAPTERS["automation"][0]}.title: "4. Automation & Power"',
-                f'\tchapter.{CHAPTERS["automation"][0]}.chapter_subtitle: ["Integrated Dynamics, diesel, enchanting"]',
-                f'\tchapter.{CHAPTERS["late_game"][0]}.title: "5. Late Game"',
-                f'\tchapter.{CHAPTERS["late_game"][0]}.chapter_subtitle: ["Netherite, flight, and the finale"]',
-                "}",
-                "",
-            ]
-        ),
+        "\n".join(chapter_lang),
         encoding="utf-8",
     )
 
-    write_chapter("foundations", *CHAPTERS["foundations"], f, fl)
-    write_chapter("create_factory", *CHAPTERS["create_factory"], c, cl)
-    write_chapter("storage_gear", *CHAPTERS["storage_gear"], s, sl)
-    write_chapter("automation", *CHAPTERS["automation"], a, al)
-    write_chapter("late_game", *CHAPTERS["late_game"], l, ll)
+    write_chapter("foundations", *CHAPTERS["foundations"][:3], f, fl)
+    write_chapter("create_factory", *CHAPTERS["create_factory"][:3], c, cl)
+    write_chapter("storage_gear", *CHAPTERS["storage_gear"][:3], s, sl)
+    write_chapter("automation", *CHAPTERS["automation"][:3], a, al)
+    write_chapter("late_game", *CHAPTERS["late_game"][:3], l, ll)
 
     total = len(f) + len(c) + len(s) + len(a) + len(l)
     print(f"Generated {total} quests across 5 chapters → {QUESTS}")
