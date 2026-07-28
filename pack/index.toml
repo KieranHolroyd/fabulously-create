@@ -1,54 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/largeoreveins-common.toml"
-hash = "3cea2c49019d7e5ad0cf7f34ed40baa8dc5068c6b73398094d532099046a9e46"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/coal_vein.json"
-hash = "b412acff27643ea1591f74e1ed29c6b1e624a4e54718e0ce05fc2d1cddda26c0"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/copper_vein.json"
-hash = "96658c03534f943ee2e8a64cae25e8ccd936786f8394a5be18cc72e6e57b322f"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/diamond_vein.json"
-hash = "f966dc91d7c1ded6db6774fd163abbddb7fffc9b549c51d831e80fb62dfcdfeb"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/emerald_vein.json"
-hash = "e614e6b8285f39327483d9ca5ed4e626c1a075d831f3025f2d2101f3b67ae555"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/iron_vein.json"
-hash = "52b90817d6e6c9223df50e670e5ed0b7456f03a05dc1b309816873d5f2505b0f"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/lapis_vein.json"
-hash = "04631a647acc51cd1b302b4a2b7e12d6036d127a24783b00156821aeb236bba0"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/nether_gold_vein.json"
-hash = "a0ee53f9231549876c80018cb760b29e5a11068f6a84231bfa7db901004a7c9b"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/overworld_gold_vein.json"
-hash = "41204fff22f5c97fd2c94e501de550a8cac10b936ddf0216cdd409802e720071"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/quartz_vein.json"
-hash = "6e1bbf488cd7ce1308a13982c3995213e5f70a37ac3b065c6cf21455e3ec6a7a"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/data/largeoreveins/ore_veins/redstone_vein.json"
-hash = "94351ab29445663e7e6250b236bc6a505207f323c33fa46a12a81fb92ff50d3e"
-
-[[files]]
-file = "datapacks/fabulously-create-ore-veins/pack.mcmeta"
-hash = "6c2e56e53302acba0058ec247f0b06e794d53119d6bd54b4283f147652c6466b"
-
-[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
 metafile = true
@@ -256,11 +208,6 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
-metafile = true
-
-[[files]]
-file = "mods/globalpacks.pw.toml"
-hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]

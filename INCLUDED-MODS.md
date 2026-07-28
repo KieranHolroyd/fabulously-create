@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.2** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.3** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -38,8 +38,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 
 | Mod | Purpose |
 | --- | --- |
-| [Large Ore Veins](https://modrinth.com/mod/large-ore-veins) | Replaces vanilla ore blobs with large configurable veins (size, shape, rarity, Y level via datapack) |
-| [Global Packs](https://modrinth.com/mod/globalpacks) | Loads the pack's `datapacks/` folder globally (Large Ore Veins tuning) |
+| [Large Ore Veins](https://modrinth.com/mod/large-ore-veins) | Replaces vanilla ore blobs with large ore veins (mod defaults) |
 
 ## Farming & cooking
 
@@ -142,7 +141,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **1.21.1 NeoForge** is the target for official Create, Silent Gear, and Sophisticated mods.
 - **Java 21+** is required for client and server.
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
-- **Large Ore Veins** is beta — only affects newly generated chunks. Pack defaults live in `pack/config/largeoreveins-common.toml` (vein frequency) and `pack/datapacks/fabulously-create-ore-veins/` (per-ore size/rarity). Iron and copper are slightly easier to find for Create; diamonds stay rare.
+- **Large Ore Veins** is beta — only affects newly generated chunks. Uses the mod's built-in defaults (no pack datapack/config overrides).
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.

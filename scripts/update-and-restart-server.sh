@@ -137,6 +137,16 @@ if [[ -d "\$STAGE/config" ]]; then
   sudo cp -a "\$STAGE/config/." "\$TARGET/config/" 2>/dev/null || true
 fi
 
+# Datapacks: sync pack-provided packs; drop retired pack datapacks.
+if [[ -d "\$STAGE/datapacks" ]]; then
+  sudo mkdir -p "\$TARGET/datapacks"
+  sudo cp -a "\$STAGE/datapacks/." "\$TARGET/datapacks/"
+else
+  sudo rm -rf "\$TARGET/datapacks/fabulously-create-ore-veins"
+fi
+# Drop retired Large Ore Veins pack overrides so the mod defaults apply.
+sudo rm -f "\$TARGET/config/largeoreveins-common.toml"
+
 # Keep eula accepted; ensure port stays on the modded slot if properties exist.
 echo 'eula=true' | sudo tee "\$TARGET/eula.txt" >/dev/null
 if [[ -f "\$TARGET/server.properties" ]]; then

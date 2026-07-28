@@ -100,7 +100,6 @@ add_cf_url "https://www.curseforge.com/minecraft/mc-mods/building-gadgets/files/
 
 echo "Adding world generation..."
 add_mr large-ore-veins
-add_mr globalpacks
 
 echo "Adding QoL..."
 add_mr jei

@@ -203,7 +203,7 @@ def copy_server_configs(pack_dir: Path, output: Path) -> None:
     dest = output / "config"
     dest.mkdir(parents=True, exist_ok=True)
 
-    for name in ("fabric_loader_dependencies.json", "largeoreveins-common.toml"):
+    for name in ("fabric_loader_dependencies.json",):
         src = config_src / name
         if src.is_file():
             shutil.copy2(src, dest / name)

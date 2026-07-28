@@ -1,4 +1,0 @@
-# Fabulously Create — Large Ore Veins defaults
-# One vein attempt per N chunks (higher = rarer). Mod default is 3.
-chunksPerVein = 4
-chunksPerTick = 10
