@@ -34,7 +34,7 @@
 	quest.B100000000000196.title: "Alternator"
 	quest.B100000000000196.quest_subtitle: "Power"
 	quest.B100000000000196.quest_desc: [
-		"Build a Create Crafts & Additions Alternator. Spin it with SU to generate FE (Forge Energy) for electric addons."
+		"Build a Create Crafts \\& Additions Alternator. Spin it with SU to generate FE (Forge Energy) for electric addons."
 	]
 	quest.B100000000000197.title: "Electric Motor"
 	quest.B100000000000197.quest_subtitle: "Power"
@@ -51,10 +51,10 @@
 	quest.B100000000000199.quest_desc: [
 		"Build a Blaze Enchanter from Enchantment Industry. Pump liquid experience and automate enchanted books / gear."
 	]
-	quest.B10000000000019A.title: "Slice & Dice"
+	quest.B10000000000019A.title: "Slice \\& Dice"
 	quest.B10000000000019A.quest_subtitle: "Food automation"
 	quest.B10000000000019A.quest_desc: [
-		"Craft a Slice & Dice slicer. Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
+		"Craft a Slice \\& Dice slicer. Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
 	]
 	quest.B10000000000019B.title: "Create: Connected"
 	quest.B10000000000019B.quest_subtitle: "Create extras"

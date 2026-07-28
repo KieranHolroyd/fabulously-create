@@ -71,7 +71,7 @@
 	quest.B10000000000006E.quest_desc: [
 		"Craft a Farmer's Delight stove. Cooking meals gives better saturation than plain steaks.",
 		"",
-		"Later, Slice & Dice lets Create automate cutting boards — see Automation."
+		"Later, Slice \\& Dice lets Create automate cutting boards — see Automation."
 	]
 	quest.B10000000000006F.title: "Portable Bed"
 	quest.B10000000000006F.quest_subtitle: "QoL"

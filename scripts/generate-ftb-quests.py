@@ -9,6 +9,7 @@ Design goals:
 """
 from __future__ import annotations
 
+import re
 import secrets
 from pathlib import Path
 
@@ -17,6 +18,9 @@ QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
 
 GROUP_MAIN = "A100000000000001"
 FILE_ID = "0000000000000001"
+
+# FTB Quests treats &X as a formatting code (0-9, a-f, k-o, r). Literal & must be \&.
+_BARE_AMP = re.compile(r"(?<!\\)&(?![0-9a-fk-orA-FK-OR])")
 
 CHAPTERS = {
     # filename -> (id, icon, title, subtitle)
@@ -57,7 +61,13 @@ def hid() -> str:
     return secrets.token_hex(8).upper()
 
 
+def escape_ftb_ampersands(s: str) -> str:
+    """Escape literal & so FTB Quests doesn't treat it as a format code."""
+    return _BARE_AMP.sub(r"\\&", s)
+
+
 def snbt_escape(s: str) -> str:
+    s = escape_ftb_ampersands(s)
     return s.replace("\\", "\\\\").replace('"', '\\"')
 
 

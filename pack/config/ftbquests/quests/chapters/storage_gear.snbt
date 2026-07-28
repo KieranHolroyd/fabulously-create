@@ -16,7 +16,7 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "92486A03F5A9A95E"
+					id: "47679F3076965770"
 					item: {
 						count: 16
 						id: "minecraft:leather"
@@ -24,7 +24,7 @@
 					type: "item"
 				},
 				{
-					id: "84EA10D3AD93571D"
+					id: "66F9B55E827CFDD2"
 					item: {
 						count: 16
 						id: "minecraft:string"
@@ -32,13 +32,13 @@
 					type: "item"
 				},
 				{
-					id: "5B9431E127F3A3D5"
+					id: "A2E63744962E7E58"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "91AFC474AB7D0912"
+				id: "E0D5D43A31CA7CB9"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
@@ -50,7 +50,7 @@
 			id: "B10000000000012D"
 			rewards: [
 				{
-					id: "9812E3EC8281E4B0"
+					id: "B2CE4EA36FC8C415"
 					item: {
 						count: 8
 						id: "minecraft:chest"
@@ -59,7 +59,7 @@
 				}
 			]
 			tasks: [{
-				id: "0B57286D00869A86"
+				id: "9641B25B64F5CF26"
 				item: { count: 2, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
@@ -72,7 +72,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "17A471C03792821C"
+					id: "00EE944DA13DB59E"
 					item: {
 						count: 4
 						id: "minecraft:ender_pearl"
@@ -80,13 +80,13 @@
 					type: "item"
 				},
 				{
-					id: "F98D81EFB6D4F701"
+					id: "BBC28FD4BF78DF39"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6F86668C946827BA"
+				id: "2029B5B71F2A7B20"
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
@@ -98,7 +98,7 @@
 			id: "B10000000000012F"
 			rewards: [
 				{
-					id: "4253FB45EA46001B"
+					id: "FB10025B5CF34A6F"
 					item: {
 						count: 16
 						id: "minecraft:iron_ingot"
@@ -107,7 +107,7 @@
 				}
 			]
 			tasks: [{
-				id: "3FA42665C4672865"
+				id: "91A77E7684FD3C47"
 				item: { count: 16, id: "pipez:item_pipe" }
 				type: "item"
 			}]
@@ -119,7 +119,7 @@
 			id: "B100000000000130"
 			rewards: [
 				{
-					id: "FC7B795C3A3E8307"
+					id: "71B1A3EBFF541908"
 					item: {
 						count: 16
 						id: "minecraft:copper_ingot"
@@ -127,13 +127,13 @@
 					type: "item"
 				},
 				{
-					id: "CA8973948A16F87B"
+					id: "B0435DCD26FA7963"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D8EB44F40DA74854"
+				id: "9B47B2F7B8279E3F"
 				item: { count: 8, id: "pipez:fluid_pipe" }
 				type: "item"
 			}]
@@ -146,7 +146,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "C8E623A942377AC9"
+					id: "9B11C51B2801E6B7"
 					item: {
 						count: 16
 						id: "minecraft:gold_ingot"
@@ -155,7 +155,7 @@
 				}
 			]
 			tasks: [{
-				id: "25B4216112832537"
+				id: "717680F63CCB6EBD"
 				item: { count: 1, id: "ironchest:gold_chest" }
 				type: "item"
 			}]
@@ -168,7 +168,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "B3FE7470CFEE632E"
+					id: "9896EABE19E3C4B7"
 					item: {
 						count: 16
 						id: "minecraft:gold_ingot"
@@ -176,7 +176,7 @@
 					type: "item"
 				},
 				{
-					id: "713D6D6A19889931"
+					id: "9E7961A680F83C6B"
 					item: {
 						count: 4
 						id: "minecraft:coal_block"
@@ -185,7 +185,7 @@
 				}
 			]
 			tasks: [{
-				id: "C937F591C94B3AB0"
+				id: "09C30F62DF57F0FC"
 				item: { count: 1, id: "ironfurnaces:gold_furnace" }
 				type: "item"
 			}]
@@ -197,7 +197,7 @@
 			id: "B100000000000133"
 			rewards: [
 				{
-					id: "941730F3AB845781"
+					id: "5DB18C913587FFF6"
 					item: {
 						count: 4
 						id: "silentgear:template_board"
@@ -205,13 +205,13 @@
 					type: "item"
 				},
 				{
-					id: "420189BE433CA71A"
+					id: "F4E3A174250AE27C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6370312F96BEE389"
+				id: "D1A392AB046BFDEA"
 				item: { count: 1, id: "silentgear:pickaxe_blueprint" }
 				type: "item"
 			}]
@@ -224,7 +224,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "F140B129821499D7"
+					id: "FA08F6A6B0598856"
 					item: {
 						count: 64
 						id: "minecraft:oak_log"
@@ -233,7 +233,7 @@
 				}
 			]
 			tasks: [{
-				id: "DED989AB7BE733E1"
+				id: "DCD62924FD99FCB3"
 				item: { count: 1, id: "silentgear:axe_blueprint" }
 				type: "item"
 			}]
@@ -245,7 +245,7 @@
 			id: "B100000000000135"
 			rewards: [
 				{
-					id: "60457B81E024171E"
+					id: "EBF65283B16ADBEF"
 					item: {
 						count: 16
 						id: "minecraft:iron_ingot"
@@ -254,7 +254,7 @@
 				}
 			]
 			tasks: [{
-				id: "8A32954601FC3BAF"
+				id: "1AFEB36489088844"
 				item: { count: 1, id: "constructionstick:iron_stick" }
 				type: "item"
 			}]
@@ -267,7 +267,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "91DA0C45F3ECA0B7"
+					id: "C2F9DADE052743C8"
 					item: {
 						count: 32
 						id: "minecraft:redstone"
@@ -275,13 +275,13 @@
 					type: "item"
 				},
 				{
-					id: "C40237E1484B0E55"
+					id: "18B72EA18EDC7B74"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9375CBE0A8CCCCF3"
+				id: "F85722D89D582E18"
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
@@ -294,7 +294,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "39A594CC61C09C43"
+					id: "D46D8D13CFE6B97A"
 					item: {
 						count: 4
 						id: "minecraft:phantom_membrane"
@@ -302,13 +302,13 @@
 					type: "item"
 				},
 				{
-					id: "484D30A278D39963"
+					id: "9855F334AE476768"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "C1C790FEF43E814D"
+				id: "FE58DF61726C11C3"
 				item: { count: 1, id: "artifacts:umbrella" }
 				type: "item"
 			}]
@@ -321,7 +321,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "6E13D56F55754FEB"
+					id: "5EDF5F73C1EEA249"
 					item: {
 						count: 8
 						id: "minecraft:emerald"
@@ -329,13 +329,13 @@
 					type: "item"
 				},
 				{
-					id: "6A27CB12B32FEEBC"
+					id: "574F1E8CE7F7A2D6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1EC939AD1DB333F8"
+				id: "B5E40B40D8F39BF5"
 				item: { count: 1, id: "lootr:trophy" }
 				type: "item"
 			}]
@@ -343,5 +343,5 @@
 			y: 2.5d
 		}
 	]
-	title: "3. Bags & Blades"
+	title: "3. Bags \\& Blades"
 }

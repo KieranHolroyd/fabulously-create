@@ -16,7 +16,7 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "AC5655C92A6A1EC7"
+					id: "6AB3FECA2F1B7B5A"
 					item: {
 						count: 16
 						id: "integrateddynamics:crystalized_menril_chunk"
@@ -24,13 +24,13 @@
 					type: "item"
 				},
 				{
-					id: "80140C1C223D2F57"
+					id: "08D6B65C387E087B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E13B0810AE6BDE0C"
+				id: "A32FB43527B54E4B"
 				item: { count: 16, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
@@ -42,7 +42,7 @@
 			id: "B100000000000191"
 			rewards: [
 				{
-					id: "8DD6335DC7C56C88"
+					id: "DA3E4189AAEDF6F6"
 					item: {
 						count: 8
 						id: "integrateddynamics:cable"
@@ -51,7 +51,7 @@
 				}
 			]
 			tasks: [{
-				id: "4B307CAFA9781B86"
+				id: "24F63A3FB179ACC5"
 				item: { count: 8, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
@@ -63,7 +63,7 @@
 			id: "B100000000000192"
 			rewards: [
 				{
-					id: "259CFDC4FE3238E7"
+					id: "4BF7D2C4540824FA"
 					item: {
 						count: 8
 						id: "integrateddynamics:variable"
@@ -71,13 +71,13 @@
 					type: "item"
 				},
 				{
-					id: "F8E4768F4A25137C"
+					id: "0CDF8E67C96D006D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D4E2D0BFEB9C9049"
+				id: "B35E7D6078ED4F70"
 				item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
 				type: "item"
 			}]
@@ -89,7 +89,7 @@
 			id: "B100000000000193"
 			rewards: [
 				{
-					id: "7512F36C819F42B6"
+					id: "DE8A8438BACD310F"
 					item: {
 						count: 4
 						id: "minecraft:hopper"
@@ -98,7 +98,7 @@
 				}
 			]
 			tasks: [{
-				id: "223CD8DA9B37FA1B"
+				id: "8FDD31C4FBDECC54"
 				item: { count: 2, id: "integratedtunnels:part_interface_item" }
 				type: "item"
 			}]
@@ -112,7 +112,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "F0B2BF6F879D2F92"
+					id: "8FCB1EB264777258"
 					item: {
 						count: 4
 						id: "minecraft:ender_eye"
@@ -120,13 +120,13 @@
 					type: "item"
 				},
 				{
-					id: "330874699C401566"
+					id: "67617301B0709FEB"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "AADFA2259760C83E"
+				id: "567547B11C4DB975"
 				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
 				type: "item"
 			}]
@@ -139,7 +139,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "49DC7AEF091A2B08"
+					id: "0EB1E29EEB78FF16"
 					item: {
 						count: 1
 						id: "minecraft:crafting_table"
@@ -147,13 +147,13 @@
 					type: "item"
 				},
 				{
-					id: "1A7A1D51B9D66788"
+					id: "7DF73EFF0B3499AC"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "B2028315AC7C917D"
+				id: "E7B7D7DBD5071504"
 				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
 				type: "item"
 			}]
@@ -165,7 +165,7 @@
 			id: "B100000000000196"
 			rewards: [
 				{
-					id: "A896A4951D59A24A"
+					id: "FBA913C24251ACEB"
 					item: {
 						count: 2
 						id: "createaddition:capacitor"
@@ -173,13 +173,13 @@
 					type: "item"
 				},
 				{
-					id: "A2E9D07D686C6EA2"
+					id: "39D2653F528112AD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "539B7F44D53E6DB6"
+				id: "FF8A178944D3257E"
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
@@ -191,7 +191,7 @@
 			id: "B100000000000197"
 			rewards: [
 				{
-					id: "5BA828167B9960F9"
+					id: "E07E383038B26356"
 					item: {
 						count: 4
 						id: "createaddition:copper_spool"
@@ -199,13 +199,13 @@
 					type: "item"
 				},
 				{
-					id: "FB79D37FACBCC1D9"
+					id: "1D653428FCDA4D86"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3D787577D37A9692"
+				id: "8B63839DDCCD073C"
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
@@ -218,7 +218,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "23D7C0A9D5844BC5"
+					id: "19ACDA995B02865C"
 					item: {
 						count: 2
 						id: "createdieselgenerators:plant_oil_bucket"
@@ -226,13 +226,13 @@
 					type: "item"
 				},
 				{
-					id: "26C552E4F6217A40"
+					id: "B6CC45635EBAF30A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "EDED5D7929221A20"
+				id: "25B3F251D6EEE0D6"
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
@@ -245,7 +245,7 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "DCFBA4F084CC36E8"
+					id: "29443CE162106B73"
 					item: {
 						count: 2
 						id: "create_enchantment_industry:enchanting_template"
@@ -253,13 +253,13 @@
 					type: "item"
 				},
 				{
-					id: "1D7421457043A484"
+					id: "8FFFC0AA98514F2D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E3F46CA92199D551"
+				id: "B5555F95766E0EA5"
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
@@ -272,7 +272,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "DA8840DF0B25770D"
+					id: "D6AA9463E7EE6C17"
 					item: {
 						count: 1
 						id: "farmersdelight:cutting_board"
@@ -280,13 +280,13 @@
 					type: "item"
 				},
 				{
-					id: "6A802C1B6CC4C7F5"
+					id: "C14E2AA5C353A8DE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "93EB75BC9C7B72D3"
+				id: "AE5453D3B2FA7913"
 				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
@@ -299,7 +299,7 @@
 			optional: true
 			rewards: [
 				{
-					id: "ABB1D54F77FC0A32"
+					id: "CC116EECC6D29F5A"
 					item: {
 						count: 2
 						id: "create:electron_tube"
@@ -307,13 +307,13 @@
 					type: "item"
 				},
 				{
-					id: "B4586A72C7EAE3D2"
+					id: "5D56AB8F0D6641A6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "BE1CAABF7EC2BC33"
+				id: "D725016E3708997D"
 				item: { count: 1, id: "create_connected:brake" }
 				type: "item"
 			}]
@@ -321,5 +321,5 @@
 			y: -2.5d
 		}
 	]
-	title: "4. Wires & Wits"
+	title: "4. Wires \\& Wits"
 }
