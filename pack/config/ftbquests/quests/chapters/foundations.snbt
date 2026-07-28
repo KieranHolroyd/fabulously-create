@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "foundations"
+	group: "A100000000000001"
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "A200000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B100000000000064"
+			size: 1.5d
+			rewards: [{
+				count: 8
+				id: "4F6D460D730C633F"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB4DF9B4AF0F259"
+				item: { count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000064"]
+			id: "B100000000000065"
+			rewards: [{
+				count: 16
+				id: "ED20B1808C69B936"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "8D6AD9F8BAA97901"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000065"]
+			id: "B100000000000066"
+			rewards: [{
+				count: 16
+				id: "8E3808BE601537F3"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60361844250121B6"
+				item: { count: 32, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000066"]
+			id: "B100000000000067"
+			rewards: [{
+				count: 16
+				id: "A6D067A8EF478709"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "FC17CAFF1B2AF6CF"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000067"]
+			id: "B100000000000068"
+			rewards: [{
+				count: 32
+				id: "EB476A28153019D8"
+				item: {
+					count: 1
+					id: "minecraft:iron_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AF83EB8BEC0FCE3"
+				item: { count: 16, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000068"]
+			id: "B100000000000069"
+			rewards: [{
+				count: 8
+				id: "5080442FCE4F010B"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "680EC9160FAB1F9C"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000069"]
+			id: "B10000000000006A"
+			rewards: [{
+				count: 4
+				id: "B05910ED42D2915F"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "C195FBBA4BFBCC98"
+				item: { count: 3, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000066"]
+			id: "B10000000000006B"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "A6D2271835388D8A"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "395877CC8DB9C8C4"
+				item: { count: 16, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000067"]
+			id: "B10000000000006C"
+			rewards: [{
+				count: 4
+				id: "4129477F1F48EC90"
+				item: {
+					count: 1
+					id: "farmersdelight:cabbage_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F23E621211744E1"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000068"]
+			id: "B10000000000006D"
+			rewards: [{
+				count: 8
+				id: "7B8A49B6DEA9BB38"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78C9C05AF1A87761"
+				item: { count: 1, id: "comforts:sleeping_bag_red" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000068"]
+			id: "B10000000000006E"
+			rewards: [{
+				count: 4
+				id: "8C133EDC6A55D1CA"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "F40BA1DBF53C6728"
+				item: { count: 1, id: "ironchest:iron_chest" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000068"]
+			id: "B10000000000006F"
+			rewards: [{
+				count: 2
+				id: "AB323EACCED27F7D"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB48EBF59E349B6"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B10000000000006A"]
+			id: "B100000000000070"
+			rewards: [{
+				count: 4
+				id: "84C173DECC804C5D"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "90A8AE3160CD4E11"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+}

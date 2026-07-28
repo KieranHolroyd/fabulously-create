@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.4** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.6** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -93,7 +93,10 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Curios API](https://modrinth.com/mod/curios) | Extra equipment slots |
 | [Artifacts](https://modrinth.com/mod/artifacts) | Curios trinkets and relics |
 | [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | Hold key to vein-mine connected blocks |
-| [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | Required by FTB Ultimine |
+| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Quest book and progression (**72** pack quests in `config/ftbquests/`) |
+| [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | Required by FTB Quests |
+| [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | Required by FTB mods |
+| [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | JEI and other mod integrations for FTB Quests |
 
 ## Quality of life
 
@@ -144,6 +147,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
 - **Large Ore Veins** is beta — only affects newly generated chunks. Uses the mod's built-in defaults (no pack datapack/config overrides).
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
+- **FTB Quests:** early→late book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Chapters: Foundations → Create Factory → Storage & Gear → Automation & Power → Late Game.
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
 - Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.

@@ -1,0 +1,68 @@
+{
+	quest.B1000000000000C8.title: "Andesite Alloy"
+	quest.B1000000000000C8.quest_desc: ["The foundation of Create."]
+	quest.B1000000000000C8.quest_subtitle: "Create"
+	quest.B1000000000000C9.title: "Shafts"
+	quest.B1000000000000C9.quest_desc: ["Transmit rotation."]
+	quest.B1000000000000C9.quest_subtitle: "Create"
+	quest.B1000000000000CA.title: "Cogwheels"
+	quest.B1000000000000CA.quest_desc: ["Gear up your factory."]
+	quest.B1000000000000CA.quest_subtitle: "Create"
+	quest.B1000000000000CB.title: "Large Cogwheels"
+	quest.B1000000000000CB.quest_desc: ["Bigger ratios."]
+	quest.B1000000000000CB.quest_subtitle: "Create"
+	quest.B1000000000000CC.title: "Water Wheel"
+	quest.B1000000000000CC.quest_desc: ["Free kinetic power."]
+	quest.B1000000000000CC.quest_subtitle: "Create"
+	quest.B1000000000000CD.title: "Andesite Casing"
+	quest.B1000000000000CD.quest_desc: ["Machine chassis."]
+	quest.B1000000000000CD.quest_subtitle: "Create"
+	quest.B1000000000000CE.title: "Mechanical Press"
+	quest.B1000000000000CE.quest_desc: ["Compact and press items."]
+	quest.B1000000000000CE.quest_subtitle: "Create"
+	quest.B1000000000000CF.title: "Basin"
+	quest.B1000000000000CF.quest_desc: ["Mixing and bulk processing."]
+	quest.B1000000000000CF.quest_subtitle: "Create"
+	quest.B1000000000000D0.title: "Mechanical Mixer"
+	quest.B1000000000000D0.quest_desc: ["Automate recipes in a basin."]
+	quest.B1000000000000D0.quest_subtitle: "Create"
+	quest.B1000000000000D1.title: "Millstone"
+	quest.B1000000000000D1.quest_desc: ["Mill grains and more."]
+	quest.B1000000000000D1.quest_subtitle: "Create"
+	quest.B1000000000000D2.title: "Encased Fan"
+	quest.B1000000000000D2.quest_desc: ["Blast, smoke, and wash."]
+	quest.B1000000000000D2.quest_subtitle: "Create"
+	quest.B1000000000000D3.title: "Belts"
+	quest.B1000000000000D3.quest_desc: ["Move items around."]
+	quest.B1000000000000D3.quest_subtitle: "Create"
+	quest.B1000000000000D4.title: "Depots"
+	quest.B1000000000000D4.quest_desc: ["Hold items for processing."]
+	quest.B1000000000000D4.quest_subtitle: "Create"
+	quest.B1000000000000D5.title: "Crushing Wheels"
+	quest.B1000000000000D5.quest_desc: ["Crush ores efficiently."]
+	quest.B1000000000000D5.quest_subtitle: "Create"
+	quest.B1000000000000D6.title: "Blaze Burner"
+	quest.B1000000000000D6.quest_desc: ["Superheat for brass."]
+	quest.B1000000000000D6.quest_subtitle: "Create"
+	quest.B1000000000000D7.title: "Brass Age"
+	quest.B1000000000000D7.quest_desc: ["Alloy brass for advanced Create."]
+	quest.B1000000000000D7.quest_subtitle: "Create"
+	quest.B1000000000000D8.title: "Brass Casing"
+	quest.B1000000000000D8.quest_desc: ["Advanced machine frames."]
+	quest.B1000000000000D8.quest_subtitle: "Create"
+	quest.B1000000000000D9.title: "Electron Tubes"
+	quest.B1000000000000D9.quest_desc: ["Smart components."]
+	quest.B1000000000000D9.quest_subtitle: "Create"
+	quest.B1000000000000DA.title: "Precision Mechanisms"
+	quest.B1000000000000DA.quest_desc: ["Midgame Create crafting core."]
+	quest.B1000000000000DA.quest_subtitle: "Create"
+	quest.B1000000000000DB.title: "Deployer"
+	quest.B1000000000000DB.quest_desc: ["Automate right-clicks."]
+	quest.B1000000000000DB.quest_subtitle: "Create"
+	quest.B1000000000000DC.title: "Mechanical Arm"
+	quest.B1000000000000DC.quest_desc: ["Move items between inventories."]
+	quest.B1000000000000DC.quest_subtitle: "Create"
+	quest.B1000000000000DD.title: "Steam Engine"
+	quest.B1000000000000DD.quest_desc: ["High stress power."]
+	quest.B1000000000000DD.quest_subtitle: "Create"
+}

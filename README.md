@@ -61,7 +61,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
 - **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
 - **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
-- **FTB Ultimine**, Large Ore Veins, Corail Tombstone
+- **FTB Ultimine**, **FTB Quests** (72 early→late quests), Large Ore Veins, Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
 - JourneyMap, Jade, JEI, AppleSkin, TrashSlot, Inventory Essentials
 

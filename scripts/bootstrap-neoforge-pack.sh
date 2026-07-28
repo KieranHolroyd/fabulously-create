@@ -124,8 +124,11 @@ add_mr architectury-api
 add_mr entityculling
 add_mr immediatelyfast
 
-echo "Adding FTB Ultimine + Corail Tombstone (CurseForge NeoForge)..."
+echo "Adding FTB Ultimine / Quests + Corail Tombstone (CurseForge NeoForge)..."
 add_cf_url "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge/files/8231400"
+add_cf_url "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/7878281"
+add_cf_url "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/8520042"
+add_cf_url "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat/files/8520191"
 add_cf_url "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone/files/8425866"
 
 "$PACKWIZ" refresh

@@ -136,6 +136,11 @@ sudo chmod +x "\$TARGET/run.sh"
 if [[ -d "\$STAGE/config" ]]; then
   sudo cp -a "\$STAGE/config/." "\$TARGET/config/" 2>/dev/null || true
 fi
+# Always replace pack-authored quest book.
+if [[ -d "\$STAGE/config/ftbquests" ]]; then
+  sudo rm -rf "\$TARGET/config/ftbquests"
+  sudo cp -a "\$STAGE/config/ftbquests" "\$TARGET/config/ftbquests"
+fi
 
 # Datapacks: sync pack-provided packs; drop retired pack datapacks.
 if [[ -d "\$STAGE/datapacks" ]]; then

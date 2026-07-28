@@ -1,0 +1,41 @@
+{
+	quest.B1000000000001F4.title: "Netherite"
+	quest.B1000000000001F4.quest_desc: ["Enter the late game."]
+	quest.B1000000000001F4.quest_subtitle: "Late"
+	quest.B1000000000001F5.title: "Netherite Furnace"
+	quest.B1000000000001F5.quest_desc: ["Top-tier smelting speed."]
+	quest.B1000000000001F5.quest_subtitle: "Late"
+	quest.B1000000000001F6.title: "Obsidian Chest"
+	quest.B1000000000001F6.quest_desc: ["Blast-resistant storage."]
+	quest.B1000000000001F6.quest_subtitle: "Late"
+	quest.B1000000000001F7.title: "Jetpack Parts"
+	quest.B1000000000001F7.quest_desc: ["Craft Iron Jetpacks components."]
+	quest.B1000000000001F7.quest_subtitle: "Late"
+	quest.B1000000000001F8.title: "Create Jetpack"
+	quest.B1000000000001F8.quest_desc: ["Backtank-powered flight."]
+	quest.B1000000000001F8.quest_subtitle: "Late"
+	quest.B1000000000001F9.title: "Big Cannons"
+	quest.B1000000000001F9.quest_desc: ["Build a cannon end piece."]
+	quest.B1000000000001F9.quest_subtitle: "Late"
+	quest.B1000000000001FA.title: "Steam 'n' Rails"
+	quest.B1000000000001FA.quest_desc: ["Train conductor tools."]
+	quest.B1000000000001FA.quest_subtitle: "Late"
+	quest.B1000000000001FB.title: "Brass Jetpack"
+	quest.B1000000000001FB.quest_desc: ["Stuff 'N Additions flight gear."]
+	quest.B1000000000001FB.quest_subtitle: "Late"
+	quest.B1000000000001FC.title: "Mechanism Stockpile"
+	quest.B1000000000001FC.quest_desc: ["Stockpile precision mechanisms."]
+	quest.B1000000000001FC.quest_subtitle: "Late"
+	quest.B1000000000001FD.title: "Wither Down"
+	quest.B1000000000001FD.quest_desc: ["Defeat the Wither."]
+	quest.B1000000000001FD.quest_subtitle: "Late"
+	quest.B1000000000001FE.title: "Elytra"
+	quest.B1000000000001FE.quest_desc: ["End-game mobility."]
+	quest.B1000000000001FE.quest_subtitle: "Late"
+	quest.B1000000000001FF.title: "Netherite Stick"
+	quest.B1000000000001FF.quest_desc: ["Ultimate building stick."]
+	quest.B1000000000001FF.quest_subtitle: "Late"
+	quest.B100000000000200.title: "Tombstone Dust"
+	quest.B100000000000200.quest_desc: ["Engage Corail Tombstone crafting."]
+	quest.B100000000000200.quest_subtitle: "Late"
+}

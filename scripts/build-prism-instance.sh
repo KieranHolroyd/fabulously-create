@@ -189,6 +189,13 @@ PY
       fi
     fi
 
+    # Always refresh pack-authored FTB Quests (overwrite local quest book).
+    if [[ -d "$OUT_DIR/minecraft/config/ftbquests" ]]; then
+      rm -rf "$DEST/minecraft/config/ftbquests"
+      mkdir -p "$DEST/minecraft/config"
+      cp -R "$OUT_DIR/minecraft/config/ftbquests" "$DEST/minecraft/config/ftbquests"
+    fi
+
     echo "Done. Preserved options/config/saves/servers; refreshed mods + loader metadata."
     echo "Open Prism Launcher and launch 'Fabulously Create' (Java 21)."
   fi

@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "automation"
+	group: "A100000000000001"
+	icon: {
+		id: "integrateddynamics:cable"
+	}
+	id: "A200000000000004"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B100000000000190"
+			size: 1.5d
+			rewards: [{
+				count: 8
+				id: "EE84E3D31ACEF61B"
+				item: {
+					count: 1
+					id: "integrateddynamics:crystalized_menril_chunk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F35231E519B2E7C"
+				item: { count: 16, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000190"]
+			id: "B100000000000191"
+			rewards: [{
+				count: 8
+				id: "413C8AD7289F7D7A"
+				item: {
+					count: 1
+					id: "integrateddynamics:cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "FCA8DD8B23213769"
+				item: { count: 8, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000191"]
+			id: "B100000000000192"
+			rewards: [{
+				count: 4
+				id: "43CA30410AA84054"
+				item: {
+					count: 1
+					id: "integrateddynamics:variable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "EDCC4D88F5AC980B"
+				item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000190"]
+			id: "B100000000000193"
+			rewards: [{
+				count: 4
+				id: "CBF1FBE7EABB075A"
+				item: {
+					count: 1
+					id: "minecraft:hopper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "B1E50F3FB4A482A4"
+				item: { count: 2, id: "integratedtunnels:part_interface_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000193"]
+			id: "B100000000000194"
+			rewards: [{
+				count: 2
+				id: "E74CDFF89768AF6F"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02BFE89C640FC889"
+				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000190"]
+			id: "B100000000000195"
+			rewards: [{
+				count: 2
+				id: "DE404A6525ADBFCC"
+				item: {
+					count: 1
+					id: "createaddition:capacitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "A4E98B7EF323C2FA"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000195"]
+			id: "B100000000000196"
+			rewards: [{
+				count: 4
+				id: "7E6B025E5D0D4F26"
+				item: {
+					count: 1
+					id: "createaddition:copper_spool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36E516120F86ED87"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000195"]
+			id: "B100000000000197"
+			rewards: [{
+				count: 2
+				id: "199F3008F1220D84"
+				item: {
+					count: 1
+					id: "createdieselgenerators:plant_oil_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "B02BE0442DDE3BBE"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000194"]
+			id: "B100000000000198"
+			rewards: [{
+				count: 2
+				id: "4F979B1DD982C215"
+				item: {
+					count: 1
+					id: "create_enchantment_industry:enchanting_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42C57C1EE0B13393"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000195"]
+			id: "B100000000000199"
+			rewards: [{
+				count: 2
+				id: "89A8409EB9B5D3AE"
+				item: {
+					count: 1
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "ACE8A2F6D7544634"
+				item: { count: 1, id: "create_connected:brake" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		},
+		{
+			dependencies: ["B100000000000194"]
+			id: "B10000000000019A"
+			rewards: [{
+				id: "B59FA60A0751C202"
+				item: {
+					count: 1
+					id: "farmersdelight:cutting_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "756F83E7512919D9"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000194"]
+			id: "B10000000000019B"
+			rewards: [{
+				id: "0C0C594AAC64E2B8"
+				item: {
+					count: 1
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7C71BFC9EEED57"
+				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+}

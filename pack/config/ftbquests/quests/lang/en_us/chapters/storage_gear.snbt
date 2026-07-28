@@ -1,0 +1,38 @@
+{
+	quest.B10000000000012C.title: "Backpack"
+	quest.B10000000000012C.quest_desc: ["Carry more with Sophisticated Backpacks."]
+	quest.B10000000000012C.quest_subtitle: "Storage"
+	quest.B10000000000012D.title: "Drawers"
+	quest.B10000000000012D.quest_desc: ["Compact storage with Functional Storage."]
+	quest.B10000000000012D.quest_subtitle: "Storage"
+	quest.B10000000000012E.title: "Tom's Connector"
+	quest.B10000000000012E.quest_desc: ["Begin networked storage."]
+	quest.B10000000000012E.quest_subtitle: "Storage"
+	quest.B10000000000012F.title: "Item Pipes"
+	quest.B10000000000012F.quest_desc: ["Move items with Pipez."]
+	quest.B10000000000012F.quest_subtitle: "Storage"
+	quest.B100000000000130.title: "Fluid Pipes"
+	quest.B100000000000130.quest_desc: ["Pipe fluids too."]
+	quest.B100000000000130.quest_subtitle: "Storage"
+	quest.B100000000000131.title: "Silent Blueprint"
+	quest.B100000000000131.quest_desc: ["Start modular Silent Gear tools."]
+	quest.B100000000000131.quest_subtitle: "Gear"
+	quest.B100000000000132.title: "Axe Blueprint"
+	quest.B100000000000132.quest_desc: ["Expand your Silent Gear set."]
+	quest.B100000000000132.quest_subtitle: "Gear"
+	quest.B100000000000133.title: "Construction Stick"
+	quest.B100000000000133.quest_desc: ["Build faster."]
+	quest.B100000000000133.quest_subtitle: "Building"
+	quest.B100000000000134.title: "Building Gadget"
+	quest.B100000000000134.quest_desc: ["Mass-build structures."]
+	quest.B100000000000134.quest_subtitle: "Building"
+	quest.B100000000000135.title: "Gold Chest"
+	quest.B100000000000135.quest_desc: ["Upgrade your chest tier."]
+	quest.B100000000000135.quest_subtitle: "Storage"
+	quest.B100000000000136.title: "Gold Furnace"
+	quest.B100000000000136.quest_desc: ["Even faster smelting."]
+	quest.B100000000000136.quest_subtitle: "Storage"
+	quest.B100000000000137.title: "Artifact Find"
+	quest.B100000000000137.quest_desc: ["Find an Artifacts trinket (umbrella)."]
+	quest.B100000000000137.quest_subtitle: "Gear"
+}

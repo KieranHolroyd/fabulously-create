@@ -1,0 +1,41 @@
+{
+	quest.B100000000000064.title: "Gather Wood"
+	quest.B100000000000064.quest_desc: ["Collect oak logs to get started."]
+	quest.B100000000000064.quest_subtitle: "Early"
+	quest.B100000000000065.title: "Crafting Table"
+	quest.B100000000000065.quest_desc: ["Your first workstation."]
+	quest.B100000000000065.quest_subtitle: "Early"
+	quest.B100000000000066.title: "Stone Age"
+	quest.B100000000000066.quest_desc: ["Mine a stack of cobble."]
+	quest.B100000000000066.quest_subtitle: "Early"
+	quest.B100000000000067.title: "Smelting"
+	quest.B100000000000067.quest_desc: ["Craft a furnace."]
+	quest.B100000000000067.quest_subtitle: "Early"
+	quest.B100000000000068.title: "Iron Supply"
+	quest.B100000000000068.quest_desc: ["Smelt a small iron stockpile."]
+	quest.B100000000000068.quest_subtitle: "Early"
+	quest.B100000000000069.title: "Iron Pickaxe"
+	quest.B100000000000069.quest_desc: ["Upgrade your mining."]
+	quest.B100000000000069.quest_subtitle: "Early"
+	quest.B10000000000006A.title: "Diamonds!"
+	quest.B10000000000006A.quest_desc: ["Find your first diamonds."]
+	quest.B10000000000006A.quest_subtitle: "Early"
+	quest.B10000000000006B.title: "Stay Fed"
+	quest.B10000000000006B.quest_desc: ["Bake bread for early food."]
+	quest.B10000000000006B.quest_subtitle: "Early"
+	quest.B10000000000006C.title: "Farmer's Stove"
+	quest.B10000000000006C.quest_desc: ["Start Farmer's Delight cooking."]
+	quest.B10000000000006C.quest_subtitle: "Early"
+	quest.B10000000000006D.title: "Sleeping Bag"
+	quest.B10000000000006D.quest_desc: ["Sleep safely in the Nether later."]
+	quest.B10000000000006D.quest_subtitle: "Early"
+	quest.B10000000000006E.title: "Iron Chest"
+	quest.B10000000000006E.quest_desc: ["More storage than a wooden chest."]
+	quest.B10000000000006E.quest_subtitle: "Early"
+	quest.B10000000000006F.title: "Iron Furnace"
+	quest.B10000000000006F.quest_desc: ["Faster smelting."]
+	quest.B10000000000006F.quest_subtitle: "Early"
+	quest.B100000000000070.title: "Waystone"
+	quest.B100000000000070.quest_desc: ["Set your first teleport point."]
+	quest.B100000000000070.quest_subtitle: "Early"
+}

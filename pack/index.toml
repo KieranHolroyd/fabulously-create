@@ -1,6 +1,66 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "d17cae28cb10ad5f21bfd95034c831abfefa43dbb335f27888420140431295b0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/automation.snbt"
+hash = "738622ae9be823fcba8ae3d77b83e01df7205c729243e00cb8ca9b865b0e37ec"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_factory.snbt"
+hash = "7934591a95743cb60de9d8cfb1dfd152663a8870e104601ca48c468e1c0f0da2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/foundations.snbt"
+hash = "71beb475102713a986004f027e4b3e3f9a7f45c7ef6c48d00d30bdbe73f77989"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/late_game.snbt"
+hash = "d98ee4cd5af62cd9eaf0505641c6fada622ab453991f41953aaa4844dfbf40d5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage_gear.snbt"
+hash = "38c6eda6f1f0034197ec83e977456ba2b6a6c11553ddda640b67b804f9e6e86f"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "711c8c905c0c2b2fcbb78d4d1975238300fd9c6e9e90c904df31467358e34047"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
+hash = "10b4ff3ae7f6203a925a44d1a6cd9c94799d7eb5b7a4d90dde2c185bf1e5c52e"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter_group.snbt"
+hash = "342b8da3f7dd4a9c3c700b9d31dd7f25eab87398d9c00ba80de359de83c5ce41"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/automation.snbt"
+hash = "f475d2ea4c59255a7030a6149fca01a4cd28fd7a1a4029fe6031c1d248eaa5bf"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/create_factory.snbt"
+hash = "7dd0e6c8914d47562f304279260361adf572e573f7be4004d08e61ae221d63f6"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/foundations.snbt"
+hash = "16e69d6e52e263160ba24fc62069590ef362c8a001773b9a6bc2ab3491a7406b"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/late_game.snbt"
+hash = "773dfa5cef294fa74e48026602308e1a132bb9f35775dda0235806304aa1fe2c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/storage_gear.snbt"
+hash = "1270f14fb1141c28973e8e1058a9df765ea3a2fe023039cc2539dff8e8e1c616"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/file.snbt"
+hash = "e592086712f791e9bb7eb2c16e3b9ada92ca3c2e20b1549a2788c76dfb3be09c"
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
 metafile = true
@@ -201,8 +261,23 @@ hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "da2c394095a44e251165338b5e36f86233188d1387878b367fbc43975be66c54"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+metafile = true
+
+[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "6a76a2faafbca6e5743c1907e5acf878b0ef75c29807452af8c2655439a1c085"
 metafile = true
 
 [[files]]

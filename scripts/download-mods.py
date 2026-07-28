@@ -196,6 +196,8 @@ def copy_datapacks(pack_dir: Path, output: Path) -> None:
 
 def copy_server_configs(pack_dir: Path, output: Path) -> None:
     """Copy only configs useful on a dedicated server."""
+    import shutil
+
     config_src = pack_dir / "config"
     if not config_src.is_dir():
         return
@@ -208,6 +210,15 @@ def copy_server_configs(pack_dir: Path, output: Path) -> None:
         if src.is_file():
             shutil.copy2(src, dest / name)
             print(f"  config: {name}")
+
+    # Pack-authored quest book must be on the dedicated server.
+    quests_src = config_src / "ftbquests"
+    if quests_src.is_dir():
+        quests_dest = dest / "ftbquests"
+        if quests_dest.exists():
+            shutil.rmtree(quests_dest, ignore_errors=True)
+        shutil.copytree(quests_src, quests_dest)
+        print("  config: ftbquests/")
 
 
 def copy_all_configs(pack_dir: Path, output: Path) -> None:
