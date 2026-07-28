@@ -1,41 +1,101 @@
 {
-	quest.B100000000000064.title: "Gather Wood"
-	quest.B100000000000064.quest_desc: ["Collect oak logs to get started."]
-	quest.B100000000000064.quest_subtitle: "Early"
-	quest.B100000000000065.title: "Crafting Table"
-	quest.B100000000000065.quest_desc: ["Your first workstation."]
-	quest.B100000000000065.quest_subtitle: "Early"
-	quest.B100000000000066.title: "Stone Age"
-	quest.B100000000000066.quest_desc: ["Mine a stack of cobble."]
-	quest.B100000000000066.quest_subtitle: "Early"
-	quest.B100000000000067.title: "Smelting"
-	quest.B100000000000067.quest_desc: ["Craft a furnace."]
-	quest.B100000000000067.quest_subtitle: "Early"
-	quest.B100000000000068.title: "Iron Supply"
-	quest.B100000000000068.quest_desc: ["Smelt a small iron stockpile."]
-	quest.B100000000000068.quest_subtitle: "Early"
-	quest.B100000000000069.title: "Iron Pickaxe"
-	quest.B100000000000069.quest_desc: ["Upgrade your mining."]
-	quest.B100000000000069.quest_subtitle: "Early"
-	quest.B10000000000006A.title: "Diamonds!"
-	quest.B10000000000006A.quest_desc: ["Find your first diamonds."]
-	quest.B10000000000006A.quest_subtitle: "Early"
-	quest.B10000000000006B.title: "Stay Fed"
-	quest.B10000000000006B.quest_desc: ["Bake bread for early food."]
-	quest.B10000000000006B.quest_subtitle: "Early"
-	quest.B10000000000006C.title: "Farmer's Stove"
-	quest.B10000000000006C.quest_desc: ["Start Farmer's Delight cooking."]
-	quest.B10000000000006C.quest_subtitle: "Early"
-	quest.B10000000000006D.title: "Sleeping Bag"
-	quest.B10000000000006D.quest_desc: ["Sleep safely in the Nether later."]
-	quest.B10000000000006D.quest_subtitle: "Early"
-	quest.B10000000000006E.title: "Iron Chest"
-	quest.B10000000000006E.quest_desc: ["More storage than a wooden chest."]
-	quest.B10000000000006E.quest_subtitle: "Early"
-	quest.B10000000000006F.title: "Iron Furnace"
-	quest.B10000000000006F.quest_desc: ["Faster smelting."]
-	quest.B10000000000006F.quest_subtitle: "Early"
-	quest.B100000000000070.title: "Waystone"
-	quest.B100000000000070.quest_desc: ["Set your first teleport point."]
-	quest.B100000000000070.quest_subtitle: "Early"
+	quest.B100000000000064.title: "Welcome to Fabulously Create"
+	quest.B100000000000064.quest_subtitle: "Start here"
+	quest.B100000000000064.quest_desc: [
+		"This quest book is your guided tour of the pack — Create factories, smarter storage, Silent Gear, and late-game toys.",
+		"",
+		"&6How to use this book:&r",
+		"• Quests complete when the items are in your inventory (they are &anot consumed&r).",
+		"• Optional quests are dashed — skip them anytime.",
+		"• Chapters are &aflexible&r. Start Create when you have iron; come back for side goals.",
+		"",
+		"Claim rewards from completed quests. Good luck, engineer!"
+	]
+	quest.B100000000000065.title: "Timber!"
+	quest.B100000000000065.quest_subtitle: "Gathering"
+	quest.B100000000000065.quest_desc: [
+		"Punch a tree and gather &616 oak logs&r. Any wood works for crafting, but oak keeps recipes simple.",
+		"",
+		"&7Tip:&r Large Ore Veins is installed — ores spawn in huge clusters later. Explore caves once you have iron."
+	]
+	quest.B100000000000066.title: "Workbench"
+	quest.B100000000000066.quest_subtitle: "Gathering"
+	quest.B100000000000066.quest_desc: [
+		"Craft a crafting table. This is still your best friend — Create machines automate later, but early recipes start here."
+	]
+	quest.B100000000000067.title: "Stone Age"
+	quest.B100000000000067.quest_subtitle: "Gathering"
+	quest.B100000000000067.quest_desc: [
+		"Mine &632 cobblestone&r. You'll burn through stone for furnaces, generators, and Create casings.",
+		"",
+		"&7Tip:&r A stone pickaxe unlocks iron ore. Don't dig straight down."
+	]
+	quest.B100000000000068.title: "First Fire"
+	quest.B100000000000068.quest_subtitle: "Smelting"
+	quest.B100000000000068.quest_desc: [
+		"Craft a furnace and start smelting. Coal or charcoal both work — charcoal from log furnaces is fine if coal is scarce."
+	]
+	quest.B100000000000069.title: "Iron Stockpile"
+	quest.B100000000000069.quest_subtitle: "Iron"
+	quest.B100000000000069.quest_desc: [
+		"Smelt &616 iron ingots&r. Iron is the gate into Create (andesite alloy), Pipez, chests, and furnaces.",
+		"",
+		"When you find a vein, FTB Ultimine (hold &6Grave / `&r by default) clears connected blocks fast."
+	]
+	quest.B10000000000006A.title: "Iron Tools"
+	quest.B10000000000006A.quest_subtitle: "Iron"
+	quest.B10000000000006A.quest_desc: [
+		"Craft an iron pickaxe. Diamonds and better Create ores wait below Y=16 — bring torches and food."
+	]
+	quest.B10000000000006B.title: "Sparkly Rocks"
+	quest.B10000000000006B.quest_subtitle: "Diamonds"
+	quest.B10000000000006B.quest_desc: [
+		"Find &63 diamonds&r. Save them for a pickaxe or enchanting table — Create's midgame wants brass more than full diamond armor."
+	]
+	quest.B10000000000006C.title: "Set a Waystone"
+	quest.B10000000000006C.quest_subtitle: "Travel"
+	quest.B10000000000006C.quest_desc: [
+		"Craft and place a Waystone near your base. Warp back after every mining trip — deaths hurt less with a recall point.",
+		"",
+		"Scrolls of Warp Stone (from Waystones) make temporary links while exploring."
+	]
+	quest.B10000000000006D.title: "Carb Loading"
+	quest.B10000000000006D.quest_subtitle: "Food"
+	quest.B10000000000006D.quest_desc: [
+		"Bake &616 bread&r. Hunger kills more early bases than creepers.",
+		"",
+		"Optional, but your future factory shifts will thank you."
+	]
+	quest.B10000000000006E.title: "Farmer's Kitchen"
+	quest.B10000000000006E.quest_subtitle: "Food"
+	quest.B10000000000006E.quest_desc: [
+		"Craft a Farmer's Delight stove. Cooking meals gives better saturation than plain steaks.",
+		"",
+		"Later, Slice & Dice lets Create automate cutting boards — see Automation."
+	]
+	quest.B10000000000006F.title: "Portable Bed"
+	quest.B10000000000006F.quest_subtitle: "QoL"
+	quest.B10000000000006F.quest_desc: [
+		"Craft a sleeping bag. Unlike beds, it &adoesn't set your respawn&r — perfect for Nether trips and caves."
+	]
+	quest.B100000000000070.title: "Iron Chest"
+	quest.B100000000000070.quest_subtitle: "Storage"
+	quest.B100000000000070.quest_desc: [
+		"Upgrade to an Iron Chest. More slots than wood, and you can keep upgrading toward gold / diamond / obsidian."
+	]
+	quest.B100000000000071.title: "Iron Furnace"
+	quest.B100000000000071.quest_subtitle: "Smelting"
+	quest.B100000000000071.quest_desc: [
+		"Craft an Iron Furnace for faster smelting. Gold and diamond tiers come later when throughput matters."
+	]
+	quest.B100000000000072.title: "Nature's Compass"
+	quest.B100000000000072.quest_subtitle: "Exploration"
+	quest.B100000000000072.quest_desc: [
+		"Craft a Nature's Compass to hunt biomes for Create rubber trees, Farmer's Delight crops, or building vibes."
+	]
+	quest.B100000000000073.title: "Explorer's Compass"
+	quest.B100000000000073.quest_subtitle: "Exploration"
+	quest.B100000000000073.quest_desc: [
+		"Craft an Explorer's Compass to locate structures. Handy for villages, strongholds, and loot routes."
+	]
 }

@@ -1,12 +1,12 @@
 {
 	chapter.A200000000000001.title: "1. Foundations"
-	chapter.A200000000000001.chapter_subtitle: ["Early game basics"]
+	chapter.A200000000000001.chapter_subtitle: ["Survive, smelt iron, set a waystone"]
 	chapter.A200000000000002.title: "2. Create Factory"
-	chapter.A200000000000002.chapter_subtitle: ["Kinetic engineering"]
+	chapter.A200000000000002.chapter_subtitle: ["Kinetics, brass, and ore drills"]
 	chapter.A200000000000003.title: "3. Storage & Gear"
-	chapter.A200000000000003.chapter_subtitle: ["Packing and tools"]
+	chapter.A200000000000003.chapter_subtitle: ["Backpacks, pipes, Silent Gear"]
 	chapter.A200000000000004.title: "4. Automation & Power"
-	chapter.A200000000000004.chapter_subtitle: ["ID, pipes, and FE"]
+	chapter.A200000000000004.chapter_subtitle: ["Integrated Dynamics, diesel, enchanting"]
 	chapter.A200000000000005.title: "5. Late Game"
-	chapter.A200000000000005.chapter_subtitle: ["Netherite and beyond"]
+	chapter.A200000000000005.chapter_subtitle: ["Netherite, flight, and the finale"]
 }

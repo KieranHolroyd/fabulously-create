@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Generate Fabulously Create FTB Quests book (early → late progression)."""
+"""Generate the Fabulously Create FTB Quests book.
+
+Design goals:
+- Teach Create + pack mods instead of bare item checklists
+- Flexible chapter exploration with optional side quests
+- Meaningful rewards (useful gear, not leftover sticks)
+- Multi-line quest text with tips and next-step hints
+"""
 from __future__ import annotations
 
 import secrets
@@ -7,11 +14,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
-
-
-def hid() -> str:
-    return secrets.token_hex(8).upper()
-
 
 GROUP_MAIN = "A100000000000001"
 FILE_ID = "0000000000000001"
@@ -25,27 +27,41 @@ CHAPTERS = {
 }
 
 
+def hid() -> str:
+    return secrets.token_hex(8).upper()
+
+
 def snbt_escape(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def quest(
+def Q(n: int) -> str:
+    """Stable quest IDs across regenerations."""
+    return f"B1{n:014X}"
+
+
+def format_desc(desc: str | list[str]) -> list[str]:
+    if isinstance(desc, str):
+        return [desc]
+    return list(desc)
+
+
+def quest_snbt(
     qid: str,
     *,
     x: float,
     y: float,
     task_item: str,
     task_count: int = 1,
-    reward_item: str | None = None,
-    reward_count: int = 1,
+    rewards: list[dict] | None = None,
     deps: list[str] | None = None,
     optional: bool = False,
     size: float = 1.0,
-) -> tuple[str, dict]:
-    """Return (snbt_block, lang_entries)."""
-    task_id = hid()
-    reward_id = hid()
+    shape: str | None = None,
+    hide_until_deps: bool = False,
+) -> str:
     deps = deps or []
+    rewards = rewards or [{"type": "xp_levels", "xp_levels": 1}]
     lines = ["\t\t{"]
     if deps:
         if len(deps) == 1:
@@ -55,39 +71,54 @@ def quest(
             for d in deps:
                 lines.append(f'\t\t\t\t"{d}"')
             lines.append("\t\t\t]")
+    if hide_until_deps and deps:
+        lines.append("\t\t\thide_until_deps_visible: true")
     lines.append(f'\t\t\tid: "{qid}"')
     if optional:
         lines.append("\t\t\toptional: true")
+    if shape:
+        lines.append(f'\t\t\tshape: "{shape}"')
     if size != 1.0:
         lines.append(f"\t\t\tsize: {size:.1f}d")
-    # reward
-    if reward_item:
-        lines.append("\t\t\trewards: [{")
-        if reward_count != 1:
-            lines.append(f"\t\t\t\tcount: {reward_count}")
-        lines.append(f'\t\t\t\tid: "{reward_id}"')
-        lines.append("\t\t\t\titem: {")
-        lines.append("\t\t\t\t\tcount: 1")
-        lines.append(f'\t\t\t\t\tid: "{reward_item}"')
-        lines.append("\t\t\t\t}")
-        lines.append('\t\t\t\ttype: "item"')
-        lines.append("\t\t\t}]")
-    else:
-        lines.append("\t\t\trewards: [{")
-        lines.append(f'\t\t\t\tid: "{reward_id}"')
-        lines.append('\t\t\t\ttype: "xp"')
-        lines.append("\t\t\t\txp: 25")
-        lines.append("\t\t\t}]")
-    # task
+
+    lines.append("\t\t\trewards: [")
+    reward_blocks = []
+    for r in rewards:
+        rid = hid()
+        rb = ["\t\t\t\t{"]
+        rtype = r["type"]
+        if rtype == "item":
+            count = r.get("count", 1)
+            rb.append(f'\t\t\t\t\tid: "{rid}"')
+            rb.append("\t\t\t\t\titem: {")
+            rb.append(f"\t\t\t\t\t\tcount: {count}")
+            rb.append(f'\t\t\t\t\t\tid: "{r["item"]}"')
+            rb.append("\t\t\t\t\t}")
+            rb.append('\t\t\t\t\ttype: "item"')
+        elif rtype == "xp":
+            rb.append(f'\t\t\t\t\tid: "{rid}"')
+            rb.append('\t\t\t\t\ttype: "xp"')
+            rb.append(f'\t\t\t\t\txp: {r.get("xp", 50)}')
+        elif rtype == "xp_levels":
+            rb.append(f'\t\t\t\t\tid: "{rid}"')
+            rb.append('\t\t\t\t\ttype: "xp"')
+            rb.append(f'\t\t\t\t\txp_levels: {r.get("xp_levels", 1)}')
+        else:
+            raise ValueError(f"unknown reward type {rtype}")
+        rb.append("\t\t\t\t}")
+        reward_blocks.append("\n".join(rb))
+    lines.append(",\n".join(reward_blocks))
+    lines.append("\t\t\t]")
+
     lines.append("\t\t\ttasks: [{")
-    lines.append(f'\t\t\t\tid: "{task_id}"')
-    lines.append(f"\t\t\t\titem: {{ count: {task_count}, id: \"{task_item}\" }}")
+    lines.append(f'\t\t\t\tid: "{hid()}"')
+    lines.append(f'\t\t\t\titem: {{ count: {task_count}, id: "{task_item}" }}')
     lines.append('\t\t\t\ttype: "item"')
     lines.append("\t\t\t}]")
     lines.append(f"\t\t\tx: {x:.1f}d")
     lines.append(f"\t\t\ty: {y:.1f}d")
     lines.append("\t\t}")
-    return "\n".join(lines), {}
+    return "\n".join(lines)
 
 
 def write_chapter(
@@ -95,36 +126,45 @@ def write_chapter(
     chapter_id: str,
     icon: str,
     quests_meta: list[dict],
-    lang_quests: dict[str, dict[str, str]],
+    lang_quests: dict[str, dict],
 ) -> None:
-    blocks = []
-    for q in quests_meta:
-        block, _ = quest(
+    blocks = [
+        quest_snbt(
             q["id"],
             x=q["x"],
             y=q["y"],
             task_item=q["task"],
             task_count=q.get("task_count", 1),
-            reward_item=q.get("reward"),
-            reward_count=q.get("reward_count", 1),
+            rewards=q.get("rewards"),
             deps=q.get("deps"),
             optional=q.get("optional", False),
             size=q.get("size", 1.0),
+            shape=q.get("shape"),
+            hide_until_deps=q.get("hide_until_deps", False),
         )
-        blocks.append(block)
+        for q in quests_meta
+    ]
+
+    order = {
+        "foundations": 0,
+        "create_factory": 1,
+        "storage_gear": 2,
+        "automation": 3,
+        "late_game": 4,
+    }[filename]
 
     content = "\n".join(
         [
             "{",
             "\tdefault_hide_dependency_lines: false",
-            '\tdefault_quest_shape: "circle"',
+            '\tdefault_quest_shape: "rsquare"',
             f'\tfilename: "{filename}"',
             f'\tgroup: "{GROUP_MAIN}"',
             "\ticon: {",
             f'\t\tid: "{icon}"',
             "\t}",
             f'\tid: "{chapter_id}"',
-            f'\torder_index: {q_order(filename)}',
+            f"\torder_index: {order}",
             "\tquest_links: [ ]",
             "\tquests: [",
             ",\n".join(blocks),
@@ -143,233 +183,1588 @@ def write_chapter(
     for qid, meta in lang_quests.items():
         if "title" in meta:
             lang_lines.append(f'\tquest.{qid}.title: "{snbt_escape(meta["title"])}"')
-        if "desc" in meta:
-            desc = snbt_escape(meta["desc"])
-            lang_lines.append(f'\tquest.{qid}.quest_desc: ["{desc}"]')
         if "subtitle" in meta:
             lang_lines.append(
                 f'\tquest.{qid}.quest_subtitle: "{snbt_escape(meta["subtitle"])}"'
             )
+        if "desc" in meta:
+            parts = format_desc(meta["desc"])
+            lang_lines.append(f"\tquest.{qid}.quest_desc: [")
+            for i, p in enumerate(parts):
+                comma = "," if i < len(parts) - 1 else ""
+                lang_lines.append(f'\t\t"{snbt_escape(p)}"{comma}')
+            lang_lines.append("\t]")
     lang_lines.append("}")
     lang_lines.append("")
     lang_path.write_text("\n".join(lang_lines), encoding="utf-8")
 
 
-def q_order(filename: str) -> int:
-    return {
-        "foundations": 0,
-        "create_factory": 1,
-        "storage_gear": 2,
-        "automation": 3,
-        "late_game": 4,
-    }[filename]
+def add(
+    bag: list[dict],
+    lang: dict[str, dict],
+    n: int,
+    base: int,
+    x: float,
+    y: float,
+    task: str,
+    title: str,
+    desc: str | list[str],
+    *,
+    task_count: int = 1,
+    deps: list[int] | None = None,
+    rewards: list[dict] | None = None,
+    optional: bool = False,
+    size: float = 1.0,
+    shape: str | None = None,
+    subtitle: str = "",
+    hide_until_deps: bool = False,
+) -> str:
+    qid = Q(base + n)
+    dep_ids = [Q(base + i) for i in (deps or [])]
+    bag.append(
+        {
+            "id": qid,
+            "x": x,
+            "y": y,
+            "task": task,
+            "task_count": task_count,
+            "rewards": rewards,
+            "deps": dep_ids,
+            "optional": optional,
+            "size": size,
+            "shape": shape,
+            "hide_until_deps": hide_until_deps,
+        }
+    )
+    lang[qid] = {"title": title, "desc": desc, "subtitle": subtitle}
+    return qid
+
+
+def item(item_id: str, count: int = 1) -> dict:
+    return {"type": "item", "item": item_id, "count": count}
+
+
+def xp_levels(n: int = 1) -> dict:
+    return {"type": "xp_levels", "xp_levels": n}
 
 
 def main() -> None:
-    # Stable-ish IDs for dependencies across regenerations: use fixed prefixes.
-    def Q(n: int) -> str:
-        return f"B1{n:014X}"
+    # ---- Chapter 1: Foundations ----
+    f: list[dict] = []
+    fl: dict[str, dict] = {}
+    B = 100
 
-    # ---- Chapter 1: Foundations (early) ----
-    f = []
-    fl = {}
-    # linear spine + side branches
-    defs = [
-        (0, 0.0, 0.0, "minecraft:oak_log", 16, "minecraft:apple", 8, None, "Gather Wood", "Collect oak logs to get started.", "Early"),
-        (1, 1.5, 0.0, "minecraft:crafting_table", 1, "minecraft:stick", 16, [0], "Crafting Table", "Your first workstation.", "Early"),
-        (2, 3.0, 0.0, "minecraft:cobblestone", 32, "minecraft:torch", 16, [1], "Stone Age", "Mine a stack of cobble.", "Early"),
-        (3, 4.5, 0.0, "minecraft:furnace", 1, "minecraft:coal", 16, [2], "Smelting", "Craft a furnace.", "Early"),
-        (4, 6.0, 0.0, "minecraft:iron_ingot", 16, "minecraft:iron_nugget", 32, [3], "Iron Supply", "Smelt a small iron stockpile.", "Early"),
-        (5, 7.5, 0.0, "minecraft:iron_pickaxe", 1, "minecraft:raw_iron", 8, [4], "Iron Pickaxe", "Upgrade your mining.", "Early"),
-        (6, 9.0, 0.0, "minecraft:diamond", 3, "minecraft:experience_bottle", 4, [5], "Diamonds!", "Find your first diamonds.", "Early"),
-        (7, 3.0, 1.5, "minecraft:bread", 16, "minecraft:wheat_seeds", 16, [2], "Stay Fed", "Bake bread for early food.", "Early", True),
-        (8, 4.5, 1.5, "farmersdelight:stove", 1, "farmersdelight:cabbage_seeds", 4, [3], "Farmer's Stove", "Start Farmer's Delight cooking.", "Early"),
-        (9, 6.0, 1.5, "comforts:sleeping_bag_red", 1, "minecraft:white_wool", 8, [4], "Sleeping Bag", "Sleep safely in the Nether later.", "Early"),
-        (10, 7.5, 1.5, "ironchest:iron_chest", 1, "minecraft:chest", 4, [4], "Iron Chest", "More storage than a wooden chest.", "Early"),
-        (11, 9.0, 1.5, "ironfurnaces:iron_furnace", 1, "minecraft:coal_block", 2, [4], "Iron Furnace", "Faster smelting.", "Early"),
-        (12, 10.5, 0.0, "waystones:waystone", 1, "minecraft:ender_pearl", 4, [6], "Waystone", "Set your first teleport point.", "Early"),
-    ]
-    for row in defs:
-        n, x, y, task, tc, reward, rc, deps_idx, title, desc, sub, *rest = row
-        optional = rest[0] if rest else False
-        qid = Q(100 + n)
-        dep_ids = [Q(100 + i) for i in (deps_idx or [])]
-        f.append(
-            {
-                "id": qid,
-                "x": x,
-                "y": y,
-                "task": task,
-                "task_count": tc,
-                "reward": reward,
-                "reward_count": rc,
-                "deps": dep_ids,
-                "optional": optional,
-                "size": 1.5 if n == 0 else 1.0,
-            }
-        )
-        fl[qid] = {"title": title, "desc": desc, "subtitle": sub}
+    add(
+        f,
+        fl,
+        0,
+        B,
+        0,
+        0,
+        "minecraft:book",
+        "Welcome to Fabulously Create",
+        [
+            "This quest book is your guided tour of the pack — Create factories, smarter storage, Silent Gear, and late-game toys.",
+            "",
+            "&6How to use this book:&r",
+            "• Quests complete when the items are in your inventory (they are &anot consumed&r).",
+            "• Optional quests are dashed — skip them anytime.",
+            "• Chapters are &aflexible&r. Start Create when you have iron; come back for side goals.",
+            "",
+            "Claim rewards from completed quests. Good luck, engineer!",
+        ],
+        rewards=[item("minecraft:bread", 16), item("minecraft:torch", 32), xp_levels(1)],
+        size=2.0,
+        shape="gear",
+        subtitle="Start here",
+    )
+    add(
+        f,
+        fl,
+        1,
+        B,
+        2,
+        0,
+        "minecraft:oak_log",
+        "Timber!",
+        [
+            "Punch a tree and gather &616 oak logs&r. Any wood works for crafting, but oak keeps recipes simple.",
+            "",
+            "&7Tip:&r Large Ore Veins is installed — ores spawn in huge clusters later. Explore caves once you have iron.",
+        ],
+        task_count=16,
+        deps=[0],
+        rewards=[item("minecraft:apple", 8), item("minecraft:stick", 32)],
+        subtitle="Gathering",
+    )
+    add(
+        f,
+        fl,
+        2,
+        B,
+        4,
+        0,
+        "minecraft:crafting_table",
+        "Workbench",
+        [
+            "Craft a crafting table. This is still your best friend — Create machines automate later, but early recipes start here.",
+        ],
+        deps=[1],
+        rewards=[item("minecraft:chest", 2), xp_levels(1)],
+        subtitle="Gathering",
+    )
+    add(
+        f,
+        fl,
+        3,
+        B,
+        6,
+        0,
+        "minecraft:cobblestone",
+        "Stone Age",
+        [
+            "Mine &632 cobblestone&r. You'll burn through stone for furnaces, generators, and Create casings.",
+            "",
+            "&7Tip:&r A stone pickaxe unlocks iron ore. Don't dig straight down.",
+        ],
+        task_count=32,
+        deps=[2],
+        rewards=[item("minecraft:torch", 32), item("minecraft:coal", 16)],
+        subtitle="Gathering",
+    )
+    add(
+        f,
+        fl,
+        4,
+        B,
+        8,
+        0,
+        "minecraft:furnace",
+        "First Fire",
+        [
+            "Craft a furnace and start smelting. Coal or charcoal both work — charcoal from log furnaces is fine if coal is scarce.",
+        ],
+        deps=[3],
+        rewards=[item("minecraft:coal", 32), xp_levels(1)],
+        subtitle="Smelting",
+    )
+    add(
+        f,
+        fl,
+        5,
+        B,
+        10,
+        0,
+        "minecraft:iron_ingot",
+        "Iron Stockpile",
+        [
+            "Smelt &616 iron ingots&r. Iron is the gate into Create (andesite alloy), Pipez, chests, and furnaces.",
+            "",
+            "When you find a vein, FTB Ultimine (hold &6Grave / `&r by default) clears connected blocks fast.",
+        ],
+        task_count=16,
+        deps=[4],
+        rewards=[
+            item("minecraft:iron_pickaxe", 1),
+            item("minecraft:shield", 1),
+            xp_levels(2),
+        ],
+        size=1.5,
+        subtitle="Iron",
+    )
+    add(
+        f,
+        fl,
+        6,
+        B,
+        12,
+        0,
+        "minecraft:iron_pickaxe",
+        "Iron Tools",
+        [
+            "Craft an iron pickaxe. Diamonds and better Create ores wait below Y=16 — bring torches and food.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:cooked_beef", 16), item("minecraft:lantern", 8)],
+        subtitle="Iron",
+    )
+    add(
+        f,
+        fl,
+        7,
+        B,
+        14,
+        0,
+        "minecraft:diamond",
+        "Sparkly Rocks",
+        [
+            "Find &63 diamonds&r. Save them for a pickaxe or enchanting table — Create's midgame wants brass more than full diamond armor.",
+        ],
+        task_count=3,
+        deps=[6],
+        rewards=[item("minecraft:experience_bottle", 8), xp_levels(2)],
+        size=1.5,
+        subtitle="Diamonds",
+    )
+    add(
+        f,
+        fl,
+        8,
+        B,
+        16,
+        0,
+        "waystones:waystone",
+        "Set a Waystone",
+        [
+            "Craft and place a Waystone near your base. Warp back after every mining trip — deaths hurt less with a recall point.",
+            "",
+            "Scrolls of Warp Stone (from Waystones) make temporary links while exploring.",
+        ],
+        deps=[7],
+        rewards=[item("waystones:warp_stone", 1), item("minecraft:ender_pearl", 4)],
+        size=1.5,
+        shape="hexagon",
+        subtitle="Travel",
+    )
+
+    # Foundations side branch — food / QoL
+    add(
+        f,
+        fl,
+        9,
+        B,
+        6,
+        2,
+        "minecraft:bread",
+        "Carb Loading",
+        [
+            "Bake &616 bread&r. Hunger kills more early bases than creepers.",
+            "",
+            "Optional, but your future factory shifts will thank you.",
+        ],
+        task_count=16,
+        deps=[3],
+        rewards=[item("minecraft:wheat_seeds", 32), item("minecraft:bone_meal", 16)],
+        optional=True,
+        subtitle="Food",
+    )
+    add(
+        f,
+        fl,
+        10,
+        B,
+        8,
+        2,
+        "farmersdelight:stove",
+        "Farmer's Kitchen",
+        [
+            "Craft a Farmer's Delight stove. Cooking meals gives better saturation than plain steaks.",
+            "",
+            "Later, Slice & Dice lets Create automate cutting boards — see Automation.",
+        ],
+        deps=[4],
+        rewards=[
+            item("farmersdelight:cabbage_seeds", 4),
+            item("farmersdelight:tomato_seeds", 4),
+            item("farmersdelight:onion", 4),
+        ],
+        subtitle="Food",
+    )
+    add(
+        f,
+        fl,
+        11,
+        B,
+        10,
+        2,
+        "comforts:sleeping_bag_red",
+        "Portable Bed",
+        [
+            "Craft a sleeping bag. Unlike beds, it &adoesn't set your respawn&r — perfect for Nether trips and caves.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:white_wool", 16), xp_levels(1)],
+        optional=True,
+        subtitle="QoL",
+    )
+    add(
+        f,
+        fl,
+        12,
+        B,
+        12,
+        2,
+        "ironchest:iron_chest",
+        "Iron Chest",
+        [
+            "Upgrade to an Iron Chest. More slots than wood, and you can keep upgrading toward gold / diamond / obsidian.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:chest", 4), item("minecraft:iron_ingot", 8)],
+        subtitle="Storage",
+    )
+    add(
+        f,
+        fl,
+        13,
+        B,
+        12,
+        3.5,
+        "ironfurnaces:iron_furnace",
+        "Iron Furnace",
+        [
+            "Craft an Iron Furnace for faster smelting. Gold and diamond tiers come later when throughput matters.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:coal_block", 2), xp_levels(1)],
+        subtitle="Smelting",
+    )
+    add(
+        f,
+        fl,
+        14,
+        B,
+        10,
+        -2,
+        "naturescompass:naturescompass",
+        "Nature's Compass",
+        [
+            "Craft a Nature's Compass to hunt biomes for Create rubber trees, Farmer's Delight crops, or building vibes.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:map", 1), xp_levels(1)],
+        optional=True,
+        subtitle="Exploration",
+    )
+    add(
+        f,
+        fl,
+        15,
+        B,
+        12,
+        -2,
+        "explorerscompass:explorerscompass",
+        "Explorer's Compass",
+        [
+            "Craft an Explorer's Compass to locate structures. Handy for villages, strongholds, and loot routes.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:ender_pearl", 2), xp_levels(1)],
+        optional=True,
+        subtitle="Exploration",
+    )
 
     # ---- Chapter 2: Create Factory ----
-    c = []
-    cl = {}
-    create_defs = [
-        (0, 0.0, 0.0, "create:andesite_alloy", 16, "minecraft:andesite", 32, None, "Andesite Alloy", "The foundation of Create.", "Create"),
-        (1, 1.5, 0.0, "create:shaft", 8, "create:andesite_alloy", 8, [0], "Shafts", "Transmit rotation.", "Create"),
-        (2, 3.0, 0.0, "create:cogwheel", 8, "minecraft:oak_planks", 32, [1], "Cogwheels", "Gear up your factory.", "Create"),
-        (3, 4.5, 0.0, "create:large_cogwheel", 4, "create:cogwheel", 8, [2], "Large Cogwheels", "Bigger ratios.", "Create"),
-        (4, 6.0, 0.0, "create:water_wheel", 1, "create:shaft", 8, [1], "Water Wheel", "Free kinetic power.", "Create"),
-        (5, 3.0, 1.5, "create:andesite_casing", 8, "create:andesite_alloy", 8, [0], "Andesite Casing", "Machine chassis.", "Create"),
-        (6, 4.5, 1.5, "create:mechanical_press", 1, "minecraft:iron_block", 2, [5], "Mechanical Press", "Compact and press items.", "Create"),
-        (7, 6.0, 1.5, "create:basin", 1, "create:andesite_alloy", 8, [5], "Basin", "Mixing and bulk processing.", "Create"),
-        (8, 7.5, 1.5, "create:mechanical_mixer", 1, "create:whisk", 1, [7], "Mechanical Mixer", "Automate recipes in a basin.", "Create"),
-        (9, 4.5, -1.5, "create:millstone", 1, "minecraft:wheat", 32, [5], "Millstone", "Mill grains and more.", "Create"),
-        (10, 6.0, -1.5, "create:encased_fan", 1, "minecraft:propeller", 1, [5], "Encased Fan", "Blast, smoke, and wash.", "Create"),
-        (11, 7.5, 0.0, "create:belt_connector", 8, "minecraft:dried_kelp", 16, [2], "Belts", "Move items around.", "Create"),
-        (12, 9.0, 0.0, "create:depot", 4, "create:andesite_alloy", 8, [11], "Depots", "Hold items for processing.", "Create"),
-        (13, 9.0, 1.5, "create:crushing_wheel", 2, "minecraft:iron_ingot", 16, [5], "Crushing Wheels", "Crush ores efficiently.", "Create"),
-        (14, 10.5, 0.0, "create:blaze_burner", 1, "minecraft:blaze_rod", 4, [6], "Blaze Burner", "Superheat for brass.", "Create"),
-        (15, 12.0, 0.0, "create:brass_ingot", 16, "create:copper_sheet", 8, [14], "Brass Age", "Alloy brass for advanced Create.", "Create"),
-        (16, 13.5, 0.0, "create:brass_casing", 8, "create:brass_ingot", 8, [15], "Brass Casing", "Advanced machine frames.", "Create"),
-        (17, 15.0, 0.0, "create:electron_tube", 4, "minecraft:redstone", 16, [16], "Electron Tubes", "Smart components.", "Create"),
-        (18, 16.5, 0.0, "create:precision_mechanism", 4, "create:electron_tube", 4, [17], "Precision Mechanisms", "Midgame Create crafting core.", "Create"),
-        (19, 15.0, 1.5, "create:deployer", 1, "create:brass_hand", 1, [16], "Deployer", "Automate right-clicks.", "Create"),
-        (20, 16.5, 1.5, "create:mechanical_arm", 1, "create:precision_mechanism", 1, [18], "Mechanical Arm", "Move items between inventories.", "Create"),
-        (21, 15.0, -1.5, "create:steam_engine", 1, "create:copper_sheet", 16, [15], "Steam Engine", "High stress power.", "Create"),
-    ]
-    for row in create_defs:
-        n, x, y, task, tc, reward, rc, deps_idx, title, desc, sub = row
-        qid = Q(200 + n)
-        dep_ids = [Q(200 + i) for i in (deps_idx or [])]
-        c.append(
-            {
-                "id": qid,
-                "x": x,
-                "y": y,
-                "task": task,
-                "task_count": tc,
-                "reward": reward,
-                "reward_count": rc,
-                "deps": dep_ids,
-                "size": 1.5 if n == 0 else 1.0,
-            }
-        )
-        cl[qid] = {"title": title, "desc": desc, "subtitle": sub}
+    c: list[dict] = []
+    cl: dict[str, dict] = {}
+    B = 200
+
+    add(
+        c,
+        cl,
+        0,
+        B,
+        0,
+        0,
+        "create:andesite_alloy",
+        "Andesite Alloy",
+        [
+            "Craft &616 andesite alloy&r — Create's basic component.",
+            "",
+            "&6Recipe:&r Andesite + iron nuggets (crafting) or via mixing later.",
+            "Everything kinetic starts here. Stockpile more than you think you need.",
+        ],
+        task_count=16,
+        rewards=[item("minecraft:andesite", 64), item("minecraft:iron_nugget", 32), xp_levels(1)],
+        size=2.0,
+        shape="gear",
+        subtitle="Create basics",
+    )
+    add(
+        c,
+        cl,
+        1,
+        B,
+        2.5,
+        0,
+        "create:shaft",
+        "Shafts",
+        [
+            "Craft &68 shafts&r. Shafts carry rotation in a straight line.",
+            "",
+            "Hold a shaft and look at another to place long runs. Use a wrench (Create) to reverse direction.",
+        ],
+        task_count=8,
+        deps=[0],
+        rewards=[item("create:andesite_alloy", 8)],
+        subtitle="Kinetics",
+    )
+    add(
+        c,
+        cl,
+        2,
+        B,
+        5,
+        0,
+        "create:cogwheel",
+        "Cogwheels",
+        [
+            "Craft &68 cogwheels&r. Small cogs turn corners and change shaft axis.",
+            "",
+            "&7Tip:&r Encasing cogs with andesite casing stops them interlocking sideways.",
+        ],
+        task_count=8,
+        deps=[1],
+        rewards=[item("minecraft:oak_planks", 64)],
+        subtitle="Kinetics",
+    )
+    add(
+        c,
+        cl,
+        3,
+        B,
+        7.5,
+        0,
+        "create:large_cogwheel",
+        "Large Cogwheels",
+        [
+            "Craft &64 large cogwheels&r for gear ratios. Pair large + small to speed up or slow down machines (stress changes too!).",
+        ],
+        task_count=4,
+        deps=[2],
+        rewards=[item("create:cogwheel", 8), xp_levels(1)],
+        subtitle="Kinetics",
+    )
+    add(
+        c,
+        cl,
+        4,
+        B,
+        5,
+        -2.5,
+        "create:water_wheel",
+        "Water Power",
+        [
+            "Craft a water wheel. Flowing water against the blades generates free SU (stress units).",
+            "",
+            "Early game: one or two wheels power a whole andesite workshop. Later you'll want steam or electricity.",
+        ],
+        deps=[1],
+        rewards=[item("create:shaft", 16), item("minecraft:water_bucket", 2)],
+        size=1.5,
+        subtitle="Power",
+    )
+    add(
+        c,
+        cl,
+        5,
+        B,
+        5,
+        2.5,
+        "create:andesite_casing",
+        "Andesite Casing",
+        [
+            "Craft &68 andesite casings&r (stripped logs + andesite alloy). Almost every andesite machine is built on casing.",
+        ],
+        task_count=8,
+        deps=[0],
+        rewards=[item("create:andesite_alloy", 16)],
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        6,
+        B,
+        7.5,
+        2.5,
+        "create:mechanical_press",
+        "Mechanical Press",
+        [
+            "Build a Mechanical Press. Presses compact plates, compact cobble paths, and smash items on a depot below.",
+            "",
+            "Power it with a shaft on the side. Place a depot or basin underneath.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:iron_block", 2), xp_levels(1)],
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        7,
+        B,
+        10,
+        2.5,
+        "create:basin",
+        "Basin",
+        [
+            "Craft a Basin. Mixers, presses, and fans use basins for bulk crafting — dough, alloys, concrete, and more.",
+        ],
+        deps=[5],
+        rewards=[item("create:andesite_alloy", 8)],
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        8,
+        B,
+        12.5,
+        2.5,
+        "create:mechanical_mixer",
+        "Mechanical Mixer",
+        [
+            "Build a Mechanical Mixer above a basin. Spin it to mix recipes (andesite alloy in bulk, dough, brass later with heat).",
+            "",
+            "Add a spout or funnel to automate inputs once belts are online.",
+        ],
+        deps=[7],
+        rewards=[item("create:whisk", 1), xp_levels(1)],
+        size=1.5,
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        9,
+        B,
+        7.5,
+        4.5,
+        "create:millstone",
+        "Millstone",
+        [
+            "Build a Millstone. Mill wheat into flour, crush concrete dyes, and process early bulk goods with low stress cost.",
+        ],
+        deps=[5],
+        rewards=[item("minecraft:wheat", 32)],
+        optional=True,
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        10,
+        B,
+        10,
+        4.5,
+        "create:encased_fan",
+        "Encased Fan",
+        [
+            "Build an Encased Fan. Point it at a processing path:",
+            "• Over fire / lava → &6smoking / blasting&r",
+            "• Through water → &6washing&r (nuggets from gravel!)",
+            "• Through lava carefully → &6haunting&r",
+        ],
+        deps=[5],
+        rewards=[item("create:propeller", 2), xp_levels(1)],
+        subtitle="Machines",
+    )
+    add(
+        c,
+        cl,
+        11,
+        B,
+        10,
+        0,
+        "create:belt_connector",
+        "Belts",
+        [
+            "Craft &68 belt connectors&r (dried kelp + dried kelp blocks). Belts move items between depots, basins, and inventories.",
+            "",
+            "Right-click two shafts with belt connectors to stretch a belt.",
+        ],
+        task_count=8,
+        deps=[2],
+        rewards=[item("minecraft:dried_kelp", 32)],
+        subtitle="Logistics",
+    )
+    add(
+        c,
+        cl,
+        12,
+        B,
+        12.5,
+        0,
+        "create:depot",
+        "Depots",
+        [
+            "Craft &64 depots&r. Depots hold a single item stack for presses, deployers, and belt handoff — the workbench of kinetics.",
+        ],
+        task_count=4,
+        deps=[11],
+        rewards=[item("create:andesite_alloy", 8), xp_levels(1)],
+        subtitle="Logistics",
+    )
+    add(
+        c,
+        cl,
+        13,
+        B,
+        12.5,
+        -2.5,
+        "create:crushing_wheel",
+        "Crushing Wheels",
+        [
+            "Craft &62 crushing wheels&r and place them as a pair. Crush ores for &amore output&r than a plain furnace — huge early power spike.",
+            "",
+            "Wash crushed ores with a fan + water for extra nuggets.",
+        ],
+        task_count=2,
+        deps=[5],
+        rewards=[item("minecraft:iron_ingot", 24), xp_levels(2)],
+        size=1.5,
+        subtitle="Ores",
+    )
+    add(
+        c,
+        cl,
+        14,
+        B,
+        15,
+        0,
+        "create:blaze_burner",
+        "Blaze Burner",
+        [
+            "Craft a Blaze Burner (empty burner + blaze). Feed it with blaze cakes or fuel to &6superheat&r for brass and other heated mixes.",
+            "",
+            "Hunt a Nether fortress, or trade with piglins for rods.",
+        ],
+        deps=[6],
+        rewards=[item("minecraft:blaze_rod", 8), item("minecraft:nether_wart", 8)],
+        size=1.5,
+        subtitle="Brass gate",
+    )
+    add(
+        c,
+        cl,
+        15,
+        B,
+        17.5,
+        0,
+        "create:brass_ingot",
+        "Brass Age",
+        [
+            "Produce &616 brass ingots&r (copper + zinc with a heated mixer).",
+            "",
+            "Brass unlocks smart mechanisms, deployers, arms, and most midgame Create addons.",
+        ],
+        task_count=16,
+        deps=[14],
+        rewards=[
+            item("create:zinc_ingot", 16),
+            item("minecraft:copper_ingot", 32),
+            item("create:brass_sheet", 8),
+            xp_levels(2),
+        ],
+        size=1.75,
+        shape="hexagon",
+        subtitle="Brass",
+    )
+    add(
+        c,
+        cl,
+        16,
+        B,
+        20,
+        0,
+        "create:brass_casing",
+        "Brass Casing",
+        [
+            "Craft &68 brass casings&r. These frame deployers, mechanical arms, smart chutes, and precision machines.",
+        ],
+        task_count=8,
+        deps=[15],
+        rewards=[item("create:brass_ingot", 8)],
+        subtitle="Brass",
+    )
+    add(
+        c,
+        cl,
+        17,
+        B,
+        22.5,
+        0,
+        "create:electron_tube",
+        "Electron Tubes",
+        [
+            "Craft &64 electron tubes&r (polished rose quartz + iron plates). They're the redstone-smart part inside precision builds.",
+        ],
+        task_count=4,
+        deps=[16],
+        rewards=[item("minecraft:redstone", 32), item("create:rose_quartz", 8)],
+        subtitle="Brass",
+    )
+    add(
+        c,
+        cl,
+        18,
+        B,
+        25,
+        0,
+        "create:precision_mechanism",
+        "Precision Mechanisms",
+        [
+            "Assemble &64 precision mechanisms&r on a mechanical crafter / sequenced assembly line.",
+            "",
+            "These are the midgame Create currency — arms, consoles, and many addons want them. Automate early.",
+        ],
+        task_count=4,
+        deps=[17],
+        rewards=[item("create:electron_tube", 4), xp_levels(3)],
+        size=1.75,
+        shape="gear",
+        subtitle="Midgame",
+    )
+    add(
+        c,
+        cl,
+        19,
+        B,
+        22.5,
+        2.5,
+        "create:deployer",
+        "Deployer",
+        [
+            "Build a Deployer. It auto-uses items — applying tools, placing blocks, assembling sequences, farming, and more.",
+        ],
+        deps=[16],
+        rewards=[item("create:brass_hand", 1), xp_levels(1)],
+        subtitle="Brass machines",
+    )
+    add(
+        c,
+        cl,
+        20,
+        B,
+        25,
+        2.5,
+        "create:mechanical_arm",
+        "Mechanical Arm",
+        [
+            "Build a Mechanical Arm. Program inputs/outputs to move items between inventories, basins, and casings without belts everywhere.",
+        ],
+        deps=[18],
+        rewards=[item("create:precision_mechanism", 1), xp_levels(2)],
+        size=1.5,
+        subtitle="Brass machines",
+    )
+    add(
+        c,
+        cl,
+        21,
+        B,
+        20,
+        -2.5,
+        "create:steam_engine",
+        "Steam Engine",
+        [
+            "Build a Steam Engine for serious SU. Pair with a fluid tank of water and blaze burners — the jump from water wheels to factories.",
+        ],
+        deps=[15],
+        rewards=[item("create:copper_sheet", 16), xp_levels(2)],
+        optional=True,
+        subtitle="Power",
+    )
+    add(
+        c,
+        cl,
+        22,
+        B,
+        15,
+        4.5,
+        "createoreexcavation:vein_finder",
+        "Ore Excavation Scanner",
+        [
+            "Craft a Vein Finder from Create Ore Excavation. Scan for infinite ore veins, then plant a drilling machine.",
+            "",
+            "Perfect once crushing wheels make processing cheap.",
+        ],
+        deps=[13],
+        rewards=[item("createoreexcavation:drill", 1), xp_levels(1)],
+        optional=True,
+        subtitle="Ores",
+    )
+    add(
+        c,
+        cl,
+        23,
+        B,
+        17.5,
+        4.5,
+        "createoreexcavation:drilling_machine",
+        "Drilling Machine",
+        [
+            "Build a Drilling Machine on a found vein. Feed it SU and drills for passive ore — the pack's answer to strip-mining forever.",
+        ],
+        deps=[22],
+        rewards=[item("create:andesite_alloy", 32), xp_levels(2)],
+        optional=True,
+        size=1.5,
+        subtitle="Ores",
+    )
+    add(
+        c,
+        cl,
+        24,
+        B,
+        22.5,
+        -2.5,
+        "create_new_age:generator_coil",
+        "New Age Coil",
+        [
+            "Craft a Create: New Age generator coil. New Age adds magnets and electrical generation that pairs with Create kinetics.",
+        ],
+        deps=[15],
+        rewards=[item("create_new_age:copper_wire", 8), xp_levels(1)],
+        optional=True,
+        subtitle="Power",
+    )
 
     # ---- Chapter 3: Storage & Gear ----
-    s = []
-    sl = {}
-    storage_defs = [
-        (0, 0.0, 0.0, "sophisticatedbackpacks:backpack", 1, "minecraft:leather", 16, None, "Backpack", "Carry more with Sophisticated Backpacks.", "Storage"),
-        (1, 1.5, 0.0, "functionalstorage:oak_1", 2, "minecraft:chest", 4, [0], "Drawers", "Compact storage with Functional Storage.", "Storage"),
-        (2, 3.0, 0.0, "toms_storage:inventory_connector", 1, "minecraft:ender_pearl", 2, [1], "Tom's Connector", "Begin networked storage.", "Storage"),
-        (3, 4.5, 0.0, "pipez:item_pipe", 16, "minecraft:iron_ingot", 16, [1], "Item Pipes", "Move items with Pipez.", "Storage"),
-        (4, 6.0, 0.0, "pipez:fluid_pipe", 8, "minecraft:copper_ingot", 16, [3], "Fluid Pipes", "Pipe fluids too.", "Storage"),
-        (5, 1.5, 1.5, "silentgear:pickaxe_blueprint", 1, "silentgear:template_board", 4, [0], "Silent Blueprint", "Start modular Silent Gear tools.", "Gear"),
-        (6, 3.0, 1.5, "silentgear:axe_blueprint", 1, "minecraft:oak_log", 32, [5], "Axe Blueprint", "Expand your Silent Gear set.", "Gear"),
-        (7, 4.5, 1.5, "constructionstick:iron_stick", 1, "minecraft:iron_ingot", 16, [0], "Construction Stick", "Build faster.", "Building"),
-        (8, 6.0, 1.5, "buildinggadgets2:gadget_building", 1, "minecraft:redstone", 32, [7], "Building Gadget", "Mass-build structures.", "Building"),
-        (9, 7.5, 0.0, "ironchest:gold_chest", 1, "minecraft:gold_ingot", 16, [3], "Gold Chest", "Upgrade your chest tier.", "Storage"),
-        (10, 7.5, 1.5, "ironfurnaces:gold_furnace", 1, "minecraft:gold_ingot", 16, [3], "Gold Furnace", "Even faster smelting.", "Storage"),
-        (11, 9.0, 0.0, "artifacts:umbrella", 1, "minecraft:phantom_membrane", 4, [0], "Artifact Find", "Find an Artifacts trinket (umbrella).", "Gear", True),
-    ]
-    for row in storage_defs:
-        n, x, y, task, tc, reward, rc, deps_idx, title, desc, sub, *rest = row
-        optional = rest[0] if rest else False
-        qid = Q(300 + n)
-        dep_ids = [Q(300 + i) for i in (deps_idx or [])]
-        s.append(
-            {
-                "id": qid,
-                "x": x,
-                "y": y,
-                "task": task,
-                "task_count": tc,
-                "reward": reward,
-                "reward_count": rc,
-                "deps": dep_ids,
-                "optional": optional,
-                "size": 1.5 if n == 0 else 1.0,
-            }
-        )
-        sl[qid] = {"title": title, "desc": desc, "subtitle": sub}
+    s: list[dict] = []
+    sl: dict[str, dict] = {}
+    B = 300
+
+    add(
+        s,
+        sl,
+        0,
+        B,
+        0,
+        0,
+        "sophisticatedbackpacks:backpack",
+        "Backpack",
+        [
+            "Craft a Sophisticated Backpack. Upgrade it with stack upgrades, magnet, feeding, tool swap — your inventory becomes a workshop.",
+            "",
+            "Right-click to open. Craft upgrades and install them in the backpack GUI.",
+        ],
+        rewards=[item("minecraft:leather", 16), item("minecraft:string", 16), xp_levels(1)],
+        size=2.0,
+        shape="gear",
+        subtitle="Carry more",
+    )
+    add(
+        s,
+        sl,
+        1,
+        B,
+        2.5,
+        0,
+        "functionalstorage:oak_1",
+        "Drawers",
+        [
+            "Craft &62 Functional Storage drawers&r. Drawers compact a huge count of one item — perfect for cobble, andesite alloy, and ingots.",
+        ],
+        task_count=2,
+        deps=[0],
+        rewards=[item("minecraft:chest", 8)],
+        subtitle="Storage",
+    )
+    add(
+        s,
+        sl,
+        2,
+        B,
+        5,
+        0,
+        "toms_storage:inventory_connector",
+        "Tom's Storage Hub",
+        [
+            "Craft Tom's Inventory Connector. Link nearby inventories and open them from a crafting terminal — lightweight digital storage.",
+        ],
+        deps=[1],
+        rewards=[item("minecraft:ender_pearl", 4), xp_levels(1)],
+        size=1.5,
+        subtitle="Storage",
+    )
+    add(
+        s,
+        sl,
+        3,
+        B,
+        2.5,
+        2.5,
+        "pipez:item_pipe",
+        "Item Pipes",
+        [
+            "Craft &616 Pipez item pipes&r. Configure filters with a wrench — simpler than Create belts for chest-to-chest logistics.",
+        ],
+        task_count=16,
+        deps=[1],
+        rewards=[item("minecraft:iron_ingot", 16)],
+        subtitle="Pipes",
+    )
+    add(
+        s,
+        sl,
+        4,
+        B,
+        5,
+        2.5,
+        "pipez:fluid_pipe",
+        "Fluid Pipes",
+        [
+            "Craft &68 fluid pipes&r. Move water, lava, chocolate, diesel, and Create fluids between tanks and machines.",
+        ],
+        task_count=8,
+        deps=[3],
+        rewards=[item("minecraft:copper_ingot", 16), xp_levels(1)],
+        subtitle="Pipes",
+    )
+    add(
+        s,
+        sl,
+        5,
+        B,
+        7.5,
+        0,
+        "ironchest:gold_chest",
+        "Gold Chest",
+        [
+            "Upgrade to a Gold Chest when drawer networks aren't enough for mixed junk storage.",
+        ],
+        deps=[3],
+        rewards=[item("minecraft:gold_ingot", 16)],
+        optional=True,
+        subtitle="Storage",
+    )
+    add(
+        s,
+        sl,
+        6,
+        B,
+        7.5,
+        2.5,
+        "ironfurnaces:gold_furnace",
+        "Gold Furnace",
+        [
+            "Craft a Gold Furnace for a big smelting speed jump. Diamond / netherite tiers wait in Late Game.",
+        ],
+        deps=[3],
+        rewards=[item("minecraft:gold_ingot", 16), item("minecraft:coal_block", 4)],
+        optional=True,
+        subtitle="Smelting",
+    )
+    add(
+        s,
+        sl,
+        7,
+        B,
+        2.5,
+        -2.5,
+        "silentgear:pickaxe_blueprint",
+        "Silent Gear Blueprint",
+        [
+            "Craft a Silent Gear pickaxe blueprint. Modular tools let you mix materials — head, rod, tip — for mining speed and durability.",
+            "",
+            "Use the blueprint in a crafting table / Silent Gear station with materials from the pack.",
+        ],
+        deps=[0],
+        rewards=[item("silentgear:template_board", 4), xp_levels(1)],
+        subtitle="Gear",
+    )
+    add(
+        s,
+        sl,
+        8,
+        B,
+        5,
+        -2.5,
+        "silentgear:axe_blueprint",
+        "Axe Blueprint",
+        [
+            "Expand Silent Gear with an axe blueprint. Matching material sets feel great once you have a favorite alloy.",
+        ],
+        deps=[7],
+        rewards=[item("minecraft:oak_log", 64)],
+        optional=True,
+        subtitle="Gear",
+    )
+    add(
+        s,
+        sl,
+        9,
+        B,
+        7.5,
+        -2.5,
+        "constructionstick:iron_stick",
+        "Construction Stick",
+        [
+            "Craft an Iron Construction Stick. Extend walls and platforms in one click — faster base building before Building Gadgets.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:iron_ingot", 16)],
+        subtitle="Building",
+    )
+    add(
+        s,
+        sl,
+        10,
+        B,
+        10,
+        -2.5,
+        "buildinggadgets2:gadget_building",
+        "Building Gadget",
+        [
+            "Craft a Building Gadget 2. Copy / build / exchange blocks in bulk — perfect for factories and railways.",
+        ],
+        deps=[9],
+        rewards=[item("minecraft:redstone", 32), xp_levels(2)],
+        size=1.5,
+        subtitle="Building",
+    )
+    add(
+        s,
+        sl,
+        11,
+        B,
+        10,
+        0,
+        "artifacts:umbrella",
+        "Artifact Hunt",
+        [
+            "Find an Artifacts umbrella (or any artifact). Trinkets drop from chests, mobs, and exploration — Curios slots equip them.",
+            "",
+            "Truly optional: treat it as a scavenger hunt.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:phantom_membrane", 4), xp_levels(2)],
+        optional=True,
+        subtitle="Trinkets",
+    )
+    add(
+        s,
+        sl,
+        12,
+        B,
+        10,
+        2.5,
+        "lootr:trophy",
+        "Shared Loot Chests",
+        [
+            "Open a Lootr chest / barrel / shulker in a structure. Each player gets their own loot — no more racing your friends to the same chest.",
+            "",
+            "If this item is awkward to obtain, any lootr-tracked container completion still teaches the mod. Craft/find the trophy when available, or skip.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:emerald", 8), xp_levels(1)],
+        optional=True,
+        subtitle="Exploration",
+    )
+
+    # Fix lootr trophy - may not exist. Check.
+    # I'll verify and possibly use a different item.
 
     # ---- Chapter 4: Automation ----
-    a = []
-    al = {}
-    auto_defs = [
-        (0, 0.0, 0.0, "integrateddynamics:cable", 16, "integrateddynamics:crystalized_menril_chunk", 8, None, "Logic Cable", "Start an Integrated Dynamics network.", "Automation"),
-        (1, 1.5, 0.0, "integrateddynamics:variable", 8, "integrateddynamics:cable", 8, [0], "Variables", "Program your network.", "Automation"),
-        (2, 3.0, 0.0, "integrateddynamics:part_inventory_reader", 1, "integrateddynamics:variable", 4, [1], "Inventory Reader", "Read inventories into logic.", "Automation"),
-        (3, 4.5, 0.0, "integratedtunnels:part_interface_item", 2, "minecraft:hopper", 4, [0], "Item Interface", "Pull/push items with Tunnels.", "Automation"),
-        (4, 6.0, 0.0, "integratedterminals:part_terminal_storage", 1, "minecraft:ender_eye", 2, [3], "Storage Terminal", "Browse networked storage.", "Automation"),
-        (5, 3.0, 1.5, "createaddition:alternator", 1, "createaddition:capacitor", 2, [0], "Alternator", "Turn SU into FE.", "Power"),
-        (6, 4.5, 1.5, "createaddition:electric_motor", 1, "createaddition:copper_spool", 4, [5], "Electric Motor", "Turn FE back into SU.", "Power"),
-        (7, 6.0, 1.5, "createdieselgenerators:diesel_engine", 1, "createdieselgenerators:plant_oil_bucket", 2, [5], "Diesel Engine", "Burn diesel for power.", "Power"),
-        (8, 7.5, 0.0, "create_enchantment_industry:blaze_enchanter", 1, "create_enchantment_industry:enchanting_template", 2, [4], "Blaze Enchanter", "Automate enchanting.", "Automation"),
-        (9, 7.5, 1.5, "create_connected:brake", 1, "create:electron_tube", 2, [5], "Create Connected", "Use Connected utilities (Brake).", "Automation"),
-        (10, 9.0, 0.0, "sliceanddice:slicer", 1, "farmersdelight:cutting_board", 1, [4], "Slice & Dice", "Automate Farmer's Delight cutting.", "Automation"),
-        (11, 9.0, 1.5, "integratedcrafting:part_interface_crafting", 1, "minecraft:crafting_table", 1, [4], "Crafting Interface", "Autocraft on the ID network.", "Automation"),
-    ]
-    for row in auto_defs:
-        n, x, y, task, tc, reward, rc, deps_idx, title, desc, sub = row
-        qid = Q(400 + n)
-        dep_ids = [Q(400 + i) for i in (deps_idx or [])]
-        a.append(
-            {
-                "id": qid,
-                "x": x,
-                "y": y,
-                "task": task,
-                "task_count": tc,
-                "reward": reward,
-                "reward_count": rc,
-                "deps": dep_ids,
-                "size": 1.5 if n == 0 else 1.0,
-            }
-        )
-        al[qid] = {"title": title, "desc": desc, "subtitle": sub}
+    a: list[dict] = []
+    al: dict[str, dict] = {}
+    B = 400
+
+    add(
+        a,
+        al,
+        0,
+        B,
+        0,
+        0,
+        "integrateddynamics:cable",
+        "Logic Network",
+        [
+            "Craft &616 Integrated Dynamics cables&r. ID is this pack's programmable logistics brain — readers, writers, and terminals plug into cable.",
+            "",
+            "Menril trees (deep dark / dark forests vibes depending on generation) supply menril for crafting.",
+        ],
+        task_count=16,
+        rewards=[
+            item("integrateddynamics:crystalized_menril_chunk", 16),
+            xp_levels(1),
+        ],
+        size=2.0,
+        shape="gear",
+        subtitle="Integrated Dynamics",
+    )
+    add(
+        a,
+        al,
+        1,
+        B,
+        2.5,
+        0,
+        "integrateddynamics:variable",
+        "Variables",
+        [
+            "Craft &68 variables&r. Store numbers, items, lists, and logic — programming cards for your network.",
+        ],
+        task_count=8,
+        deps=[0],
+        rewards=[item("integrateddynamics:cable", 8)],
+        subtitle="Integrated Dynamics",
+    )
+    add(
+        a,
+        al,
+        2,
+        B,
+        5,
+        0,
+        "integrateddynamics:part_inventory_reader",
+        "Inventory Reader",
+        [
+            "Craft an Inventory Reader part. Attach to a cable facing an inventory to read contents into variables.",
+        ],
+        deps=[1],
+        rewards=[item("integrateddynamics:variable", 8), xp_levels(1)],
+        subtitle="Integrated Dynamics",
+    )
+    add(
+        a,
+        al,
+        3,
+        B,
+        2.5,
+        2.5,
+        "integratedtunnels:part_interface_item",
+        "Item Tunnels",
+        [
+            "Craft &62 item interfaces&r (Integrated Tunnels). Pull and push items with filters — ID's version of import/export buses.",
+        ],
+        task_count=2,
+        deps=[0],
+        rewards=[item("minecraft:hopper", 4)],
+        subtitle="Tunnels",
+    )
+    add(
+        a,
+        al,
+        4,
+        B,
+        5,
+        2.5,
+        "integratedterminals:part_terminal_storage",
+        "Storage Terminal",
+        [
+            "Craft a Storage Terminal. Browse and craft from everything your tunnels can see — the AE2 vibe without AE2.",
+        ],
+        deps=[3],
+        rewards=[item("minecraft:ender_eye", 4), xp_levels(2)],
+        size=1.5,
+        shape="hexagon",
+        subtitle="Tunnels",
+    )
+    add(
+        a,
+        al,
+        5,
+        B,
+        7.5,
+        2.5,
+        "integratedcrafting:part_interface_crafting",
+        "Crafting Interface",
+        [
+            "Craft a Crafting Interface. Request autocrafting through your ID terminal once patterns / recipes are set up.",
+        ],
+        deps=[4],
+        rewards=[item("minecraft:crafting_table", 1), xp_levels(2)],
+        size=1.5,
+        subtitle="Tunnels",
+    )
+    add(
+        a,
+        al,
+        6,
+        B,
+        2.5,
+        -2.5,
+        "createaddition:alternator",
+        "Alternator",
+        [
+            "Build a Create Crafts & Additions Alternator. Spin it with SU to generate FE (Forge Energy) for electric addons.",
+        ],
+        deps=[0],
+        rewards=[item("createaddition:capacitor", 2), xp_levels(1)],
+        subtitle="Power",
+    )
+    add(
+        a,
+        al,
+        7,
+        B,
+        5,
+        -2.5,
+        "createaddition:electric_motor",
+        "Electric Motor",
+        [
+            "Build an Electric Motor to turn FE back into SU. Great for remote bases powered by diesel or New Age electricity.",
+        ],
+        deps=[6],
+        rewards=[item("createaddition:copper_spool", 4), xp_levels(1)],
+        subtitle="Power",
+    )
+    add(
+        a,
+        al,
+        8,
+        B,
+        7.5,
+        -2.5,
+        "createdieselgenerators:diesel_engine",
+        "Diesel Engine",
+        [
+            "Build a Diesel Engine. Process plant oil / crude into fuel and burn it for strong kinetic power — Create's combustion route.",
+        ],
+        deps=[6],
+        rewards=[item("createdieselgenerators:plant_oil_bucket", 2), xp_levels(2)],
+        size=1.5,
+        subtitle="Power",
+    )
+    add(
+        a,
+        al,
+        9,
+        B,
+        10,
+        0,
+        "create_enchantment_industry:blaze_enchanter",
+        "Blaze Enchanter",
+        [
+            "Build a Blaze Enchanter from Enchantment Industry. Pump liquid experience and automate enchanted books / gear.",
+        ],
+        deps=[4],
+        rewards=[
+            item("create_enchantment_industry:enchanting_template", 2),
+            xp_levels(2),
+        ],
+        size=1.5,
+        subtitle="Magic factories",
+    )
+    add(
+        a,
+        al,
+        10,
+        B,
+        10,
+        2.5,
+        "sliceanddice:slicer",
+        "Slice & Dice",
+        [
+            "Craft a Slice & Dice slicer. Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt.",
+        ],
+        deps=[4],
+        rewards=[item("farmersdelight:cutting_board", 1), xp_levels(1)],
+        optional=True,
+        subtitle="Food automation",
+    )
+    add(
+        a,
+        al,
+        11,
+        B,
+        10,
+        -2.5,
+        "create_connected:brake",
+        "Create: Connected",
+        [
+            "Craft a Brake from Create: Connected. Connected adds practical kinetic utilities — brakes, copycats-adjacent helpers, and more.",
+        ],
+        deps=[6],
+        rewards=[item("create:electron_tube", 2), xp_levels(1)],
+        optional=True,
+        subtitle="Create extras",
+    )
 
     # ---- Chapter 5: Late Game ----
-    l = []
-    ll = {}
-    late_defs = [
-        (0, 0.0, 0.0, "minecraft:netherite_ingot", 1, "minecraft:ancient_debris", 4, None, "Netherite", "Enter the late game.", "Late"),
-        (1, 1.5, 0.0, "ironfurnaces:netherite_furnace", 1, "minecraft:netherite_ingot", 1, [0], "Netherite Furnace", "Top-tier smelting speed.", "Late"),
-        (2, 3.0, 0.0, "ironchest:obsidian_chest", 1, "minecraft:obsidian", 16, [0], "Obsidian Chest", "Blast-resistant storage.", "Late"),
-        (3, 4.5, 0.0, "ironjetpacks:thruster", 2, "ironjetpacks:basic_coil", 2, [0], "Jetpack Parts", "Craft Iron Jetpacks components.", "Late"),
-        (4, 6.0, 0.0, "create_jetpack:jetpack", 1, "create:copper_backtank", 1, [0], "Create Jetpack", "Backtank-powered flight.", "Late"),
-        (5, 3.0, 1.5, "createbigcannons:cannon_end", 1, "minecraft:iron_block", 4, [0], "Big Cannons", "Build a cannon end piece.", "Late"),
-        (6, 4.5, 1.5, "railways:conductor_whistle", 1, "create:precision_mechanism", 2, [0], "Steam 'n' Rails", "Train conductor tools.", "Late"),
-        (7, 6.0, 1.5, "create_sa:brass_jetpack_chestplate", 1, "create:brass_ingot", 16, [4], "Brass Jetpack", "Stuff 'N Additions flight gear.", "Late"),
-        (8, 7.5, 0.0, "create:precision_mechanism", 16, "create:brass_sheet", 32, [4], "Mechanism Stockpile", "Stockpile precision mechanisms.", "Late"),
-        (9, 9.0, 0.0, "minecraft:nether_star", 1, "minecraft:diamond_block", 2, [8], "Wither Down", "Defeat the Wither.", "Late"),
-        (10, 10.5, 0.0, "minecraft:elytra", 1, "minecraft:firework_rocket", 16, [9], "Elytra", "End-game mobility.", "Late"),
-        (11, 9.0, 1.5, "constructionstick:netherite_stick", 1, "minecraft:netherite_ingot", 1, [0], "Netherite Stick", "Ultimate building stick.", "Late"),
-        (12, 7.5, 1.5, "tombstone:grave_dust", 8, "minecraft:bone", 32, [0], "Tombstone Dust", "Engage Corail Tombstone crafting.", "Late", True),
-    ]
-    for row in late_defs:
-        n, x, y, task, tc, reward, rc, deps_idx, title, desc, sub, *rest = row
-        optional = rest[0] if rest else False
-        qid = Q(500 + n)
-        dep_ids = [Q(500 + i) for i in (deps_idx or [])]
-        l.append(
-            {
-                "id": qid,
-                "x": x,
-                "y": y,
-                "task": task,
-                "task_count": tc,
-                "reward": reward,
-                "reward_count": rc,
-                "deps": dep_ids,
-                "optional": optional,
-                "size": 1.75 if n == 0 else (1.5 if n == 10 else 1.0),
-            }
-        )
-        ll[qid] = {"title": title, "desc": desc, "subtitle": sub}
+    l: list[dict] = []
+    ll: dict[str, dict] = {}
+    B = 500
 
-    # Write roots
+    add(
+        l,
+        ll,
+        0,
+        B,
+        0,
+        0,
+        "minecraft:netherite_ingot",
+        "Netherite",
+        [
+            "Smith a netherite ingot. Ancient debris + gold in a smithing setup — the late-game material gate for this book.",
+            "",
+            "Bring fire resistance. Bring a waystone. Bring dignity.",
+        ],
+        rewards=[item("minecraft:ancient_debris", 4), xp_levels(3)],
+        size=2.0,
+        shape="gear",
+        subtitle="Endgame gate",
+    )
+    add(
+        l,
+        ll,
+        1,
+        B,
+        2.5,
+        0,
+        "ironfurnaces:netherite_furnace",
+        "Netherite Furnace",
+        [
+            "Craft a Netherite Furnace — top-tier smelting speed for when your ore drill finally wakes up.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:netherite_ingot", 1), xp_levels(2)],
+        subtitle="Smelting",
+    )
+    add(
+        l,
+        ll,
+        2,
+        B,
+        2.5,
+        2.5,
+        "ironchest:obsidian_chest",
+        "Obsidian Chest",
+        [
+            "Craft an Obsidian Chest. Blast-resistant storage for bases that… experiment with Big Cannons.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:obsidian", 32)],
+        optional=True,
+        subtitle="Storage",
+    )
+    add(
+        l,
+        ll,
+        3,
+        B,
+        5,
+        0,
+        "ironjetpacks:thruster",
+        "Jetpack Thrusters",
+        [
+            "Craft &62 Iron Jetpacks thrusters&r. Combine with coils, capacitors, and a strap to assemble modular jetpacks.",
+        ],
+        task_count=2,
+        deps=[0],
+        rewards=[item("ironjetpacks:basic_coil", 2), xp_levels(1)],
+        subtitle="Flight",
+    )
+    add(
+        l,
+        ll,
+        4,
+        B,
+        7.5,
+        0,
+        "ironjetpacks:jetpack",
+        "Iron Jetpack",
+        [
+            "Assemble an Iron Jetpacks jetpack. Charge it and take to the skies — independent from Create backtanks.",
+        ],
+        deps=[3],
+        rewards=[xp_levels(3)],
+        size=1.5,
+        shape="hexagon",
+        subtitle="Flight",
+    )
+    add(
+        l,
+        ll,
+        5,
+        B,
+        5,
+        -2.5,
+        "create_jetpack:jetpack",
+        "Create Jetpack",
+        [
+            "Craft the Create Jetpack. It runs off a copper backtank pressure — perfect if your factory already fills tanks.",
+        ],
+        deps=[0],
+        rewards=[item("create:copper_backtank", 1), xp_levels(2)],
+        size=1.5,
+        subtitle="Flight",
+    )
+    add(
+        l,
+        ll,
+        6,
+        B,
+        7.5,
+        -2.5,
+        "create_sa:brass_jetpack_chestplate",
+        "Brass Jetpack",
+        [
+            "Craft Stuff 'N Additions brass jetpack chestplate — another flight option for brass-rich factories.",
+        ],
+        deps=[5],
+        rewards=[item("create:brass_ingot", 16), xp_levels(2)],
+        optional=True,
+        subtitle="Flight",
+    )
+    add(
+        l,
+        ll,
+        7,
+        B,
+        5,
+        2.5,
+        "createbigcannons:cannon_end",
+        "Big Cannons",
+        [
+            "Craft a cannon end from Create Big Cannons. Build responsibly. Or don't. We put it in the pack either way.",
+        ],
+        deps=[0],
+        rewards=[item("minecraft:iron_block", 4), xp_levels(1)],
+        optional=True,
+        subtitle="Chaos",
+    )
+    add(
+        l,
+        ll,
+        8,
+        B,
+        7.5,
+        2.5,
+        "railways:conductor_whistle",
+        "Steam 'n' Rails",
+        [
+            "Craft a conductor whistle. Trains, conductors, and fancy tracks — link factories across the map.",
+        ],
+        deps=[0],
+        rewards=[item("create:precision_mechanism", 2), xp_levels(2)],
+        optional=True,
+        subtitle="Trains",
+    )
+    add(
+        l,
+        ll,
+        9,
+        B,
+        10,
+        0,
+        "create:precision_mechanism",
+        "Mechanism Stockpile",
+        [
+            "Stockpile &616 precision mechanisms&r. If this hurts, your assembly line isn't automated enough yet — go fix that.",
+        ],
+        task_count=16,
+        deps=[4],
+        rewards=[item("create:brass_sheet", 32), xp_levels(3)],
+        size=1.5,
+        subtitle="Logistics flex",
+    )
+    add(
+        l,
+        ll,
+        10,
+        B,
+        12.5,
+        0,
+        "minecraft:nether_star",
+        "Wither Down",
+        [
+            "Defeat the Wither and hold a nether star. Beacon bases make Create factories feel unfair in the best way.",
+        ],
+        deps=[9],
+        rewards=[item("minecraft:diamond_block", 2), xp_levels(5)],
+        size=1.75,
+        shape="pentagon",
+        subtitle="Boss",
+    )
+    add(
+        l,
+        ll,
+        11,
+        B,
+        15,
+        0,
+        "minecraft:elytra",
+        "Elytra",
+        [
+            "Claim elytra from the End. Combine with a jetpack or fireworks — you're done with walking.",
+            "",
+            "&6You've reached the end of the quest book.&r Keep building absurd factories.",
+        ],
+        deps=[10],
+        rewards=[
+            item("minecraft:firework_rocket", 64),
+            item("minecraft:shulker_shell", 4),
+            xp_levels(5),
+        ],
+        size=2.0,
+        shape="gear",
+        subtitle="Finale",
+    )
+    add(
+        l,
+        ll,
+        12,
+        B,
+        10,
+        2.5,
+        "constructionstick:netherite_stick",
+        "Netherite Construction Stick",
+        [
+            "Craft the netherite construction stick — maximum reach building for megabases.",
+        ],
+        deps=[0],
+        rewards=[xp_levels(2)],
+        optional=True,
+        subtitle="Building",
+    )
+    add(
+        l,
+        ll,
+        13,
+        B,
+        10,
+        -2.5,
+        "tombstone:grave_dust",
+        "Tombstone Dust",
+        [
+            "Collect &68 grave dust&r from Corail Tombstone. Graves protect your items on death — dust feeds magic crafts.",
+        ],
+        task_count=8,
+        deps=[0],
+        rewards=[item("minecraft:bone", 32), xp_levels(1)],
+        optional=True,
+        subtitle="Death QoL",
+    )
+
+    # Replace lootr trophy quest if item missing — check and fix storage chapter quest 12
+    # Use lootr:trophy only if exists; else use minecraft:filled_map as exploration proxy
+    lootr_ok = False
+    try:
+        import zipfile
+        from pathlib import Path as P
+
+        mods = (
+            P.home()
+            / "Library/Application Support/PrismLauncher/instances/Fabulously Create/minecraft/mods"
+        )
+        for jar in mods.glob("lootr*.jar"):
+            z = zipfile.ZipFile(jar)
+            if any("trophy" in n for n in z.namelist()):
+                lootr_ok = True
+                break
+    except Exception:
+        pass
+    if not lootr_ok:
+        # rewrite quest 12 in storage to use chest / explorer vibe
+        for q in s:
+            if q["id"] == Q(300 + 12):
+                q["task"] = "minecraft:ender_eye"
+                q["task_count"] = 1
+        sl[Q(300 + 12)] = {
+            "title": "Structure Scout",
+            "subtitle": "Exploration",
+            "desc": [
+                "Craft an Eye of Ender (or collect one). Use it toward stronghold energy — and remember Lootr makes structure chests per-player in this pack.",
+                "",
+                "Optional scavenger quest: celebrate by raiding any structure with friends without loot drama.",
+            ],
+        }
+
+    # Write book metadata
     QUESTS.mkdir(parents=True, exist_ok=True)
     (QUESTS / "chapters").mkdir(exist_ok=True)
     (QUESTS / "lang" / "en_us" / "chapters").mkdir(parents=True, exist_ok=True)
@@ -381,8 +1776,8 @@ def main() -> None:
                 '\tdefault_autoclaim_rewards: "disabled"',
                 "\tdefault_consume_items: false",
                 "\tdefault_quest_disable_jei: false",
-                '\tdefault_quest_shape: "circle"',
-                "\tdefault_reward_team: false",
+                '\tdefault_quest_shape: "rsquare"',
+                "\tdefault_reward_team: true",
                 "\tdetection_delay: 20",
                 "\tdisable_gui: false",
                 "\tdrop_loot_crates: false",
@@ -393,7 +1788,7 @@ def main() -> None:
                 "\t}",
                 '\tlock_message: ""',
                 "\tpause_game: false",
-                '\tprogression_mode: "linear"',
+                '\tprogression_mode: "flexible"',
                 "\tshow_lock_icons: true",
                 "\tversion: 13",
                 "}",
@@ -436,15 +1831,15 @@ def main() -> None:
             [
                 "{",
                 f'\tchapter.{CHAPTERS["foundations"][0]}.title: "1. Foundations"',
-                f'\tchapter.{CHAPTERS["foundations"][0]}.chapter_subtitle: ["Early game basics"]',
+                f'\tchapter.{CHAPTERS["foundations"][0]}.chapter_subtitle: ["Survive, smelt iron, set a waystone"]',
                 f'\tchapter.{CHAPTERS["create_factory"][0]}.title: "2. Create Factory"',
-                f'\tchapter.{CHAPTERS["create_factory"][0]}.chapter_subtitle: ["Kinetic engineering"]',
+                f'\tchapter.{CHAPTERS["create_factory"][0]}.chapter_subtitle: ["Kinetics, brass, and ore drills"]',
                 f'\tchapter.{CHAPTERS["storage_gear"][0]}.title: "3. Storage & Gear"',
-                f'\tchapter.{CHAPTERS["storage_gear"][0]}.chapter_subtitle: ["Packing and tools"]',
+                f'\tchapter.{CHAPTERS["storage_gear"][0]}.chapter_subtitle: ["Backpacks, pipes, Silent Gear"]',
                 f'\tchapter.{CHAPTERS["automation"][0]}.title: "4. Automation & Power"',
-                f'\tchapter.{CHAPTERS["automation"][0]}.chapter_subtitle: ["ID, pipes, and FE"]',
+                f'\tchapter.{CHAPTERS["automation"][0]}.chapter_subtitle: ["Integrated Dynamics, diesel, enchanting"]',
                 f'\tchapter.{CHAPTERS["late_game"][0]}.title: "5. Late Game"',
-                f'\tchapter.{CHAPTERS["late_game"][0]}.chapter_subtitle: ["Netherite and beyond"]',
+                f'\tchapter.{CHAPTERS["late_game"][0]}.chapter_subtitle: ["Netherite, flight, and the finale"]',
                 "}",
                 "",
             ]

@@ -1,38 +1,64 @@
 {
-	quest.B100000000000190.title: "Logic Cable"
-	quest.B100000000000190.quest_desc: ["Start an Integrated Dynamics network."]
-	quest.B100000000000190.quest_subtitle: "Automation"
+	quest.B100000000000190.title: "Logic Network"
+	quest.B100000000000190.quest_subtitle: "Integrated Dynamics"
+	quest.B100000000000190.quest_desc: [
+		"Craft &616 Integrated Dynamics cables&r. ID is this pack's programmable logistics brain — readers, writers, and terminals plug into cable.",
+		"",
+		"Menril trees (deep dark / dark forests vibes depending on generation) supply menril for crafting."
+	]
 	quest.B100000000000191.title: "Variables"
-	quest.B100000000000191.quest_desc: ["Program your network."]
-	quest.B100000000000191.quest_subtitle: "Automation"
+	quest.B100000000000191.quest_subtitle: "Integrated Dynamics"
+	quest.B100000000000191.quest_desc: [
+		"Craft &68 variables&r. Store numbers, items, lists, and logic — programming cards for your network."
+	]
 	quest.B100000000000192.title: "Inventory Reader"
-	quest.B100000000000192.quest_desc: ["Read inventories into logic."]
-	quest.B100000000000192.quest_subtitle: "Automation"
-	quest.B100000000000193.title: "Item Interface"
-	quest.B100000000000193.quest_desc: ["Pull/push items with Tunnels."]
-	quest.B100000000000193.quest_subtitle: "Automation"
+	quest.B100000000000192.quest_subtitle: "Integrated Dynamics"
+	quest.B100000000000192.quest_desc: [
+		"Craft an Inventory Reader part. Attach to a cable facing an inventory to read contents into variables."
+	]
+	quest.B100000000000193.title: "Item Tunnels"
+	quest.B100000000000193.quest_subtitle: "Tunnels"
+	quest.B100000000000193.quest_desc: [
+		"Craft &62 item interfaces&r (Integrated Tunnels). Pull and push items with filters — ID's version of import/export buses."
+	]
 	quest.B100000000000194.title: "Storage Terminal"
-	quest.B100000000000194.quest_desc: ["Browse networked storage."]
-	quest.B100000000000194.quest_subtitle: "Automation"
-	quest.B100000000000195.title: "Alternator"
-	quest.B100000000000195.quest_desc: ["Turn SU into FE."]
-	quest.B100000000000195.quest_subtitle: "Power"
-	quest.B100000000000196.title: "Electric Motor"
-	quest.B100000000000196.quest_desc: ["Turn FE back into SU."]
+	quest.B100000000000194.quest_subtitle: "Tunnels"
+	quest.B100000000000194.quest_desc: [
+		"Craft a Storage Terminal. Browse and craft from everything your tunnels can see — the AE2 vibe without AE2."
+	]
+	quest.B100000000000195.title: "Crafting Interface"
+	quest.B100000000000195.quest_subtitle: "Tunnels"
+	quest.B100000000000195.quest_desc: [
+		"Craft a Crafting Interface. Request autocrafting through your ID terminal once patterns / recipes are set up."
+	]
+	quest.B100000000000196.title: "Alternator"
 	quest.B100000000000196.quest_subtitle: "Power"
-	quest.B100000000000197.title: "Diesel Engine"
-	quest.B100000000000197.quest_desc: ["Burn diesel for power."]
+	quest.B100000000000196.quest_desc: [
+		"Build a Create Crafts & Additions Alternator. Spin it with SU to generate FE (Forge Energy) for electric addons."
+	]
+	quest.B100000000000197.title: "Electric Motor"
 	quest.B100000000000197.quest_subtitle: "Power"
-	quest.B100000000000198.title: "Blaze Enchanter"
-	quest.B100000000000198.quest_desc: ["Automate enchanting."]
-	quest.B100000000000198.quest_subtitle: "Automation"
-	quest.B100000000000199.title: "Create Connected"
-	quest.B100000000000199.quest_desc: ["Use Connected utilities (Brake)."]
-	quest.B100000000000199.quest_subtitle: "Automation"
+	quest.B100000000000197.quest_desc: [
+		"Build an Electric Motor to turn FE back into SU. Great for remote bases powered by diesel or New Age electricity."
+	]
+	quest.B100000000000198.title: "Diesel Engine"
+	quest.B100000000000198.quest_subtitle: "Power"
+	quest.B100000000000198.quest_desc: [
+		"Build a Diesel Engine. Process plant oil / crude into fuel and burn it for strong kinetic power — Create's combustion route."
+	]
+	quest.B100000000000199.title: "Blaze Enchanter"
+	quest.B100000000000199.quest_subtitle: "Magic factories"
+	quest.B100000000000199.quest_desc: [
+		"Build a Blaze Enchanter from Enchantment Industry. Pump liquid experience and automate enchanted books / gear."
+	]
 	quest.B10000000000019A.title: "Slice & Dice"
-	quest.B10000000000019A.quest_desc: ["Automate Farmer's Delight cutting."]
-	quest.B10000000000019A.quest_subtitle: "Automation"
-	quest.B10000000000019B.title: "Crafting Interface"
-	quest.B10000000000019B.quest_desc: ["Autocraft on the ID network."]
-	quest.B10000000000019B.quest_subtitle: "Automation"
+	quest.B10000000000019A.quest_subtitle: "Food automation"
+	quest.B10000000000019A.quest_desc: [
+		"Craft a Slice & Dice slicer. Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
+	]
+	quest.B10000000000019B.title: "Create: Connected"
+	quest.B10000000000019B.quest_subtitle: "Create extras"
+	quest.B10000000000019B.quest_desc: [
+		"Craft a Brake from Create: Connected. Connected adds practical kinetic utilities — brakes, copycats-adjacent helpers, and more."
+	]
 }

@@ -49,6 +49,14 @@ mkdir -p "$OUT_DIR/mods"
 
 python3 "$ROOT/scripts/download-mods.py" "$OUT_DIR" --pack-dir "$PACK_DIR" --profile server
 
+# Avoid Create 6.0.10 chocolate_bucket advancement boot crash on large packs.
+CREATE_JAR="$(find "$OUT_DIR/mods" -maxdepth 1 -name 'create-1.21.1-*.jar' | head -n 1 || true)"
+if [[ -n "$CREATE_JAR" ]]; then
+  echo "Patching Create bootfix → $CREATE_JAR"
+  python3 "$ROOT/scripts/patch-create-bootfix.py" "$CREATE_JAR" "$CREATE_JAR.patched"
+  mv "$CREATE_JAR.patched" "$CREATE_JAR"
+fi
+
 echo ""
 echo "Downloading NeoForge installer..."
 INSTALLER_JAR="$OUT_DIR/neoforge-${NEOFORGE_VERSION}-installer.jar"

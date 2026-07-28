@@ -85,6 +85,14 @@ EOF
 
 python3 "$ROOT/scripts/download-mods.py" "$OUT_DIR/minecraft" --pack-dir "$PACK_DIR" --profile full
 
+# Avoid Create 6.0.10 chocolate_bucket advancement boot crash on large packs.
+CREATE_JAR="$(find "$OUT_DIR/minecraft/mods" -maxdepth 1 -name 'create-1.21.1-*.jar' | head -n 1 || true)"
+if [[ -n "$CREATE_JAR" ]]; then
+  echo "Patching Create bootfix → $CREATE_JAR"
+  python3 "$ROOT/scripts/patch-create-bootfix.py" "$CREATE_JAR" "$CREATE_JAR.patched"
+  mv "$CREATE_JAR.patched" "$CREATE_JAR"
+fi
+
 MOD_COUNT="$(find "$OUT_DIR/minecraft/mods" -name '*.jar' 2>/dev/null | wc -l | tr -d ' ')"
 echo ""
 echo "Built: $OUT_DIR ($MOD_COUNT mods)"

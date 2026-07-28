@@ -1,38 +1,75 @@
 {
 	quest.B10000000000012C.title: "Backpack"
-	quest.B10000000000012C.quest_desc: ["Carry more with Sophisticated Backpacks."]
-	quest.B10000000000012C.quest_subtitle: "Storage"
+	quest.B10000000000012C.quest_subtitle: "Carry more"
+	quest.B10000000000012C.quest_desc: [
+		"Craft a Sophisticated Backpack. Upgrade it with stack upgrades, magnet, feeding, tool swap — your inventory becomes a workshop.",
+		"",
+		"Right-click to open. Craft upgrades and install them in the backpack GUI."
+	]
 	quest.B10000000000012D.title: "Drawers"
-	quest.B10000000000012D.quest_desc: ["Compact storage with Functional Storage."]
 	quest.B10000000000012D.quest_subtitle: "Storage"
-	quest.B10000000000012E.title: "Tom's Connector"
-	quest.B10000000000012E.quest_desc: ["Begin networked storage."]
+	quest.B10000000000012D.quest_desc: [
+		"Craft &62 Functional Storage drawers&r. Drawers compact a huge count of one item — perfect for cobble, andesite alloy, and ingots."
+	]
+	quest.B10000000000012E.title: "Tom's Storage Hub"
 	quest.B10000000000012E.quest_subtitle: "Storage"
+	quest.B10000000000012E.quest_desc: [
+		"Craft Tom's Inventory Connector. Link nearby inventories and open them from a crafting terminal — lightweight digital storage."
+	]
 	quest.B10000000000012F.title: "Item Pipes"
-	quest.B10000000000012F.quest_desc: ["Move items with Pipez."]
-	quest.B10000000000012F.quest_subtitle: "Storage"
+	quest.B10000000000012F.quest_subtitle: "Pipes"
+	quest.B10000000000012F.quest_desc: [
+		"Craft &616 Pipez item pipes&r. Configure filters with a wrench — simpler than Create belts for chest-to-chest logistics."
+	]
 	quest.B100000000000130.title: "Fluid Pipes"
-	quest.B100000000000130.quest_desc: ["Pipe fluids too."]
-	quest.B100000000000130.quest_subtitle: "Storage"
-	quest.B100000000000131.title: "Silent Blueprint"
-	quest.B100000000000131.quest_desc: ["Start modular Silent Gear tools."]
-	quest.B100000000000131.quest_subtitle: "Gear"
-	quest.B100000000000132.title: "Axe Blueprint"
-	quest.B100000000000132.quest_desc: ["Expand your Silent Gear set."]
-	quest.B100000000000132.quest_subtitle: "Gear"
-	quest.B100000000000133.title: "Construction Stick"
-	quest.B100000000000133.quest_desc: ["Build faster."]
-	quest.B100000000000133.quest_subtitle: "Building"
-	quest.B100000000000134.title: "Building Gadget"
-	quest.B100000000000134.quest_desc: ["Mass-build structures."]
-	quest.B100000000000134.quest_subtitle: "Building"
-	quest.B100000000000135.title: "Gold Chest"
-	quest.B100000000000135.quest_desc: ["Upgrade your chest tier."]
-	quest.B100000000000135.quest_subtitle: "Storage"
-	quest.B100000000000136.title: "Gold Furnace"
-	quest.B100000000000136.quest_desc: ["Even faster smelting."]
-	quest.B100000000000136.quest_subtitle: "Storage"
-	quest.B100000000000137.title: "Artifact Find"
-	quest.B100000000000137.quest_desc: ["Find an Artifacts trinket (umbrella)."]
-	quest.B100000000000137.quest_subtitle: "Gear"
+	quest.B100000000000130.quest_subtitle: "Pipes"
+	quest.B100000000000130.quest_desc: [
+		"Craft &68 fluid pipes&r. Move water, lava, chocolate, diesel, and Create fluids between tanks and machines."
+	]
+	quest.B100000000000131.title: "Gold Chest"
+	quest.B100000000000131.quest_subtitle: "Storage"
+	quest.B100000000000131.quest_desc: [
+		"Upgrade to a Gold Chest when drawer networks aren't enough for mixed junk storage."
+	]
+	quest.B100000000000132.title: "Gold Furnace"
+	quest.B100000000000132.quest_subtitle: "Smelting"
+	quest.B100000000000132.quest_desc: [
+		"Craft a Gold Furnace for a big smelting speed jump. Diamond / netherite tiers wait in Late Game."
+	]
+	quest.B100000000000133.title: "Silent Gear Blueprint"
+	quest.B100000000000133.quest_subtitle: "Gear"
+	quest.B100000000000133.quest_desc: [
+		"Craft a Silent Gear pickaxe blueprint. Modular tools let you mix materials — head, rod, tip — for mining speed and durability.",
+		"",
+		"Use the blueprint in a crafting table / Silent Gear station with materials from the pack."
+	]
+	quest.B100000000000134.title: "Axe Blueprint"
+	quest.B100000000000134.quest_subtitle: "Gear"
+	quest.B100000000000134.quest_desc: [
+		"Expand Silent Gear with an axe blueprint. Matching material sets feel great once you have a favorite alloy."
+	]
+	quest.B100000000000135.title: "Construction Stick"
+	quest.B100000000000135.quest_subtitle: "Building"
+	quest.B100000000000135.quest_desc: [
+		"Craft an Iron Construction Stick. Extend walls and platforms in one click — faster base building before Building Gadgets."
+	]
+	quest.B100000000000136.title: "Building Gadget"
+	quest.B100000000000136.quest_subtitle: "Building"
+	quest.B100000000000136.quest_desc: [
+		"Craft a Building Gadget 2. Copy / build / exchange blocks in bulk — perfect for factories and railways."
+	]
+	quest.B100000000000137.title: "Artifact Hunt"
+	quest.B100000000000137.quest_subtitle: "Trinkets"
+	quest.B100000000000137.quest_desc: [
+		"Find an Artifacts umbrella (or any artifact). Trinkets drop from chests, mobs, and exploration — Curios slots equip them.",
+		"",
+		"Truly optional: treat it as a scavenger hunt."
+	]
+	quest.B100000000000138.title: "Shared Loot Chests"
+	quest.B100000000000138.quest_subtitle: "Exploration"
+	quest.B100000000000138.quest_desc: [
+		"Open a Lootr chest / barrel / shulker in a structure. Each player gets their own loot — no more racing your friends to the same chest.",
+		"",
+		"If this item is awkward to obtain, any lootr-tracked container completion still teaches the mod. Craft/find the trophy when available, or skip."
+	]
 }

@@ -1,41 +1,76 @@
 {
 	quest.B1000000000001F4.title: "Netherite"
-	quest.B1000000000001F4.quest_desc: ["Enter the late game."]
-	quest.B1000000000001F4.quest_subtitle: "Late"
+	quest.B1000000000001F4.quest_subtitle: "Endgame gate"
+	quest.B1000000000001F4.quest_desc: [
+		"Smith a netherite ingot. Ancient debris + gold in a smithing setup — the late-game material gate for this book.",
+		"",
+		"Bring fire resistance. Bring a waystone. Bring dignity."
+	]
 	quest.B1000000000001F5.title: "Netherite Furnace"
-	quest.B1000000000001F5.quest_desc: ["Top-tier smelting speed."]
-	quest.B1000000000001F5.quest_subtitle: "Late"
+	quest.B1000000000001F5.quest_subtitle: "Smelting"
+	quest.B1000000000001F5.quest_desc: [
+		"Craft a Netherite Furnace — top-tier smelting speed for when your ore drill finally wakes up."
+	]
 	quest.B1000000000001F6.title: "Obsidian Chest"
-	quest.B1000000000001F6.quest_desc: ["Blast-resistant storage."]
-	quest.B1000000000001F6.quest_subtitle: "Late"
-	quest.B1000000000001F7.title: "Jetpack Parts"
-	quest.B1000000000001F7.quest_desc: ["Craft Iron Jetpacks components."]
-	quest.B1000000000001F7.quest_subtitle: "Late"
-	quest.B1000000000001F8.title: "Create Jetpack"
-	quest.B1000000000001F8.quest_desc: ["Backtank-powered flight."]
-	quest.B1000000000001F8.quest_subtitle: "Late"
-	quest.B1000000000001F9.title: "Big Cannons"
-	quest.B1000000000001F9.quest_desc: ["Build a cannon end piece."]
-	quest.B1000000000001F9.quest_subtitle: "Late"
-	quest.B1000000000001FA.title: "Steam 'n' Rails"
-	quest.B1000000000001FA.quest_desc: ["Train conductor tools."]
-	quest.B1000000000001FA.quest_subtitle: "Late"
-	quest.B1000000000001FB.title: "Brass Jetpack"
-	quest.B1000000000001FB.quest_desc: ["Stuff 'N Additions flight gear."]
-	quest.B1000000000001FB.quest_subtitle: "Late"
-	quest.B1000000000001FC.title: "Mechanism Stockpile"
-	quest.B1000000000001FC.quest_desc: ["Stockpile precision mechanisms."]
-	quest.B1000000000001FC.quest_subtitle: "Late"
-	quest.B1000000000001FD.title: "Wither Down"
-	quest.B1000000000001FD.quest_desc: ["Defeat the Wither."]
-	quest.B1000000000001FD.quest_subtitle: "Late"
-	quest.B1000000000001FE.title: "Elytra"
-	quest.B1000000000001FE.quest_desc: ["End-game mobility."]
-	quest.B1000000000001FE.quest_subtitle: "Late"
-	quest.B1000000000001FF.title: "Netherite Stick"
-	quest.B1000000000001FF.quest_desc: ["Ultimate building stick."]
-	quest.B1000000000001FF.quest_subtitle: "Late"
-	quest.B100000000000200.title: "Tombstone Dust"
-	quest.B100000000000200.quest_desc: ["Engage Corail Tombstone crafting."]
-	quest.B100000000000200.quest_subtitle: "Late"
+	quest.B1000000000001F6.quest_subtitle: "Storage"
+	quest.B1000000000001F6.quest_desc: [
+		"Craft an Obsidian Chest. Blast-resistant storage for bases that… experiment with Big Cannons."
+	]
+	quest.B1000000000001F7.title: "Jetpack Thrusters"
+	quest.B1000000000001F7.quest_subtitle: "Flight"
+	quest.B1000000000001F7.quest_desc: [
+		"Craft &62 Iron Jetpacks thrusters&r. Combine with coils, capacitors, and a strap to assemble modular jetpacks."
+	]
+	quest.B1000000000001F8.title: "Iron Jetpack"
+	quest.B1000000000001F8.quest_subtitle: "Flight"
+	quest.B1000000000001F8.quest_desc: [
+		"Assemble an Iron Jetpacks jetpack. Charge it and take to the skies — independent from Create backtanks."
+	]
+	quest.B1000000000001F9.title: "Create Jetpack"
+	quest.B1000000000001F9.quest_subtitle: "Flight"
+	quest.B1000000000001F9.quest_desc: [
+		"Craft the Create Jetpack. It runs off a copper backtank pressure — perfect if your factory already fills tanks."
+	]
+	quest.B1000000000001FA.title: "Brass Jetpack"
+	quest.B1000000000001FA.quest_subtitle: "Flight"
+	quest.B1000000000001FA.quest_desc: [
+		"Craft Stuff 'N Additions brass jetpack chestplate — another flight option for brass-rich factories."
+	]
+	quest.B1000000000001FB.title: "Big Cannons"
+	quest.B1000000000001FB.quest_subtitle: "Chaos"
+	quest.B1000000000001FB.quest_desc: [
+		"Craft a cannon end from Create Big Cannons. Build responsibly. Or don't. We put it in the pack either way."
+	]
+	quest.B1000000000001FC.title: "Steam 'n' Rails"
+	quest.B1000000000001FC.quest_subtitle: "Trains"
+	quest.B1000000000001FC.quest_desc: [
+		"Craft a conductor whistle. Trains, conductors, and fancy tracks — link factories across the map."
+	]
+	quest.B1000000000001FD.title: "Mechanism Stockpile"
+	quest.B1000000000001FD.quest_subtitle: "Logistics flex"
+	quest.B1000000000001FD.quest_desc: [
+		"Stockpile &616 precision mechanisms&r. If this hurts, your assembly line isn't automated enough yet — go fix that."
+	]
+	quest.B1000000000001FE.title: "Wither Down"
+	quest.B1000000000001FE.quest_subtitle: "Boss"
+	quest.B1000000000001FE.quest_desc: [
+		"Defeat the Wither and hold a nether star. Beacon bases make Create factories feel unfair in the best way."
+	]
+	quest.B1000000000001FF.title: "Elytra"
+	quest.B1000000000001FF.quest_subtitle: "Finale"
+	quest.B1000000000001FF.quest_desc: [
+		"Claim elytra from the End. Combine with a jetpack or fireworks — you're done with walking.",
+		"",
+		"&6You've reached the end of the quest book.&r Keep building absurd factories."
+	]
+	quest.B100000000000200.title: "Netherite Construction Stick"
+	quest.B100000000000200.quest_subtitle: "Building"
+	quest.B100000000000200.quest_desc: [
+		"Craft the netherite construction stick — maximum reach building for megabases."
+	]
+	quest.B100000000000201.title: "Tombstone Dust"
+	quest.B100000000000201.quest_subtitle: "Death QoL"
+	quest.B100000000000201.quest_desc: [
+		"Collect &68 grave dust&r from Corail Tombstone. Graves protect your items on death — dust feeds magic crafts."
+	]
 }
