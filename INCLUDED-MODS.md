@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.8** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.9** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -86,6 +86,12 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 
 | Mod | Purpose |
 | --- | --- |
+| [Apotheosis](https://modrinth.com/mod/apotheosis) | Adventure loot, affixes, bosses, and gear progression |
+| [Apothic Attributes](https://modrinth.com/mod/apothic-attributes) | Attribute system required by Apotheosis |
+| [Apothic Enchanting](https://modrinth.com/mod/apothic-enchanting) | Expanded enchanting module |
+| [Apothic Spawners](https://modrinth.com/mod/apothic-spawners) | Upgradable mob spawners |
+| [Placebo](https://modrinth.com/mod/placebo) | Required by Apotheosis suite |
+| [Patchouli](https://modrinth.com/mod/patchouli) | In-game guide books (Apotheosis docs) |
 | [Silent Gear](https://modrinth.com/mod/silent-gear) | Modular tools, weapons, and armor |
 | [Silent Lib](https://modrinth.com/mod/silent-lib) | Required by Silent Gear |
 | [Iron Jetpacks](https://modrinth.com/mod/iron-jetpacks) | Tiered energy jetpacks |
