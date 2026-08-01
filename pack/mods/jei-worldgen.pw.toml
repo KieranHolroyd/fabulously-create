@@ -1,0 +1,13 @@
+name = "JEI / REI / EMI WorldGen"
+filename = "jeiworldgen-neoforge-1.21.1-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YYrsrQ6q/versions/AT2z64C3/jeiworldgen-neoforge-1.21.1-1.4.1.jar"
+hash-format = "sha512"
+hash = "304f256cd58ead062fd0ad8dbf178673fd68b502b6c59b58723ca8250311ad4553544ed156ec23ad8e459ab9c70a5b4398ada5f9d34addfd2e7366dee74cab91"
+
+[update]
+[update.modrinth]
+mod-id = "YYrsrQ6q"
+version = "AT2z64C3"

@@ -71,6 +71,11 @@ add_mr toms-storage
 add_mr pipez
 add_mr iron-chests
 add_mr iron-furnaces
+add_mr refined-storage
+add_mr refined-storage-jei-integration
+add_mr refined-storage-curios-integration
+add_mr extra-disks
+add_mr extrastorage
 
 echo "Adding Integrated Dynamics stack..."
 add_mr cyclops-core
@@ -104,6 +109,7 @@ add_mr large-ore-veins
 
 echo "Adding QoL..."
 add_mr jei
+add_mr jei-worldgen
 add_mr journeymap
 add_mr jade
 add_mr appleskin

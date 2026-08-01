@@ -5,17 +5,79 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PACK_DIR="$ROOT/pack"
 OUT_DIR="${1:-$ROOT/dist/Fabulously Create}"
-PRISM_INSTANCES="${PRISM_INSTANCES:-$HOME/Library/Application Support/PrismLauncher/instances}"
 INSTALL="${INSTALL:-0}"
+
+detect_prism_instances() {
+  local candidate
+  local -a candidates=()
+
+  case "$(uname -s)" in
+    Darwin)
+      candidates+=("$HOME/Library/Application Support/PrismLauncher/instances")
+      ;;
+    Linux)
+      candidates+=(
+        "${XDG_DATA_HOME:-$HOME/.local/share}/PrismLauncher/instances"
+        "$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances"
+        "$HOME/.local/share/PrismLauncher/instances"
+      )
+      # Git Bash/MSYS and WSL can expose the Windows Prism data directory.
+      if [[ -n "${APPDATA:-}" ]]; then
+        candidates+=("$APPDATA/PrismLauncher/instances")
+      fi
+      ;;
+    MINGW*|MSYS*|CYGWIN*)
+      candidates+=("${APPDATA:-$HOME/AppData/Roaming}/PrismLauncher/instances")
+      ;;
+  esac
+
+  # Prefer an existing Prism installation, especially one already containing
+  # this pack. This also selects Flatpak Prism when that is what is installed.
+  for candidate in "${candidates[@]}"; do
+    if [[ -d "$candidate/Fabulously Create" ]]; then
+      printf '%s\n' "$candidate"
+      return
+    fi
+  done
+  for candidate in "${candidates[@]}"; do
+    if [[ -d "$candidate" ]]; then
+      printf '%s\n' "$candidate"
+      return
+    fi
+  done
+
+  # Nothing exists yet: use the native platform's standard location.
+  if (( ${#candidates[@]} )); then
+    printf '%s\n' "${candidates[0]}"
+  else
+    echo "Unable to determine the Prism instances directory." >&2
+    echo "Set PRISM_INSTANCES=/path/to/PrismLauncher/instances and retry." >&2
+    return 1
+  fi
+}
+
+PRISM_INSTANCES="${PRISM_INSTANCES:-}"
+if [[ "$INSTALL" == "1" && -z "$PRISM_INSTANCES" ]]; then
+  PRISM_INSTANCES="$(detect_prism_instances)"
+fi
 
 MC_VERSION="1.21.1"
 NEOFORGE_VERSION="21.1.244"
 LWJGL_VERSION="3.3.3"
 PACK_VERSION="$(grep '^version' "$PACK_DIR/pack.toml" | sed 's/.*"\(.*\)".*/\1/')"
-# Prism ships java-runtime-delta as Java 21 on macOS; override via JAVA_PATH if needed.
-PRISM_ROOT="${PRISM_ROOT:-$HOME/Library/Application Support/PrismLauncher}"
+# Use Prism's Java 21 runtime when present, otherwise the Java on PATH.
+PRISM_ROOT="${PRISM_ROOT:-${PRISM_INSTANCES%/instances}}"
 PRISM_JAVA_DELTA="${PRISM_JAVA_DELTA:-$PRISM_ROOT/java/java-runtime-delta/bin/java}"
-JAVA_PATH="${JAVA_PATH:-$PRISM_JAVA_DELTA}"
+if [[ -z "${JAVA_PATH:-}" ]]; then
+  if [[ -x "$PRISM_JAVA_DELTA" ]]; then
+    JAVA_PATH="$PRISM_JAVA_DELTA"
+  else
+    JAVA_PATH="$(command -v java || true)"
+  fi
+fi
+JAVA_ARCH="$(uname -m)"
+[[ "$JAVA_ARCH" == "x86_64" ]] && JAVA_ARCH="amd64"
+[[ "$JAVA_ARCH" == "arm64" ]] && JAVA_ARCH="aarch64"
 # Match Prism's stored metadata for java-runtime-delta (avoids auto-switch back to Java 17).
 JAVA_SIGNATURE="${JAVA_SIGNATURE:-fa5f76517923fd49498ea181ba6e2aa62643a065}"
 JAVA_VERSION_STR="${JAVA_VERSION_STR:-21.0.7}"
@@ -38,7 +100,7 @@ JavaSignature=$JAVA_SIGNATURE
 JavaVersion=$JAVA_VERSION_STR
 JavaVendor=Microsoft
 JavaArchitecture=64
-JavaRealArchitecture=aarch64
+JavaRealArchitecture=$JAVA_ARCH
 IgnoreJavaCompatibility=false
 EOF
 
@@ -213,5 +275,5 @@ else
   echo "  INSTALL=1 $0"
   echo ""
   echo "Or copy manually:"
-  echo "  cp -R '$OUT_DIR' '$PRISM_INSTANCES/'"
+  echo "  cp -R '$OUT_DIR' '<your PrismLauncher instances folder>/'"
 fi

@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.9** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.10** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -70,6 +70,12 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Pipez](https://modrinth.com/mod/pipez) | Item/fluid/energy/gas pipes |
 | [Iron Chests](https://modrinth.com/mod/iron-chests) | Larger metal chests (Iron → Obsidian, etc.) |
 | [Iron Furnaces](https://modrinth.com/mod/iron-furnaces) | Faster upgradeable furnaces |
+| [Refined Storage](https://modrinth.com/mod/refined-storage) | Networked item and fluid storage, transfer, and autocrafting |
+| [Extra Disks](https://modrinth.com/mod/extra-disks) | Larger item and fluid disks for Refined Storage |
+| [ExtraStorage](https://modrinth.com/mod/extrastorage) | Larger item/fluid storage and upgraded RS importers, exporters, and crafters |
+| [EdivadLib](https://modrinth.com/mod/edivadlib) | Required by ExtraStorage |
+| [Refined Storage - JEI Integration](https://modrinth.com/mod/refined-storage-jei-integration) | Recipe transfer between JEI and RS crafting grids |
+| [Refined Storage - Curios Integration](https://modrinth.com/mod/refined-storage-curios-integration) | Curios slots for portable and wireless RS grids |
 
 ## Logistics & automation
 
@@ -111,6 +117,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
 | [Jade](https://modrinth.com/mod/jade) | Block/entity overlay tooltips (HWYLA-style) |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
+| [JEI WorldGen](https://modrinth.com/mod/jei-worldgen) | Ore generation and Y-level distribution inside JEI |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | Food/saturation HUD |
 | [TrashSlot](https://modrinth.com/mod/trashslot) | Dedicated trash slot in inventories |
 | [Inventory Essentials](https://modrinth.com/mod/inventory-essentials) | Inventory QoL shortcuts |

@@ -251,6 +251,11 @@ hash = "ef0760a149c267b7b46784e034b0338422fdaa3b06c84ce40e0a38fff97f33f8"
 metafile = true
 
 [[files]]
+file = "mods/edivadlib.pw.toml"
+hash = "e2ee2481b63a012bdfb8c9f588788dd2f116ff48298014bb3e00d08a224fe14f"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
@@ -258,6 +263,16 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
+metafile = true
+
+[[files]]
+file = "mods/extra-disks.pw.toml"
+hash = "dbe30d148364164e29902e67d8f01bc31abfe82cdcdbe591f5fdbddd87d20bd8"
+metafile = true
+
+[[files]]
+file = "mods/extrastorage.pw.toml"
+hash = "3e2431756f4544ca4f040d2f85d53433167a63eb606dfbeb8575548cc0b09e10"
 metafile = true
 
 [[files]]
@@ -371,6 +386,11 @@ hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
 metafile = true
 
 [[files]]
+file = "mods/jei-worldgen.pw.toml"
+hash = "75585b0c6014a6d1e19d6bced3a8c2dc0a849f0b2f376c41335fd0df379f6cad"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "da9be0546df74454a23be94eebebb4a1e6590ee9d20b1c030971751ec5ca8612"
 metafile = true
@@ -443,6 +463,21 @@ metafile = true
 [[files]]
 file = "mods/rapid-leaf-decay.pw.toml"
 hash = "275d8e13b8bea48d95d511067bbf91ce99b38841e4461b44f9017b827dfbd8d2"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-curios-integration.pw.toml"
+hash = "ce6f405d86fa560f11825b1c92ac8ffe27e5d8b5e1e576ca9b464bb35bbe6c7a"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-jei-integration.pw.toml"
+hash = "fd3e3dd73614b09899f5a445f989fd4f43c36a67e6a4c986f1263edbc5239944"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
 metafile = true
 
 [[files]]

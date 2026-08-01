@@ -13,7 +13,7 @@ A Minecraft **NeoForge 1.21.1** modpack focused on **Create**, **Silent Gear**, 
 INSTALL=1 ./scripts/build-prism-instance.sh
 ```
 
-The first command writes `dist/Fabulously Create/`. The second installs into Prism's instances folder (macOS: `~/Library/Application Support/PrismLauncher/instances/`).
+The first command writes `dist/Fabulously Create/`. The second locates Prism's instances folder on macOS, Linux, Flatpak Linux, or Windows (Git Bash/MSYS). Set `PRISM_INSTANCES=/custom/path/instances` if Prism uses a custom location.
 
 `INSTALL=1` on an existing instance updates mods and loader metadata only — it keeps `options.txt`, `config/`, worlds, servers, resource packs, and Prism RAM/JVM settings.
 
@@ -59,11 +59,12 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Farmer's Delight** + Create food automation
 - **Integrated Dynamics** + Tunnels / Terminals / Crafting
 - **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
+- **Refined Storage** item/fluid networks + Extra Disks, ExtraStorage, JEI and Curios integration
 - **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
 - **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
 - **FTB Ultimine**, **FTB Quests** (72 early→late quests), Large Ore Veins, Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
-- JourneyMap, Jade, JEI, AppleSkin, TrashSlot, Inventory Essentials
+- JourneyMap, Jade, JEI + ore-height distribution, AppleSkin, TrashSlot, Inventory Essentials
 
 **Dropped / replaced vs Fabric FO pack:**
 
