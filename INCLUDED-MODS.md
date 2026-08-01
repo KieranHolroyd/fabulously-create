@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.10** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.11** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -76,6 +76,15 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [EdivadLib](https://modrinth.com/mod/edivadlib) | Required by ExtraStorage |
 | [Refined Storage - JEI Integration](https://modrinth.com/mod/refined-storage-jei-integration) | Recipe transfer between JEI and RS crafting grids |
 | [Refined Storage - Curios Integration](https://modrinth.com/mod/refined-storage-curios-integration) | Curios slots for portable and wireless RS grids |
+| [Powah](https://modrinth.com/mod/powah) | Tiered FE generators, cells, cables, reactors, batteries, and wireless power |
+| [GuideME](https://modrinth.com/mod/guideme) | In-game guide framework required by Powah |
+| [RFTools Base](https://modrinth.com/mod/rftools-base) | Shared machines, materials, and tools for the RFTools suite |
+| [RFTools Utility](https://modrinth.com/mod/rftools-utility) | Crafters, screens, teleportation, environmental control, and redstone tools |
+| [RFTools Power](https://modrinth.com/mod/rftools-power) | FE generation, storage cells, monitoring, and wireless dimensional power |
+| [RFTools Storage](https://modrinth.com/mod/rftools-storage) | Modular storage, storage scanning, tablets, and crafting management |
+| [RFTools Dimensions](https://modrinth.com/mod/rftools-dimensions) | Design and maintain custom RF-powered dimensions |
+| [McJtyLib](https://modrinth.com/mod/mcjtylib) | Required library for the RFTools suite |
+| [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) | Cross-dimensional wireless FE transfer, network control, and large power storage |
 
 ## Logistics & automation
 
@@ -105,7 +114,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Curios API](https://modrinth.com/mod/curios) | Extra equipment slots |
 | [Artifacts](https://modrinth.com/mod/artifacts) | Curios trinkets and relics |
 | [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | Hold key to vein-mine connected blocks |
-| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Quest book and progression (**134** pack quests in `config/ftbquests/`) |
+| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Quest book and progression (**212** pack quests in `config/ftbquests/`) |
 | [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | Required by FTB Quests |
 | [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | Required by FTB mods |
 | [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | JEI and other mod integrations for FTB Quests |
@@ -160,7 +169,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
 - **Large Ore Veins** is beta — only affects newly generated chunks. Uses the mod's built-in defaults (no pack datapack/config overrides).
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
-- **FTB Quests:** early→late book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Chapters: Getting Started → Turning Gears → Bags & Blades → Wires & Wits → Beyond Brass. Definitions live in `scripts/ftb_quest_book.py`.
+- **FTB Quests:** early→late book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Chapters: Getting Started → Turning Gears → Bags & Blades → Wires & Wits → Beyond Brass. Definitions live in `scripts/ftb_quest_book.py`.
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
 - Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.

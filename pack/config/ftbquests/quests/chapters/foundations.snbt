@@ -16,29 +16,18 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "29CD2267A94E2CCC"
-					item: {
-						count: 16
-						id: "minecraft:bread"
-					}
-					type: "item"
+					id: "C100000000000064"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "C34114D8E2B90FA5"
-					item: {
-						count: 32
-						id: "minecraft:torch"
-					}
-					type: "item"
-				},
-				{
-					id: "69049687F1C1C823"
+					id: "9DE7B94306E5F69C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4446EB46354695C1"
+				id: "23D0D054C282030D"
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
@@ -50,24 +39,13 @@
 			id: "B100000000000065"
 			rewards: [
 				{
-					id: "C37158F36AA92D18"
-					item: {
-						count: 8
-						id: "minecraft:apple"
-					}
-					type: "item"
-				},
-				{
-					id: "D9BDD59E688AC16C"
-					item: {
-						count: 32
-						id: "minecraft:stick"
-					}
-					type: "item"
+					id: "C100000000000065"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "7B912EDC2429ABC7"
+				id: "69D96331810B2ED4"
 				item: { count: 16, id: "minecraft:oak_log" }
 				type: "item"
 			}]
@@ -79,21 +57,18 @@
 			id: "B100000000000066"
 			rewards: [
 				{
-					id: "9C4D3C2F3E1762F6"
-					item: {
-						count: 2
-						id: "minecraft:chest"
-					}
-					type: "item"
+					id: "C100000000000066"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "04A0006177E7382C"
+					id: "8CDDA8F940EC21E5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E556CA41C2DA7F89"
+				id: "50D6C6CEE110910B"
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
@@ -105,24 +80,13 @@
 			id: "B100000000000067"
 			rewards: [
 				{
-					id: "AE3C0A0EC05D47EC"
-					item: {
-						count: 32
-						id: "minecraft:torch"
-					}
-					type: "item"
-				},
-				{
-					id: "ADB9C7E713888700"
-					item: {
-						count: 16
-						id: "minecraft:coal"
-					}
-					type: "item"
+					id: "C100000000000067"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "2BFA9B168D526BB6"
+				id: "061DCED78F2335FB"
 				item: { count: 64, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
@@ -134,21 +98,18 @@
 			id: "B100000000000068"
 			rewards: [
 				{
-					id: "EFD61FFFBBBEEEA8"
-					item: {
-						count: 32
-						id: "minecraft:coal"
-					}
-					type: "item"
+					id: "C100000000000068"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "F59EA02E31908F28"
+					id: "621152B357303DEF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "52665324BCD5EDCF"
+				id: "1D32DA993F8FB997"
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
@@ -162,16 +123,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "6EDBC87FDF2D2F5C"
-					item: {
-						count: 2
-						id: "minecraft:coal_block"
-					}
-					type: "item"
+					id: "C100000000000069"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "900807AEA2393B6A"
+				id: "D912FC2E3E792C6C"
 				item: { count: 32, id: "minecraft:coal" }
 				type: "item"
 			}]
@@ -184,29 +142,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "D86F34FB8DB03364"
-					item: {
-						count: 1
-						id: "minecraft:iron_pickaxe"
-					}
-					type: "item"
+					id: "C10000000000006A"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "F51E92E0D5A4157A"
-					item: {
-						count: 1
-						id: "minecraft:shield"
-					}
-					type: "item"
-				},
-				{
-					id: "9E4F8E9815DECF31"
+					id: "A836750802B028D7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9DC30B36D9409F05"
+				id: "62DB0E02419FC504"
 				item: { count: 32, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
@@ -218,24 +165,13 @@
 			id: "B10000000000006B"
 			rewards: [
 				{
-					id: "ADB20F5FEA759C75"
-					item: {
-						count: 16
-						id: "minecraft:cooked_beef"
-					}
-					type: "item"
-				},
-				{
-					id: "3C15A43816D3A1D8"
-					item: {
-						count: 8
-						id: "minecraft:lantern"
-					}
-					type: "item"
+					id: "C10000000000006B"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "6CDD6D2C6F6BADE8"
+				id: "C9C5377204ECACA7"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
@@ -247,21 +183,18 @@
 			id: "B10000000000006C"
 			rewards: [
 				{
-					id: "4A0F818813D287B3"
-					item: {
-						count: 4
-						id: "minecraft:copper_block"
-					}
-					type: "item"
+					id: "C10000000000006C"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "B5B5D3100F38F613"
+					id: "FE74F980909F739C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8BC5D697959138CD"
+				id: "8E5CFB4E913D4819"
 				item: { count: 32, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
@@ -274,21 +207,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "EA5D6C938E629899"
-					item: {
-						count: 8
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
+					id: "C10000000000006D"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "7C632B4914BEADEA"
+					id: "7683FD81191AAD91"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9BC120089D68C02D"
+				id: "3FB92142688BCE97"
 				item: { count: 5, id: "minecraft:diamond" }
 				type: "item"
 			}]
@@ -302,24 +232,13 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "871FFF5CF2075BD5"
-					item: {
-						count: 1
-						id: "waystones:warp_stone"
-					}
-					type: "item"
-				},
-				{
-					id: "8FA9EACED19F19E8"
-					item: {
-						count: 4
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
+					id: "C10000000000006E"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "301FCB2E5B6BABA6"
+				id: "83B8E810F80F8FC5"
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
@@ -333,24 +252,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "94A9B26261F7EDCC"
-					item: {
-						count: 32
-						id: "minecraft:wheat_seeds"
-					}
-					type: "item"
-				},
-				{
-					id: "282A82D288BF4F62"
-					item: {
-						count: 16
-						id: "minecraft:bone_meal"
-					}
-					type: "item"
+					id: "C10000000000006F"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "99238BDBEB983A3D"
+				id: "1759A8B56C203C6A"
 				item: { count: 16, id: "minecraft:bread" }
 				type: "item"
 			}]
@@ -362,32 +270,13 @@
 			id: "B100000000000070"
 			rewards: [
 				{
-					id: "A16A27AECC4B48C6"
-					item: {
-						count: 4
-						id: "farmersdelight:cabbage_seeds"
-					}
-					type: "item"
-				},
-				{
-					id: "A52583419F314303"
-					item: {
-						count: 4
-						id: "farmersdelight:tomato_seeds"
-					}
-					type: "item"
-				},
-				{
-					id: "43781BB69A8251D4"
-					item: {
-						count: 4
-						id: "farmersdelight:onion"
-					}
-					type: "item"
+					id: "C100000000000070"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "69EFA8A85A8F79E1"
+				id: "DBC5C68BBFEDD364"
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
@@ -399,21 +288,18 @@
 			id: "B100000000000071"
 			rewards: [
 				{
-					id: "CE6A2760F2E81A68"
-					item: {
-						count: 1
-						id: "farmersdelight:skillet"
-					}
-					type: "item"
+					id: "C100000000000071"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "ADCC26EBE844A2FB"
+					id: "43D5882EB4858FA1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FAB0C4DBCBA69187"
+				id: "1CD003DAF43CA19D"
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
@@ -427,16 +313,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "7F618163F3177E1A"
-					item: {
-						count: 1
-						id: "farmersdelight:cutting_board"
-					}
-					type: "item"
+					id: "C100000000000072"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "1E48A8C48A097163"
+				id: "D49F4A8FB18A8200"
 				item: { count: 1, id: "farmersdelight:iron_knife" }
 				type: "item"
 			}]
@@ -450,21 +333,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "578D447B8E3E6F1A"
-					item: {
-						count: 16
-						id: "minecraft:white_wool"
-					}
-					type: "item"
+					id: "C100000000000073"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "6E28C2CAF93302F8"
+					id: "3BF2CBFB6349A8EB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "41E7C5DCB0CFA556"
+				id: "6307D272BC9DCAE6"
 				item: { count: 1, id: "comforts:sleeping_bag_red" }
 				type: "item"
 			}]
@@ -476,21 +356,18 @@
 			id: "B100000000000074"
 			rewards: [
 				{
-					id: "AD23D79C6E25FD33"
-					item: {
-						count: 16
-						id: "minecraft:stick"
-					}
-					type: "item"
+					id: "C100000000000074"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "525A3173D4E456E7"
+					id: "1542DAD1127C4533"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F8ED50CA9AA2C166"
+				id: "DA73C0E8F15E0480"
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
 				type: "item"
 			}]
@@ -502,24 +379,13 @@
 			id: "B100000000000075"
 			rewards: [
 				{
-					id: "2272A63A2E9D5515"
-					item: {
-						count: 4
-						id: "minecraft:chest"
-					}
-					type: "item"
-				},
-				{
-					id: "FC06982BA19710BA"
-					item: {
-						count: 8
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
+					id: "C100000000000075"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "880B85B95D3FF80D"
+				id: "C583F1A6A8FF1B53"
 				item: { count: 1, id: "ironchest:iron_chest" }
 				type: "item"
 			}]
@@ -531,21 +397,18 @@
 			id: "B100000000000076"
 			rewards: [
 				{
-					id: "9E54265C8FB6877F"
-					item: {
-						count: 2
-						id: "minecraft:coal_block"
-					}
-					type: "item"
+					id: "C100000000000076"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "D706488EB9A6AD65"
+					id: "2204626E0E27BD25"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DBFFA763ADE3B208"
+				id: "792DA1821992AC2C"
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
@@ -559,21 +422,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "19AB8D09214B6ECA"
-					item: {
-						count: 1
-						id: "minecraft:map"
-					}
-					type: "item"
+					id: "C100000000000077"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "35F6883A30852094"
+					id: "733388A233A2DF33"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8BD936C6F15DE989"
+				id: "28F1063C698BFFC6"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
@@ -587,21 +447,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "CE626C17061C0950"
-					item: {
-						count: 2
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
+					id: "C100000000000078"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "E922E5F6B28ED5A2"
+					id: "E945F796EAC28229"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "491040081B9C3B99"
+				id: "04CA86D4552B1CFA"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
@@ -615,16 +472,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "6632FF0178422DB2"
-					item: {
-						count: 4
-						id: "supplementaries:jar"
-					}
-					type: "item"
+					id: "C100000000000079"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "5F451DCB5208D12F"
+				id: "8E2F0F7F70634B4C"
 				item: { count: 1, id: "supplementaries:wrench" }
 				type: "item"
 			}]
@@ -638,21 +492,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "B680694D808764BA"
-					item: {
-						count: 1
-						id: "another_furniture:oak_table"
-					}
-					type: "item"
+					id: "C10000000000007A"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "08A0A294FED07105"
+					id: "D030EFB106701A9A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7E04D7D7365EC788"
+				id: "FE6F63E73BAF98AD"
 				item: { count: 1, id: "another_furniture:oak_chair" }
 				type: "item"
 			}]
@@ -666,21 +517,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "A886CE2CC2CF9609"
-					item: {
-						count: 16
-						id: "minecraft:string"
-					}
-					type: "item"
+					id: "C10000000000007B"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "6A7A0A2A7F0E1E76"
+					id: "95811457D34EB4CF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "194A724ED69722BF"
+				id: "D185533E94F1BE10"
 				item: { count: 16, id: "minecraft:leather" }
 				type: "item"
 			}]

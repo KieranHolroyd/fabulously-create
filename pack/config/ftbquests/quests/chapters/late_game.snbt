@@ -17,21 +17,18 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "A91A5DC4C76D99F6"
-					item: {
-						count: 4
-						id: "minecraft:ancient_debris"
-					}
-					type: "item"
+					id: "C1000000000001F4"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "4460A96F06D3F831"
+					id: "0E315EB2EBC7D6A1"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "BAA9DC6126E443A2"
+				id: "ABC0C8829C5860CE"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
@@ -43,21 +40,18 @@
 			id: "B1000000000001F5"
 			rewards: [
 				{
-					id: "50779FC1062DFDEC"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
-					type: "item"
+					id: "C1000000000001F5"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "3CB1CC00363D1FD2"
+					id: "56FBF4A8EF2FF638"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D73361749CBDF881"
+				id: "CAA9FBF9EA0766DF"
 				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
 				type: "item"
 			}]
@@ -71,16 +65,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "CFAA0FEE68B32233"
-					item: {
-						count: 32
-						id: "minecraft:obsidian"
-					}
-					type: "item"
+					id: "C1000000000001F6"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "B82D563ACEE2C2F1"
+				id: "29F8AE82368CC241"
 				item: { count: 1, id: "ironchest:obsidian_chest" }
 				type: "item"
 			}]
@@ -94,16 +85,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "AF2054A5616BF545"
-					item: {
-						count: 8
-						id: "minecraft:diamond"
-					}
-					type: "item"
+					id: "C1000000000001F7"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "897782DAB8E5B0AE"
+				id: "704FB5FB1ED26F41"
 				item: { count: 1, id: "ironchest:diamond_chest" }
 				type: "item"
 			}]
@@ -115,21 +103,18 @@
 			id: "B1000000000001F8"
 			rewards: [
 				{
-					id: "ACE648C8FA1A2984"
-					item: {
-						count: 2
-						id: "ironjetpacks:basic_coil"
-					}
-					type: "item"
+					id: "C1000000000001F8"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "586D1FD21C5B4272"
+					id: "FD5876FFE8988F01"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0A3B2AF907D19E10"
+				id: "B45AC4426FD562E0"
 				item: { count: 2, id: "ironjetpacks:thruster" }
 				type: "item"
 			}]
@@ -141,16 +126,13 @@
 			id: "B1000000000001F9"
 			rewards: [
 				{
-					id: "8B4CA2CBD5B47E1D"
-					item: {
-						count: 1
-						id: "ironjetpacks:capacitor"
-					}
-					type: "item"
+					id: "C1000000000001F9"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "66136C270C4457C8"
+				id: "CB8681DC258EB64D"
 				item: { count: 1, id: "ironjetpacks:cell" }
 				type: "item"
 			}]
@@ -164,13 +146,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "EAAE6BCBA6AA8E25"
+					id: "C1000000000001FA"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "39BBFE596AB0CB4F"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "2297866FAFD85B86"
+				id: "CD747CDF806CAADB"
 				item: { count: 1, id: "ironjetpacks:jetpack" }
 				type: "item"
 			}]
@@ -183,21 +170,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "6A2DC2E4FC9F1E11"
-					item: {
-						count: 1
-						id: "create:copper_backtank"
-					}
-					type: "item"
+					id: "C1000000000001FB"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "E46446F001754159"
+					id: "75164CFF3448073A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2707502A894AC5F7"
+				id: "8850CC9051455850"
 				item: { count: 1, id: "create_jetpack:jetpack" }
 				type: "item"
 			}]
@@ -211,21 +195,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "E814076421F3FCA5"
-					item: {
-						count: 16
-						id: "create:brass_ingot"
-					}
-					type: "item"
+					id: "C1000000000001FC"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "8FD48CF63F1E602F"
+					id: "ED221A422AA531A4"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E2ED29520AF38F32"
+				id: "FAAA4B547937989D"
 				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
 				type: "item"
 			}]
@@ -239,21 +220,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "DDED504B0DC0B46E"
-					item: {
-						count: 4
-						id: "minecraft:iron_block"
-					}
-					type: "item"
+					id: "C1000000000001FD"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "4D2D640EEDE80217"
+					id: "411AB86181E0A9A6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6E1DC97449BC10E1"
+				id: "47FAA60202890763"
 				item: { count: 1, id: "createbigcannons:cannon_mount" }
 				type: "item"
 			}]
@@ -267,16 +245,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "BB6945DDC780FEFB"
-					item: {
-						count: 16
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
+					id: "C1000000000001FE"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "D2B7D4A145791161"
+				id: "C6FE87377369D89C"
 				item: { count: 1, id: "createbigcannons:solid_shot" }
 				type: "item"
 			}]
@@ -291,21 +266,18 @@
 			id: "B1000000000001FF"
 			rewards: [
 				{
-					id: "62B3AD1777A90DA2"
-					item: {
-						count: 2
-						id: "create:precision_mechanism"
-					}
-					type: "item"
+					id: "C1000000000001FF"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "836C27467AF3E08C"
+					id: "5C5F1329EEC5DF57"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "31C0FB53CC364B34"
+				id: "8A96E75EDAB2CA13"
 				item: { count: 64, id: "create:track" }
 				type: "item"
 			}]
@@ -317,21 +289,18 @@
 			id: "B100000000000200"
 			rewards: [
 				{
-					id: "FA926868A3FEE6D8"
-					item: {
-						count: 1
-						id: "railways:fuel_tank"
-					}
-					type: "item"
+					id: "C100000000000200"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "EA6538797A2C523E"
+					id: "7AB8D0B9E5D28240"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "DF1FDD30362810FE"
+				id: "93A1E7734D18E653"
 				item: { count: 1, id: "railways:conductor_whistle" }
 				type: "item"
 			}]
@@ -345,16 +314,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "CA11B3581C3D3097"
-					item: {
-						count: 8
-						id: "bellsandwhistles:metro_casing"
-					}
-					type: "item"
+					id: "C100000000000201"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "70EFEA2CF4E72D1D"
+				id: "1F47658FEB65CB9F"
 				item: { count: 1, id: "bellsandwhistles:headlight" }
 				type: "item"
 			}]
@@ -370,21 +336,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "157CF5320142A6C6"
-					item: {
-						count: 32
-						id: "create:brass_sheet"
-					}
-					type: "item"
+					id: "C100000000000202"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "3390BE18394A1103"
+					id: "BAF5068261CB706C"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "6DF9E2F95DBF4BF3"
+				id: "AA2E3AA0F4DEACC5"
 				item: { count: 32, id: "create:precision_mechanism" }
 				type: "item"
 			}]
@@ -398,21 +361,18 @@
 			size: 1.8d
 			rewards: [
 				{
-					id: "116549FE301CEE55"
-					item: {
-						count: 2
-						id: "minecraft:diamond_block"
-					}
-					type: "item"
+					id: "C100000000000203"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "8F6B22A7AB77DE8C"
+					id: "F557C116A87BE849"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "A034A2C2446D3472"
+				id: "0531E6AC37F027A7"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
@@ -427,21 +387,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "4BBAD2C7987AC12F"
-					item: {
-						count: 4
-						id: "minecraft:end_crystal"
-					}
-					type: "item"
+					id: "C100000000000204"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "FC7D348C9983F732"
+					id: "9FABA43603B2DAB6"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "7A71B923FDB87BF7"
+				id: "B04850D741B7A574"
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
@@ -455,29 +412,18 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "652DCFFA92AABD58"
-					item: {
-						count: 64
-						id: "minecraft:firework_rocket"
-					}
-					type: "item"
+					id: "C100000000000205"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "8AC56934FDEE0F64"
-					item: {
-						count: 4
-						id: "minecraft:shulker_shell"
-					}
-					type: "item"
-				},
-				{
-					id: "FA928E94C8714DD8"
+					id: "F4189072076A298D"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "906087EB4220E87F"
+				id: "7C6EA5BEC9249011"
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
@@ -491,13 +437,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "BEE83BB1BB4A0E1A"
+					id: "C100000000000206"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "AB309FE7D02F74B8"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FDFF02BC3D637D2F"
+				id: "B5D4EA1997AED0EC"
 				item: { count: 1, id: "constructionstick:netherite_stick" }
 				type: "item"
 			}]
@@ -511,21 +462,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "23F1C1C344A941DC"
-					item: {
-						count: 32
-						id: "minecraft:bone"
-					}
-					type: "item"
+					id: "C100000000000207"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "A324270ACE4B6043"
+					id: "AFFABC87B738F552"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B25279BFD9ED6FE6"
+				id: "48498A1472CD0BF7"
 				item: { count: 8, id: "tombstone:grave_dust" }
 				type: "item"
 			}]
@@ -539,16 +487,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "CC3A3DCA4D09A620"
-					item: {
-						count: 8
-						id: "create:brass_ingot"
-					}
-					type: "item"
+					id: "C100000000000208"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "D491B3B176F165AA"
+				id: "6325B4C29C298BEB"
 				item: { count: 1, id: "create_sa:brass_drill_head" }
 				type: "item"
 			}]
@@ -562,21 +507,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "43F9B99227F30374"
-					item: {
-						count: 36
-						id: "minecraft:iron_block"
-					}
-					type: "item"
+					id: "C100000000000209"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "694B3DEDF11B6F67"
+					id: "42CB30D47D7C7256"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "767766EEB3334EBB"
+				id: "1ED0AA5165B81A64"
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]

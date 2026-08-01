@@ -184,4 +184,508 @@
 		"",
 		"Compact kinetic routing for dense factory floors — squeeze more shafts into less space."
 	]
+	quest.B1000000000001A8.title: "Dielectric Beginnings"
+	quest.B1000000000001A8.quest_subtitle: "Powah · Materials"
+	quest.B1000000000001A8.quest_desc: [
+		"&6Goal:&r Craft &616 Dielectric Paste&r.",
+		"",
+		"Powah uses dielectric paste, rods, and casings throughout every generator and storage tier.",
+		"",
+		"&7Tip:&r Cook it in batches; upgrading machines repeatedly consumes plenty."
+	]
+	quest.B1000000000001A9.title: "Starter Furnator"
+	quest.B1000000000001A9.quest_subtitle: "Powah · Generation"
+	quest.B1000000000001A9.quest_desc: [
+		"&6Goal:&r Craft a Starter Furnator.",
+		"",
+		"Burn solid fuel for your first independent FE supply—enough to bootstrap Refined Storage and the Energizing Orb.",
+		"",
+		"&7Tip:&r Set output sides in the GUI or connect an energy cable."
+	]
+	quest.B1000000000001AA.title: "Starter Energy Cables"
+	quest.B1000000000001AA.quest_subtitle: "Powah · Transfer"
+	quest.B1000000000001AA.quest_desc: [
+		"&6Goal:&r Craft &616 Starter Energy Cables&r.",
+		"",
+		"Powah cables move FE between generators, cells, RS controllers, chargers, and Create Crafts \\& Additions machines.",
+		"",
+		"&7Tip:&r Upgrade the cable tier when transfer rate becomes the bottleneck."
+	]
+	quest.B1000000000001AB.title: "Starter Energy Cell"
+	quest.B1000000000001AB.quest_subtitle: "Powah · Storage"
+	quest.B1000000000001AB.quest_desc: [
+		"&6Goal:&r Craft a Starter Energy Cell.",
+		"",
+		"Cells buffer generation so machines survive demand spikes and generators can keep working between jobs.",
+		"",
+		"&7Tip:&r Place storage between generation and the factory bus."
+	]
+	quest.B1000000000001AC.title: "Thermo Generator"
+	quest.B1000000000001AC.quest_subtitle: "Powah · Generation"
+	quest.B1000000000001AC.quest_desc: [
+		"&6Goal:&r Craft a Starter Thermo Generator.",
+		"",
+		"Place it above a hot block and supply water for passive, fuel-free FE. Better heat sources improve output.",
+		"",
+		"&7Tip:&r Use a sink or pumped Create tank for reliable water supply."
+	]
+	quest.B1000000000001AD.title: "Magmator"
+	quest.B1000000000001AD.quest_subtitle: "Powah · Generation"
+	quest.B1000000000001AD.quest_desc: [
+		"&6Goal:&r Craft a Starter Magmator.",
+		"",
+		"A Magmator consumes lava for steady power—an excellent match for Create hose pulleys and train-delivered lava.",
+		"",
+		"&7Tip:&r Buffer lava in a Create Fluid Tank before feeding the generator."
+	]
+	quest.B1000000000001AE.title: "Solar Panel"
+	quest.B1000000000001AE.quest_subtitle: "Powah · Generation"
+	quest.B1000000000001AE.quest_desc: [
+		"&6Goal:&r Craft a Starter Solar Panel.",
+		"",
+		"Solar panels generate free daytime power with clear sky access. Combine sources rather than relying on one generator.",
+		"",
+		"&7Tip:&r Store daytime surplus in an Energy Cell for overnight use."
+	]
+	quest.B1000000000001AF.title: "Energizing Orb"
+	quest.B1000000000001AF.quest_subtitle: "Powah · Energizing"
+	quest.B1000000000001AF.quest_desc: [
+		"&6Goal:&r Craft an Energizing Orb.",
+		"",
+		"The Orb turns ordinary materials into Powah's tier crystals when Energizing Rods supply enough FE.",
+		"",
+		"&7Tip:&r Items can be inserted and removed with Create funnels, deployers, arms, Pipez, or RS interfaces."
+	]
+	quest.B1000000000001B0.title: "Energizing Rod"
+	quest.B1000000000001B0.quest_subtitle: "Powah · Energizing"
+	quest.B1000000000001B0.quest_desc: [
+		"&6Goal:&r Craft &62 Starter Energizing Rods&r.",
+		"",
+		"Point rods at the Orb with an unobstructed line of sight. More and better rods deliver recipes faster.",
+		"",
+		"&7Tip:&r Connect every rod to the same buffered power network."
+	]
+	quest.B1000000000001B1.title: "Energized Steel"
+	quest.B1000000000001B1.quest_subtitle: "Powah · Tier: Basic"
+	quest.B1000000000001B1.quest_desc: [
+		"&6Goal:&r Produce &68 Energized Steel&r.",
+		"",
+		"This first energized material unlocks Basic-tier generators, cables, cells, batteries, and wireless devices.",
+		"",
+		"&7Tip:&r Encode the Orb recipe in Refined Storage once your processing autocrafting is ready."
+	]
+	quest.B1000000000001B2.title: "Blazing Crystal"
+	quest.B1000000000001B2.quest_subtitle: "Powah · Tier: Blazing"
+	quest.B1000000000001B2.quest_desc: [
+		"&6Goal:&r Produce &68 Blazing Crystals&r.",
+		"",
+		"Blazing tier raises generation, capacity, and transfer rates with Nether materials.",
+		"",
+		"&7Tip:&r Keep blaze products automated with a Create farm or bulk processing line."
+	]
+	quest.B1000000000001B3.title: "Niotic Crystal"
+	quest.B1000000000001B3.quest_subtitle: "Powah · Tier: Niotic"
+	quest.B1000000000001B3.quest_desc: [
+		"&6Goal:&r Produce &68 Niotic Crystals&r.",
+		"",
+		"Niotic power uses diamonds and marks the jump into serious factory-scale FE.",
+		"",
+		"&7Tip:&r Upgrade bottlenecks together: generator, cell, and cable throughput."
+	]
+	quest.B1000000000001B4.title: "Spirited Crystal"
+	quest.B1000000000001B4.quest_subtitle: "Powah · Tier: Spirited"
+	quest.B1000000000001B4.quest_desc: [
+		"&6Goal:&r Produce &68 Spirited Crystals&r.",
+		"",
+		"Spirited tier is an emerald-heavy late-game step suited to large RS autocrafting networks.",
+		"",
+		"&7Tip:&r Only upgrade machines whose capacity or rate you actually need."
+	]
+	quest.B1000000000001B5.title: "Nitro Crystal"
+	quest.B1000000000001B5.quest_subtitle: "Powah · Tier: Nitro"
+	quest.B1000000000001B5.quest_desc: [
+		"&6Goal:&r Produce &64 Nitro Crystals&r.",
+		"",
+		"Nitro is Powah's top survival tier and requires Nether Stars plus a major FE investment.",
+		"",
+		"&7Tip:&r A buffered reactor network prevents the energizing operation from starving your base."
+	]
+	quest.B1000000000001B6.title: "Uraninite Supply"
+	quest.B1000000000001B6.quest_subtitle: "Powah · Reactors"
+	quest.B1000000000001B6.quest_desc: [
+		"&6Goal:&r Process &616 Uraninite&r.",
+		"",
+		"Uraninite fuels Powah reactors. Mine its ore and energize or smelt it before building sustained reactor power.",
+		"",
+		"&7Tip:&r Stock coal, redstone, water, and dry ice too; reactors perform best with all required inputs."
+	]
+	quest.B1000000000001B7.title: "Starter Reactor"
+	quest.B1000000000001B7.quest_subtitle: "Powah · Reactors"
+	quest.B1000000000001B7.quest_desc: [
+		"&6Goal:&r Craft and assemble a Starter Reactor.",
+		"",
+		"Reactors compactly generate continuous FE from uraninite and supporting resources. Configure inputs before enabling full production.",
+		"",
+		"&7Tip:&r Automate each consumable and send output through an Energy Cell."
+	]
+	quest.B1000000000001B8.title: "Nitro Reactor"
+	quest.B1000000000001B8.quest_subtitle: "Powah · Reactors"
+	quest.B1000000000001B8.quest_desc: [
+		"&6Goal:&r Upgrade all the way to a Nitro Reactor.",
+		"",
+		"This is the endgame Powah generator: enormous output for RS autocrafting, jetpacks, and electrically driven Create factories.",
+		"",
+		"&7Tip:&r Monitor fuel and cooling; huge theoretical output is useless without automated supply."
+	]
+	quest.B1000000000001B9.title: "Ender Cell"
+	quest.B1000000000001B9.quest_subtitle: "Powah · Wireless network"
+	quest.B1000000000001B9.quest_desc: [
+		"&6Goal:&r Craft a Starter Ender Cell.",
+		"",
+		"Ender Cells store power in a frequency-based wireless network shared by linked Ender Gates.",
+		"",
+		"&7Tip:&r Use separate channels for public infrastructure and critical machines."
+	]
+	quest.B1000000000001BA.title: "Ender Gate"
+	quest.B1000000000001BA.quest_subtitle: "Powah · Wireless network"
+	quest.B1000000000001BA.quest_desc: [
+		"&6Goal:&r Craft &62 Starter Ender Gates&r.",
+		"",
+		"Attach gates to distant machines for cable-free FE access through the selected Ender Cell channel.",
+		"",
+		"&7Tip:&r A gate's transfer limit still depends on its tier."
+	]
+	quest.B1000000000001BB.title: "Player Transmitter"
+	quest.B1000000000001BB.quest_subtitle: "Powah · Wireless charging"
+	quest.B1000000000001BB.quest_desc: [
+		"&6Goal:&r Craft a Starter Player Transmitter.",
+		"",
+		"Player Transmitters wirelessly charge carried equipment—especially Iron Jetpacks and Powah batteries.",
+		"",
+		"&7Tip:&r Bind yourself with the correct card and keep the transmitter supplied with FE."
+	]
+	quest.B1000000000001BC.title: "Portable Battery"
+	quest.B1000000000001BC.quest_subtitle: "Powah · Wireless charging"
+	quest.B1000000000001BC.quest_desc: [
+		"&6Goal:&r Craft a Starter Battery.",
+		"",
+		"A battery carries FE between jobs and provides a simple test item for your Player Transmitter.",
+		"",
+		"&7Tip:&r Upgrade its tier alongside your wireless charging rate and equipment demand."
+	]
+	quest.B1000000000001BD.title: "RFTools Framework"
+	quest.B1000000000001BD.quest_subtitle: "RFTools · Foundation"
+	quest.B1000000000001BD.quest_desc: [
+		"&6Goal:&r Craft &64 RFTools Machine Frames&r.",
+		"",
+		"Machine Frames are the common chassis for the entire RFTools suite.",
+		"",
+		"&7Tip:&r Keep a batch in Refined Storage; nearly every branch consumes them."
+	]
+	quest.B1000000000001BE.title: "Smart Wrench"
+	quest.B1000000000001BE.quest_subtitle: "RFTools · Tools"
+	quest.B1000000000001BE.quest_desc: [
+		"&6Goal:&r Craft an RFTools Smart Wrench.",
+		"",
+		"The wrench rotates, configures, links, and safely moves through RFTools setups.",
+		"",
+		"&7Tip:&r Carry it before placing machines whose facing or links matter."
+	]
+	quest.B1000000000001BF.title: "Coal Generator"
+	quest.B1000000000001BF.quest_subtitle: "RFTools · Power"
+	quest.B1000000000001BF.quest_desc: [
+		"&6Goal:&r Craft an RFTools Coal Generator.",
+		"",
+		"This compact generator is a fallback FE source and a clear introduction to RFTools Power.",
+		"",
+		"&7Tip:&r Feed the same power bus as Powah, but let Powah handle serious base generation."
+	]
+	quest.B1000000000001C0.title: "Power Cell"
+	quest.B1000000000001C0.quest_subtitle: "RFTools · Power"
+	quest.B1000000000001C0.quest_desc: [
+		"&6Goal:&r Craft a Level 1 Power Cell.",
+		"",
+		"Power Cells buffer FE locally and can grow into linked power networks.",
+		"",
+		"&7Tip:&r Place one beside bursty machines so cable demand stays smooth."
+	]
+	quest.B1000000000001C1.title: "Powercell Card"
+	quest.B1000000000001C1.quest_subtitle: "RFTools · Power networking"
+	quest.B1000000000001C1.quest_desc: [
+		"&6Goal:&r Craft a Powercell Card.",
+		"",
+		"Cards link compatible RFTools power cells and dimensional cells into a shared network.",
+		"",
+		"&7Tip:&r Name cards or networks by purpose to avoid cross-wiring factories."
+	]
+	quest.B1000000000001C2.title: "Dimensional Cell"
+	quest.B1000000000001C2.quest_subtitle: "RFTools · Power networking"
+	quest.B1000000000001C2.quest_desc: [
+		"&6Goal:&r Craft a Dimensional Cell.",
+		"",
+		"Dimensional Cells move FE across distance and dimensions without running physical cables.",
+		"",
+		"&7Tip:&r Use Powah generation to charge the network that supports teleporters and dimensions."
+	]
+	quest.B1000000000001C3.title: "Automated Crafter"
+	quest.B1000000000001C3.quest_subtitle: "RFTools · Automation"
+	quest.B1000000000001C3.quest_desc: [
+		"&6Goal:&r Craft a Tier 1 RFTools Crafter.",
+		"",
+		"RFTools Crafters continuously process buffered recipes, ideal for compact material loops.",
+		"",
+		"&7Tip:&r Use Create or Pipez to supply ingredients and export results to Refined Storage."
+	]
+	quest.B1000000000001C4.title: "Tier 3 Crafter"
+	quest.B1000000000001C4.quest_subtitle: "RFTools · Automation"
+	quest.B1000000000001C4.quest_desc: [
+		"&6Goal:&r Upgrade to a Tier 3 RFTools Crafter.",
+		"",
+		"The top crafter handles many recipes in one block and can retain intermediates internally.",
+		"",
+		"&7Tip:&r Use remembered outputs carefully to prevent recipe loops from clogging."
+	]
+	quest.B1000000000001C5.title: "Information Screen"
+	quest.B1000000000001C5.quest_subtitle: "RFTools · Monitoring"
+	quest.B1000000000001C5.quest_desc: [
+		"&6Goal:&r Craft an RFTools Screen.",
+		"",
+		"Screens present power, inventory, fluid, machine, and text data through installable modules.",
+		"",
+		"&7Tip:&r Build the module that matches the system you actually need to monitor."
+	]
+	quest.B1000000000001C6.title: "Screen Controller"
+	quest.B1000000000001C6.quest_subtitle: "RFTools · Monitoring"
+	quest.B1000000000001C6.quest_desc: [
+		"&6Goal:&r Craft a Screen Controller.",
+		"",
+		"A controller supplies power and data to nearby screens for a clean factory dashboard.",
+		"",
+		"&7Tip:&r Keep its range and FE use in mind when laying out a control room."
+	]
+	quest.B1000000000001C7.title: "Power Monitor"
+	quest.B1000000000001C7.quest_subtitle: "RFTools · Monitoring"
+	quest.B1000000000001C7.quest_desc: [
+		"&6Goal:&r Craft a Power Monitor.",
+		"",
+		"Monitor stored energy and emit redstone at useful thresholds before the factory browns out.",
+		"",
+		"&7Tip:&r Connect the signal to backup Powah generators or nonessential machine shutoffs."
+	]
+	quest.B1000000000001C8.title: "Matter Transmitter"
+	quest.B1000000000001C8.quest_subtitle: "RFTools · Teleportation"
+	quest.B1000000000001C8.quest_desc: [
+		"&6Goal:&r Craft a Matter Transmitter.",
+		"",
+		"Matter transmitters send players to linked receivers and form the travel backbone of RFTools Dimensions.",
+		"",
+		"&7Tip:&r Teleportation needs reliable FE; buffer it rather than trusting live generation."
+	]
+	quest.B1000000000001C9.title: "Matter Receiver"
+	quest.B1000000000001C9.quest_subtitle: "RFTools · Teleportation"
+	quest.B1000000000001C9.quest_desc: [
+		"&6Goal:&r Craft a Matter Receiver.",
+		"",
+		"A receiver creates a destination for transmitters, including in distant or custom dimensions.",
+		"",
+		"&7Tip:&r Power and protect the destination before dialing it."
+	]
+	quest.B1000000000001CA.title: "Dialing Device"
+	quest.B1000000000001CA.quest_subtitle: "RFTools · Teleportation"
+	quest.B1000000000001CA.quest_desc: [
+		"&6Goal:&r Craft a Dialing Device.",
+		"",
+		"The dialer discovers nearby transmitters and receivers and connects the selected route.",
+		"",
+		"&7Tip:&r Give destinations clear names so travel remains safe and predictable."
+	]
+	quest.B1000000000001CB.title: "Environmental Controller"
+	quest.B1000000000001CB.quest_subtitle: "RFTools · Utility"
+	quest.B1000000000001CB.quest_desc: [
+		"&6Goal:&r Craft an Environmental Controller.",
+		"",
+		"With modules installed, this powered machine applies useful effects across a configurable area.",
+		"",
+		"&7Tip:&r Its ongoing FE cost rises with range and modules, so measure before expanding."
+	]
+	quest.B1000000000001CC.title: "Storage Module"
+	quest.B1000000000001CC.quest_subtitle: "RFTools · Storage"
+	quest.B1000000000001CC.quest_desc: [
+		"&6Goal:&r Craft a Tier 1 Storage Module.",
+		"",
+		"Storage Modules determine the capacity of Modular Storage blocks.",
+		"",
+		"&7Tip:&r This is complementary local storage; keep bulk searchable stock in Refined Storage."
+	]
+	quest.B1000000000001CD.title: "Modular Storage"
+	quest.B1000000000001CD.quest_subtitle: "RFTools · Storage"
+	quest.B1000000000001CD.quest_desc: [
+		"&6Goal:&r Craft Modular Storage and install your module.",
+		"",
+		"One compact block exposes the module's inventory with filtering and a convenient interface.",
+		"",
+		"&7Tip:&r Use it for work cells whose contents should stay separate from the main network."
+	]
+	quest.B1000000000001CE.title: "Storage Scanner"
+	quest.B1000000000001CE.quest_subtitle: "RFTools · Storage"
+	quest.B1000000000001CE.quest_desc: [
+		"&6Goal:&r Craft a Storage Scanner.",
+		"",
+		"The scanner searches and accesses nearby inventories from one interface without replacing them.",
+		"",
+		"&7Tip:&r Scan Create vaults and local chests, then use RS for globally managed storage."
+	]
+	quest.B1000000000001CF.title: "Remote Storage Tablet"
+	quest.B1000000000001CF.quest_subtitle: "RFTools · Storage"
+	quest.B1000000000001CF.quest_desc: [
+		"&6Goal:&r Craft a Storage Scanner Tablet.",
+		"",
+		"The tablet gives portable access to a linked scanner when it has power and connectivity.",
+		"",
+		"&7Tip:&r Keep it charged with Powah wireless charging before long expeditions."
+	]
+	quest.B1000000000001D0.title: "Crafting Manager"
+	quest.B1000000000001D0.quest_subtitle: "RFTools · Storage automation"
+	quest.B1000000000001D0.quest_desc: [
+		"&6Goal:&r Craft an RFTools Crafting Manager.",
+		"",
+		"The manager coordinates RFTools storage and crafting resources from a central interface.",
+		"",
+		"&7Tip:&r Use it for self-contained production cells; RS remains best for pack-wide autocrafting."
+	]
+	quest.B1000000000001D1.title: "Dimensional Shards"
+	quest.B1000000000001D1.quest_subtitle: "RFTools · Dimensions"
+	quest.B1000000000001D1.quest_desc: [
+		"&6Goal:&r Collect &68 Dimensional Shards&r.",
+		"",
+		"These rare materials gate advanced RFTools machinery and the custom-dimension path.",
+		"",
+		"&7Tip:&r Check JEI's ore-height display and dimension sources before committing to a mining trip."
+	]
+	quest.B1000000000001D2.title: "Dimlet Workbench"
+	quest.B1000000000001D2.quest_subtitle: "RFTools · Dimensions"
+	quest.B1000000000001D2.quest_desc: [
+		"&6Goal:&r Craft a Dimlet Workbench.",
+		"",
+		"The workbench assembles researched parts into dimlets that describe terrain, biomes, blocks, and features.",
+		"",
+		"&7Tip:&r Start with a simple, low-cost world before combining expensive effects."
+	]
+	quest.B1000000000001D3.title: "Dimlet Researcher"
+	quest.B1000000000001D3.quest_subtitle: "RFTools · Dimensions"
+	quest.B1000000000001D3.quest_desc: [
+		"&6Goal:&r Craft a Dimlet Researcher.",
+		"",
+		"Research turns lost knowledge into usable information for building custom dimlets.",
+		"",
+		"&7Tip:&r Automate its inputs only after understanding the rarity tiers."
+	]
+	quest.B1000000000001D4.title: "Dimension Enscriber"
+	quest.B1000000000001D4.quest_subtitle: "RFTools · Dimensions"
+	quest.B1000000000001D4.quest_desc: [
+		"&6Goal:&r Craft a Dimension Enscriber.",
+		"",
+		"The Enscriber combines selected dimlets with a dimension tab to define a realizable world.",
+		"",
+		"&7Tip:&r Read the projected maintenance cost and avoid unstable combinations."
+	]
+	quest.B1000000000001D5.title: "Dimension Builder"
+	quest.B1000000000001D5.quest_subtitle: "RFTools · Dimensions"
+	quest.B1000000000001D5.quest_desc: [
+		"&6Goal:&r Craft a Dimension Builder.",
+		"",
+		"The Builder realizes and continuously powers your designed dimension.",
+		"",
+		"&7Tip:&r Supply a large Powah/RFTools energy buffer, then place a powered receiver before exploring."
+	]
+	quest.B1000000000001D6.title: "Flux from Bedrock"
+	quest.B1000000000001D6.quest_subtitle: "Flux Networks · Materials"
+	quest.B1000000000001D6.quest_desc: [
+		"&6Goal:&r Produce &616 Flux Dust&r.",
+		"",
+		"Flux Dust is the foundation of a wireless FE network and is created through its special bedrock interaction recipe.",
+		"",
+		"&7Tip:&r Check JEI for the exact in-world process; bring enough redstone for a batch."
+	]
+	quest.B1000000000001D7.title: "Flux Cores"
+	quest.B1000000000001D7.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D7.quest_desc: [
+		"&6Goal:&r Craft &68 Flux Cores&r.",
+		"",
+		"Cores turn Flux Dust into network devices and storage components.",
+		"",
+		"&7Tip:&r Keep them stocked in Refined Storage for future expansion."
+	]
+	quest.B1000000000001D8.title: "Flux Block"
+	quest.B1000000000001D8.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D8.quest_desc: [
+		"&6Goal:&r Craft &64 Flux Blocks&r.",
+		"",
+		"Flux Blocks compress network material and are used by the more capable devices.",
+		"",
+		"&7Tip:&r Automate dust and core production before building at scale."
+	]
+	quest.B1000000000001D9.title: "Flux Plug"
+	quest.B1000000000001D9.quest_subtitle: "Flux Networks · Wireless input"
+	quest.B1000000000001D9.quest_desc: [
+		"&6Goal:&r Craft a Flux Plug.",
+		"",
+		"A Plug takes FE from an attached generator, cell, or machine and inserts it into your selected wireless network.",
+		"",
+		"&7Tip:&r Attach it to the output side of Powah or RFTools storage, then set a transfer limit."
+	]
+	quest.B1000000000001DA.title: "Flux Point"
+	quest.B1000000000001DA.quest_subtitle: "Flux Networks · Wireless output"
+	quest.B1000000000001DA.quest_desc: [
+		"&6Goal:&r Craft a Flux Point.",
+		"",
+		"A Point extracts FE from the network into Refined Storage, RFTools, or Create Crafts \\& Additions machines.",
+		"",
+		"&7Tip:&r Use priorities and limits so one hungry machine cannot starve the entire base."
+	]
+	quest.B1000000000001DB.title: "Flux Configurator"
+	quest.B1000000000001DB.quest_subtitle: "Flux Networks · Network tools"
+	quest.B1000000000001DB.quest_desc: [
+		"&6Goal:&r Craft a Flux Configurator.",
+		"",
+		"The Configurator makes network-device management quicker while building and troubleshooting.",
+		"",
+		"&7Tip:&r Name networks by purpose and use security settings on multiplayer servers."
+	]
+	quest.B1000000000001DC.title: "Flux Controller"
+	quest.B1000000000001DC.quest_subtitle: "Flux Networks · Network control"
+	quest.B1000000000001DC.quest_desc: [
+		"&6Goal:&r Craft a Flux Controller.",
+		"",
+		"Controllers provide central network management and enable wireless charging for players and selected equipment.",
+		"",
+		"&7Tip:&r Review chunk loading, transfer bypass, and member permissions rather than enabling everything blindly."
+	]
+	quest.B1000000000001DD.title: "Basic Flux Storage"
+	quest.B1000000000001DD.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DD.quest_desc: [
+		"&6Goal:&r Craft Basic Flux Storage.",
+		"",
+		"Network storage absorbs surplus generation and covers demand spikes without extra cables.",
+		"",
+		"&7Tip:&r Keep a physical Powah or RFTools buffer too, so critical machines have layered resilience."
+	]
+	quest.B1000000000001DE.title: "Herculean Storage"
+	quest.B1000000000001DE.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DE.quest_desc: [
+		"&6Goal:&r Upgrade to Herculean Flux Storage.",
+		"",
+		"Herculean storage supports factory-scale reserves for autocrafting, teleportation, and dimension upkeep.",
+		"",
+		"&7Tip:&r Watch actual input and output rates; capacity alone does not solve a generation shortage."
+	]
+	quest.B1000000000001DF.title: "Gargantuan Storage"
+	quest.B1000000000001DF.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DF.quest_desc: [
+		"&6Goal:&r Craft Gargantuan Flux Storage.",
+		"",
+		"The largest survival Flux storage tier is an endgame reservoir for a fully wireless power grid.",
+		"",
+		"&7Tip:&r Feed it with automated high-tier Powah generation and monitor it from your RFTools control room."
+	]
 }

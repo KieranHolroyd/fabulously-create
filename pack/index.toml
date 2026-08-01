@@ -6,23 +6,23 @@ hash = "d17cae28cb10ad5f21bfd95034c831abfefa43dbb335f27888420140431295b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automation.snbt"
-hash = "211118ce36692abc8b291b465ae7e37999cf189f3ce54b9af3079619e2cb2aca"
+hash = "75906afe758d6b418207c7cea2ab6833022c0bfdb8432aaedff98f4b21cbc82a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_factory.snbt"
-hash = "159248cbd3b8454abf799e90d690ec625f07771e6621450fef0842c7b2c4a07d"
+hash = "ed7e7f011ae35e173340daaf33a2271ca4aa883f2d9baef99da22c2d317f71ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/foundations.snbt"
-hash = "696dae7c4cf49b32037c5ee5bfc2e1b687849d8be2f862c04407d7915d87bbe2"
+hash = "7647a985ae39d181b488be70dff8ce3901fb3ef992dc17dd49d64b8e3d6c8d0b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/late_game.snbt"
-hash = "427d1b3941b05993e88132adf085b702957a3fe15aa4584d7eb39bf78730f8bd"
+hash = "f1975a01055efb838d797a6d76fd114118dbdf761d8b99e74eef81989dfe7db3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_gear.snbt"
-hash = "1fffaae256547298deea1a8354d7d20a4a4ba6236700c2e4b3bdfbf847524c96"
+hash = "0232eceb61dab08687bf9573186bc04c8756aac8c62a1b95422feeaa4884defc"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -38,7 +38,7 @@ hash = "342b8da3f7dd4a9c3c700b9d31dd7f25eab87398d9c00ba80de359de83c5ce41"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/automation.snbt"
-hash = "cb0322a9a79e6656dd6d33ef9048fc5747206fd930b90eb96a67ad64178d9ad3"
+hash = "a155de7628a38278140ffd98c6a6299e31237dddaeb5ac481d44f5431955e32b"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/create_factory.snbt"
@@ -54,11 +54,15 @@ hash = "586449a07de897882ca7f58a38ebdc112cfa4207da635e6b39b8c50ba9ee09a2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/storage_gear.snbt"
-hash = "460e9ef1a07ea4a2430e80c295528d36fe4f853baecd4c5376db7799de49c581"
+hash = "f19e4aecda4f6042b45c283fa4680e2888891cd5576c274c617449eadad32c7a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/file.snbt"
 hash = "e592086712f791e9bb7eb2c16e3b9ada92ca3c2e20b1549a2788c76dfb3be09c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/quest_treasure.snbt"
+hash = "eabbeaeb0b902a78efa865a384b2900b0263715a6c8b0ec9c78f8fd3e8bf7be9"
 
 [[files]]
 file = "mods/another-furniture.pw.toml"
@@ -286,6 +290,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/flux-networks.pw.toml"
+hash = "ad8209e472d463c9fcd19ca708fcd9c1a4a1bc69c9f0ca22efeacb414e9ab7a8"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a0b3083a1577130adb77867a6f8b6cf0c5bdd3c0c8b2995fa8b5fca323ed09a0"
 metafile = true
@@ -323,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "f7448243d61c3e7c5941896816afb91dd069cef492a2d93ceba9f48e391cdf44"
 metafile = true
 
 [[files]]
@@ -426,6 +440,11 @@ hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
 metafile = true
 
 [[files]]
+file = "mods/mcjtylib.pw.toml"
+hash = "28f46d68adde7667d778e2d6a31c4fe3834d1d7a93ec5059937da3f667956ebe"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "6d3ff3b7bbcc97fa06bdddcf2b3b7646168497ba6d7104bdea376f1bc65f9a93"
 metafile = true
@@ -461,6 +480,11 @@ hash = "2f9f0f8c05ce7e410a70cfed595e623fe8031df89a8a9ba9a8aaaa419eb4d18b"
 metafile = true
 
 [[files]]
+file = "mods/powah.pw.toml"
+hash = "dc9fec9f7c8410ed73c1d9dec65df90b83af5a62a86e6a33b55dec5641f49f17"
+metafile = true
+
+[[files]]
 file = "mods/rapid-leaf-decay.pw.toml"
 hash = "275d8e13b8bea48d95d511067bbf91ce99b38841e4461b44f9017b827dfbd8d2"
 metafile = true
@@ -478,6 +502,31 @@ metafile = true
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
+metafile = true
+
+[[files]]
+file = "mods/rftools-base.pw.toml"
+hash = "3cb4f127b8742215ad6d36ae965d851657d36a27cb8e9b74535e1b2aa0bd0586"
+metafile = true
+
+[[files]]
+file = "mods/rftools-dimensions.pw.toml"
+hash = "91bf3d8fcbcb71191ec491f07dc57d1a0fa49b99f9612c606564f30af9648d8c"
+metafile = true
+
+[[files]]
+file = "mods/rftools-power.pw.toml"
+hash = "8e7f6142d73209a496d9872e934efa168b707cc35e1dab8aa1e5d087c7424d2d"
+metafile = true
+
+[[files]]
+file = "mods/rftools-storage.pw.toml"
+hash = "bee931bbc278c630504ca925d06f28356a31d6e4addea2f286e6ef2bc170a7fb"
+metafile = true
+
+[[files]]
+file = "mods/rftools-utility.pw.toml"
+hash = "9c79da5b6e8579da097136260733bb1949278c788684960b0779e60811218488"
 metafile = true
 
 [[files]]

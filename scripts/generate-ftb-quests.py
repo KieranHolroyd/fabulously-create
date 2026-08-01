@@ -4,7 +4,7 @@
 Design goals:
 - Teach Create + pack mods instead of bare item checklists
 - Flexible chapter exploration with optional side quests
-- Meaningful rewards (useful gear, not leftover sticks)
+- One exciting weighted reward roll per quest, plus any configured XP
 - Multi-line quest text with tips and next-step hints
 """
 from __future__ import annotations
@@ -18,6 +18,38 @@ QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
 
 GROUP_MAIN = "A100000000000001"
 FILE_ID = "0000000000000001"
+REWARD_TABLE_ID = "7100000000000001"
+REWARD_TABLE_ID_LONG = int(REWARD_TABLE_ID, 16)
+
+# Shared weighted pool used by every quest. Counts are deliberately useful,
+# while progression-skipping prizes have very low weights.
+COOL_REWARDS = [
+    ("minecraft:diamond", 8, 12.0),
+    ("minecraft:emerald_block", 2, 10.0),
+    ("minecraft:experience_bottle", 16, 10.0),
+    ("minecraft:ender_eye", 6, 8.0),
+    ("minecraft:blaze_rod", 12, 8.0),
+    ("minecraft:shulker_shell", 4, 7.0),
+    ("minecraft:echo_shard", 4, 6.0),
+    ("minecraft:dragon_breath", 6, 6.0),
+    ("minecraft:nautilus_shell", 8, 6.0),
+    ("minecraft:wither_skeleton_skull", 2, 5.0),
+    ("minecraft:heart_of_the_sea", 1, 4.0),
+    ("minecraft:trident", 1, 3.0),
+    ("minecraft:netherite_scrap", 3, 3.0),
+    ("minecraft:netherite_upgrade_smithing_template", 1, 2.5),
+    ("minecraft:ominous_trial_key", 2, 2.5),
+    ("minecraft:heavy_core", 1, 1.5),
+    ("minecraft:enchanted_golden_apple", 1, 1.0),
+    ("minecraft:netherite_ingot", 1, 1.0),
+    ("minecraft:totem_of_undying", 1, 1.0),
+    ("minecraft:nether_star", 1, 0.5),
+    ("minecraft:elytra", 1, 0.25),
+    ("create:precision_mechanism", 2, 7.0),
+    ("create:blaze_cake", 4, 6.0),
+    ("create:sturdy_sheet", 4, 4.0),
+    ("waystones:warp_stone", 1, 5.0),
+]
 
 # FTB Quests treats &X as a formatting code (0-9, a-f, k-o, r). Literal & must be \&.
 _BARE_AMP = re.compile(r"(?<!\\)&(?![0-9a-fk-orA-FK-OR])")
@@ -97,7 +129,12 @@ def quest_snbt(
     hide_until_deps: bool = False,
 ) -> str:
     deps = deps or []
-    rewards = rewards or [{"type": "xp_levels", "xp_levels": 1}]
+    configured_rewards = rewards or [{"type": "xp_levels", "xp_levels": 1}]
+    # Item rewards are replaced by one shared random-table roll. XP remains a
+    # guaranteed bonus where the quest definition explicitly included it.
+    rewards = [{"type": "random"}] + [
+        reward for reward in configured_rewards if reward["type"] in {"xp", "xp_levels"}
+    ]
     lines = ["\t\t{"]
     if deps:
         if len(deps) == 1:
@@ -120,7 +157,7 @@ def quest_snbt(
     lines.append("\t\t\trewards: [")
     reward_blocks = []
     for r in rewards:
-        rid = hid()
+        rid = f"C1{int(qid[2:], 16):014X}" if r["type"] == "random" else hid()
         rb = ["\t\t\t\t{"]
         rtype = r["type"]
         if rtype == "item":
@@ -139,6 +176,10 @@ def quest_snbt(
             rb.append(f'\t\t\t\t\tid: "{rid}"')
             rb.append('\t\t\t\t\ttype: "xp"')
             rb.append(f'\t\t\t\t\txp_levels: {r.get("xp_levels", 1)}')
+        elif rtype == "random":
+            rb.append(f'\t\t\t\t\tid: "{rid}"')
+            rb.append(f"\t\t\t\t\ttable_id: {REWARD_TABLE_ID_LONG}L")
+            rb.append('\t\t\t\t\ttype: "random"')
         else:
             raise ValueError(f"unknown reward type {rtype}")
         rb.append("\t\t\t\t}")
@@ -155,6 +196,38 @@ def quest_snbt(
     lines.append(f"\t\t\ty: {y:.1f}d")
     lines.append("\t\t}")
     return "\n".join(lines)
+
+
+def write_reward_table() -> None:
+    """Write the shared weighted pool consumed by RandomReward."""
+    lines = [
+        "{",
+        f'\tid: "{REWARD_TABLE_ID}"',
+        "\tloot_size: 1",
+        "\trewards: [",
+    ]
+    entries = []
+    for index, (item_id, count, weight) in enumerate(COOL_REWARDS, start=1):
+        reward_id = f"7200000000{index:06X}"
+        entries.append(
+            "\n".join(
+                [
+                    "\t\t{",
+                    f'\t\t\tid: "{reward_id}"',
+                    "\t\t\titem: {",
+                    f"\t\t\t\tcount: {count}",
+                    f'\t\t\t\tid: "{item_id}"',
+                    "\t\t\t}",
+                    f"\t\t\tweight: {weight:g}f",
+                    "\t\t}",
+                ]
+            )
+        )
+    lines.append(",\n".join(entries))
+    lines.extend(["\t]", '\ttitle: "Quest Treasure"', "}", ""])
+    table_dir = QUESTS / "reward_tables"
+    table_dir.mkdir(parents=True, exist_ok=True)
+    (table_dir / "quest_treasure.snbt").write_text("\n".join(lines), encoding="utf-8")
 
 
 def write_chapter(
@@ -310,6 +383,7 @@ def main() -> None:
     # Write book metadata
     QUESTS.mkdir(parents=True, exist_ok=True)
     (QUESTS / "chapters").mkdir(exist_ok=True)
+    write_reward_table()
     (QUESTS / "lang" / "en_us" / "chapters").mkdir(parents=True, exist_ok=True)
 
     (QUESTS / "data.snbt").write_text(

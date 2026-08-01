@@ -1,0 +1,207 @@
+{
+	id: "7100000000000001"
+	loot_size: 1
+	rewards: [
+		{
+			id: "7200000000000001"
+			item: {
+				count: 8
+				id: "minecraft:diamond"
+			}
+			weight: 12f
+		},
+		{
+			id: "7200000000000002"
+			item: {
+				count: 2
+				id: "minecraft:emerald_block"
+			}
+			weight: 10f
+		},
+		{
+			id: "7200000000000003"
+			item: {
+				count: 16
+				id: "minecraft:experience_bottle"
+			}
+			weight: 10f
+		},
+		{
+			id: "7200000000000004"
+			item: {
+				count: 6
+				id: "minecraft:ender_eye"
+			}
+			weight: 8f
+		},
+		{
+			id: "7200000000000005"
+			item: {
+				count: 12
+				id: "minecraft:blaze_rod"
+			}
+			weight: 8f
+		},
+		{
+			id: "7200000000000006"
+			item: {
+				count: 4
+				id: "minecraft:shulker_shell"
+			}
+			weight: 7f
+		},
+		{
+			id: "7200000000000007"
+			item: {
+				count: 4
+				id: "minecraft:echo_shard"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000008"
+			item: {
+				count: 6
+				id: "minecraft:dragon_breath"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000009"
+			item: {
+				count: 8
+				id: "minecraft:nautilus_shell"
+			}
+			weight: 6f
+		},
+		{
+			id: "720000000000000A"
+			item: {
+				count: 2
+				id: "minecraft:wither_skeleton_skull"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000000B"
+			item: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 4f
+		},
+		{
+			id: "720000000000000C"
+			item: {
+				count: 1
+				id: "minecraft:trident"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000000D"
+			item: {
+				count: 3
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000000E"
+			item: {
+				count: 1
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
+			weight: 2.5f
+		},
+		{
+			id: "720000000000000F"
+			item: {
+				count: 2
+				id: "minecraft:ominous_trial_key"
+			}
+			weight: 2.5f
+		},
+		{
+			id: "7200000000000010"
+			item: {
+				count: 1
+				id: "minecraft:heavy_core"
+			}
+			weight: 1.5f
+		},
+		{
+			id: "7200000000000011"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 1f
+		},
+		{
+			id: "7200000000000012"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 1f
+		},
+		{
+			id: "7200000000000013"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 1f
+		},
+		{
+			id: "7200000000000014"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.5f
+		},
+		{
+			id: "7200000000000015"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			weight: 0.25f
+		},
+		{
+			id: "7200000000000016"
+			item: {
+				count: 2
+				id: "create:precision_mechanism"
+			}
+			weight: 7f
+		},
+		{
+			id: "7200000000000017"
+			item: {
+				count: 4
+				id: "create:blaze_cake"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000018"
+			item: {
+				count: 4
+				id: "create:sturdy_sheet"
+			}
+			weight: 4f
+		},
+		{
+			id: "7200000000000019"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 5f
+		}
+	]
+	title: "Quest Treasure"
+}

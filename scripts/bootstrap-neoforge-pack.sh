@@ -71,6 +71,13 @@ add_mr toms-storage
 add_mr pipez
 add_mr iron-chests
 add_mr iron-furnaces
+add_mr powah
+add_mr rftools-base
+add_mr rftools-utility
+add_mr rftools-power
+add_mr rftools-storage
+add_mr rftools-dimensions
+add_cf_url "https://www.curseforge.com/minecraft/mc-mods/flux-networks"
 add_mr refined-storage
 add_mr refined-storage-jei-integration
 add_mr refined-storage-curios-integration

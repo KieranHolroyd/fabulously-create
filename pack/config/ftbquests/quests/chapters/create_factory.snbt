@@ -17,29 +17,18 @@
 			size: 2.0d
 			rewards: [
 				{
-					id: "D8231ABE37637E44"
-					item: {
-						count: 64
-						id: "minecraft:andesite"
-					}
-					type: "item"
+					id: "C1000000000000C8"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "76993FE858404127"
-					item: {
-						count: 64
-						id: "minecraft:iron_nugget"
-					}
-					type: "item"
-				},
-				{
-					id: "CE78D6989515DA66"
+					id: "E327EE47043FE891"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DB5B7298CC593C7B"
+				id: "E90592FEF8A226DF"
 				item: { count: 32, id: "create:andesite_alloy" }
 				type: "item"
 			}]
@@ -51,16 +40,13 @@
 			id: "B1000000000000C9"
 			rewards: [
 				{
-					id: "136790AA06D4E3D4"
-					item: {
-						count: 8
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000C9"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "1FEA07EF4C48FE43"
+				id: "76ECD7437FD97D14"
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
@@ -72,16 +58,13 @@
 			id: "B1000000000000CA"
 			rewards: [
 				{
-					id: "51099E1D579C4E32"
-					item: {
-						count: 8
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000CA"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "26DE110CFD913193"
+				id: "40907638BD7D9DC2"
 				item: { count: 16, id: "create:shaft" }
 				type: "item"
 			}]
@@ -93,16 +76,13 @@
 			id: "B1000000000000CB"
 			rewards: [
 				{
-					id: "E6E8A1524F2DA652"
-					item: {
-						count: 64
-						id: "minecraft:oak_planks"
-					}
-					type: "item"
+					id: "C1000000000000CB"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "3E20144CB26887FE"
+				id: "288CEDC2C9F2CCBD"
 				item: { count: 16, id: "create:cogwheel" }
 				type: "item"
 			}]
@@ -114,21 +94,18 @@
 			id: "B1000000000000CC"
 			rewards: [
 				{
-					id: "83CD82A77A57B9B8"
-					item: {
-						count: 8
-						id: "create:cogwheel"
-					}
-					type: "item"
+					id: "C1000000000000CC"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "7ED8A50DDAA90D35"
+					id: "9C7931D0A79F2339"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "BEF423CD613CF9C3"
+				id: "26A5C869D7959ECD"
 				item: { count: 8, id: "create:large_cogwheel" }
 				type: "item"
 			}]
@@ -141,24 +118,13 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "30D8C77251F52468"
-					item: {
-						count: 16
-						id: "create:shaft"
-					}
-					type: "item"
-				},
-				{
-					id: "2412E5FE781D6083"
-					item: {
-						count: 2
-						id: "minecraft:water_bucket"
-					}
-					type: "item"
+					id: "C1000000000000CD"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "2E32F1DC495B05CA"
+				id: "836964A5CB18FDD0"
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
@@ -172,21 +138,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "B694ED5E400A1A5F"
-					item: {
-						count: 32
-						id: "minecraft:white_wool"
-					}
-					type: "item"
+					id: "C1000000000000CE"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "C0C11988A619AD6F"
+					id: "621A35CF2C4502EE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A1EFBAB0A614453B"
+				id: "65473A6DA0877CF9"
 				item: { count: 1, id: "create:windmill_bearing" }
 				type: "item"
 			}]
@@ -198,16 +161,13 @@
 			id: "B1000000000000CF"
 			rewards: [
 				{
-					id: "93CA01383BFCDEF1"
-					item: {
-						count: 16
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000CF"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "4A5D97AAB1F32300"
+				id: "79885054AB317E2D"
 				item: { count: 16, id: "create:andesite_casing" }
 				type: "item"
 			}]
@@ -219,21 +179,18 @@
 			id: "B1000000000000D0"
 			rewards: [
 				{
-					id: "5914EC6E8F0AA759"
-					item: {
-						count: 2
-						id: "minecraft:iron_block"
-					}
-					type: "item"
+					id: "C1000000000000D0"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "592B968D0941A5C9"
+					id: "A2BDFC0B630EBB39"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8EBF3108D2BED386"
+				id: "DE2CE43F1D5CE832"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
@@ -245,16 +202,13 @@
 			id: "B1000000000000D1"
 			rewards: [
 				{
-					id: "0894408E572907EA"
-					item: {
-						count: 8
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000D1"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "94C1DF666CDBF9E3"
+				id: "4F73C228B7EA3186"
 				item: { count: 1, id: "create:basin" }
 				type: "item"
 			}]
@@ -267,21 +221,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "1BFFF275783129FD"
-					item: {
-						count: 1
-						id: "create:whisk"
-					}
-					type: "item"
+					id: "C1000000000000D2"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "42948127415BA3C8"
+					id: "434D8A47D0426344"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E8E24C926AE32D56"
+				id: "D173966940023B3E"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
@@ -295,16 +246,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "8E48A0518FD33535"
-					item: {
-						count: 32
-						id: "minecraft:wheat"
-					}
-					type: "item"
+					id: "C1000000000000D3"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "C34447407BD42731"
+				id: "A4E717AC8B06B58F"
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
@@ -316,21 +264,18 @@
 			id: "B1000000000000D4"
 			rewards: [
 				{
-					id: "34AC70E87F39518C"
-					item: {
-						count: 32
-						id: "minecraft:oak_log"
-					}
-					type: "item"
+					id: "C1000000000000D4"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "2088201C7768044A"
+					id: "B3DFA558C460EAFE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "99B403D9B4B3570B"
+				id: "F8EFF30C62A1B384"
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
@@ -342,21 +287,18 @@
 			id: "B1000000000000D5"
 			rewards: [
 				{
-					id: "35309FF8DA15C357"
-					item: {
-						count: 2
-						id: "create:propeller"
-					}
-					type: "item"
+					id: "C1000000000000D5"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "055F5BC35B2F1386"
+					id: "DACB73EC6C727EC2"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8532FE4839FA16FB"
+				id: "C3B70D54D1A8AF83"
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
@@ -368,16 +310,13 @@
 			id: "B1000000000000D6"
 			rewards: [
 				{
-					id: "BED93AB12EBDDD65"
-					item: {
-						count: 32
-						id: "minecraft:dried_kelp"
-					}
-					type: "item"
+					id: "C1000000000000D6"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "DCED243C177D044D"
+				id: "82AF7D9DEA21BE6A"
 				item: { count: 16, id: "create:belt_connector" }
 				type: "item"
 			}]
@@ -389,21 +328,18 @@
 			id: "B1000000000000D7"
 			rewards: [
 				{
-					id: "B06660D5B91D988E"
-					item: {
-						count: 8
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000D7"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "A2C9C4BAFD69B5C0"
+					id: "99730B7C3D5C5990"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "50DA203F0A0780C0"
+				id: "7D1A20E1059E151F"
 				item: { count: 8, id: "create:depot" }
 				type: "item"
 			}]
@@ -415,16 +351,13 @@
 			id: "B1000000000000D8"
 			rewards: [
 				{
-					id: "939DD8498E4BAAB3"
-					item: {
-						count: 8
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000D8"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "2BD5CC569BE4C196"
+				id: "99E06F5F50273D11"
 				item: { count: 8, id: "create:andesite_funnel" }
 				type: "item"
 			}]
@@ -440,21 +373,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "ED0021592E9A9166"
-					item: {
-						count: 24
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
+					id: "C1000000000000D9"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "B55E57CDCC0C60D7"
+					id: "5D9BAD68D560CB2C"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "C8F9FDA506ECC3E9"
+				id: "0F33642075DAE39C"
 				item: { count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
@@ -466,21 +396,18 @@
 			id: "B1000000000000DA"
 			rewards: [
 				{
-					id: "91ACBBACC129C28D"
-					item: {
-						count: 32
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
+					id: "C1000000000000DA"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "2E897383B8D3D0D1"
+					id: "3B5128386240B011"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8F4CB3C92C328E5D"
+				id: "D17CB11615E648C4"
 				item: { count: 16, id: "create:zinc_ingot" }
 				type: "item"
 			}]
@@ -492,16 +419,13 @@
 			id: "B1000000000000DB"
 			rewards: [
 				{
-					id: "9B1D90CEB684C646"
-					item: {
-						count: 16
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
+					id: "C1000000000000DB"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "9D240F174898EDC3"
+				id: "6BCDC2B5BBF36CFE"
 				item: { count: 4, id: "create:fluid_tank" }
 				type: "item"
 			}]
@@ -513,21 +437,18 @@
 			id: "B1000000000000DC"
 			rewards: [
 				{
-					id: "792D4CC9DD21D874"
-					item: {
-						count: 8
-						id: "create:copper_sheet"
-					}
-					type: "item"
+					id: "C1000000000000DC"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "8EF3113259D586F9"
+					id: "A1B53543F665AE86"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E533C988AD1F1057"
+				id: "AEDD5DA46FFB51C2"
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
@@ -541,16 +462,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "7EC5418F93F54B5D"
-					item: {
-						count: 16
-						id: "minecraft:dried_kelp"
-					}
-					type: "item"
+					id: "C1000000000000DD"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "0DD34D9A218E6E5A"
+				id: "B0A9391BEC603D1B"
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
@@ -563,24 +481,13 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "B67350C11B809346"
-					item: {
-						count: 8
-						id: "minecraft:blaze_rod"
-					}
-					type: "item"
-				},
-				{
-					id: "5386E25E70DAED3B"
-					item: {
-						count: 8
-						id: "minecraft:nether_wart"
-					}
-					type: "item"
+					id: "C1000000000000DE"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "86EC9F54B519EE97"
+				id: "CE3F20D399A39CCE"
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
@@ -597,37 +504,18 @@
 			size: 1.8d
 			rewards: [
 				{
-					id: "07D473C6B9A306B4"
-					item: {
-						count: 16
-						id: "create:zinc_ingot"
-					}
-					type: "item"
+					id: "C1000000000000DF"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "A92D8D7CFB40BC78"
-					item: {
-						count: 32
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				},
-				{
-					id: "78AD388197362290"
-					item: {
-						count: 16
-						id: "create:brass_sheet"
-					}
-					type: "item"
-				},
-				{
-					id: "E94F5CE5BE8E4842"
+					id: "65604189B04E03B4"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "BFC31A776EE9CB48"
+				id: "1BFDB726170DE51E"
 				item: { count: 32, id: "create:brass_ingot" }
 				type: "item"
 			}]
@@ -639,16 +527,13 @@
 			id: "B1000000000000E0"
 			rewards: [
 				{
-					id: "7A9759066780B100"
-					item: {
-						count: 8
-						id: "create:brass_ingot"
-					}
-					type: "item"
+					id: "C1000000000000E0"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "0AEDDBACA42C46E8"
+				id: "5589B7244B642230"
 				item: { count: 16, id: "create:brass_casing" }
 				type: "item"
 			}]
@@ -660,24 +545,13 @@
 			id: "B1000000000000E1"
 			rewards: [
 				{
-					id: "0AD396FD037B49A9"
-					item: {
-						count: 32
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				},
-				{
-					id: "0B118E86B61F6667"
-					item: {
-						count: 8
-						id: "create:rose_quartz"
-					}
-					type: "item"
+					id: "C1000000000000E1"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "C58524AC9239889F"
+				id: "448D851ED7B3AE23"
 				item: { count: 8, id: "create:electron_tube" }
 				type: "item"
 			}]
@@ -690,21 +564,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "A364A953E616689A"
-					item: {
-						count: 4
-						id: "create:electron_tube"
-					}
-					type: "item"
+					id: "C1000000000000E2"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "27EDC03E170183C5"
+					id: "C8BA0A01CE6E5D9A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FB0A4FB42281D3A7"
+				id: "56F0FE6990CC7EED"
 				item: { count: 9, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
@@ -718,21 +589,18 @@
 			size: 1.8d
 			rewards: [
 				{
-					id: "0CF7D80E5ABE82DD"
-					item: {
-						count: 16
-						id: "create:brass_sheet"
-					}
-					type: "item"
+					id: "C1000000000000E3"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "CEFE29B9A134507A"
+					id: "1B702690700989FD"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "17AF406D88310C54"
+				id: "92888B526A9B44EB"
 				item: { count: 8, id: "create:precision_mechanism" }
 				type: "item"
 			}]
@@ -744,21 +612,18 @@
 			id: "B1000000000000E4"
 			rewards: [
 				{
-					id: "66E479C14BF45E23"
-					item: {
-						count: 1
-						id: "create:brass_hand"
-					}
-					type: "item"
+					id: "C1000000000000E4"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "2A6B30035CB0BC93"
+					id: "DEDCD5F85CE52FA7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "EF184F5301B24098"
+				id: "6AC9A24CE5120CC2"
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
@@ -774,21 +639,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "16487BA02D5DB1D5"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
-					type: "item"
+					id: "C1000000000000E5"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "85DCCE2A1C1D5724"
+					id: "DB125E1217FC5969"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "F363F68034FA44F3"
+				id: "E94129AD36911AC6"
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
@@ -802,21 +664,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "16BCB94D477DC602"
-					item: {
-						count: 16
-						id: "create:copper_sheet"
-					}
-					type: "item"
+					id: "C1000000000000E6"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "496EE9E6F902CC49"
+					id: "A4BCE6BF0C7DC574"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "B28D1CDEF004B879"
+				id: "0600096F1C9F2A7B"
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
 			}]
@@ -828,21 +687,18 @@
 			id: "B1000000000000E7"
 			rewards: [
 				{
-					id: "90B03D7BA4CDA3AB"
-					item: {
-						count: 1
-						id: "createoreexcavation:drill"
-					}
-					type: "item"
+					id: "C1000000000000E7"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "BAE9FFA831A187B0"
+					id: "13B941892556BE0C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A83A19FB889795BD"
+				id: "7343BBF7D72DB64D"
 				item: { count: 1, id: "createoreexcavation:vein_finder" }
 				type: "item"
 			}]
@@ -855,21 +711,18 @@
 			size: 1.5d
 			rewards: [
 				{
-					id: "7FBD24B936DBDFE5"
-					item: {
-						count: 32
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+					id: "C1000000000000E8"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "02A9F7B4773BEDCB"
+					id: "09E6E03354066DB3"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "4B5A586C82CF2EA2"
+				id: "19CEB2303B0624BA"
 				item: { count: 1, id: "createoreexcavation:drilling_machine" }
 				type: "item"
 			}]
@@ -883,21 +736,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "C6A36DE70B2D6B4C"
-					item: {
-						count: 8
-						id: "create_new_age:copper_wire"
-					}
-					type: "item"
+					id: "C1000000000000E9"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "CF45AEEBAE6D9FD3"
+					id: "04F284FF189010BE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "EE806171B953BC07"
+				id: "00E55F33E510EA05"
 				item: { count: 1, id: "create_new_age:generator_coil" }
 				type: "item"
 			}]
@@ -911,21 +761,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "1ACB78B9A5ABE30E"
-					item: {
-						count: 2
-						id: "create_new_age:magnetite_block"
-					}
-					type: "item"
+					id: "C1000000000000EA"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "7395DAC76C8B4B39"
+					id: "1D321D06ED705B1D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8D44527BE5A01311"
+				id: "E214AE75895F50D6"
 				item: { count: 1, id: "create_new_age:basic_motor" }
 				type: "item"
 			}]
@@ -939,16 +786,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "5F779FE9701701F7"
-					item: {
-						count: 8
-						id: "createdeco:andesite_support"
-					}
-					type: "item"
+					id: "C1000000000000EB"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "57BC74A3DEF5CF08"
+				id: "D1182FD10BC89E00"
 				item: { count: 1, id: "createdeco:andesite_catwalk" }
 				type: "item"
 			}]
@@ -962,21 +806,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "5CC868926B60C3AA"
-					item: {
-						count: 8
-						id: "copycats:copycat_slab"
-					}
-					type: "item"
+					id: "C1000000000000EC"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "C13708E31D124AE6"
+					id: "CD5C9EB0090CF83B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "72395B30C99262E4"
+				id: "91EF6A592ECD2EC3"
 				item: { count: 1, id: "copycats:copycat_block" }
 				type: "item"
 			}]
@@ -990,16 +831,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "09876393BB84011B"
-					item: {
-						count: 2
-						id: "interiors:white_chair"
-					}
-					type: "item"
+					id: "C1000000000000ED"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "22779BF87ABE31D1"
+				id: "7210BEECF34C2C19"
 				item: { count: 1, id: "interiors:seatwood_planks" }
 				type: "item"
 			}]
@@ -1011,21 +849,18 @@
 			id: "B1000000000000EE"
 			rewards: [
 				{
-					id: "AA13F5470B8ADB5A"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
-					type: "item"
+					id: "C1000000000000EE"
+					table_id: 8142508126285856769L
+					type: "random"
 				},
 				{
-					id: "635D5A0F730BDA10"
+					id: "DCC5A45A6CEDF13A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "16B4A73B2576B31E"
+				id: "0A1A17F9B25A80D9"
 				item: { count: 16, id: "create:track" }
 				type: "item"
 			}]
@@ -1039,16 +874,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "5B7C657519C7EEDA"
-					item: {
-						count: 16
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
+					id: "C1000000000000EF"
+					table_id: 8142508126285856769L
+					type: "random"
 				}
 			]
 			tasks: [{
-				id: "2F4A33B5A173A042"
+				id: "BB8A2B7A06F73801"
 				item: { count: 1, id: "create_sa:copper_magnet" }
 				type: "item"
 			}]
