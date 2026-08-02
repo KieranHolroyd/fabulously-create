@@ -97,6 +97,11 @@ file = "config/ftbquests/quests/reward_tables/quest_treasure.snbt"
 hash = "eabbeaeb0b902a78efa865a384b2900b0263715a6c8b0ec9c78f8fd3e8bf7be9"
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
+metafile = true
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
 metafile = true
@@ -377,6 +382,16 @@ hash = "94af73eec28b59b314b2c6ef9dfb98f37d7bbcbcb482c278570cc15e44b6a559"
 metafile = true
 
 [[files]]
+file = "mods/immersiveengineering.pw.toml"
+hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "8c1835e4c54b3a3f5d79bcf0e3b0f25cc3113fe43c1190104a76ed5d8d839a3b"
+metafile = true
+
+[[files]]
 file = "mods/integrated-crafting.pw.toml"
 hash = "88ffbf441f1e5157dee3328b114167d60a937364e1cb985f46d1cec7045e5317"
 metafile = true
@@ -474,6 +489,21 @@ metafile = true
 [[files]]
 file = "mods/mcjtylib.pw.toml"
 hash = "28f46d68adde7667d778e2d6a31c4fe3834d1d7a93ec5059937da3f667956ebe"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
+metafile = true
+
+[[files]]
+file = "mods/modern-industrialization.pw.toml"
+hash = "f273e625e82d20133e630064c1452b9331f32384ac01560d77a77bcec638352f"
 metafile = true
 
 [[files]]

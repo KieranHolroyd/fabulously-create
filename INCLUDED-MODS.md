@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.12** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.14** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -33,6 +33,16 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Ritchie's Projectile Library](https://modrinth.com/mod/ritchies-projectile-lib) | Required by Create Big Cannons |
 | [Sable](https://modrinth.com/mod/sable) | Physics engine required by Create Aeronautics |
 | [Create: Dragons Plus](https://modrinth.com/mod/create-dragons-plus) | Required by Create: Enchantment Industry |
+
+## Technology & industry
+
+| Mod | Purpose |
+| --- | --- |
+| [Modern Industrialization](https://modrinth.com/mod/modern-industrialization) | Automation-focused industrial progression, factories, pipes, and multiblocks |
+| [Mekanism](https://modrinth.com/mod/mekanism) | Advanced ore processing, factories, gases, logistics, and machinery |
+| [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
+| [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
+| [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
 
 ## World generation
 
@@ -71,6 +81,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Iron Chests](https://modrinth.com/mod/iron-chests) | Larger metal chests (Iron → Obsidian, etc.) |
 | [Iron Furnaces](https://modrinth.com/mod/iron-furnaces) | Faster upgradeable furnaces |
 | [Refined Storage](https://modrinth.com/mod/refined-storage) | Networked item and fluid storage, transfer, and autocrafting |
+| [Applied Energistics 2](https://modrinth.com/mod/ae2) | Channel-based digital storage, logistics, spatial systems, and autocrafting |
 | [Extra Disks](https://modrinth.com/mod/extra-disks) | Larger item and fluid disks for Refined Storage |
 | [ExtraStorage](https://modrinth.com/mod/extrastorage) | Larger item/fluid storage and upgraded RS importers, exporters, and crafters |
 | [EdivadLib](https://modrinth.com/mod/edivadlib) | Required by ExtraStorage |
