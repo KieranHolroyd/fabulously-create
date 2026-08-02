@@ -1,0 +1,13 @@
+name = "Tiny Coal"
+filename = "tinycoal-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6Ezzuwck/versions/UpKNWvGc/tinycoal-neoforge-1.21.1-1.0.3.jar"
+hash-format = "sha512"
+hash = "335f0ea35f9ed78118d8fc41e98181a8ed9c3166bdeacd999b128a2f33fa8a1c180b55cc29f64a8231b2072f5d039b5a5399b7386cc7ff416b8bd9be4ff5fb3e"
+
+[update]
+[update.modrinth]
+mod-id = "6Ezzuwck"
+version = "UpKNWvGc"

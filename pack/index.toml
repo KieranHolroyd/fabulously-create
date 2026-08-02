@@ -622,6 +622,11 @@ hash = "805c7b44181e5826bdbf4fcc21b14d93cd8ff656747356d325a5cb81a8fa3de5"
 metafile = true
 
 [[files]]
+file = "mods/tiny-coal.pw.toml"
+hash = "9485936f2ce200a08191fe96eecff909e0a4762493f9a136f429462f1725ebcc"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "5b6a8b957c193e3433593c71b2e397698c5216cce763ee973e60b1f48d79a052"
 metafile = true

@@ -143,6 +143,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | Fabric compatibility API for NeoForge |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Hold-to-zoom (replaces Zoomify) |
 | [Rapid Leaf Decay](https://modrinth.com/mod/rapid-leaf-decay) | Fast leaf decay after chopping trees |
+| [Tiny Coal](https://modrinth.com/mod/tiny-coal) | Split coal or charcoal into eight one-item fuel pieces |
 | [Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone) | Graves on death (same as ATM10) |
 | [Controlling](https://modrinth.com/mod/controlling) | Searchable keybind menu |
 | [Searchables](https://modrinth.com/mod/searchables) | Required by Controlling |
