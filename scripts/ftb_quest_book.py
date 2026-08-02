@@ -78,7 +78,7 @@ def chapter_foundations(add: QuestAdder) -> tuple[list[dict], dict[str, dict]]:
         goal(
             "Collect &616 oak logs&r.",
             "Wood is your first building block: crafting tables, charcoal, Create casings, and early chests all burn through logs.",
-            tip="Any wood works for most recipes. Large Ore Veins makes ores spawn in huge clusters later — explore once you have iron.",
+            tip="Any wood works for most recipes — explore once you have iron.",
             nxt="Craft a workbench, then start a stone stockpile.",
         ),
         task_count=16, deps=[0],
@@ -538,7 +538,7 @@ def chapter_create(add: QuestAdder) -> tuple[list[dict], dict[str, dict]]:
         "Zinc Stockpile",
         goal(
             "Produce &616 zinc ingots&r.",
-            "Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc; Large Ore Veins helps.",
+            "Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc.",
         ),
         task_count=16,
         deps=[17], rewards=[item("minecraft:copper_ingot", 32), xp_levels(1)],

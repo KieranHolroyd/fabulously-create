@@ -20,7 +20,7 @@
 		"",
 		"Wood is your first building block: crafting tables, charcoal, Create casings, and early chests all burn through logs.",
 		"",
-		"&7Tip:&r Any wood works for most recipes. Large Ore Veins makes ores spawn in huge clusters later — explore once you have iron.",
+		"&7Tip:&r Any wood works for most recipes — explore once you have iron.",
 		"&7Next:&r Craft a workbench, then start a stone stockpile."
 	]
 	quest.B100000000000066.title: "Workbench"

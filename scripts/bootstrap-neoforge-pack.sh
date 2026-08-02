@@ -111,9 +111,6 @@ add_mr supplementaries
 add_mr another-furniture
 add_cf_url "https://www.curseforge.com/minecraft/mc-mods/building-gadgets/files/6850515"
 
-echo "Adding world generation..."
-add_mr large-ore-veins
-
 echo "Adding QoL..."
 add_mr jei
 add_mr jei-worldgen

@@ -155,7 +155,7 @@
 	quest.B1000000000000DA.quest_desc: [
 		"&6Goal:&r Produce &616 zinc ingots&r.",
 		"",
-		"Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc; Large Ore Veins helps."
+		"Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc."
 	]
 	quest.B1000000000000DB.title: "Fluid Tanks"
 	quest.B1000000000000DB.quest_subtitle: "Fluids"

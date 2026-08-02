@@ -149,9 +149,6 @@ if [[ -d "\$STAGE/datapacks" ]]; then
 else
   sudo rm -rf "\$TARGET/datapacks/fabulously-create-ore-veins"
 fi
-# Drop retired Large Ore Veins pack overrides so the mod defaults apply.
-sudo rm -f "\$TARGET/config/largeoreveins-common.toml"
-
 # Keep eula accepted; ensure port stays on the modded slot if properties exist.
 echo 'eula=true' | sudo tee "\$TARGET/eula.txt" >/dev/null
 if [[ -f "\$TARGET/server.properties" ]]; then

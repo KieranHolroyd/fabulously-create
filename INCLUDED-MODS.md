@@ -44,12 +44,6 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
 
-## World generation
-
-| Mod | Purpose |
-| --- | --- |
-| [Large Ore Veins](https://modrinth.com/mod/large-ore-veins) | Replaces vanilla ore blobs with large ore veins (mod defaults) |
-
 ## Farming & cooking
 
 | Mod | Purpose |
@@ -179,7 +173,6 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **1.21.1 NeoForge** is the target for official Create, Silent Gear, and Sophisticated mods.
 - **Java 21+** is required for client and server.
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
-- **Large Ore Veins** is beta — only affects newly generated chunks. Uses the mod's built-in defaults (no pack datapack/config overrides).
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
 - **FTB Quests:** 9-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Refined Storage, Powah, RFTools, and Flux Networks each have their own dedicated chapter. Definitions live in `scripts/ftb_quest_book.py`.
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.

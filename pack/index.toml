@@ -477,11 +477,6 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
-file = "mods/large-ore-veins.pw.toml"
-hash = "b849aeb58e9d34d46e2079066ae2fbe023ff86a2d1a8a2edd8b47167a0daaa49"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
 metafile = true

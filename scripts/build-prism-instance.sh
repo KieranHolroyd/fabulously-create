@@ -235,9 +235,8 @@ PY
       mkdir -p "$DEST/minecraft/datapacks"
       cp -R "$OUT_DIR/minecraft/datapacks/." "$DEST/minecraft/datapacks/"
     fi
-    # Drop retired pack datapacks / ore-vein overrides so mod defaults apply.
+    # Drop retired pack datapacks.
     rm -rf "$DEST/minecraft/datapacks/fabulously-create-ore-veins"
-    rm -f "$DEST/minecraft/config/largeoreveins-common.toml"
     rm -f "$DEST/minecraft/mods"/globalpacks-*.jar
 
     # Pack configs: only fill in missing files; never overwrite user-tuned settings.
