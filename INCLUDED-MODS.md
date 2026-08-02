@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.11** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.12** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -169,7 +169,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
 - **Large Ore Veins** is beta — only affects newly generated chunks. Uses the mod's built-in defaults (no pack datapack/config overrides).
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
-- **FTB Quests:** early→late book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Chapters: Getting Started → Turning Gears → Bags & Blades → Wires & Wits → Beyond Brass. Definitions live in `scripts/ftb_quest_book.py`.
+- **FTB Quests:** 9-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Refined Storage, Powah, RFTools, and Flux Networks each have their own dedicated chapter. Definitions live in `scripts/ftb_quest_book.py`.
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
 - Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.

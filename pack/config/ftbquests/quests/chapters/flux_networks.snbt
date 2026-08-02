@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "flux_networks"
+	group: "A100000000000001"
+	icon: {
+		id: "fluxnetworks:flux_controller"
+	}
+	id: "A200000000000009"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["B1000000000001C2"]
+			id: "B1000000000001D6"
+			rewards: [
+				{
+					id: "C1000000000001D6"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "6FD0FC0297FFCE62"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "8E4756F09C10E9BD"
+				item: { count: 16, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001D6"]
+			id: "B1000000000001D7"
+			rewards: [
+				{
+					id: "C1000000000001D7"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "F753B0F10CC111BB"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4D0F2B56DE184D98"
+				item: { count: 8, id: "fluxnetworks:flux_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001D7"]
+			id: "B1000000000001D8"
+			rewards: [
+				{
+					id: "C1000000000001D8"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "D40042E711C172C9"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "22293BD7B88EF77C"
+				item: { count: 4, id: "fluxnetworks:flux_block" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001D8"]
+			id: "B1000000000001D9"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C1000000000001D9"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "81DFAF70A950C009"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "21A3284FE8F449D2"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001D9"]
+			id: "B1000000000001DA"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C1000000000001DA"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "B67606BBA9263402"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "8C6311123ABE2D49"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001DA"]
+			id: "B1000000000001DB"
+			rewards: [
+				{
+					id: "C1000000000001DB"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "1FE72F8E46316525"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "800E89E0D5A358B5"
+				item: { count: 1, id: "fluxnetworks:flux_configurator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001DB"]
+			id: "B1000000000001DC"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C1000000000001DC"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "A0D57AC7D9E992B5"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "98A49EDA3983A3A9"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001DA"]
+			id: "B1000000000001DD"
+			rewards: [
+				{
+					id: "C1000000000001DD"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "111C5E5405F13B40"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "A03E4A9341529A8A"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001DD"]
+			id: "B1000000000001DE"
+			rewards: [
+				{
+					id: "C1000000000001DE"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "30C965C580DCE40A"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2B7017B23B00CE0E"
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 18.0d
+		},
+		{
+			dependencies: ["B1000000000001DE"]
+			id: "B1000000000001DF"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C1000000000001DF"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "38332B0C617E5112"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "E37363E5CCB2E0CD"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 18.0d
+		}
+	]
+	title: "8. Flux Networks"
+}

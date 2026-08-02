@@ -65,7 +65,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Refined Storage** item/fluid networks + Extra Disks, ExtraStorage, JEI and Curios integration
 - **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
 - **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
-- **FTB Ultimine**, **FTB Quests** (212 early→late quests), Large Ore Veins, Corail Tombstone
+- **FTB Ultimine**, **FTB Quests** (212 quests across 9 chapters, including dedicated Refined Storage, Powah, RFTools, and Flux Networks categories), Large Ore Veins, Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
 - JourneyMap, Jade, JEI + ore-height distribution, AppleSkin, TrashSlot, Inventory Essentials
 

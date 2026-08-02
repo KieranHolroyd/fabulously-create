@@ -1,0 +1,529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "refined_storage"
+	group: "A100000000000001"
+	icon: {
+		id: "refinedstorage:controller"
+	}
+	id: "A200000000000006"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["B1000000000000E3"]
+			id: "B100000000000144"
+			rewards: [
+				{
+					id: "C100000000000144"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "0249ABC99C68969D"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "ECB70F5ADB8C2FD5"
+				item: { count: 16, id: "refinedstorage:quartz_enriched_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000144"]
+			id: "B100000000000145"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000145"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "ECEC419AC6C8BF0E"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "8E1CE6452CC8E85E"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000145"]
+			id: "B100000000000146"
+			rewards: [
+				{
+					id: "C100000000000146"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "F4E34958AFF0876C"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1A7BFFC083E73E29"
+				item: { count: 32, id: "refinedstorage:cable" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000146"]
+			id: "B100000000000147"
+			rewards: [
+				{
+					id: "C100000000000147"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "0969CC5226D870ED"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "02C0729F410F48FD"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000147"]
+			id: "B100000000000148"
+			rewards: [
+				{
+					id: "C100000000000148"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "2B8B9E7492F9C349"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "9CFA7F8B3FCEEF96"
+				item: { count: 1, id: "refinedstorage:16k_storage_disk" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000148"]
+			id: "B100000000000149"
+			rewards: [
+				{
+					id: "C100000000000149"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "C66578E48B9D7420"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "BF2B50F51F616AF1"
+				item: { count: 1, id: "refinedstorage:grid" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B100000000000149"]
+			id: "B10000000000014A"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C10000000000014A"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "88EBB248E6C0FA7C"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "417599461EFE3BEF"
+				item: { count: 1, id: "refinedstorage:crafting_grid" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B10000000000014A"]
+			id: "B10000000000014B"
+			rewards: [
+				{
+					id: "C10000000000014B"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "EE8BEAE8733ADE0E"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "22B29F74679CD869"
+				item: { count: 1, id: "refinedstorage:4096b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B10000000000014B"]
+			id: "B10000000000014C"
+			rewards: [
+				{
+					id: "C10000000000014C"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "7D485ECD355E8BAA"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "11010F4666266723"
+				item: { count: 2, id: "refinedstorage:external_storage" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B10000000000014C"]
+			id: "B10000000000014D"
+			rewards: [
+				{
+					id: "C10000000000014D"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "62A8F8F499710A53"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0ED6B252DA327205"
+				item: { count: 2, id: "refinedstorage:importer" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B10000000000014D"]
+			id: "B10000000000014E"
+			rewards: [
+				{
+					id: "C10000000000014E"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "5A2865E0CC596B5D"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "09CD154A9758F205"
+				item: { count: 2, id: "refinedstorage:exporter" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["B10000000000014E"]
+			id: "B10000000000014F"
+			rewards: [
+				{
+					id: "C10000000000014F"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "A7EF8EC9DDFB6F02"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "14077488E032FF35"
+				item: { count: 2, id: "refinedstorage:interface" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B10000000000014F"]
+			id: "B100000000000150"
+			rewards: [
+				{
+					id: "C100000000000150"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "B514ECCC47A24914"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "1465DA0FF484E0D6"
+				item: { count: 1, id: "refinedstorage:pattern_grid" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000150"]
+			id: "B100000000000151"
+			rewards: [
+				{
+					id: "C100000000000151"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "E8D3DBC7CBAB924F"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "FE80393EC3E20D0D"
+				item: { count: 8, id: "refinedstorage:pattern" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000151"]
+			id: "B100000000000152"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000152"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "E11384AF340C7B65"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "D2400B32E1FD474B"
+				item: { count: 2, id: "refinedstorage:autocrafter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000152"]
+			id: "B100000000000153"
+			rewards: [
+				{
+					id: "C100000000000153"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "6E50D707A0E8144E"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "699DA34DCEC657A7"
+				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000153"]
+			id: "B100000000000154"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000154"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "9A267E379CEE0BD4"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "090CE99AFE9AEB1C"
+				item: { count: 1, id: "refinedstorage:wireless_grid" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000154"]
+			id: "B100000000000155"
+			rewards: [
+				{
+					id: "C100000000000155"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "3AA0585CA1C4326F"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "90D77774B19AA35B"
+				item: { count: 1, id: "extradisks:1024k_item_storage_disk" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000155"]
+			id: "B100000000000156"
+			rewards: [
+				{
+					id: "C100000000000156"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "964C9B9A8AF2E100"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "AD7DCD355434EC1A"
+				item: { count: 1, id: "extrastorage:advanced_importer" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000156"]
+			id: "B100000000000157"
+			rewards: [
+				{
+					id: "C100000000000157"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "9240B327D852B93E"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5FFD35B9DC139B4F"
+				item: { count: 1, id: "extrastorage:advanced_exporter" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000157"]
+			id: "B100000000000158"
+			rewards: [
+				{
+					id: "C100000000000158"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "4A680E5D98F3FF1E"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "248850901BC9D07E"
+				item: { count: 1, id: "extrastorage:netherite_crafter" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.5d
+		},
+		{
+			dependencies: ["B100000000000158"]
+			id: "B100000000000159"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000159"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "6874B39484D27FE7"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0D66BBF4F0856649"
+				item: { count: 1, id: "extrastorage:disk_1048576b_fluid" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 9.5d
+		}
+	]
+	title: "5. Refined Storage"
+}

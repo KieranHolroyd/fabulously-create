@@ -21,13 +21,13 @@
 					type: "random"
 				},
 				{
-					id: "1FF518C4CF3336C8"
+					id: "9CAD2862D29D0497"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6D45E6FD558D810E"
+				id: "B2F2A2BCC2755894"
 				item: { count: 16, id: "integrateddynamics:menril_log" }
 				type: "item"
 			}]
@@ -46,13 +46,13 @@
 					type: "random"
 				},
 				{
-					id: "41006732860D5A49"
+					id: "0B70A88A162BD3BB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A029A51C6814B5E2"
+				id: "31E8595DC0A9940A"
 				item: { count: 32, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
@@ -69,13 +69,13 @@
 					type: "random"
 				},
 				{
-					id: "75F8A1F2635A4069"
+					id: "BEA4768C11FBAD27"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8236D8DD0BABFD11"
+				id: "3CBFA26B6F3642B9"
 				item: { count: 1, id: "integrateddynamics:logic_programmer" }
 				type: "item"
 			}]
@@ -93,7 +93,7 @@
 				}
 			]
 			tasks: [{
-				id: "383A35F77BB7CDA4"
+				id: "B66D85D764D01084"
 				item: { count: 16, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
@@ -110,13 +110,13 @@
 					type: "random"
 				},
 				{
-					id: "67F04CBDD1DB3912"
+					id: "30C8B71D7F460BCA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "394F528515A49723"
+				id: "947461867826396D"
 				item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
 				type: "item"
 			}]
@@ -136,7 +136,7 @@
 				}
 			]
 			tasks: [{
-				id: "8A0921BEB6F0B4D5"
+				id: "CDA2CFC089B7C922"
 				item: { count: 1, id: "integrateddynamics:part_display_panel" }
 				type: "item"
 			}]
@@ -154,7 +154,7 @@
 				}
 			]
 			tasks: [{
-				id: "B0D0C3341AA7D0F4"
+				id: "0B483A3F20BB5370"
 				item: { count: 4, id: "integratedtunnels:part_interface_item" }
 				type: "item"
 			}]
@@ -171,13 +171,13 @@
 					type: "random"
 				},
 				{
-					id: "3940F31786CC32FE"
+					id: "FCEE3D34424AE26F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4FA1716892F6F465"
+				id: "967B99C5CD377F89"
 				item: { count: 1, id: "integratedtunnels:part_importer_item" }
 				type: "item"
 			}]
@@ -197,7 +197,7 @@
 				}
 			]
 			tasks: [{
-				id: "DC46D2930CC651DF"
+				id: "9A1E9BAEFD1BB115"
 				item: { count: 2, id: "integratedtunnels:part_interface_fluid" }
 				type: "item"
 			}]
@@ -216,13 +216,13 @@
 					type: "random"
 				},
 				{
-					id: "3C416FF4EC4D433F"
+					id: "3C5C079D35E79FFF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6A63CC888C7252D5"
+				id: "8E8D9F8F271487BC"
 				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
 				type: "item"
 			}]
@@ -240,13 +240,13 @@
 					type: "random"
 				},
 				{
-					id: "C56F93B92217328D"
+					id: "0AF2E1D2065370AF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5BA4BAA6B40F02D7"
+				id: "44FF08940EB46AFE"
 				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
 				type: "item"
 			}]
@@ -263,13 +263,13 @@
 					type: "random"
 				},
 				{
-					id: "7508639268C5CF71"
+					id: "728FAF92F8CF117C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B5E5A552C2CB18EF"
+				id: "CAD724A2304ACAEF"
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
@@ -286,13 +286,13 @@
 					type: "random"
 				},
 				{
-					id: "F96819096B98EE7B"
+					id: "8AA4E76944588F0F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "01002667A9892849"
+				id: "6285A47BBD4EEAB3"
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
@@ -312,7 +312,7 @@
 				}
 			]
 			tasks: [{
-				id: "698C155A9AE91C8C"
+				id: "58EEF1E40343CFD7"
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
@@ -329,13 +329,13 @@
 					type: "random"
 				},
 				{
-					id: "749C1103C379845B"
+					id: "3E1D1272D449226D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "70B5682729EC234E"
+				id: "CA754B3B24D90667"
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
 				type: "item"
 			}]
@@ -353,13 +353,13 @@
 					type: "random"
 				},
 				{
-					id: "532B7D7D4377FBD0"
+					id: "C49305C102E20FFB"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D8B9FD87FA1376BD"
+				id: "E0C1425821CC60F0"
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "38D8B31301137E4E"
+					id: "AD886F1FD579E543"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FC5A7A643812EE1A"
+				id: "A559E53C6184E2EF"
 				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
 				type: "item"
 			}]
@@ -401,13 +401,13 @@
 					type: "random"
 				},
 				{
-					id: "0DAB1521B70BA60B"
+					id: "651B6AB97FD138DE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F6EAC7D7B34E5C9C"
+				id: "ECD6DB13C16E3AC3"
 				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 				type: "item"
 			}]
@@ -425,13 +425,13 @@
 					type: "random"
 				},
 				{
-					id: "94837DEE104A5EAA"
+					id: "E44BC1F6F608ADC7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "7C4072938F5D43CC"
+				id: "467E68DBF1800B31"
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
@@ -450,13 +450,13 @@
 					type: "random"
 				},
 				{
-					id: "1C07526A6B376EDB"
+					id: "C887C90E6BCB20EC"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "F1A900CB037717C6"
+				id: "4284E1FA33ED5982"
 				item: { count: 1, id: "create_enchantment_industry:printer" }
 				type: "item"
 			}]
@@ -475,13 +475,13 @@
 					type: "random"
 				},
 				{
-					id: "B7907401026F46CF"
+					id: "08860513A434F27D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "82ADC66A3EE6C9E3"
+				id: "2DADDEAB1C8E7B9C"
 				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
@@ -501,7 +501,7 @@
 				}
 			]
 			tasks: [{
-				id: "16C7C32BBF141A3D"
+				id: "258A47E504C39A89"
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
@@ -520,13 +520,13 @@
 					type: "random"
 				},
 				{
-					id: "ECCBDE3A8408962E"
+					id: "ACF83B58557A81B4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2101A8663E37DA95"
+				id: "9AA3357BD7A98D03"
 				item: { count: 1, id: "create_connected:brake" }
 				type: "item"
 			}]
@@ -546,1323 +546,12 @@
 				}
 			]
 			tasks: [{
-				id: "7AA6B8F77BC311EE"
+				id: "09708EA26E3A8C5F"
 				item: { count: 1, id: "create_connected:parallel_gearbox" }
 				type: "item"
 			}]
 			x: 12.5d
 			y: -4.5d
-		},
-		{
-			dependencies: ["B1000000000000DF"]
-			id: "B1000000000001A8"
-			rewards: [
-				{
-					id: "C1000000000001A8"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "44505B7424CBE295"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "CF869AEDAB535CCC"
-				item: { count: 16, id: "powah:dielectric_paste" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001A8"]
-			id: "B1000000000001A9"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001A9"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "14ACE6F2EB879288"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "AA3B7F988A1EE41E"
-				item: { count: 1, id: "powah:furnator_starter" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001A9"]
-			id: "B1000000000001AA"
-			rewards: [
-				{
-					id: "C1000000000001AA"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "2F9A8C491F0DD4E4"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "C3638691BB3352A4"
-				item: { count: 16, id: "powah:energy_cable_starter" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AA"]
-			id: "B1000000000001AB"
-			rewards: [
-				{
-					id: "C1000000000001AB"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "4F7EAB9783E1B07D"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "283515072DE13C41"
-				item: { count: 1, id: "powah:energy_cell_starter" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AB"]
-			id: "B1000000000001AC"
-			rewards: [
-				{
-					id: "C1000000000001AC"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "571E2957D407CCF3"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "605789B5A0F70430"
-				item: { count: 1, id: "powah:thermo_generator_starter" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AC"]
-			id: "B1000000000001AD"
-			rewards: [
-				{
-					id: "C1000000000001AD"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "77806789B4E1893B"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "7962373D31D09BD3"
-				item: { count: 1, id: "powah:magmator_starter" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AC"]
-			id: "B1000000000001AE"
-			rewards: [
-				{
-					id: "C1000000000001AE"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "EE45F349D094B873"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "CEFD1CBB474CD715"
-				item: { count: 1, id: "powah:solar_panel_starter" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AB"]
-			id: "B1000000000001AF"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001AF"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "1DCDD2F01DB8C564"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "5CF5560950606F83"
-				item: { count: 1, id: "powah:energizing_orb" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001AF"]
-			id: "B1000000000001B0"
-			rewards: [
-				{
-					id: "C1000000000001B0"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "13AB29962ADAB4F7"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "54208E622D3CB319"
-				item: { count: 2, id: "powah:energizing_rod_starter" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001B0"]
-			id: "B1000000000001B1"
-			rewards: [
-				{
-					id: "C1000000000001B1"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "95CF821CE039554D"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "C58A70109BE28854"
-				item: { count: 8, id: "powah:steel_energized" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B2"
-			rewards: [
-				{
-					id: "C1000000000001B2"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "EC3C3131B1F5B91A"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "BD4C18926663CC7D"
-				item: { count: 8, id: "powah:crystal_blazing" }
-				type: "item"
-			}]
-			x: 25.0d
-			y: 7.0d
-		},
-		{
-			dependencies: ["B1000000000001B2"]
-			id: "B1000000000001B3"
-			rewards: [
-				{
-					id: "C1000000000001B3"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "147DD60910D30A15"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "6E3D64AADAFD8AFE"
-				item: { count: 8, id: "powah:crystal_niotic" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B3"]
-			id: "B1000000000001B4"
-			rewards: [
-				{
-					id: "C1000000000001B4"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "709990A78A24CC9A"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "DB175C847BD6DB85"
-				item: { count: 8, id: "powah:crystal_spirited" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B4"]
-			id: "B1000000000001B5"
-			rewards: [
-				{
-					id: "C1000000000001B5"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "AC71B54996E5E94C"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "75194D694A548E55"
-				item: { count: 4, id: "powah:crystal_nitro" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B6"
-			rewards: [
-				{
-					id: "C1000000000001B6"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "782F1356CABBC406"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "E343AEEA36B3B98A"
-				item: { count: 16, id: "powah:uraninite" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B6"]
-			id: "B1000000000001B7"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001B7"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "B33650C3EF29BDC4"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "0C15B379F87D08E3"
-				item: { count: 1, id: "powah:reactor_starter" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B5"]
-			id: "B1000000000001B8"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001B8"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "F0E75F44998842A8"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "5035F2732281B33C"
-				item: { count: 1, id: "powah:reactor_nitro" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B9"
-			rewards: [
-				{
-					id: "C1000000000001B9"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "1FC2DFE19D0BFD8D"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "8C4CBCAC64597AC5"
-				item: { count: 1, id: "powah:ender_cell_starter" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001B9"]
-			id: "B1000000000001BA"
-			rewards: [
-				{
-					id: "C1000000000001BA"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "6ECDC264E67C22DE"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "EB9839014DC121C4"
-				item: { count: 2, id: "powah:ender_gate_starter" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001BA"]
-			id: "B1000000000001BB"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001BB"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "BCF26F15CCAC199B"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "C0CAA741716A5EA2"
-				item: { count: 1, id: "powah:player_transmitter_starter" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001BB"]
-			id: "B1000000000001BC"
-			rewards: [
-				{
-					id: "C1000000000001BC"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "5DDD6F091F3E80F6"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "3ECC23BD5FD3EB15"
-				item: { count: 1, id: "powah:battery_starter" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 9.5d
-		},
-		{
-			dependencies: ["B1000000000001AB"]
-			id: "B1000000000001BD"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001BD"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "45C103B66F0E95FC"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "DC01AE324B225D80"
-				item: { count: 4, id: "rftoolsbase:machine_frame" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001BD"]
-			id: "B1000000000001BE"
-			rewards: [
-				{
-					id: "C1000000000001BE"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "9E2D10E057CA5545"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "F2A69B8C642B35DD"
-				item: { count: 1, id: "rftoolsbase:smartwrench" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001BD"]
-			id: "B1000000000001BF"
-			rewards: [
-				{
-					id: "C1000000000001BF"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "31A664282E752564"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "C55F14314F1A6EB6"
-				item: { count: 1, id: "rftoolspower:coalgenerator" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001BF"]
-			id: "B1000000000001C0"
-			rewards: [
-				{
-					id: "C1000000000001C0"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "2D05A42B4C8DDC56"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "BC53918E7388D0EE"
-				item: { count: 1, id: "rftoolspower:cell1" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C0"]
-			id: "B1000000000001C1"
-			rewards: [
-				{
-					id: "C1000000000001C1"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "26C47A19B126025D"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "A64009EA620B780B"
-				item: { count: 1, id: "rftoolspower:powercell_card" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C1"]
-			id: "B1000000000001C2"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001C2"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "9247CA17767C1BB4"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "083AE3A77D97DD74"
-				item: { count: 1, id: "rftoolspower:dimensionalcell" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001BD"]
-			id: "B1000000000001C3"
-			rewards: [
-				{
-					id: "C1000000000001C3"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "E80C0E1CD86D6FE7"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "706918E5AA880DE1"
-				item: { count: 1, id: "rftoolsutility:crafter1" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C3"]
-			id: "B1000000000001C4"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001C4"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "7D495C036ED0DE14"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "3C1C38C31F01D8EA"
-				item: { count: 1, id: "rftoolsutility:crafter3" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001BD"]
-			id: "B1000000000001C5"
-			rewards: [
-				{
-					id: "C1000000000001C5"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "00C94C12A63884D2"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "E890B3297EFAF261"
-				item: { count: 1, id: "rftoolsutility:screen" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C5"]
-			id: "B1000000000001C6"
-			rewards: [
-				{
-					id: "C1000000000001C6"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "C9A6354F095E08DE"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "B67AB48691E1E3F4"
-				item: { count: 1, id: "rftoolsutility:screen_controller" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C6"]
-			id: "B1000000000001C7"
-			rewards: [
-				{
-					id: "C1000000000001C7"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "32E7F6C024640233"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "CA649C987AAC9265"
-				item: { count: 1, id: "rftoolspower:power_monitor" }
-				type: "item"
-			}]
-			x: 25.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C2"]
-			id: "B1000000000001C8"
-			rewards: [
-				{
-					id: "C1000000000001C8"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "DAB1E625F0FF0F6A"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "222D37230C36A483"
-				item: { count: 1, id: "rftoolsutility:matter_transmitter" }
-				type: "item"
-			}]
-			x: 27.5d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C8"]
-			id: "B1000000000001C9"
-			rewards: [
-				{
-					id: "C1000000000001C9"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "A95AB1A405F27FF3"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "A081B1CBA27E7704"
-				item: { count: 1, id: "rftoolsutility:matter_receiver" }
-				type: "item"
-			}]
-			x: 30.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["B1000000000001C9"]
-			id: "B1000000000001CA"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001CA"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "3613CBEB920F9BF3"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "6ADDF755952979A6"
-				item: { count: 1, id: "rftoolsutility:dialing_device" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001C2"]
-			id: "B1000000000001CB"
-			rewards: [
-				{
-					id: "C1000000000001CB"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "D6C22B251CFAF7C1"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "46D68033FC566C28"
-				item: { count: 1, id: "rftoolsutility:environmental_controller" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001BD"]
-			id: "B1000000000001CC"
-			rewards: [
-				{
-					id: "C1000000000001CC"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "524278A191A22C5E"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "DD90E8D6457CCD78"
-				item: { count: 1, id: "rftoolsstorage:storage_module1" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001CC"]
-			id: "B1000000000001CD"
-			rewards: [
-				{
-					id: "C1000000000001CD"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "AB9FA54A0C71806D"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "230D0EA352494C8B"
-				item: { count: 1, id: "rftoolsstorage:modular_storage" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001CD"]
-			id: "B1000000000001CE"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001CE"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "7E5CE8DEF0008C1E"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "1C57A928EF73FF58"
-				item: { count: 1, id: "rftoolsstorage:storage_scanner" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001CE"]
-			id: "B1000000000001CF"
-			rewards: [
-				{
-					id: "C1000000000001CF"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "6365577DF6B724DB"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "606697762E4E8035"
-				item: { count: 1, id: "rftoolsstorage:tablet_scanner" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001CF"]
-			id: "B1000000000001D0"
-			rewards: [
-				{
-					id: "C1000000000001D0"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "4862CFCAFD8BF7F5"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "FC67A50286629AE2"
-				item: { count: 1, id: "rftoolsstorage:crafting_manager" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001CA"]
-			id: "B1000000000001D1"
-			rewards: [
-				{
-					id: "C1000000000001D1"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "B74BED3033099C3C"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "8CC541274CAFE291"
-				item: { count: 8, id: "rftoolsbase:dimensionalshard" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001D1"]
-			id: "B1000000000001D2"
-			rewards: [
-				{
-					id: "C1000000000001D2"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "C376DEA96129EC06"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "B48BCC94E0FC0CAB"
-				item: { count: 1, id: "rftoolsdim:dimlet_workbench" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001D2"]
-			id: "B1000000000001D3"
-			rewards: [
-				{
-					id: "C1000000000001D3"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "C4FDD1E1D419FC72"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "36E1B2C9DB9FBE81"
-				item: { count: 1, id: "rftoolsdim:researcher" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001D3"]
-			id: "B1000000000001D4"
-			rewards: [
-				{
-					id: "C1000000000001D4"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "297DECB8AD228B41"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "3FF2EAD50350E9D2"
-				item: { count: 1, id: "rftoolsdim:enscriber" }
-				type: "item"
-			}]
-			x: 25.0d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001D4"]
-			id: "B1000000000001D5"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001D5"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "5E76689CAD78A425"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "C5C7F9FDF360830A"
-				item: { count: 1, id: "rftoolsdim:dimension_builder" }
-				type: "item"
-			}]
-			x: 27.5d
-			y: 15.0d
-		},
-		{
-			dependencies: ["B1000000000001C2"]
-			id: "B1000000000001D6"
-			rewards: [
-				{
-					id: "C1000000000001D6"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "F70C119D02858E19"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "72C550F95B2ED071"
-				item: { count: 16, id: "fluxnetworks:flux_dust" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001D6"]
-			id: "B1000000000001D7"
-			rewards: [
-				{
-					id: "C1000000000001D7"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "A075699B78CA099D"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "2B024EFBF2427660"
-				item: { count: 8, id: "fluxnetworks:flux_core" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001D7"]
-			id: "B1000000000001D8"
-			rewards: [
-				{
-					id: "C1000000000001D8"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "9ADA78444EEE7D9C"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "CFC5C9D145CB0B7E"
-				item: { count: 4, id: "fluxnetworks:flux_block" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001D8"]
-			id: "B1000000000001D9"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001D9"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "8D0B2CDDEFA50919"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "D90E5F633A68EAF1"
-				item: { count: 1, id: "fluxnetworks:flux_plug" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001D9"]
-			id: "B1000000000001DA"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001DA"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "5BE499DB1E13ECDF"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "4A2ECA8FD09B4231"
-				item: { count: 1, id: "fluxnetworks:flux_point" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001DA"]
-			id: "B1000000000001DB"
-			rewards: [
-				{
-					id: "C1000000000001DB"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "69614347CFA6B16F"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "CEE71C11A8E497E4"
-				item: { count: 1, id: "fluxnetworks:flux_configurator" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001DB"]
-			id: "B1000000000001DC"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001DC"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "911C3308087D969F"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "E5BB9B32E6491D25"
-				item: { count: 1, id: "fluxnetworks:flux_controller" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001DA"]
-			id: "B1000000000001DD"
-			rewards: [
-				{
-					id: "C1000000000001DD"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "21A1E0903E4E38F9"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "80D2B76EB551F051"
-				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001DD"]
-			id: "B1000000000001DE"
-			rewards: [
-				{
-					id: "C1000000000001DE"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "C4E1927E536F67B6"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "EB842263DE597AFD"
-				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 18.0d
-		},
-		{
-			dependencies: ["B1000000000001DE"]
-			id: "B1000000000001DF"
-			shape: "hexagon"
-			size: 1.5d
-			rewards: [
-				{
-					id: "C1000000000001DF"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "02427C1A98D65981"
-					type: "xp"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "9B12C2FB23641E2C"
-				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 18.0d
 		}
 	]
 	title: "4. Wires \\& Wits"

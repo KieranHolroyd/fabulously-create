@@ -1,0 +1,92 @@
+{
+	quest.B1000000000001D6.title: "Flux from Bedrock"
+	quest.B1000000000001D6.quest_subtitle: "Flux Networks · Materials"
+	quest.B1000000000001D6.quest_desc: [
+		"&6Goal:&r Produce &616 Flux Dust&r.",
+		"",
+		"Flux Dust is the foundation of a wireless FE network and is created through its special bedrock interaction recipe.",
+		"",
+		"&7Tip:&r Check JEI for the exact in-world process; bring enough redstone for a batch."
+	]
+	quest.B1000000000001D7.title: "Flux Cores"
+	quest.B1000000000001D7.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D7.quest_desc: [
+		"&6Goal:&r Craft &68 Flux Cores&r.",
+		"",
+		"Cores turn Flux Dust into network devices and storage components.",
+		"",
+		"&7Tip:&r Keep them stocked in Refined Storage for future expansion."
+	]
+	quest.B1000000000001D8.title: "Flux Block"
+	quest.B1000000000001D8.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D8.quest_desc: [
+		"&6Goal:&r Craft &64 Flux Blocks&r.",
+		"",
+		"Flux Blocks compress network material and are used by the more capable devices.",
+		"",
+		"&7Tip:&r Automate dust and core production before building at scale."
+	]
+	quest.B1000000000001D9.title: "Flux Plug"
+	quest.B1000000000001D9.quest_subtitle: "Flux Networks · Wireless input"
+	quest.B1000000000001D9.quest_desc: [
+		"&6Goal:&r Craft a Flux Plug.",
+		"",
+		"A Plug takes FE from an attached generator, cell, or machine and inserts it into your selected wireless network.",
+		"",
+		"&7Tip:&r Attach it to the output side of Powah or RFTools storage, then set a transfer limit."
+	]
+	quest.B1000000000001DA.title: "Flux Point"
+	quest.B1000000000001DA.quest_subtitle: "Flux Networks · Wireless output"
+	quest.B1000000000001DA.quest_desc: [
+		"&6Goal:&r Craft a Flux Point.",
+		"",
+		"A Point extracts FE from the network into Refined Storage, RFTools, or Create Crafts \\& Additions machines.",
+		"",
+		"&7Tip:&r Use priorities and limits so one hungry machine cannot starve the entire base."
+	]
+	quest.B1000000000001DB.title: "Flux Configurator"
+	quest.B1000000000001DB.quest_subtitle: "Flux Networks · Network tools"
+	quest.B1000000000001DB.quest_desc: [
+		"&6Goal:&r Craft a Flux Configurator.",
+		"",
+		"The Configurator makes network-device management quicker while building and troubleshooting.",
+		"",
+		"&7Tip:&r Name networks by purpose and use security settings on multiplayer servers."
+	]
+	quest.B1000000000001DC.title: "Flux Controller"
+	quest.B1000000000001DC.quest_subtitle: "Flux Networks · Network control"
+	quest.B1000000000001DC.quest_desc: [
+		"&6Goal:&r Craft a Flux Controller.",
+		"",
+		"Controllers provide central network management and enable wireless charging for players and selected equipment.",
+		"",
+		"&7Tip:&r Review chunk loading, transfer bypass, and member permissions rather than enabling everything blindly."
+	]
+	quest.B1000000000001DD.title: "Basic Flux Storage"
+	quest.B1000000000001DD.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DD.quest_desc: [
+		"&6Goal:&r Craft Basic Flux Storage.",
+		"",
+		"Network storage absorbs surplus generation and covers demand spikes without extra cables.",
+		"",
+		"&7Tip:&r Keep a physical Powah or RFTools buffer too, so critical machines have layered resilience."
+	]
+	quest.B1000000000001DE.title: "Herculean Storage"
+	quest.B1000000000001DE.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DE.quest_desc: [
+		"&6Goal:&r Upgrade to Herculean Flux Storage.",
+		"",
+		"Herculean storage supports factory-scale reserves for autocrafting, teleportation, and dimension upkeep.",
+		"",
+		"&7Tip:&r Watch actual input and output rates; capacity alone does not solve a generation shortage."
+	]
+	quest.B1000000000001DF.title: "Gargantuan Storage"
+	quest.B1000000000001DF.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DF.quest_desc: [
+		"&6Goal:&r Craft Gargantuan Flux Storage.",
+		"",
+		"The largest survival Flux storage tier is an endgame reservoir for a fully wireless power grid.",
+		"",
+		"&7Tip:&r Feed it with automated high-tier Powah generation and monitor it from your RFTools control room."
+	]
+}

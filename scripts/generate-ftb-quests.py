@@ -80,10 +80,34 @@ CHAPTERS = {
         "4. Wires & Wits",
         "ID networks, diesel, FE, and factory enchanting",
     ),
+    "refined_storage": (
+        "A200000000000006",
+        "refinedstorage:controller",
+        "5. Refined Storage",
+        "Digital item and fluid storage, Create integration, and autocrafting",
+    ),
+    "powah": (
+        "A200000000000007",
+        "powah:energizing_orb",
+        "6. Powah",
+        "FE generation, energizing tiers, reactors, and wireless charging",
+    ),
+    "rftools": (
+        "A200000000000008",
+        "rftoolsbase:machine_frame",
+        "7. RFTools",
+        "Power, automation, storage scanning, teleportation, and dimensions",
+    ),
+    "flux_networks": (
+        "A200000000000009",
+        "fluxnetworks:flux_controller",
+        "8. Flux Networks",
+        "Cross-dimensional wireless FE transfer, control, and storage",
+    ),
     "late_game": (
         "A200000000000005",
         "minecraft:netherite_ingot",
-        "5. Beyond Brass",
+        "9. Beyond Brass",
         "Netherite, flight, railways, bosses, and the sky",
     ),
 }
@@ -255,13 +279,7 @@ def write_chapter(
         for q in quests_meta
     ]
 
-    order = {
-        "foundations": 0,
-        "create_factory": 1,
-        "storage_gear": 2,
-        "automation": 3,
-        "late_game": 4,
-    }[filename]
+    order = list(CHAPTERS).index(filename)
 
     content = "\n".join(
         [
@@ -380,6 +398,28 @@ def main() -> None:
     a, al = chapters["automation"]
     l, ll = chapters["late_game"]
 
+    def extract(
+        source: list[dict],
+        source_lang: dict[str, dict],
+        first: int,
+        last: int,
+    ) -> tuple[list[dict], dict[str, dict]]:
+        """Move a stable quest-ID range into its own visible chapter."""
+        ids = {Q(n) for n in range(first, last + 1)}
+        selected = [quest for quest in source if quest["id"] in ids]
+        source[:] = [quest for quest in source if quest["id"] not in ids]
+        selected_lang = {
+            quest["id"]: source_lang.pop(quest["id"])
+            for quest in selected
+            if quest["id"] in source_lang
+        }
+        return selected, selected_lang
+
+    rs, rsl = extract(s, sl, 324, 345)
+    pw, pwl = extract(a, al, 424, 444)
+    rf, rfl = extract(a, al, 445, 469)
+    fx, fxl = extract(a, al, 470, 479)
+
     # Write book metadata
     QUESTS.mkdir(parents=True, exist_ok=True)
     (QUESTS / "chapters").mkdir(exist_ok=True)
@@ -455,14 +495,22 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    write_chapter("foundations", *CHAPTERS["foundations"][:3], f, fl)
-    write_chapter("create_factory", *CHAPTERS["create_factory"][:3], c, cl)
-    write_chapter("storage_gear", *CHAPTERS["storage_gear"][:3], s, sl)
-    write_chapter("automation", *CHAPTERS["automation"][:3], a, al)
-    write_chapter("late_game", *CHAPTERS["late_game"][:3], l, ll)
+    generated = {
+        "foundations": (f, fl),
+        "create_factory": (c, cl),
+        "storage_gear": (s, sl),
+        "automation": (a, al),
+        "refined_storage": (rs, rsl),
+        "powah": (pw, pwl),
+        "rftools": (rf, rfl),
+        "flux_networks": (fx, fxl),
+        "late_game": (l, ll),
+    }
+    for filename, (quests, lang) in generated.items():
+        write_chapter(filename, *CHAPTERS[filename][:3], quests, lang)
 
-    total = len(f) + len(c) + len(s) + len(a) + len(l)
-    print(f"Generated {total} quests across 5 chapters → {QUESTS}")
+    total = sum(len(quests) for quests, _lang in generated.values())
+    print(f"Generated {total} quests across {len(generated)} chapters → {QUESTS}")
 
 
 if __name__ == "__main__":
