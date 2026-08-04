@@ -60,7 +60,8 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Farmer's Delight** + Create food automation
 - **Integrated Dynamics** + Tunnels / Terminals / Crafting
 - **Powah** generators, energy storage, cables, reactors, and wireless charging
-- **RFTools** power, automation, storage scanning, teleportation, and custom dimensions
+- **RFTools** power, automation, storage scanning, teleportation, builder/quarries, and custom dimensions
+- **Ultimate Mining Dimension** for bulk resource gathering away from the overworld
 - **Flux Networks** cross-dimensional wireless FE transfer and storage
 - **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
 - **Refined Storage** and **Applied Energistics 2** digital storage and autocrafting networks

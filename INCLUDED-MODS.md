@@ -43,6 +43,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
+| [Ultimate Mining Dimension](https://modrinth.com/mod/ultimate-mining-dimension) | Dedicated ore-rich mining dimension so bulk resource gathering leaves the overworld intact |
 
 ## Farming & cooking
 
@@ -88,6 +89,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [RFTools Power](https://modrinth.com/mod/rftools-power) | FE generation, storage cells, monitoring, and wireless dimensional power |
 | [RFTools Storage](https://modrinth.com/mod/rftools-storage) | Modular storage, storage scanning, tablets, and crafting management |
 | [RFTools Dimensions](https://modrinth.com/mod/rftools-dimensions) | Design and maintain custom RF-powered dimensions |
+| [RFTools Builder](https://modrinth.com/mod/rftools-builder) | Quarries, block shapers, builder/mover machines, and the space chamber |
 | [McJtyLib](https://modrinth.com/mod/mcjtylib) | Required library for the RFTools suite |
 | [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) | Cross-dimensional wireless FE transfer, network control, and large power storage |
 

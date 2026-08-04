@@ -58,7 +58,7 @@ hash = "cb0322a9a79e6656dd6d33ef9048fc5747206fd930b90eb96a67ad64178d9ad3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/create_factory.snbt"
-hash = "6cfaee2ec10adb74bf330a404422137903a9cc9337580b63a93c024d588db0fb"
+hash = "4c8e32b440c0add82283077f720804204496aff0be2bd1310f572a45a791a9a6"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/flux_networks.snbt"
@@ -66,7 +66,7 @@ hash = "f5819f47887233b122d3c5872d8a8bc48dfd2ae615759e8143e5bc3f94dd7ff7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/foundations.snbt"
-hash = "3c5bcf8e406efe16873d5637d96a1d6dfc2584a2277957cf49ef2ea4d3a0bbb5"
+hash = "984e64e70f22b9dcb557f6ba42113ff1b5cc37231724c673177b38d687449381"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/late_game.snbt"
@@ -337,6 +337,11 @@ hash = "a0b3083a1577130adb77867a6f8b6cf0c5bdd3c0c8b2995fa8b5fca323ed09a0"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
@@ -567,6 +572,11 @@ hash = "3cb4f127b8742215ad6d36ae965d851657d36a27cb8e9b74535e1b2aa0bd0586"
 metafile = true
 
 [[files]]
+file = "mods/rftools-builder.pw.toml"
+hash = "9a6a606307694b1e197437f9b2324c89224a2608ec94936ba0a4e941f287f548"
+metafile = true
+
+[[files]]
 file = "mods/rftools-dimensions.pw.toml"
 hash = "91bf3d8fcbcb71191ec491f07dc57d1a0fa49b99f9612c606564f30af9648d8c"
 metafile = true
@@ -664,6 +674,11 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
+metafile = true
+
+[[files]]
+file = "mods/ultimate-mining-dimension.pw.toml"
+hash = "d6aed23b91953124b6270a8e444f9e204804deafa494ad2447d96fdee1344c82"
 metafile = true
 
 [[files]]
