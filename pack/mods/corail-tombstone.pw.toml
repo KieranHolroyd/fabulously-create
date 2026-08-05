@@ -3,11 +3,11 @@ filename = "tombstone-neoforge-1.21.1-9.5.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c1092771176c2bd29cfa1b94c606c27f699d9897"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/YT5K34AB/versions/XEzw6k79/tombstone-neoforge-1.21.1-9.5.3.jar"
+hash-format = "sha512"
+hash = "5ff3067483f9726246de782d4f481cba3ad775e438c90e72f3e4db23dc1e442c176dc5628fbc4382351f29bdfc630c446bd14ade7f6f4bb2373febf5f1288121"
 
 [update]
-[update.curseforge]
-file-id = 8425866
-project-id = 243707
+[update.modrinth]
+mod-id = "YT5K34AB"
+version = "XEzw6k79"

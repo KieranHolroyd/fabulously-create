@@ -198,7 +198,7 @@ metafile = true
 
 [[files]]
 file = "mods/corail-tombstone.pw.toml"
-hash = "62b9fca367396bb95e8b0920bc270e8acb07424b0066bffe91aa29a954af2ead"
+hash = "901dc460c5632a0a1872a9233e73a5ed9fca8c8bd16083f8ade40fec3bcb73d7"
 metafile = true
 
 [[files]]
