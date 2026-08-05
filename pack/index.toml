@@ -502,6 +502,11 @@ hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
 metafile = true
 
 [[files]]
+file = "mods/miningdimension.pw.toml"
+hash = "2c965730fa3a6258d72c88afd045d0373f96ccf6cf17409cd8795593726860b1"
+metafile = true
+
+[[files]]
 file = "mods/modern-industrialization.pw.toml"
 hash = "f273e625e82d20133e630064c1452b9331f32384ac01560d77a77bcec638352f"
 metafile = true
@@ -539,6 +544,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "2f9f0f8c05ce7e410a70cfed595e623fe8031df89a8a9ba9a8aaaa419eb4d18b"
+metafile = true
+
+[[files]]
+file = "mods/polylib.pw.toml"
+hash = "74b981b04f079323585e4e7b5a7aa268edabd0b3e76f6f7cba6c4e7a7c1bb280"
 metafile = true
 
 [[files]]
@@ -612,6 +622,11 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
+file = "mods/shrink.pw.toml"
+hash = "16d05386b8fd97a2768f391fe5a233be45a72ee396ac3ab2ab7bf034a4483015"
+metafile = true
+
+[[files]]
 file = "mods/silent-gear.pw.toml"
 hash = "087ba9ed2ea4bfbf8e8ec6fafae467f4b4e8d262f46f8066e3f84dc5e231ec21"
 metafile = true
@@ -674,11 +689,6 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
-metafile = true
-
-[[files]]
-file = "mods/ultimate-mining-dimension.pw.toml"
-hash = "d6aed23b91953124b6270a8e444f9e204804deafa494ad2447d96fdee1344c82"
 metafile = true
 
 [[files]]

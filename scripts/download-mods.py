@@ -297,14 +297,32 @@ def main() -> int:
 
         filename = meta["filename"]
         url, expected_hash, hash_fmt = resolve_download(meta)
-        if not url:
-            print(f"skip (no url): {name}")
-            continue
-
         dest = (mods_dir if category == "mods" else rp_dir) / filename
         if dest in seen_dest:
             continue
         seen_dest.add(dest)
+
+        # Local/bundled mods: jar lives next to the .pw.toml (no download URL).
+        if not url:
+            local_jar = pw_path.parent / filename
+            if not local_jar.is_file():
+                print(f"skip (no url/local jar): {name}", file=sys.stderr)
+                skipped += 1
+                seen_dest.discard(dest)
+                continue
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            if dest.exists() and dest.samefile(local_jar):
+                print(f"  skip (local): {dest.name}")
+            else:
+                data = local_jar.read_bytes()
+                if expected_hash and hash_fmt and not verify_hash(
+                    data, expected_hash, hash_fmt
+                ):
+                    print(f"  error: hash mismatch for local {dest.name}", file=sys.stderr)
+                    return 1
+                shutil.copy2(local_jar, dest)
+                print(f"  copy (local): {dest.name}")
+            continue
 
         tasks.append(
             DownloadTask(

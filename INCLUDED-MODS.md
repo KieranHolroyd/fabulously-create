@@ -43,7 +43,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
-| [Ultimate Mining Dimension](https://modrinth.com/mod/ultimate-mining-dimension) | Dedicated ore-rich mining dimension so bulk resource gathering leaves the overworld intact |
+| Mining Dimension (first-party) | Flat ore-rich mining dimension with linked portal pads; bulk gathering leaves the overworld intact |
 
 ## Farming & cooking
 
@@ -130,6 +130,8 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 
 | Mod | Purpose |
 | --- | --- |
+| [Shrink](https://modrinth.com/mod/shrink) | Shrinking Device item for changing your player size |
+| [PolyLib](https://modrinth.com/mod/polylib) | Required by Shrink |
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
 | [Jade](https://modrinth.com/mod/jade) | Block/entity overlay tooltips (HWYLA-style) |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
