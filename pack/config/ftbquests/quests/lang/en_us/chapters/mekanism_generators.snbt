@@ -2,11 +2,27 @@
 	quest.B10000000000028A.title: "Heat Generator"
 	quest.B10000000000028A.quest_subtitle: "Mekanism Generators · Early power"
 	quest.B10000000000028A.quest_desc: [
+		"Mekanism Generators climbs from lava-side heat and rooftop solar up through fission, industrial turbines, and fusion ignition. Wire each step before you touch nuclear fuel.",
+		"",
+		"&6You will:&r
+&e•&r Bootstrap FE with heat, solar, wind, bio, and gas-burning generators
+&e•&r Assemble a water-cooled fission reactor and spin an Industrial Turbine
+&e•&r Frame a fusion reactor, load a Hohlraum, and ignite with lasers",
+		"",
+		"&7Tip:&r Buffer every generator into an Energy Cube — nuclear lessons are easier with spare FE.",
+		"",
 		"&6Goal:&r Craft a Heat Generator.",
 		"",
-		"Burn solid fuel or sit beside lava/heat sources for your first Mekanism FE — perfect for bootstrapping machines.",
+		"The Heat Generator is your first Mekanism FE — burn solid fuel or park it beside lava for quiet bootstrap power while steel casings and circuits come online.",
 		"",
-		"&7Tip:&r Lava-adjacent heat generation is quiet and steady for early steel casings.",
+		"&6How:&r
+&e1.&r Craft the &6Heat Generator&r and place it next to lava (or feed it solid fuel in the GUI).
+&e2.&r Set an output side and pull FE with a Universal Cable into a Basic Energy Cube.
+&e3.&r Keep the cube charged so Metallurgic Infusers and early machines never brown out.",
+		"",
+		"&7Tip:&r Lava-adjacent heat is steady and fuel-free once the pool is safe.",
+		"",
+		"&7Next:&r Solar covers daytime loads without babysitting fuel.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Osmium Supply\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B100000000000258\"}}"
@@ -16,134 +32,245 @@
 	quest.B10000000000028B.quest_desc: [
 		"&6Goal:&r Craft &62 Solar Generators&r.",
 		"",
-		"Daytime FE with no fuel logistics. Pair with Energy Cubes so night shifts still run.",
+		"Solar is silent daytime FE with zero fuel logistics. Pair it with storage so night shifts still run enrichment and crushing.",
 		"",
-		"&7Tip:&r Advanced Solar Generators cover a 3×3 footprint for much higher output."
+		"&6How:&r
+&e1.&r Craft two &6Solar Generators&r and place them with a clear view of the sky.
+&e2.&r Cable both into the same Energy Cube (or Induction Matrix later).
+&e3.&r Confirm daytime charge in the cube GUI — if night drains you dry, add more panels or cubes before expanding machines.",
+		"",
+		"&7Tip:&r Advanced Solar (later) covers a 3×3 footprint for a big jump in output.",
+		"",
+		"&7Next:&r Wind keeps producing after sunset."
 	]
 	quest.B10000000000028C.title: "Wind Generator"
 	quest.B10000000000028C.quest_subtitle: "Mekanism Generators · Early power"
 	quest.B10000000000028C.quest_desc: [
 		"&6Goal:&r Craft a Wind Generator.",
 		"",
-		"Height-scaled wind power that runs day and night — tower them above your factory roof.",
+		"Wind scales with height and runs day and night — perfect rooftop power once your factory has a tall enough tower.",
 		"",
-		"&7Tip:&r Higher Y-levels produce more FE; check the GUI after placing."
+		"&6How:&r
+&e1.&r Craft a &6Wind Generator&r and place it high above the base (clear air around the rotor).
+&e2.&r Open the GUI after placing — higher Y-level means more FE/t.
+&e3.&r Cable it into your cube bus alongside solar so nights stay covered.",
+		"",
+		"&7Tip:&r Scaffold a dedicated wind tower; burying the generator at ground level wastes potential.",
+		"",
+		"&7Next:&r Bio-fuel is the compact fuel-based option."
 	]
 	quest.B10000000000028D.title: "Bio-Generator"
 	quest.B10000000000028D.quest_subtitle: "Mekanism Generators · Early power"
 	quest.B10000000000028D.quest_desc: [
 		"&6Goal:&r Craft a Bio-Generator.",
 		"",
-		"Burn bio fuel refined from organic matter when you want compact fuel-based FE.",
+		"Bio-Generators burn bio fuel refined from organic matter — dense FE when you already farm crops or compost leftovers.",
 		"",
-		"&7Tip:&r Farms and compost chains keep this fed without coal runs."
+		"&6How:&r
+&e1.&r Craft the &6Bio-Generator&r and place it near your farm or compost line.
+&e2.&r Produce &eBio Fuel&r (Crusher / enrichment routes — check JEI) and pipe or insert it into the generator.
+&e3.&r Wire FE out to the same cube network as solar and wind.",
+		"",
+		"&7Tip:&r A small crop farm beats coal runs once the bio loop is automatic.",
+		"",
+		"&7Next:&r Gas-burning turns electrolyzed hydrogen into serious FE."
 	]
 	quest.B10000000000028E.title: "Gas-Burning Generator"
 	quest.B10000000000028E.quest_subtitle: "Mekanism Generators · Gas power"
 	quest.B10000000000028E.quest_desc: [
 		"&6Goal:&r Craft a Gas-Burning Generator.",
 		"",
-		"Burn hydrogen (and other fuels) from your Electrolytic Separator for dense FE.",
+		"Burn hydrogen (and other burnable gases) from an Electrolytic Separator for dense FE that scales with your water and power budget.",
 		"",
-		"&7Tip:&r Pipe hydrogen with pressurized tubes; excess water electrolysis becomes free power."
+		"&6How:&r
+&e1.&r Set up an &6Electrolytic Separator&r with water input; collect &eHydrogen&r in a gas tank or pressurized tube.
+&e2.&r Place the &6Gas-Burning Generator&r and pipe hydrogen in with Pressurized Tubes.
+&e3.&r Cable FE out — surplus electrolysis power often pays for itself once the loop is closed.",
+		"",
+		"&7Tip:&r Dump oxygen or store it; don't let gas backups stall the separator.",
+		"",
+		"&7Next:&r Fission starts with a lot of casing — stock up first."
 	]
 	quest.B10000000000028F.title: "Advanced Solar"
 	quest.B10000000000028F.quest_subtitle: "Mekanism Generators · Early power"
 	quest.B10000000000028F.quest_desc: [
 		"&6Goal:&r Craft an Advanced Solar Generator.",
 		"",
-		"A larger solar array for mid-game machine halls before nuclear options.",
+		"Advanced Solar is a mid-game array — much higher daytime output before you commit to fission logistics and radiation planning.",
 		"",
-		"&7Tip:&r Still daylight-gated — buffer into Induction Matrices or Energy Cubes."
+		"&6How:&r
+&e1.&r Craft the &6Advanced Solar Generator&r (it needs a 3×3 clear footprint).
+&e2.&r Place it with open sky, cable into an Energy Cube or Induction Matrix.
+&e3.&r Use the buffer to ride through night and brownouts while you prep fission parts.",
+		"",
+		"&7Tip:&r Still daylight-gated — matrices beat a pile of small cubes for nuclear prep.",
+		"",
+		"&7Next:&r Fission casings build the hollow reactor shell."
 	]
 	quest.B100000000000290.title: "Fission Casing"
 	quest.B100000000000290.quest_subtitle: "Mekanism Generators · Fission"
 	quest.B100000000000290.quest_desc: [
 		"&6Goal:&r Craft &632 Fission Reactor Casings&r.",
 		"",
-		"Fission reactors are hollow cuboids of casing, ports, fuel assemblies, and control rods.",
+		"Fission is a hollow cuboid of casing, ports, fuel assemblies, and control rods. Water cools the core; heated coolant and nuclear waste come out the other side — plan containment before the first assembly goes in.",
 		"",
-		"&7Tip:&r Read the multiblock overlay carefully — leaks and missing corners fail formation."
+		"&6How:&r
+&e1.&r Choose a starter size (small hollow cuboid) and gather &632 Fission Reactor Casings&r plus glass/ports as JEI shows.
+&e2.&r Build a hollow shell: casing floor, walls, and ceiling with air inside. Corners and edges must form correctly or the multiblock fails.
+&e3.&r Leave face slots open for &eFission Reactor Ports&r; interior space must fit fuel assemblies and control rod assemblies above them.",
+		"",
+		"&cCaution:&r Fission leaks radiation when things go wrong. Build away from living areas and keep a Geiger Counter handy.",
+		"",
+		"&7Tip:&r Use the multiblock overlay — missing corners and solid interiors are the usual formation killers.",
+		"",
+		"&7Next:&r Fuel assemblies hold fissile fuel inside the shell."
 	]
 	quest.B100000000000291.title: "Fuel Assemblies"
 	quest.B100000000000291.quest_subtitle: "Mekanism Generators · Fission"
 	quest.B100000000000291.quest_desc: [
 		"&6Goal:&r Craft &64 Fission Fuel Assemblies&r.",
 		"",
-		"Fuel assemblies hold fissile fuel. More assemblies raise heat and output — and meltdown risk.",
+		"Fuel assemblies are the interior columns that hold &6Fissile Fuel&r. More assemblies raise heat and steam potential — and meltdown risk if cooling lags.",
 		"",
-		"&7Tip:&r Start small; add assemblies only after coolant and waste handling are proven."
+		"&6How:&r
+&e1.&r Place vertical &6Fission Fuel Assemblies&r inside the hollow casing, leaving the top of each column free for a control rod assembly.
+&e2.&r Start with a few assemblies only — four is a teaching core, not a megabase.
+&e3.&r Produce &eFissile Fuel&r through the Mekanism processing line before you plan to run; never light an empty or uncooled core.",
+		"",
+		"&7Tip:&r Add assemblies only after coolant flow and waste barrels are proven.",
+		"",
+		"&7Next:&r Control rods sit above the fuel columns."
 	]
 	quest.B100000000000292.title: "Control Rods"
 	quest.B100000000000292.quest_subtitle: "Mekanism Generators · Fission"
 	quest.B100000000000292.quest_desc: [
 		"&6Goal:&r Craft &62 Control Rod Assemblies&r.",
 		"",
-		"Control rods throttle the reaction. Keep enough rods to SCRAM if heat spikes.",
+		"Control rod assemblies throttle the reaction from the fission GUI (and redstone / logic adapters). Enough rods let you SCRAM if heat spikes.",
 		"",
-		"&7Tip:&r Logic adapters can automate rod insertion from redstone or ID."
+		"&6How:&r
+&e1.&r Place a &6Control Rod Assembly&r directly above each fuel-assembly column (through the ceiling as the multiblock requires).
+&e2.&r Confirm formation, then keep rods inserted until coolant and waste ports are connected.
+&e3.&r Optionally wire a Logic Adapter for emergency insertion from redstone or industrial alarms.",
+		"",
+		"&7Tip:&r Never run with rods yanked out 'to see what happens' — heat climbs fast.",
+		"",
+		"&7Next:&r Ports move coolant, heated coolant, fuel, and waste."
 	]
 	quest.B100000000000293.title: "Fission Ports"
 	quest.B100000000000293.quest_subtitle: "Mekanism Generators · Fission"
 	quest.B100000000000293.quest_desc: [
 		"&6Goal:&r Craft &62 Fission Reactor Ports&r.",
 		"",
-		"Ports inject coolant, extract heated coolant/waste, and connect to boilers or turbines.",
+		"Ports are the only safe way to inject coolant and pull heated coolant / waste. Without a planned loop, the reactor cooks itself and radiates the chunk.",
 		"",
-		"&7Tip:&r Never run a reactor without a planned coolant loop and waste barrel strategy."
+		"&6How:&r
+&e1.&r Replace face casings with &6Fission Reactor Ports&r and configure modes: coolant in (water), heated coolant out, waste out, fuel in as needed.
+&e2.&r Pipe &ewater&r coolant in and route &eheated coolant&r toward a Thermoelectric Boiler (or equivalent) that makes steam for the Industrial Turbine.
+&e3.&r Barrel or pipe &enuclear waste&r to safe storage immediately — never dump it into the world.
+&e4.&r Activate only after coolant flow is continuous; watch burn rate and heat, ready to insert rods.",
+		"",
+		"&cCaution:&r Meltdowns and waste mishandling spread radiation. Wear a Hazmat Suit and keep scrap / absorbent supplies ready.",
+		"",
+		"&7Tip:&r Prove the coolant loop on a short run before you scale fuel assemblies.",
+		"",
+		"&7Next:&r Turbine casings turn that steam into FE."
 	]
 	quest.B100000000000294.title: "Industrial Turbine"
 	quest.B100000000000294.quest_subtitle: "Mekanism Generators · Turbine"
 	quest.B100000000000294.quest_desc: [
 		"&6Goal:&r Craft &624 Turbine Casings&r.",
 		"",
-		"Steam from fission (via boiler) or other sources spins an Industrial Turbine for huge FE.",
+		"The Industrial Turbine converts steam into massive FE. Fission (via boiler) or other steam sources feed it — this is the payoff for the nuclear loop.",
 		"",
-		"&7Tip:&r Rotors, blades, vents, and electromagnetic coils complete the multiblock."
+		"&6How:&r
+&e1.&r Build a hollow turbine structure from &6Turbine Casings&r with room for a rotor shaft, blades, vents, condensers, and electromagnetic coils.
+&e2.&r Add a turbine valve / steam input from your boiler and plan water return from condensers so the coolant loop can close.
+&e3.&r Leave coil and blade space clear — stuffing the interior with casing blocks prevents formation.",
+		"",
+		"&7Tip:&r Match turbine size to steam supply; a giant empty turbine won't invent pressure.",
+		"",
+		"&7Next:&r Blades set how much steam the rotor can catch."
 	]
 	quest.B100000000000295.title: "Turbine Blades"
 	quest.B100000000000295.quest_subtitle: "Mekanism Generators · Turbine"
 	quest.B100000000000295.quest_desc: [
 		"&6Goal:&r Craft &68 Turbine Blades&r.",
 		"",
-		"Blades on the rotor shaft determine flow capacity — match vents and condensers to blade count.",
+		"Blades on the rotor shaft set flow capacity. Undersized vents choke output; oversized blade stacks without steam waste materials.",
 		"",
-		"&7Tip:&r Undersized vents choke output; oversized blades without steam waste materials."
+		"&6How:&r
+&e1.&r Install &6Turbine Blades&r on the rotor shaft segments inside the casing.
+&e2.&r Add pressure dispersers / vents as the multiblock guide requires so steam can expand across the blades.
+&e3.&r Spin up with a modest steam feed and confirm RPM / production before maxing blade count.",
+		"",
+		"&7Tip:&r Balance blades, vents, and condensers — any weak link caps FE.",
+		"",
+		"&7Next:&r Electromagnetic coils turn rotor motion into energy."
 	]
 	quest.B100000000000296.title: "Electromagnetic Coils"
 	quest.B100000000000296.quest_subtitle: "Mekanism Generators · Turbine"
 	quest.B100000000000296.quest_desc: [
 		"&6Goal:&r Craft &62 Electromagnetic Coils&r.",
 		"",
-		"Coils convert rotor motion into FE. More coils raise energy production for a given steam flow.",
+		"Coils convert rotor spin into FE. More coils raise energy production for a given steam flow once vents and condensers keep up.",
 		"",
-		"&7Tip:&r Saturating condensers help close the water loop for continuous operation."
+		"&6How:&r
+&e1.&r Place &6Electromagnetic Coils&r in the coil layer of the turbine multiblock.
+&e2.&r Add saturating condensers to reclaim water and close the loop back to your boiler / fission coolant circuit.
+&e3.&r Cable FE from the turbine's energy output into an Induction Matrix — fission spikes will saturate small cubes.",
+		"",
+		"&7Tip:&r If production plateaus, check steam feed and vent count before crafting more coils.",
+		"",
+		"&7Next:&r Fusion is the endgame — start framing next."
 	]
 	quest.B100000000000297.title: "Fusion Frame"
 	quest.B100000000000297.quest_subtitle: "Mekanism Generators · Fusion"
 	quest.B100000000000297.quest_desc: [
 		"&6Goal:&r Craft &616 Fusion Reactor Frames&r.",
 		"",
-		"Fusion is Mekanism's endgame power — frame a reactor, inject D-T fuel, and ignite with lasers.",
+		"Fusion is Mekanism's endgame power: a framed reactor burns deuterium–tritium fuel after laser ignition. Stock frames, ports, and cooling before you chase a Hohlraum.",
 		"",
-		"&7Tip:&r Prepare hohlraums, laser amplifiers, and serious power before the first ignition attempt."
+		"&6How:&r
+&e1.&r Craft &616 Fusion Reactor Frames&r and gather the matching ports, glass, and controller parts from JEI.
+&e2.&r Build the hollow fusion reactor structure — frames form the skeleton; leave faces for the controller, ports, and laser focus access.
+&e3.&r Prepare &eDeuterium&r and &eTritium&r production (heavy water / gas processing lines) so ignition isn't starved for fuel.",
+		"",
+		"&7Tip:&r Budget serious FE for the laser charging step — weak grids fail ignition awkwardly.",
+		"",
+		"&7Next:&r The fusion controller is the multiblock brain."
 	]
 	quest.B100000000000298.title: "Fusion Controller"
 	quest.B100000000000298.quest_subtitle: "Mekanism Generators · Fusion"
 	quest.B100000000000298.quest_desc: [
 		"&6Goal:&r Craft a Fusion Reactor Controller.",
 		"",
-		"The brain of the fusion multiblock. Monitor heat, fuel, and injection rates from its GUI.",
+		"The controller assembles the fusion multiblock and shows heat, fuel injection, and status. Water cooling and steam extraction can feed the same turbine network as fission.",
 		"",
-		"&7Tip:&r Water cooling and steam extraction can feed the same turbine network as fission."
+		"&6How:&r
+&e1.&r Place the &6Fusion Reactor Controller&r on a valid face and confirm the reactor forms.
+&e2.&r Configure ports for D-T fuel injection and coolant / steam handling.
+&e3.&r Build or aim a &6Laser Focus Matrix&r (and amplifiers) at the reactor — ignition needs a charged laser pulse, not just filled tanks.",
+		"",
+		"&7Tip:&r Dial injection rates slowly after the first successful burn; runaway heat still punishes greed.",
+		"",
+		"&7Next:&r Load a Hohlraum to light the first sustained reaction."
 	]
 	quest.B100000000000299.title: "Hohlraum"
 	quest.B100000000000299.quest_subtitle: "Mekanism Generators · Fusion"
 	quest.B100000000000299.quest_desc: [
 		"&6Goal:&r Craft a Hohlraum.",
 		"",
-		"Load fusion fuel into a hohlraum and ignite the reactor with a charged laser focus matrix.",
+		"A Hohlraum loaded with fusion fuel is what the laser ignites. Failed starts and restarts consume them — keep spares on the shelf.",
 		"",
-		"&7Tip:&r Keep spare hohlraums; failed ignitions and restarts consume them."
+		"&6How:&r
+&e1.&r Craft a &6Hohlraum&r and fill it with the fusion fuel mix JEI / the reactor GUI expects (D-T).
+&e2.&r Insert the loaded Hohlraum into the fusion reactor per the controller interface.
+&e3.&r Charge the laser network, fire into the &eLaser Focus Matrix&r, and watch the controller for a successful ignition.
+&e4.&r Once burning, maintain deuterium/tritium injection and cooling; pull steam/FE through your existing turbine if configured.",
+		"",
+		"&cCaution:&r Ignition pulls a huge power spike. If lasers brown out mid-charge, stop and reinforce the grid before retrying.",
+		"",
+		"&7Tip:&r Craft spare Hohlraums before the first attempt — learning runs are rarely one-and-done."
 	]
 }

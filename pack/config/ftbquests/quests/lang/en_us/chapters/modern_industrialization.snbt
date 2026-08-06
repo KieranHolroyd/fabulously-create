@@ -4,9 +4,16 @@
 	quest.B1000000000002EE.quest_desc: [
 		"&6Goal:&r Craft a Forge Hammer.",
 		"",
-		"MI starts with manual forging — plates, rods, and rings from ingots before machines take over.",
+		"MI starts with manual forging — plates, rods, rings, and bolts from ingots before steam machines take over.",
+		"",
+		"&6How:&r
+&e1.&r Craft and place the &6Forge Hammer&r.
+&e2.&r Right-click with &6Iron&r (and other) ingots to form plates/rods per JEI; repeat for a starter stockpile.
+&e3.&r Keep the hammer until bronze compressors automate plate spam.",
 		"",
 		"&7Tip:&r Pound a stack of iron plates now; bronze recipes will thank you.",
+		"",
+		"&7Next:&r Alloy copper and tin into Bronze.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
@@ -18,16 +25,31 @@
 		"",
 		"Bronze unlocks the first steam machines and boilers — MI's true beginning.",
 		"",
-		"&7Tip:&r Tin + copper; Create mixing can help if you already have a brass factory."
+		"&6How:&r
+&e1.&r Combine &6Copper&r + &6Tin&r into bronze via MI recipes (forge hammer dusts, mixing, or JEI path for this pack).
+&e2.&r Smelt dusts/blends into &6Bronze Ingots&r if needed.
+&e3.&r Hammer bronze into plates/rods for boiler and machine crafts.",
+		"",
+		"&7Tip:&r Create mixing can help if you already run a brass factory nearby.",
+		"",
+		"&7Next:&r Craft a Bronze Boiler and get steam flowing."
 	]
 	quest.B1000000000002F0.title: "Bronze Boiler"
 	quest.B1000000000002F0.quest_subtitle: "Modern Industrialization · Steam"
 	quest.B1000000000002F0.quest_desc: [
 		"&6Goal:&r Craft a Bronze Boiler.",
 		"",
-		"Burn fuel to make steam for bronze machines. Pipe steam with fluid pipes to machine hatches.",
+		"Burns fuel with water to make steam — the lifeblood of every bronze-age machine.",
 		"",
-		"&7Tip:&r Keep a water supply attached; dry boilers do nothing."
+		"&6How:&r
+&e1.&r Place the &6Bronze Boiler&r; put solid fuel in the fuel slot.
+&e2.&r Pipe or bucket &6Water&r into the water hatch/tank — a dry boiler makes no steam.
+&e3.&r Connect &6Fluid Pipes&r from the steam output to the steam input of nearby bronze machines.
+&e4.&r Wrench pipe connections if steam is not arriving (MI pipes are directional).",
+		"",
+		"&7Tip:&r A Water Pump or continuous Create hose keeps boilers topped up.",
+		"",
+		"&7Next:&r Bronze Furnace for steam smelting."
 	]
 	quest.B1000000000002F1.title: "Bronze Furnace"
 	quest.B1000000000002F1.quest_subtitle: "Modern Industrialization · Steam"
@@ -36,61 +58,113 @@
 		"",
 		"Steam-powered smelting that outpaces a vanilla furnace once steam is stable.",
 		"",
-		"&7Tip:&r Item pipes move ores in and ingots out while you expand."
+		"&6How:&r
+&e1.&r Place the furnace beside the boiler; pipe &6Steam&r into its fluid input.
+&e2.&r Pipe ores/items into the item input; pull ingots from the output with item pipes.
+&e3.&r Use a wrench to set pipe push/pull so steam and items flow the right way.",
+		"",
+		"&7Tip:&r One boiler can feed several steam machines if pipe throughput holds.",
+		"",
+		"&7Next:&r Bronze Compressor to automate plates."
 	]
 	quest.B1000000000002F2.title: "Bronze Compressor"
 	quest.B1000000000002F2.quest_subtitle: "Modern Industrialization · Steam"
 	quest.B1000000000002F2.quest_desc: [
 		"&6Goal:&r Craft a Bronze Compressor.",
 		"",
-		"Automate plates and other compressed parts so you can retire the Forge Hammer for bulk work.",
+		"Automates plates and compressed parts so you can retire the Forge Hammer for bulk work.",
 		"",
-		"&7Tip:&r Steel age recipes still want lots of plates — overproduce."
+		"&6How:&r
+&e1.&r Place and pipe in steam + ingots.
+&e2.&r Pull plates into a chest feeding machine crafts.
+&e3.&r Overproduce — steel-age recipes still want piles of plates.",
+		"",
+		"&7Tip:&r Keep a small forge hammer for odd parts the compressor does not cover yet.",
+		"",
+		"&7Next:&r Bronze Macerator for early dusts."
 	]
 	quest.B1000000000002F3.title: "Bronze Macerator"
 	quest.B1000000000002F3.quest_subtitle: "Modern Industrialization · Steam"
 	quest.B1000000000002F3.quest_desc: [
 		"&6Goal:&r Craft a Bronze Macerator.",
 		"",
-		"Crush ores and solids with steam power — MI's early dust line.",
+		"Crush ores and solids with steam power — MI's early dust line and better ore yields.",
 		"",
-		"&7Tip:&r Double-process ores when recipes allow for better yields."
+		"&6How:&r
+&e1.&r Pipe steam in; feed ores to the item input.
+&e2.&r Macerate → furnace (or further MI processing) for improved yield where recipes allow.
+&e3.&r Buffer dusts before the furnace so steam blips do not idle the line.",
+		"",
+		"&7Tip:&r Double-process ores when JEI shows a dust path with bonus outputs.",
+		"",
+		"&7Next:&r Build the Coke Oven multiblock for coal coke."
 	]
 	quest.B1000000000002F4.title: "Coke Oven"
 	quest.B1000000000002F4.quest_subtitle: "Modern Industrialization · Steel"
 	quest.B1000000000002F4.quest_desc: [
 		"&6Goal:&r Build a Coke Oven multiblock.",
 		"",
-		"Coal coke and creosote start the steel path. Bring fire-clay bricks and a valid hollow structure.",
+		"Coal coke and creosote start the steel path — required fuel/input for the Steam Blast Furnace.",
 		"",
-		"&7Tip:&r Creosote is useful elsewhere — store it instead of voiding."
+		"&6How:&r
+&e1.&r Craft &6Coke Oven Bricks&r (fire clay path — JEI) and check the in-game guidebook shape.
+&e2.&r Build the hollow brick structure; place &6Item/Fluid Hatches&r where the diagram shows.
+&e3.&r Use the &6Wrench&r to form/configure the controller once the shape is valid.
+&e4.&r Feed coal; pull coke from the item hatch and creosote from the fluid hatch into a tank.",
+		"",
+		"&7Tip:&r Creosote is useful for treated wood elsewhere — store it instead of voiding.",
+		"",
+		"&7Next:&r Steam Blast Furnace for steel."
 	]
 	quest.B1000000000002F5.title: "Steam Blast Furnace"
 	quest.B1000000000002F5.quest_subtitle: "Modern Industrialization · Steel"
 	quest.B1000000000002F5.quest_desc: [
 		"&6Goal:&r Build a Steam Blast Furnace.",
 		"",
-		"Blast iron with coke toward steel. This multiblock is the gate to Steel machines.",
+		"Blasts iron with coke toward steel — the gate to steel machines and the electric age.",
 		"",
-		"&7Tip:&r Keep steam pressure high; starved SFBs crawl."
+		"&6How:&r
+&e1.&r Follow JEI/guidebook for the &6Steam Blast Furnace&r brick shape (fire-clay / coke oven bricks).
+&e2.&r Replace edge/face blocks with &6Item Inputs&r, &6Item Outputs&r, and &6Fluid Inputs&r (steam) hatches as required.
+&e3.&r Wrench the controller to form the multiblock when the shape turns valid.
+&e4.&r Pipe steam from boilers, insert iron + coke per recipe, pull steel from the output hatch.",
+		"",
+		"&cCaution:&r Missing or wrong-tier hatches prevent formation — compare every layer to the guide.",
+		"",
+		"&7Tip:&r Keep steam pressure high; starved SBFs crawl. Parallel bronze boilers help.",
+		"",
+		"&7Next:&r Stockpile Steel Ingots."
 	]
 	quest.B1000000000002F6.title: "Steel Stockpile"
 	quest.B1000000000002F6.quest_subtitle: "Modern Industrialization · Steel"
 	quest.B1000000000002F6.quest_desc: [
 		"&6Goal:&r Produce &616 Steel Ingots&r.",
 		"",
-		"Steel unlocks stronger machines, better boilers, and the jump toward electricity.",
+		"Steel unlocks stronger machines, better boilers, hulls, and the jump toward electricity.",
 		"",
-		"&7Tip:&r Batch plates and rods immediately after the first steel pour."
+		"&6How:&r
+&e1.&r Run iron + coke through the Steam Blast Furnace until you have 16+ &6Steel Ingots&r.
+&e2.&r Immediately compress/hammer plates and rods — steel machine crafts eat them.",
+		"",
+		"&7Tip:&r Batch plates and rods right after the first steel pour.",
+		"",
+		"&7Next:&r Steel Boiler and Analog Circuits in parallel."
 	]
 	quest.B1000000000002F7.title: "Steel Boiler"
 	quest.B1000000000002F7.quest_subtitle: "Modern Industrialization · Steel"
 	quest.B1000000000002F7.quest_desc: [
 		"&6Goal:&r Craft a Steel Boiler.",
 		"",
-		"Higher steam output for steel-tier machines and larger factories.",
+		"Higher steam output for steel-tier machines, larger steam multiblocks, and denser factories.",
 		"",
-		"&7Tip:&r Upgrade pipe networks when steam demand outruns bronze boilers."
+		"&6How:&r
+&e1.&r Craft and place the &6Steel Boiler&r; feed fuel + water like the bronze version.
+&e2.&r Upgrade fluid pipe networks when steam demand outruns bronze boilers.
+&e3.&r Optional: progress toward a &6Large Steam Boiler&r multiblock when single-block boilers fall behind.",
+		"",
+		"&7Tip:&r Water input rate is as important as fuel — add pumps early.",
+		"",
+		"&7Next:&r Analog Circuits for electric machines."
 	]
 	quest.B1000000000002F8.title: "Analog Circuits"
 	quest.B1000000000002F8.quest_subtitle: "Modern Industrialization · Electric"
@@ -99,7 +173,14 @@
 		"",
 		"Circuits are MI's long progression spine — analog today, electronic/digital/quantum later.",
 		"",
-		"&7Tip:&r Automate circuit board ingredients before you feel the craft spam."
+		"&6How:&r
+&e1.&r Craft circuit boards and analog components per JEI (wires, resistors, plates).
+&e2.&r Assemble &6Analog Circuits&r in batches of 8+.
+&e3.&r Start automating board ingredients before the craft spam hurts.",
+		"",
+		"&7Tip:&r A dedicated steam assembler line for circuits pays for itself quickly.",
+		"",
+		"&7Next:&r Basic Machine Hulls for LV electric machines."
 	]
 	quest.B1000000000002F9.title: "Basic Machine Hull"
 	quest.B1000000000002F9.quest_subtitle: "Modern Industrialization · Electric"
@@ -108,7 +189,13 @@
 		"",
 		"Electric machines are built on hulls. Basic hulls cover LV; advanced tiers follow.",
 		"",
-		"&7Tip:&r Motors, conveyors, and robot arms share parts with hull crafts — stock components."
+		"&6How:&r
+&e1.&r Craft hulls from steel/analog parts (JEI).
+&e2.&r Stock motors, cables, and conveyors alongside — they share materials with hull crafts.",
+		"",
+		"&7Tip:&r Never craft just one hull; the next four machines will want them immediately.",
+		"",
+		"&7Next:&r Motors, then Electric Macerator."
 	]
 	quest.B1000000000002FA.title: "Motors"
 	quest.B1000000000002FA.quest_subtitle: "Modern Industrialization · Electric"
@@ -117,43 +204,80 @@
 		"",
 		"Motors drive electric machines and appear in countless component recipes.",
 		"",
-		"&7Tip:&r Tin cables and rubber often gate early motor crafts — check JEI."
+		"&6How:&r
+&e1.&r Craft &6Tin Cables&r / rubber-insulated wire as JEI requires.
+&e2.&r Assemble &6Motors&r from rods, cables, and magnetic parts.
+&e3.&r Keep extras — conveyors, robot arms, and generators eat motors too.",
+		"",
+		"&7Tip:&r Rubber often gates early motor crafts — solve latex/rubber before mass production.",
+		"",
+		"&7Next:&r Electric Macerator on LV power."
 	]
 	quest.B1000000000002FB.title: "Electric Macerator"
 	quest.B1000000000002FB.quest_subtitle: "Modern Industrialization · Electric"
 	quest.B1000000000002FB.quest_desc: [
 		"&6Goal:&r Craft an Electric Macerator.",
 		"",
-		"FE-powered crushing for serious ore throughput once LV power is online.",
+		"EU/FE-powered crushing for serious ore throughput once LV power is online.",
 		"",
-		"&7Tip:&r Feed it with item pipes and pull dusts into an RS or Create line."
+		"&6How:&r
+&e1.&r Place the macerator; connect &6LV Cables&r from a generator or energy storage to the energy hatch/side.
+&e2.&r Pipe items in/out; wrench cable and pipe ends if IO is wrong.
+&e3.&r Feed dusts into electric furnaces or further MI processing lines.",
+		"",
+		"&7Tip:&r Pull dusts into RS or Create storage so the machine never jams full.",
+		"",
+		"&7Next:&r LV Diesel Generator for steady power."
 	]
 	quest.B1000000000002FC.title: "LV Diesel Generator"
 	quest.B1000000000002FC.quest_subtitle: "Modern Industrialization · Electric"
 	quest.B1000000000002FC.quest_desc: [
 		"&6Goal:&r Craft an LV Diesel Generator.",
 		"",
-		"Burn diesel/biodiesel for steady LV FE when steam turbines aren't enough.",
+		"Burns diesel/biodiesel for steady LV energy when steam turbines are not enough.",
 		"",
-		"&7Tip:&r Oil drilling and distillation unlock proper fuel logistics later."
+		"&6How:&r
+&e1.&r Place the generator; pipe &6Diesel&r or &6Biodiesel&r into the fluid input.
+&e2.&r Connect LV cables from the energy output to machines or a storage block.
+&e3.&r Buffer fuel in a tank so the generator does not pulse empty.",
+		"",
+		"&7Tip:&r Oil drilling and distillation unlock proper fuel logistics later.",
+		"",
+		"&7Next:&r Electronic Circuits for MV progression."
 	]
 	quest.B1000000000002FD.title: "Electronic Circuits"
 	quest.B1000000000002FD.quest_subtitle: "Modern Industrialization · Mid game"
 	quest.B1000000000002FD.quest_desc: [
 		"&6Goal:&r Craft &64 Electronic Circuits&r.",
 		"",
-		"MV progression and better machines demand electronic circuits.",
+		"MV progression and better machines demand electronic circuits — the next circuit factory tier.",
 		"",
-		"&7Tip:&r Plan clean-room style crafting arrays — circuit crafting is a factory of its own."
+		"&6How:&r
+&e1.&r Unlock and craft electronic-tier boards/components (JEI).
+&e2.&r Assemble &6Electronic Circuits&r; automate boards before you feel the spam.",
+		"",
+		"&7Tip:&r Treat circuit crafting as its own factory wing, not a crafting-table chore.",
+		"",
+		"&7Next:&r Electric Quarry for bulk resources."
 	]
 	quest.B1000000000002FE.title: "Electric Quarry"
 	quest.B1000000000002FE.quest_subtitle: "Modern Industrialization · Mid game"
 	quest.B1000000000002FE.quest_desc: [
 		"&6Goal:&r Craft an Electric Quarry.",
 		"",
-		"Automated chunk mining with drill heads and power — MI's answer to bulk resource gathering.",
+		"Automated area mining with drill heads and power — MI's answer to bulk resource gathering.",
 		"",
-		"&7Tip:&r Clear the work area and supply drill heads before activating."
+		"&6How:&r
+&e1.&r Place the &6Electric Quarry&r with clear working volume below/around per guidebook.
+&e2.&r Insert &6Drill Heads&r and connect serious LV/MV power.
+&e3.&r Pipe or inventory-pull mined items into storage; restock drill heads as they wear.
+&e4.&r Wrench/configure the work area before leaving it running overnight.",
+		"",
+		"&cCaution:&r Quarries erase terrain in their zone — do not aim one under your base.",
+		"",
+		"&7Tip:&r Clear the work area and supply drill heads before activating.",
+		"",
+		"&7Next:&r Digital Circuits for HV-tier brains."
 	]
 	quest.B1000000000002FF.title: "Digital Circuits"
 	quest.B1000000000002FF.quest_subtitle: "Modern Industrialization · Late"
@@ -162,6 +286,12 @@
 		"",
 		"HV-tier brains for advanced machines and late multiblocks.",
 		"",
-		"&7Tip:&r By now circuit automation should be hands-off; if not, fix that first."
+		"&6How:&r
+&e1.&r Craft digital-tier components from electronic circuits and advanced parts (JEI).
+&e2.&r Assemble &6Digital Circuits&r; keep the line automated.",
+		"",
+		"&7Tip:&r If circuit crafting is still manual, fix that before HV multiblocks.",
+		"",
+		"&7Next:&r Chapter complete — push large boilers, blast furnaces, and HV machines next."
 	]
 }

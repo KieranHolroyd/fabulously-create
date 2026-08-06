@@ -2,12 +2,27 @@
 	quest.B100000000000190.title: "Menril Wood"
 	quest.B100000000000190.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000190.quest_desc: [
-		"&6Goal:&r Collect &616 menril logs&r.",
+		"Menril fuels Integrated Dynamics crafting — this chapter's programmable logistics brain, plus diesel power and factory enchanting.",
 		"",
-		"Menril fuels Integrated Dynamics crafting. Find menril trees / berries in the world (Nature's Compass helps).",
+		"&6You will:&r
+&e•&r Gather menril and spin up an ID cable network
+&e•&r Read inventories, tunnel items/fluids, and browse from a storage terminal
+&e•&r Generate FE with alternators and burn diesel for kinetic power",
 		"",
-		"&7Tip:&r Crystalized menril chunks also drop — keep them for cables and variables.",
-		"&7Next:&r Spin up a cable network, then learn variables.",
+		"&7Tip:&r Nature's Compass helps find menril biomes. Crystalized menril chunks also drop — keep them.",
+		"",
+		"&6Goal:&r Collect &616 Menril Logs&r.",
+		"",
+		"Menril is the wood/crystal backbone of Integrated Dynamics — cables, logic, and terminals all start here.",
+		"",
+		"&6How:&r
+&e1.&r Use Nature's Compass (or explore) to find a menril biome / menril trees.
+&e2.&r Chop &616 Menril Logs&r; keep crystalized menril chunks that drop.
+&e3.&r Haul the logs home and leave space for an ID cable spine through storage.",
+		"",
+		"&7Tip:&r Saplings replant near base so you are not hiking for every cable batch.",
+		"",
+		"&7Next:&r Craft ID cables and form your first logic network.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Brass Age\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000DF\"}}"
@@ -19,7 +34,13 @@
 		"",
 		"ID is this pack's programmable logistics brain — readers, writers, and terminals plug into cable.",
 		"",
-		"&7Tip:&r Think of cables like a tiny computer bus running through your base."
+		"&6How:&r
+&e1.&r Craft 32 ID cables from menril materials (JEI).
+&e2.&r Place a continuous cable line through your storage / factory area.
+&e3.&r Think of cables like a tiny computer bus — every part must touch the network.
+&e4.&r Leave branches toward chests you want to automate later.",
+		"",
+		"&7Tip:&r Break and replace cables carefully — orphaned segments lose network access."
 	]
 	quest.B100000000000192.title: "Logic Programmer"
 	quest.B100000000000192.quest_subtitle: "Integrated Dynamics"
@@ -28,6 +49,12 @@
 		"",
 		"The desk where you write variable cards — numbers, items, lists, operators, and filters.",
 		"",
+		"&6How:&r
+&e1.&r Craft a Logic Programmer and place it near your cable network.
+&e2.&r Open it and create a simple variable (e.g. an item type or number).
+&e3.&r Write the variable onto a blank variable card.
+&e4.&r Keep the programmer accessible — you will iterate filters often.",
+		"",
 		"&7Tip:&r There's also a portable programmer for field work."
 	]
 	quest.B100000000000193.title: "Variables"
@@ -35,21 +62,38 @@
 	quest.B100000000000193.quest_desc: [
 		"&6Goal:&r Craft &616 variables&r.",
 		"",
-		"Store numbers, items, lists, and logic — programming cards for your network."
+		"Store numbers, items, lists, and logic — programming cards for your network.",
+		"",
+		"&6How:&r
+&e1.&r Craft 16 blank variable cards.
+&e2.&r Use the Logic Programmer to label a few: item filters, integers, operators.
+&e3.&r Insert written cards into readers / panels / tunnels as you build them.
+&e4.&r Keep blanks on hand — every new filter needs a card."
 	]
 	quest.B100000000000194.title: "Inventory Reader"
 	quest.B100000000000194.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000194.quest_desc: [
 		"&6Goal:&r Craft an Inventory Reader part.",
 		"",
-		"Attach to a cable facing an inventory to read contents into variables — the eyes of your network."
+		"Attach to a cable facing an inventory to read contents into variables — the eyes of your network.",
+		"",
+		"&6How:&r
+&e1.&r Craft an Inventory Reader part.
+&e2.&r Place it on a cable block facing a chest or drawer controller.
+&e3.&r Insert a variable card configured to read items / counts.
+&e4.&r Verify with a display panel that the network sees the inventory."
 	]
 	quest.B100000000000195.title: "Display Panel"
 	quest.B100000000000195.quest_subtitle: "Integrated Dynamics"
 	quest.B100000000000195.quest_desc: [
 		"&6Goal:&r Craft a display panel.",
 		"",
-		"Show variable values on the wall — debug your logic without guessing."
+		"Show variable values on the wall — debug your logic without guessing.",
+		"",
+		"&6How:&r
+&e1.&r Craft a display panel and place it on a cable.
+&e2.&r Insert the variable card you want to visualize.
+&e3.&r Watch values update as chests fill/empty — use this while tuning tunnels."
 	]
 	quest.B100000000000196.title: "Item Tunnels"
 	quest.B100000000000196.quest_subtitle: "Tunnels"
@@ -58,6 +102,12 @@
 		"",
 		"Pull and push items with filters — ID's version of import/export buses.",
 		"",
+		"&6How:&r
+&e1.&r Craft 4 item interface parts.
+&e2.&r Place interfaces on cable facing the inventories you want to link.
+&e3.&r Configure each interface with variable filters (which items to expose).
+&e4.&r Confirm items appear to the network before adding importers.",
+		"",
 		"&7Next:&r Importers automate continuous transfer; terminals let you browse the network."
 	]
 	quest.B100000000000197.title: "Item Importer"
@@ -65,14 +115,26 @@
 	quest.B100000000000197.quest_desc: [
 		"&6Goal:&r Craft an item importer.",
 		"",
-		"Continuously pull items into the network with filters and conditions."
+		"Continuously pull items into the network with filters and conditions.",
+		"",
+		"&6How:&r
+&e1.&r Craft an item importer part.
+&e2.&r Place it on cable facing a machine output or chest to drain.
+&e3.&r Set filter variables (item type, rate, conditions).
+&e4.&r Watch items move into networked storage — tweak if the wrong items move."
 	]
 	quest.B100000000000198.title: "Fluid Tunnels"
 	quest.B100000000000198.quest_subtitle: "Tunnels"
 	quest.B100000000000198.quest_desc: [
 		"&6Goal:&r Craft &62 fluid interfaces&r.",
 		"",
-		"Move Create fluids, diesel fuels, and liquid XP through the ID network."
+		"Move Create fluids, diesel fuels, and liquid XP through the ID network.",
+		"",
+		"&6How:&r
+&e1.&r Craft 2 fluid interface parts.
+&e2.&r Place them on cable facing fluid tanks (Create tanks, barrels, etc.).
+&e3.&r Configure fluid filters so only the intended liquid transfers.
+&e4.&r Pair with importers/exporters when you automate diesel or XP lines."
 	]
 	quest.B100000000000199.title: "Storage Terminal"
 	quest.B100000000000199.quest_subtitle: "Terminals"
@@ -80,6 +142,12 @@
 		"&6Goal:&r Craft a Storage Terminal.",
 		"",
 		"Browse and craft from everything your tunnels can see — the AE2 vibe without AE2.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Storage Terminal part.
+&e2.&r Place it on your cable network within reach of a working desk.
+&e3.&r Open it — you should see items from every linked interface.
+&e4.&r Pull / deposit items from the terminal like a digital chest.",
 		"",
 		"&7Tip:&r Portable terminal exists for on-the-go access once unlocked."
 	]
@@ -90,6 +158,12 @@
 		"",
 		"Request autocrafting through your ID terminal once patterns / recipes are set up.",
 		"",
+		"&6How:&r
+&e1.&r Craft a Crafting Interface and place it on the network near crafting storage.
+&e2.&r Register recipes / patterns the mod expects (JEI + interface UI).
+&e3.&r Request a craft from the storage terminal.
+&e4.&r Verify ingredients pull from networked chests and outputs return.",
+		"",
 		"&7Next:&r You're ready for factory-scale enchanting and fuel systems."
 	]
 	quest.B10000000000019B.title: "Alternator"
@@ -97,28 +171,53 @@
 	quest.B10000000000019B.quest_desc: [
 		"&6Goal:&r Build a Create Crafts \\& Additions Alternator.",
 		"",
-		"Spin it with SU to generate FE (Forge Energy) for electric addons and jetpack charging."
+		"Spin it with SU to generate FE (Forge Energy) for electric addons and jetpack charging.",
+		"",
+		"&6How:&r
+&e1.&r Craft an Alternator and place it on a shaft from your kinetic network.
+&e2.&r Connect CCA energy connectors / wires / capacitors to the alternator output.
+&e3.&r Spin the shaft — confirm FE appears in a connected energy buffer.
+&e4.&r Route FE to chargers, electric motors, or energy pipes.",
+		"",
+		"&7Tip:&r More RPM / SU → more FE. Gear up if generation is weak."
 	]
 	quest.B10000000000019C.title: "Electric Motor"
 	quest.B10000000000019C.quest_subtitle: "Power"
 	quest.B10000000000019C.quest_desc: [
 		"&6Goal:&r Build an Electric Motor.",
 		"",
-		"Turn FE back into SU — great for remote bases powered by diesel or New Age electricity."
+		"Turn FE back into SU — great for remote bases powered by diesel or New Age electricity.",
+		"",
+		"&6How:&r
+&e1.&r Craft an Electric Motor.
+&e2.&r Feed it FE from your alternator / battery line.
+&e3.&r Attach a shaft to the motor and set speed in its UI.
+&e4.&r Power a remote workshop without running long kinetic shafts."
 	]
 	quest.B10000000000019D.title: "Rolling Mill"
 	quest.B10000000000019D.quest_subtitle: "Power"
 	quest.B10000000000019D.quest_desc: [
 		"&6Goal:&r Build a CCA Rolling Mill.",
 		"",
-		"Roll rods and wires for electrical crafting — pairs with the alternator line."
+		"Roll rods and wires for electrical crafting — pairs with the alternator line.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Rolling Mill and power it with SU.
+&e2.&r Insert ingots / plates per JEI to roll rods and wires.
+&e3.&r Stock copper/electrum spools for more CCA machines."
 	]
 	quest.B10000000000019E.title: "Oil Scanner"
 	quest.B10000000000019E.quest_subtitle: "Diesel"
 	quest.B10000000000019E.quest_desc: [
 		"&6Goal:&r Craft an oil scanner (Create Diesel Generators).",
 		"",
-		"Find crude oil deposits before committing to a pumpjack."
+		"Find crude oil deposits before committing to a pumpjack.",
+		"",
+		"&6How:&r
+&e1.&r Craft an oil scanner.
+&e2.&r Use it in the world to locate crude oil pockets.
+&e3.&r Mark the spot (Waystone / coords) for a pumpjack pad.
+&e4.&r Return with pipes, tanks, and a diesel engine plan."
 	]
 	quest.B10000000000019F.title: "Diesel Engine"
 	quest.B10000000000019F.quest_subtitle: "Diesel"
@@ -127,6 +226,12 @@
 		"",
 		"Process plant oil / crude into fuel and burn it for strong kinetic power — Create's combustion route.",
 		"",
+		"&6How:&r
+&e1.&r Craft a Diesel Engine and place it with shaft clearance.
+&e2.&r Supply fuel (plant oil early, diesel later) via buckets or fluid pipes.
+&e3.&r Start the engine and connect its kinetic output to your network.
+&e4.&r Scale fuel production before attaching high-stress machines.",
+		"",
 		"&7Tip:&r Distillation controller + pumpjacks scale this into a fuel empire."
 	]
 	quest.B1000000000001A0.title: "Distillation"
@@ -134,14 +239,26 @@
 	quest.B1000000000001A0.quest_desc: [
 		"&6Goal:&r Craft a distillation controller.",
 		"",
-		"Refine crude into diesel, gasoline, and other fractions for engines and asphalt builds."
+		"Refine crude into diesel, gasoline, and other fractions for engines and asphalt builds.",
+		"",
+		"&6How:&r
+&e1.&r Craft a distillation controller.
+&e2.&r Build the distillation tower multiblock per JEI / ponder.
+&e3.&r Pump crude oil into the tower and heat / power as required.
+&e4.&r Pipe diesel (and other fractions) into barrels feeding your engines."
 	]
 	quest.B1000000000001A1.title: "Experience Hatch"
 	quest.B1000000000001A1.quest_subtitle: "Enchanting"
 	quest.B1000000000001A1.quest_desc: [
 		"&6Goal:&r Craft an experience hatch (Enchantment Industry).",
 		"",
-		"Get liquid XP into Create fluid networks — the fuel for automated enchanting."
+		"Get liquid XP into Create fluid networks — the fuel for automated enchanting.",
+		"",
+		"&6How:&r
+&e1.&r Craft an experience hatch.
+&e2.&r Place it on a Create fluid tank / pipe line that will hold liquid XP.
+&e3.&r Feed XP into the system (bottles, grinders, or farm drops per mod recipes).
+&e4.&r Confirm liquid experience appears in the tank before building the enchanter."
 	]
 	quest.B1000000000001A2.title: "Blaze Enchanter"
 	quest.B1000000000001A2.quest_subtitle: "Enchanting"
@@ -150,6 +267,12 @@
 		"",
 		"Pump liquid experience and automate enchanted books / gear — factory magic.",
 		"",
+		"&6How:&r
+&e1.&r Craft a Blaze Enchanter and place it with fluid access.
+&e2.&r Pipe liquid XP into the enchanter.
+&e3.&r Supply books / gear and set the enchanting mode in its UI.
+&e4.&r Power / configure per JEI, then pull enchanted outputs with funnels or arms.",
+		"",
 		"&7Tip:&r Printers copy enchanted books once you have templates."
 	]
 	quest.B1000000000001A3.title: "Enchantment Printer"
@@ -157,34 +280,62 @@
 	quest.B1000000000001A3.quest_desc: [
 		"&6Goal:&r Craft an Enchantment Industry printer.",
 		"",
-		"Copy enchantments onto books/gear with liquid XP — mass-produce your favorite setups."
+		"Copy enchantments onto books/gear with liquid XP — mass-produce your favorite setups.",
+		"",
+		"&6How:&r
+&e1.&r Craft the printer and place it on your XP fluid line.
+&e2.&r Insert an enchanting template / source book.
+&e3.&r Feed blank books or gear plus liquid XP.
+&e4.&r Collect copies — duplicate your best tool enchants."
 	]
 	quest.B1000000000001A4.title: "Slice \\& Dice"
 	quest.B1000000000001A4.quest_subtitle: "Food automation"
 	quest.B1000000000001A4.quest_desc: [
 		"&6Goal:&r Craft a Slice \\& Dice slicer.",
 		"",
-		"Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt."
+		"Pair with Create to automate Farmer's Delight cutting — salads on a conveyor belt.",
+		"",
+		"&6How:&r
+&e1.&r Craft a slicer and place it in a Create kinetic line.
+&e2.&r Power it and feed ingredients that need cutting-board recipes.
+&e3.&r Collect outputs onto a belt toward cooking pots / chests."
 	]
 	quest.B1000000000001A5.title: "Sprinkler"
 	quest.B1000000000001A5.quest_subtitle: "Food automation"
 	quest.B1000000000001A5.quest_desc: [
 		"&6Goal:&r Craft a Slice \\& Dice sprinkler.",
 		"",
-		"Automate crop hydration / fertilizer vibes for bigger farms."
+		"Automate crop hydration / fertilizer vibes for bigger farms.",
+		"",
+		"&6How:&r
+&e1.&r Craft a sprinkler.
+&e2.&r Place it above farmland and supply fluid (water) as the mod requires.
+&e3.&r Power / activate so crops stay hydrated across the plot."
 	]
 	quest.B1000000000001A6.title: "Kinetic Brake"
 	quest.B1000000000001A6.quest_subtitle: "Create extras"
 	quest.B1000000000001A6.quest_desc: [
 		"&6Goal:&r Craft a Brake (Create: Connected).",
 		"",
-		"Connected adds practical kinetic utilities — brakes, clutches, copycats-adjacent helpers, and more."
+		"Connected adds practical kinetic utilities — brakes, clutches, copycats-adjacent helpers, and more.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Brake.
+&e2.&r Place it on a shaft line you want to stop on demand.
+&e3.&r Power / redstone-control the brake to halt rotation without breaking the network.
+&e4.&r Use it to pause crushers or assembly lines safely."
 	]
 	quest.B1000000000001A7.title: "Parallel Gearbox"
 	quest.B1000000000001A7.quest_subtitle: "Create extras"
 	quest.B1000000000001A7.quest_desc: [
 		"&6Goal:&r Craft a parallel gearbox (Create: Connected).",
 		"",
-		"Compact kinetic routing for dense factory floors — squeeze more shafts into less space."
+		"Compact kinetic routing for dense factory floors — squeeze more shafts into less space.",
+		"",
+		"&6How:&r
+&e1.&r Craft a parallel gearbox.
+&e2.&r Place it where two parallel shafts need to share rotation in a tight footprint.
+&e3.&r Connect inputs/outputs and verify direction with a wrench.
+&e4.&r Replace bulky cog towers on crowded floors."
 	]
 }

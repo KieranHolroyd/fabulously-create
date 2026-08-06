@@ -6,7 +6,14 @@
 		"",
 		"Machine Frames are the common chassis for the entire RFTools suite.",
 		"",
-		"&7Tip:&r Keep a batch in Refined Storage; nearly every branch consumes them.",
+		"&6How:&r
+&e1.&r Gather iron and the other JEI ingredients for Machine Frames.
+&e2.&r Craft at least four frames to start Power, Utility, and Storage branches.
+&e3.&r Stock extras in Refined Storage — nearly every branch consumes them.",
+		"",
+		"&7Tip:&r Batch frames once; rebuilding every machine from scratch hurts.",
+		"",
+		"&7Next:&r Craft a Smart Wrench before placing machines.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Starter Energy Cell\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000001AB\"}}"
@@ -16,27 +23,48 @@
 	quest.B1000000000001BE.quest_desc: [
 		"&6Goal:&r Craft an RFTools Smart Wrench.",
 		"",
-		"The wrench rotates, configures, links, and safely moves through RFTools setups.",
+		"Rotates, configures, links, and safely moves RFTools setups.",
 		"",
-		"&7Tip:&r Carry it before placing machines whose facing or links matter."
+		"&6How:&r
+&e1.&r Craft the Smart Wrench and keep it on your hotbar.
+&e2.&r Sneak-click / mode-cycle to switch rotate vs pick-up modes as needed.
+&e3.&r Use it when placing machines whose facing or card links matter.",
+		"",
+		"&7Tip:&r Pick up machines with the wrench to keep modules and settings intact.",
+		"",
+		"&7Next:&r Optional: Coal Generator, or jump into crafters/screens from frames."
 	]
 	quest.B1000000000001BF.title: "Coal Generator"
 	quest.B1000000000001BF.quest_subtitle: "RFTools · Power"
 	quest.B1000000000001BF.quest_desc: [
 		"&6Goal:&r Craft an RFTools Coal Generator.",
 		"",
-		"This compact generator is a fallback FE source and a clear introduction to RFTools Power.",
+		"Compact fallback FE and a clear intro to RFTools Power — Powah still handles serious generation.",
 		"",
-		"&7Tip:&r Feed the same power bus as Powah, but let Powah handle serious base generation."
+		"&6How:&r
+&e1.&r Place the Coal Generator near a Power Cell.
+&e2.&r Insert coal and cable FE into your RFTools/Powah bus.
+&e3.&r Use it as backup, not as your only base generator.",
+		"",
+		"&7Tip:&r Feed the same power bus as Powah so tools and cells share one buffer.",
+		"",
+		"&7Next:&r Craft a Level 1 Power Cell."
 	]
 	quest.B1000000000001C0.title: "Power Cell"
 	quest.B1000000000001C0.quest_subtitle: "RFTools · Power"
 	quest.B1000000000001C0.quest_desc: [
 		"&6Goal:&r Craft a Level 1 Power Cell.",
 		"",
-		"Power Cells buffer FE locally and can grow into linked power networks.",
+		"Buffers FE locally and can grow into linked power networks with cards.",
 		"",
-		"&7Tip:&r Place one beside bursty machines so cable demand stays smooth."
+		"&6How:&r
+&e1.&r Place the Power Cell beside bursty machines (crafters, teleporters).
+&e2.&r Cable generation in and consumers out; note input/output faces in the GUI.
+&e3.&r Upgrade or link cells later instead of starring every machine to live gen.",
+		"",
+		"&7Tip:&r Local buffers keep cable demand smooth under teleport spikes.",
+		"",
+		"&7Next:&r Craft a Powercell Card to link cells."
 	]
 	quest.B1000000000001C1.title: "Powercell Card"
 	quest.B1000000000001C1.quest_subtitle: "RFTools · Power networking"
@@ -45,186 +73,333 @@
 		"",
 		"Cards link compatible RFTools power cells and dimensional cells into a shared network.",
 		"",
-		"&7Tip:&r Name cards or networks by purpose to avoid cross-wiring factories."
+		"&6How:&r
+&e1.&r Craft the card and open a Power Cell GUI.
+&e2.&r Insert matching cards (or link per GUI instructions) on every cell that should share FE.
+&e3.&r Name cards/networks by purpose — Factory, Dims, Backup.",
+		"",
+		"&7Tip:&r Mismatched or blank names cause accidental cross-wiring on multiplayer.",
+		"",
+		"&7Next:&r Add a Dimensional Cell for cross-dimension FE."
 	]
 	quest.B1000000000001C2.title: "Dimensional Cell"
 	quest.B1000000000001C2.quest_subtitle: "RFTools · Power networking"
 	quest.B1000000000001C2.quest_desc: [
 		"&6Goal:&r Craft a Dimensional Cell.",
 		"",
-		"Dimensional Cells move FE across distance and dimensions without running physical cables.",
+		"Moves FE across distance and dimensions without running physical cables.",
 		"",
-		"&7Tip:&r Use Powah generation to charge the network that supports teleporters and dimensions."
+		"&6How:&r
+&e1.&r Place a Dimensional Cell in the overworld next to your main buffer.
+&e2.&r Link it with a Powercell Card to the same network as your Power Cells.
+&e3.&r Place another linked cell in remote bases or future dimensions; charge from Powah.",
+		"",
+		"&7Tip:&r Use Powah generation to charge the network that supports teleporters and dimensions.",
+		"",
+		"&7Next:&r Matter Transmitters need this kind of reliable FE."
 	]
 	quest.B1000000000001C3.title: "Automated Crafter"
 	quest.B1000000000001C3.quest_subtitle: "RFTools · Automation"
 	quest.B1000000000001C3.quest_desc: [
 		"&6Goal:&r Craft a Tier 1 RFTools Crafter.",
 		"",
-		"RFTools Crafters continuously process buffered recipes, ideal for compact material loops.",
+		"Continuously processes buffered recipes — compact material loops beside Create lines.",
 		"",
-		"&7Tip:&r Use Create or Pipez to supply ingredients and export results to Refined Storage."
+		"&6How:&r
+&e1.&r Place the Crafter and power it with FE.
+&e2.&r Open the GUI, set a recipe, and define input/output sides.
+&e3.&r Pipe ingredients in with Create or Pipez; export results to Refined Storage.",
+		"",
+		"&7Tip:&r Start with one high-volume craft (plates, gears) before multi-recipe setups.",
+		"",
+		"&7Next:&r Upgrade to Tier 3 for multi-recipe crafting."
 	]
 	quest.B1000000000001C4.title: "Tier 3 Crafter"
 	quest.B1000000000001C4.quest_subtitle: "RFTools · Automation"
 	quest.B1000000000001C4.quest_desc: [
 		"&6Goal:&r Upgrade to a Tier 3 RFTools Crafter.",
 		"",
-		"The top crafter handles many recipes in one block and can retain intermediates internally.",
+		"Handles many recipes in one block and can retain intermediates internally.",
 		"",
-		"&7Tip:&r Use remembered outputs carefully to prevent recipe loops from clogging."
+		"&6How:&r
+&e1.&r Craft/upgrade to Crafter Tier 3 and reinstall your recipes.
+&e2.&r Enable remembered/internal buffers only for steps that need them.
+&e3.&r Watch for recipe loops — disable retain on outputs that re-enter as inputs.",
+		"",
+		"&7Tip:&r Use remembered outputs carefully to prevent clogging loops.",
+		"",
+		"&7Next:&r Build Screens to monitor the factory."
 	]
 	quest.B1000000000001C5.title: "Information Screen"
 	quest.B1000000000001C5.quest_subtitle: "RFTools · Monitoring"
 	quest.B1000000000001C5.quest_desc: [
 		"&6Goal:&r Craft an RFTools Screen.",
 		"",
-		"Screens present power, inventory, fluid, machine, and text data through installable modules.",
+		"Presents power, inventory, fluid, machine, and text data through installable modules.",
 		"",
-		"&7Tip:&r Build the module that matches the system you actually need to monitor."
+		"&6How:&r
+&e1.&r Place the Screen on a wall in your control room.
+&e2.&r Craft the module that matches what you need (energy, fluid, inventory, etc.).
+&e3.&r Install the module and link it to the target machine or cell with the wrench/GUI.",
+		"",
+		"&7Tip:&r Build modules for systems you actually monitor — empty screens are just art.",
+		"",
+		"&7Next:&r Add a Screen Controller for powered dashboards."
 	]
 	quest.B1000000000001C6.title: "Screen Controller"
 	quest.B1000000000001C6.quest_subtitle: "RFTools · Monitoring"
 	quest.B1000000000001C6.quest_desc: [
 		"&6Goal:&r Craft a Screen Controller.",
 		"",
-		"A controller supplies power and data to nearby screens for a clean factory dashboard.",
+		"Supplies power and data to nearby screens for a clean factory dashboard.",
 		"",
-		"&7Tip:&r Keep its range and FE use in mind when laying out a control room."
+		"&6How:&r
+&e1.&r Place the Screen Controller within range of your Screens.
+&e2.&r Cable FE into the controller.
+&e3.&r Confirm screens update; expand the room only within controller range.",
+		"",
+		"&7Tip:&r Keep range and FE use in mind — huge control rooms need power and proximity.",
+		"",
+		"&7Next:&r Add a Power Monitor for redstone thresholds."
 	]
 	quest.B1000000000001C7.title: "Power Monitor"
 	quest.B1000000000001C7.quest_subtitle: "RFTools · Monitoring"
 	quest.B1000000000001C7.quest_desc: [
 		"&6Goal:&r Craft a Power Monitor.",
 		"",
-		"Monitor stored energy and emit redstone at useful thresholds before the factory browns out.",
+		"Watches stored energy and emits redstone at useful thresholds before brownouts.",
 		"",
-		"&7Tip:&r Connect the signal to backup Powah generators or nonessential machine shutoffs."
+		"&6How:&r
+&e1.&r Place the Power Monitor near your main Power/Dimensional Cell.
+&e2.&r Link it to the cell and set low/high thresholds in the GUI.
+&e3.&r Wire the redstone signal to backup Powah generators or nonessential shutoffs.",
+		"",
+		"&7Tip:&r A low-power signal that starts Magmators beats discovering a dead RS network.",
+		"",
+		"&7Next:&r With power solid, build Matter Transmitters."
 	]
 	quest.B1000000000001C8.title: "Matter Transmitter"
 	quest.B1000000000001C8.quest_subtitle: "RFTools · Teleportation"
 	quest.B1000000000001C8.quest_desc: [
 		"&6Goal:&r Craft a Matter Transmitter.",
 		"",
-		"Matter transmitters send players to linked receivers and form the travel backbone of RFTools Dimensions.",
+		"Sends players to linked receivers — the travel backbone for RFTools Dimensions.",
 		"",
-		"&7Tip:&r Teleportation needs reliable FE; buffer it rather than trusting live generation."
+		"&6How:&r
+&e1.&r Place the Matter Transmitter on a safe pad with clear standing space.
+&e2.&r Cable a large FE buffer into it (Dimensional Cell recommended).
+&e3.&r Do not dial destinations until a powered receiver exists.",
+		"",
+		"&7Tip:&r Teleportation needs buffered FE — never trust live generation alone.",
+		"",
+		"&7Next:&r Craft a Matter Receiver destination."
 	]
 	quest.B1000000000001C9.title: "Matter Receiver"
 	quest.B1000000000001C9.quest_subtitle: "RFTools · Teleportation"
 	quest.B1000000000001C9.quest_desc: [
 		"&6Goal:&r Craft a Matter Receiver.",
 		"",
-		"A receiver creates a destination for transmitters, including in distant or custom dimensions.",
+		"Creates a destination for transmitters, including in distant or custom dimensions.",
 		"",
-		"&7Tip:&r Power and protect the destination before dialing it."
+		"&6How:&r
+&e1.&r Place the receiver at the destination with clear landing space.
+&e2.&r Power it and protect the area (lighting, walls, no lava pits).
+&e3.&r Note its name/location for the Dialing Device.",
+		"",
+		"&7Tip:&r Power and protect the destination before dialing it.",
+		"",
+		"&7Next:&r Link routes with a Dialing Device."
 	]
 	quest.B1000000000001CA.title: "Dialing Device"
 	quest.B1000000000001CA.quest_subtitle: "RFTools · Teleportation"
 	quest.B1000000000001CA.quest_desc: [
 		"&6Goal:&r Craft a Dialing Device.",
 		"",
-		"The dialer discovers nearby transmitters and receivers and connects the selected route.",
+		"Discovers nearby transmitters and receivers and connects the selected route.",
 		"",
-		"&7Tip:&r Give destinations clear names so travel remains safe and predictable."
+		"&6How:&r
+&e1.&r Place the Dialing Device near your Matter Transmitter.
+&e2.&r Open it, select transmitter → receiver, and dial the route.
+&e3.&r Give destinations clear names so travel stays safe and predictable.",
+		"",
+		"&7Tip:&r Rename “Receiver” to “Factory / Mining / Dim Hub” before you have twelve of them.",
+		"",
+		"&7Next:&r Optional utility: Environmental Controller — then Dimensions path."
 	]
 	quest.B1000000000001CB.title: "Environmental Controller"
 	quest.B1000000000001CB.quest_subtitle: "RFTools · Utility"
 	quest.B1000000000001CB.quest_desc: [
 		"&6Goal:&r Craft an Environmental Controller.",
 		"",
-		"With modules installed, this powered machine applies useful effects across a configurable area.",
+		"With modules installed, applies useful effects across a configurable area.",
 		"",
-		"&7Tip:&r Its ongoing FE cost rises with range and modules, so measure before expanding."
+		"&6How:&r
+&e1.&r Place and power the Environmental Controller in the target area.
+&e2.&r Craft and insert modules (regen, flight, haste, etc. per JEI).
+&e3.&r Set radius and filters; measure FE cost before expanding range.",
+		"",
+		"&7Tip:&r Ongoing FE cost rises with range and modules — start small.",
+		"",
+		"&7Next:&r Storage Scanner branch for local inventory access."
 	]
 	quest.B1000000000001CC.title: "Storage Module"
 	quest.B1000000000001CC.quest_subtitle: "RFTools · Storage"
 	quest.B1000000000001CC.quest_desc: [
 		"&6Goal:&r Craft a Tier 1 Storage Module.",
 		"",
-		"Storage Modules determine the capacity of Modular Storage blocks.",
+		"Storage Modules set the capacity of Modular Storage blocks.",
 		"",
-		"&7Tip:&r This is complementary local storage; keep bulk searchable stock in Refined Storage."
+		"&6How:&r
+&e1.&r Craft the Tier 1 Storage Module.
+&e2.&r Keep higher-tier modules for later capacity upgrades.
+&e3.&r Treat this as complementary local storage — bulk searchable stock stays in RS.",
+		"",
+		"&7Tip:&r Modules are swappable — upgrade capacity without rebuilding the block.",
+		"",
+		"&7Next:&r Install it in Modular Storage."
 	]
 	quest.B1000000000001CD.title: "Modular Storage"
 	quest.B1000000000001CD.quest_subtitle: "RFTools · Storage"
 	quest.B1000000000001CD.quest_desc: [
 		"&6Goal:&r Craft Modular Storage and install your module.",
 		"",
-		"One compact block exposes the module's inventory with filtering and a convenient interface.",
+		"One compact block exposes the module's inventory with filtering and a convenient UI.",
 		"",
-		"&7Tip:&r Use it for work cells whose contents should stay separate from the main network."
+		"&6How:&r
+&e1.&r Place Modular Storage at a work cell.
+&e2.&r Insert the Storage Module in the GUI.
+&e3.&r Configure filters so this inventory stays separate from the main RS network.",
+		"",
+		"&7Tip:&r Great for work-cell kits that should not dump into digital storage.",
+		"",
+		"&7Next:&r Scan nearby inventories with a Storage Scanner."
 	]
 	quest.B1000000000001CE.title: "Storage Scanner"
 	quest.B1000000000001CE.quest_subtitle: "RFTools · Storage"
 	quest.B1000000000001CE.quest_desc: [
 		"&6Goal:&r Craft a Storage Scanner.",
 		"",
-		"The scanner searches and accesses nearby inventories from one interface without replacing them.",
+		"Searches and accesses nearby inventories from one interface without replacing them.",
 		"",
-		"&7Tip:&r Scan Create vaults and local chests, then use RS for globally managed storage."
+		"&6How:&r
+&e1.&r Place the Storage Scanner near Create vaults, chests, and Modular Storage.
+&e2.&r Power it and scan/radius-configure until target inventories appear.
+&e3.&r Pull and push items from the scanner UI; keep global stock in RS.",
+		"",
+		"&7Tip:&r Scan Create vaults and local chests — RS remains pack-wide storage.",
+		"",
+		"&7Next:&r Craft a Storage Scanner Tablet for remote access."
 	]
 	quest.B1000000000001CF.title: "Remote Storage Tablet"
 	quest.B1000000000001CF.quest_subtitle: "RFTools · Storage"
 	quest.B1000000000001CF.quest_desc: [
 		"&6Goal:&r Craft a Storage Scanner Tablet.",
 		"",
-		"The tablet gives portable access to a linked scanner when it has power and connectivity.",
+		"Portable access to a linked scanner when it has power and connectivity.",
 		"",
-		"&7Tip:&r Keep it charged with Powah wireless charging before long expeditions."
+		"&6How:&r
+&e1.&r Craft the tablet and link it to your Storage Scanner.
+&e2.&r Keep the tablet charged (Powah Player Transmitter works well).
+&e3.&r Open it in the field to pull from the linked scanner inventories.",
+		"",
+		"&7Tip:&r Charge before expeditions — a dead tablet is a fancy brick.",
+		"",
+		"&7Next:&r Optional Crafting Manager, then Dimensions."
 	]
 	quest.B1000000000001D0.title: "Crafting Manager"
 	quest.B1000000000001D0.quest_subtitle: "RFTools · Storage automation"
 	quest.B1000000000001D0.quest_desc: [
 		"&6Goal:&r Craft an RFTools Crafting Manager.",
 		"",
-		"The manager coordinates RFTools storage and crafting resources from a central interface.",
+		"Coordinates RFTools storage and crafting resources from a central interface.",
 		"",
-		"&7Tip:&r Use it for self-contained production cells; RS remains best for pack-wide autocrafting."
+		"&6How:&r
+&e1.&r Place the Crafting Manager near Modular Storage and crafters.
+&e2.&r Link storage/crafting resources in its GUI.
+&e3.&r Use it for self-contained production cells; keep pack-wide autocrafting in RS.",
+		"",
+		"&7Tip:&r RFTools crafting cells complement RS — they do not replace pattern halls.",
+		"",
+		"&7Next:&r Collect Dimensional Shards for custom worlds."
 	]
 	quest.B1000000000001D1.title: "Dimensional Shards"
 	quest.B1000000000001D1.quest_subtitle: "RFTools · Dimensions"
 	quest.B1000000000001D1.quest_desc: [
 		"&6Goal:&r Collect &68 Dimensional Shards&r.",
 		"",
-		"These rare materials gate advanced RFTools machinery and the custom-dimension path.",
+		"Rare materials that gate advanced RFTools machinery and the custom-dimension path.",
 		"",
-		"&7Tip:&r Check JEI's ore-height display and dimension sources before committing to a mining trip."
+		"&6How:&r
+&e1.&r Check JEI's ore-height display and dimension sources.
+&e2.&r Mine or process shards until you have eight.
+&e3.&r Store them for the Dimlet Workbench chain.",
+		"",
+		"&7Tip:&r Bring a Waystone and FE tools — shard hunts are long trips.",
+		"",
+		"&7Next:&r Craft a Dimlet Workbench."
 	]
 	quest.B1000000000001D2.title: "Dimlet Workbench"
 	quest.B1000000000001D2.quest_subtitle: "RFTools · Dimensions"
 	quest.B1000000000001D2.quest_desc: [
 		"&6Goal:&r Craft a Dimlet Workbench.",
 		"",
-		"The workbench assembles researched parts into dimlets that describe terrain, biomes, blocks, and features.",
+		"Assembles researched parts into dimlets that describe terrain, biomes, blocks, and features.",
 		"",
-		"&7Tip:&r Start with a simple, low-cost world before combining expensive effects."
+		"&6How:&r
+&e1.&r Place and power the Dimlet Workbench.
+&e2.&r Craft or research dimlet parts, then assemble a simple low-cost world dimlet set.
+&e3.&r Avoid stacking expensive effects on your first world.",
+		"",
+		"&7Tip:&r Start simple — a boring safe world beats an unstable expensive one.",
+		"",
+		"&7Next:&r Research knowledge with a Dimlet Researcher."
 	]
 	quest.B1000000000001D3.title: "Dimlet Researcher"
 	quest.B1000000000001D3.quest_subtitle: "RFTools · Dimensions"
 	quest.B1000000000001D3.quest_desc: [
 		"&6Goal:&r Craft a Dimlet Researcher.",
 		"",
-		"Research turns lost knowledge into usable information for building custom dimlets.",
+		"Turns lost knowledge into usable information for building custom dimlets.",
 		"",
-		"&7Tip:&r Automate its inputs only after understanding the rarity tiers."
+		"&6How:&r
+&e1.&r Place the Researcher and supply FE.
+&e2.&r Insert researchable knowledge items per JEI.
+&e3.&r Automate inputs only after you understand rarity tiers and waste rates.",
+		"",
+		"&7Tip:&r Read rarity before dumping stacks — expensive knowledge is easy to burn.",
+		"",
+		"&7Next:&r Combine dimlets in a Dimension Enscriber."
 	]
 	quest.B1000000000001D4.title: "Dimension Enscriber"
 	quest.B1000000000001D4.quest_subtitle: "RFTools · Dimensions"
 	quest.B1000000000001D4.quest_desc: [
 		"&6Goal:&r Craft a Dimension Enscriber.",
 		"",
-		"The Enscriber combines selected dimlets with a dimension tab to define a realizable world.",
+		"Combines selected dimlets with a dimension tab to define a realizable world.",
 		"",
-		"&7Tip:&r Read the projected maintenance cost and avoid unstable combinations."
+		"&6How:&r
+&e1.&r Place the Enscriber and insert your chosen dimlets plus a dimension tab.
+&e2.&r Read the projected maintenance cost and stability before confirming.
+&e3.&r Avoid unstable combinations until you can afford continuous FE.",
+		"",
+		"&7Tip:&r If maintenance cost looks scary, remove fancy dimlets and retry.",
+		"",
+		"&7Next:&r Realize the world with a Dimension Builder."
 	]
 	quest.B1000000000001D5.title: "Dimension Builder"
 	quest.B1000000000001D5.quest_subtitle: "RFTools · Dimensions"
 	quest.B1000000000001D5.quest_desc: [
 		"&6Goal:&r Craft a Dimension Builder.",
 		"",
-		"The Builder realizes and continuously powers your designed dimension.",
+		"Realizes and continuously powers your designed dimension.",
 		"",
-		"&7Tip:&r Supply a large Powah/RFTools energy buffer, then place a powered receiver before exploring."
+		"&6How:&r
+&e1.&r Place the Dimension Builder and cable a large Powah/RFTools energy buffer into it.
+&e2.&r Insert the enscribed dimension tab and start realization.
+&e3.&r Place a powered Matter Receiver in the new dimension before exploring deep.",
+		"",
+		"&7Tip:&r Dimensions idle-cost FE forever — budget generation before tourism.",
+		"",
+		"&7Next:&r RFTools path complete — Flux Networks can wireless your FE grid next."
 	]
 }

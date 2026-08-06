@@ -6,7 +6,14 @@
 		"",
 		"Powah uses dielectric paste, rods, and casings throughout every generator and storage tier.",
 		"",
-		"&7Tip:&r Cook it in batches; upgrading machines repeatedly consumes plenty.",
+		"&6How:&r
+&e1.&r Check JEI for Dielectric Paste ingredients (clay, silicon/lava variants by pack recipe).
+&e2.&r Craft a batch of 16+ paste.
+&e3.&r Keep a drawer stocked — upgrading machines repeatedly consumes plenty.",
+		"",
+		"&7Tip:&r Cook or craft paste in batches before the generator rush.",
+		"",
+		"&7Next:&r Build a Starter Furnator for first FE.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Brass Age\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000DF\"}}"
@@ -16,54 +23,96 @@
 	quest.B1000000000001A9.quest_desc: [
 		"&6Goal:&r Craft a Starter Furnator.",
 		"",
-		"Burn solid fuel for your first independent FE supply—enough to bootstrap Refined Storage and the Energizing Orb.",
+		"Burn solid fuel for your first independent FE supply — enough to bootstrap RS and the Energizing Orb.",
 		"",
-		"&7Tip:&r Set output sides in the GUI or connect an energy cable."
+		"&6How:&r
+&e1.&r Place the Furnator near your early power room.
+&e2.&r Open the GUI and insert coal/charcoal (or other solid fuel).
+&e3.&r Set the energy output side, or connect a Powah energy cable to that face.",
+		"",
+		"&7Tip:&r A small Energy Cell next door absorbs spikes so the Furnator keeps burning.",
+		"",
+		"&7Next:&r Run Starter Energy Cables."
 	]
 	quest.B1000000000001AA.title: "Starter Energy Cables"
 	quest.B1000000000001AA.quest_subtitle: "Powah · Transfer"
 	quest.B1000000000001AA.quest_desc: [
 		"&6Goal:&r Craft &616 Starter Energy Cables&r.",
 		"",
-		"Powah cables move FE between generators, cells, RS controllers, chargers, and Create Crafts \\& Additions machines.",
+		"Powah cables move FE between generators, cells, RS controllers, chargers, and Create electrical machines.",
 		"",
-		"&7Tip:&r Upgrade the cable tier when transfer rate becomes the bottleneck."
+		"&6How:&r
+&e1.&r Place cable from the Furnator toward machines that need FE.
+&e2.&r Connect the RS Controller and any chargers on the same bus.
+&e3.&r Upgrade cable tier later when transfer rate becomes the bottleneck.",
+		"",
+		"&7Tip:&r Color-code or separate buses if you mix low-tier and Nitro gear later.",
+		"",
+		"&7Next:&r Add a Starter Energy Cell buffer."
 	]
 	quest.B1000000000001AB.title: "Starter Energy Cell"
 	quest.B1000000000001AB.quest_subtitle: "Powah · Storage"
 	quest.B1000000000001AB.quest_desc: [
 		"&6Goal:&r Craft a Starter Energy Cell.",
 		"",
-		"Cells buffer generation so machines survive demand spikes and generators can keep working between jobs.",
+		"Cells buffer generation so machines survive demand spikes and generators keep working between jobs.",
 		"",
-		"&7Tip:&r Place storage between generation and the factory bus."
+		"&6How:&r
+&e1.&r Place the Energy Cell between generation and the factory bus.
+&e2.&r Cable generators into the cell, then cable the cell out to consumers.
+&e3.&r Watch the fill bar under load — if it empties, add generation before more machines.",
+		"",
+		"&7Tip:&r Storage between generation and demand is the difference between brownouts and smooth FE.",
+		"",
+		"&7Next:&r Add Thermo, Magmator, or Solar — then the Energizing Orb."
 	]
 	quest.B1000000000001AC.title: "Thermo Generator"
 	quest.B1000000000001AC.quest_subtitle: "Powah · Generation"
 	quest.B1000000000001AC.quest_desc: [
 		"&6Goal:&r Craft a Starter Thermo Generator.",
 		"",
-		"Place it above a hot block and supply water for passive, fuel-free FE. Better heat sources improve output.",
+		"Passive, fuel-free FE from heat + water — great baseline under the factory.",
 		"",
-		"&7Tip:&r Use a sink or pumped Create tank for reliable water supply."
+		"&6How:&r
+&e1.&r Place a hot block (magma, lava, blaze burner heat, etc.) under or against the generator per JEI rules.
+&e2.&r Place the Thermo Generator above/on that heat source.
+&e3.&r Supply water (sink, Create tank, or bucket loop) and cable FE out to your cell.",
+		"",
+		"&7Tip:&r Better heat sources improve output — upgrade the heat, not only the generator tier.",
+		"",
+		"&7Next:&r Add Magmator and/or Solar for more generation."
 	]
 	quest.B1000000000001AD.title: "Magmator"
 	quest.B1000000000001AD.quest_subtitle: "Powah · Generation"
 	quest.B1000000000001AD.quest_desc: [
 		"&6Goal:&r Craft a Starter Magmator.",
 		"",
-		"A Magmator consumes lava for steady power—an excellent match for Create hose pulleys and train-delivered lava.",
+		"Consumes lava for steady power — excellent with Create hose pulleys and train-delivered lava.",
 		"",
-		"&7Tip:&r Buffer lava in a Create Fluid Tank before feeding the generator."
+		"&6How:&r
+&e1.&r Place the Magmator and cable it to your Energy Cell.
+&e2.&r Buffer lava in a Create Fluid Tank or tank cart.
+&e3.&r Pipe or hose-pulley lava into the Magmator fluid input, then confirm FE output.",
+		"",
+		"&7Tip:&r Never starve the Magmator of lava mid-spike — keep a tank buffer.",
+		"",
+		"&7Next:&r Solar for daytime surplus, or jump to the Energizing Orb."
 	]
 	quest.B1000000000001AE.title: "Solar Panel"
 	quest.B1000000000001AE.quest_subtitle: "Powah · Generation"
 	quest.B1000000000001AE.quest_desc: [
 		"&6Goal:&r Craft a Starter Solar Panel.",
 		"",
-		"Solar panels generate free daytime power with clear sky access. Combine sources rather than relying on one generator.",
+		"Free daytime power with clear sky access — combine sources rather than relying on one generator.",
 		"",
-		"&7Tip:&r Store daytime surplus in an Energy Cell for overnight use."
+		"&6How:&r
+&e1.&r Place Solar Panels on a roof or open sky platform (no opaque blocks above).
+&e2.&r Cable them into your Energy Cell bus.
+&e3.&r Let daytime surplus fill the cell for overnight use.",
+		"",
+		"&7Tip:&r Rain and night cut solar — keep Magmator/Thermo as baseline.",
+		"",
+		"&7Next:&r Build the Energizing Orb when your buffer is healthy."
 	]
 	quest.B1000000000001AF.title: "Energizing Orb"
 	quest.B1000000000001AF.quest_subtitle: "Powah · Energizing"
@@ -72,123 +121,221 @@
 		"",
 		"The Orb turns ordinary materials into Powah's tier crystals when Energizing Rods supply enough FE.",
 		"",
-		"&7Tip:&r Items can be inserted and removed with Create funnels, deployers, arms, Pipez, or RS interfaces."
+		"&6How:&r
+&e1.&r Place the Orb with clear air around it for rod line-of-sight.
+&e2.&r Leave space on several sides for Energizing Rods to aim at the Orb.
+&e3.&r Plan item I/O with Create funnels, arms, Pipez, or RS interfaces.",
+		"",
+		"&7Tip:&r The Orb itself does not pull FE — rods do. Build rods next.",
+		"",
+		"&7Next:&r Craft Starter Energizing Rods and aim them at the Orb."
 	]
 	quest.B1000000000001B0.title: "Energizing Rod"
 	quest.B1000000000001B0.quest_subtitle: "Powah · Energizing"
 	quest.B1000000000001B0.quest_desc: [
 		"&6Goal:&r Craft &62 Starter Energizing Rods&r.",
 		"",
-		"Point rods at the Orb with an unobstructed line of sight. More and better rods deliver recipes faster.",
+		"Rods beam FE into the Orb — more and better rods finish recipes faster.",
 		"",
-		"&7Tip:&r Connect every rod to the same buffered power network."
+		"&6How:&r
+&e1.&r Place rods with an unobstructed line of sight to the Energizing Orb.
+&e2.&r Rotate/adjust each rod so it faces the Orb (check the beam in-world).
+&e3.&r Cable every rod to the same buffered power network as your generators.",
+		"",
+		"&7Tip:&r If energizing stalls, add rods or upgrade generation — not just the Orb.",
+		"",
+		"&7Next:&r Produce Energized Steel as your first tier material."
 	]
 	quest.B1000000000001B1.title: "Energized Steel"
 	quest.B1000000000001B1.quest_subtitle: "Powah · Tier: Basic"
 	quest.B1000000000001B1.quest_desc: [
 		"&6Goal:&r Produce &68 Energized Steel&r.",
 		"",
-		"This first energized material unlocks Basic-tier generators, cables, cells, batteries, and wireless devices.",
+		"First energized material — unlocks Basic-tier generators, cables, cells, batteries, and wireless devices.",
 		"",
-		"&7Tip:&r Encode the Orb recipe in Refined Storage once your processing autocrafting is ready."
+		"&6How:&r
+&e1.&r Check JEI for the Energizing Orb recipe (iron/steel + FE cost).
+&e2.&r Drop ingredients into the Orb (or funnel them in).
+&e3.&r Wait for rods to finish the energize, then pull Energized Steel out.",
+		"",
+		"&7Tip:&r Encode the Orb recipe in Refined Storage once processing autocrafting is ready.",
+		"",
+		"&7Next:&r Climb Blazing → Niotic → Spirited → Nitro crystals."
 	]
 	quest.B1000000000001B2.title: "Blazing Crystal"
 	quest.B1000000000001B2.quest_subtitle: "Powah · Tier: Blazing"
 	quest.B1000000000001B2.quest_desc: [
 		"&6Goal:&r Produce &68 Blazing Crystals&r.",
 		"",
-		"Blazing tier raises generation, capacity, and transfer rates with Nether materials.",
+		"Blazing tier raises generation, capacity, and transfer with Nether materials.",
 		"",
-		"&7Tip:&r Keep blaze products automated with a Create farm or bulk processing line."
+		"&6How:&r
+&e1.&r Gather blaze products (rods/powder) via farm or bulk processing.
+&e2.&r Energize the JEI recipe in the Orb with enough rod power.
+&e3.&r Upgrade key generators/cables/cells to Blazing when you need the rate.",
+		"",
+		"&7Tip:&r Keep blaze automated with a Create farm or bulk processing line.",
+		"",
+		"&7Next:&r Niotic crystals for diamond-tier power."
 	]
 	quest.B1000000000001B3.title: "Niotic Crystal"
 	quest.B1000000000001B3.quest_subtitle: "Powah · Tier: Niotic"
 	quest.B1000000000001B3.quest_desc: [
 		"&6Goal:&r Produce &68 Niotic Crystals&r.",
 		"",
-		"Niotic power uses diamonds and marks the jump into serious factory-scale FE.",
+		"Niotic uses diamonds and marks the jump into serious factory-scale FE.",
 		"",
-		"&7Tip:&r Upgrade bottlenecks together: generator, cell, and cable throughput."
+		"&6How:&r
+&e1.&r Stock diamonds and check the Orb energizing cost in JEI.
+&e2.&r Run the Orb only when your Energy Cell can afford the spike.
+&e3.&r Upgrade generator, cell, and cable tiers together so one piece is not the bottleneck.",
+		"",
+		"&7Tip:&r Upgrade bottlenecks together: generator, cell, and cable throughput.",
+		"",
+		"&7Next:&r Spirited crystals next."
 	]
 	quest.B1000000000001B4.title: "Spirited Crystal"
 	quest.B1000000000001B4.quest_subtitle: "Powah · Tier: Spirited"
 	quest.B1000000000001B4.quest_desc: [
 		"&6Goal:&r Produce &68 Spirited Crystals&r.",
 		"",
-		"Spirited tier is an emerald-heavy late-game step suited to large RS autocrafting networks.",
+		"Emerald-heavy late-game step suited to large RS autocrafting networks.",
 		"",
-		"&7Tip:&r Only upgrade machines whose capacity or rate you actually need."
+		"&6How:&r
+&e1.&r Gather emeralds (villager trades or mining) before starting the batch.
+&e2.&r Energize in the Orb with upgraded rods and a fat FE buffer.
+&e3.&r Only upgrade machines whose capacity or rate you actually need.",
+		"",
+		"&7Tip:&r Skip upgrading decorative chargers — spend Spirited on generation and transfer.",
+		"",
+		"&7Next:&r Nitro crystals for top survival tier."
 	]
 	quest.B1000000000001B5.title: "Nitro Crystal"
 	quest.B1000000000001B5.quest_subtitle: "Powah · Tier: Nitro"
 	quest.B1000000000001B5.quest_desc: [
 		"&6Goal:&r Produce &64 Nitro Crystals&r.",
 		"",
-		"Nitro is Powah's top survival tier and requires Nether Stars plus a major FE investment.",
+		"Nitro is Powah's top survival tier — Nether Stars plus a major FE investment.",
 		"",
-		"&7Tip:&r A buffered reactor network prevents the energizing operation from starving your base."
+		"&6How:&r
+&e1.&r Defeat the Wither (or stock Nether Stars) before committing.
+&e2.&r Buffer a reactor-scale Energy Cell so energizing does not brown out the base.
+&e3.&r Energize Nitro in the Orb, then craft Nitro generators/cables as needed.",
+		"",
+		"&7Tip:&r A buffered reactor network prevents energizing from starving RS autocrafting.",
+		"",
+		"&7Next:&r Build toward a Nitro Reactor."
 	]
 	quest.B1000000000001B6.title: "Uraninite Supply"
 	quest.B1000000000001B6.quest_subtitle: "Powah · Reactors"
 	quest.B1000000000001B6.quest_desc: [
 		"&6Goal:&r Process &616 Uraninite&r.",
 		"",
-		"Uraninite fuels Powah reactors. Mine its ore and energize or smelt it before building sustained reactor power.",
+		"Uraninite fuels Powah reactors — stock it before assembling sustained reactor power.",
 		"",
-		"&7Tip:&r Stock coal, redstone, water, and dry ice too; reactors perform best with all required inputs."
+		"&6How:&r
+&e1.&r Mine uraninite ore (check JEI worldgen heights).
+&e2.&r Smelt or energize it into usable Uraninite per JEI.
+&e3.&r Also stock coal, redstone, water, and dry ice — reactors want supporting inputs.",
+		"",
+		"&7Tip:&r Automate ore → Uraninite before you rely on reactor uptime.",
+		"",
+		"&7Next:&r Assemble a Starter Reactor."
 	]
 	quest.B1000000000001B7.title: "Starter Reactor"
 	quest.B1000000000001B7.quest_subtitle: "Powah · Reactors"
 	quest.B1000000000001B7.quest_desc: [
 		"&6Goal:&r Craft and assemble a Starter Reactor.",
 		"",
-		"Reactors compactly generate continuous FE from uraninite and supporting resources. Configure inputs before enabling full production.",
+		"Compact continuous FE from uraninite and supporting resources.",
 		"",
-		"&7Tip:&r Automate each consumable and send output through an Energy Cell."
+		"&6How:&r
+&e1.&r Craft reactor blocks and place the multiblock/assembly per JEI or in-world guide.
+&e2.&r Pipe in Uraninite plus required coolants/fuels before enabling full production.
+&e3.&r Cable reactor output through an Energy Cell, not straight into hungry machines.",
+		"",
+		"&7Tip:&r Automate each consumable — a dry reactor is just expensive décor.",
+		"",
+		"&7Next:&r Climb reactor tiers toward Nitro."
 	]
 	quest.B1000000000001B8.title: "Nitro Reactor"
 	quest.B1000000000001B8.quest_subtitle: "Powah · Reactors"
 	quest.B1000000000001B8.quest_desc: [
 		"&6Goal:&r Upgrade all the way to a Nitro Reactor.",
 		"",
-		"This is the endgame Powah generator: enormous output for RS autocrafting, jetpacks, and electrically driven Create factories.",
+		"Endgame Powah generator — enormous output for RS, jetpacks, and electric Create factories.",
 		"",
-		"&7Tip:&r Monitor fuel and cooling; huge theoretical output is useless without automated supply."
+		"&6How:&r
+&e1.&r Craft Nitro-tier reactor components with Nitro crystals and high-end materials.
+&e2.&r Rebuild or upgrade the reactor assembly to Nitro.
+&e3.&r Verify automated fuel/cooling and watch real FE/t into your buffer under full load.",
+		"",
+		"&7Tip:&r Huge theoretical output is useless without automated supply — monitor fuel first.",
+		"",
+		"&7Next:&r Wireless FE via Ender Cells and Player Transmitters."
 	]
 	quest.B1000000000001B9.title: "Ender Cell"
 	quest.B1000000000001B9.quest_subtitle: "Powah · Wireless network"
 	quest.B1000000000001B9.quest_desc: [
 		"&6Goal:&r Craft a Starter Ender Cell.",
 		"",
-		"Ender Cells store power in a frequency-based wireless network shared by linked Ender Gates.",
+		"Frequency-based wireless energy storage shared by linked Ender Gates.",
 		"",
-		"&7Tip:&r Use separate channels for public infrastructure and critical machines."
+		"&6How:&r
+&e1.&r Place the Ender Cell and cable FE into it from your main generation.
+&e2.&r Open the GUI and set a channel/frequency name for this network.
+&e3.&r Use separate channels for public infrastructure vs critical machines.",
+		"",
+		"&7Tip:&r Name channels clearly — “Factory”, “Quarry”, “Dims” beats “1”.",
+		"",
+		"&7Next:&r Attach Ender Gates at distant machines."
 	]
 	quest.B1000000000001BA.title: "Ender Gate"
 	quest.B1000000000001BA.quest_subtitle: "Powah · Wireless network"
 	quest.B1000000000001BA.quest_desc: [
 		"&6Goal:&r Craft &62 Starter Ender Gates&r.",
 		"",
-		"Attach gates to distant machines for cable-free FE access through the selected Ender Cell channel.",
+		"Cable-free FE access for distant machines through the selected Ender Cell channel.",
 		"",
-		"&7Tip:&r A gate's transfer limit still depends on its tier."
+		"&6How:&r
+&e1.&r Place a gate on (or beside) a remote machine that needs power.
+&e2.&r Set the gate to the same channel as your Ender Cell.
+&e3.&r Confirm transfer; upgrade gate tier if the transfer limit caps your machine.",
+		"",
+		"&7Tip:&r A gate's transfer limit still depends on its tier — upgrade hungry endpoints.",
+		"",
+		"&7Next:&r Add a Player Transmitter for on-person charging."
 	]
 	quest.B1000000000001BB.title: "Player Transmitter"
 	quest.B1000000000001BB.quest_subtitle: "Powah · Wireless charging"
 	quest.B1000000000001BB.quest_desc: [
 		"&6Goal:&r Craft a Starter Player Transmitter.",
 		"",
-		"Player Transmitters wirelessly charge carried equipment—especially Iron Jetpacks and Powah batteries.",
+		"Wireless charging for carried equipment — especially Iron Jetpacks and Powah batteries.",
 		"",
-		"&7Tip:&r Bind yourself with the correct card and keep the transmitter supplied with FE."
+		"&6How:&r
+&e1.&r Place the Player Transmitter and cable it to a strong FE supply.
+&e2.&r Bind yourself with the player binding card / GUI binding.
+&e3.&r Carry a battery or jetpack and walk in range to confirm charge rate.",
+		"",
+		"&7Tip:&r No bind + no FE = a fancy lamp. Bind and power it before long trips.",
+		"",
+		"&7Next:&r Craft a Portable Battery to test the link."
 	]
 	quest.B1000000000001BC.title: "Portable Battery"
 	quest.B1000000000001BC.quest_subtitle: "Powah · Wireless charging"
 	quest.B1000000000001BC.quest_desc: [
 		"&6Goal:&r Craft a Starter Battery.",
 		"",
-		"A battery carries FE between jobs and provides a simple test item for your Player Transmitter.",
+		"Carries FE between jobs and is a simple test item for your Player Transmitter.",
 		"",
-		"&7Tip:&r Upgrade its tier alongside your wireless charging rate and equipment demand."
+		"&6How:&r
+&e1.&r Craft the battery and keep it in your inventory or Curios/hotbar as needed.
+&e2.&r Stand near the Player Transmitter and watch charge climb.
+&e3.&r Upgrade battery tier alongside wireless charging rate and equipment demand.",
+		"",
+		"&7Tip:&r Nitro batteries + Nitro transmitters keep jetpacks aloft all day.",
+		"",
+		"&7Next:&r Powah chapter complete — feed Flux Networks or RS from this grid."
 	]
 }

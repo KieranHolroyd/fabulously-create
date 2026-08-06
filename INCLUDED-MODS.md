@@ -181,7 +181,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **Java 21+** is required for client and server.
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
-- **FTB Quests:** 15-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Dedicated chapters cover Refined Storage, Powah, RFTools, Flux Networks, Mekanism, Mekanism Reactors, Extreme Reactors, Modern Industrialization, Industrial Foregoing, and Immersive Engineering. Definitions live as an AST under `scripts/ftb_quests/` (one module per chapter).
+- **FTB Quests:** 15-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Quests are tutorial-style (Goal / Why / numbered How / Tip) for building mod setups, not just craft checklists. Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Dedicated chapters cover Refined Storage, Powah, RFTools, Flux Networks, Mekanism, Mekanism Reactors, Extreme Reactors, Modern Industrialization, Industrial Foregoing, and Immersive Engineering. Definitions live as an AST under `scripts/ftb_quests/` (one module per chapter; `text.tutorial()`).
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
 - Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.

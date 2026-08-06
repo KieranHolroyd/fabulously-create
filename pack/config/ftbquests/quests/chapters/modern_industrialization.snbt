@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "A53099A7711F094D"
+					id: "64EE69C32829A90F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5D0C66FD448AC369"
+				id: "1A9551117E61BFCA"
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "203BB2D2CA814086"
+					id: "045ACB235498AA1D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "72F75F55B5362154"
+				id: "06054D0DECBD590D"
 				item: { count: 16, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "7DB2978B4D2420FE"
+					id: "A24FB7E1E8431C94"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6C368E38DF3AD3A5"
+				id: "7DBA6A4AC196D715"
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "3B3DD52BC3064D77"
+					id: "71EBBE580C50D760"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7DAC54C5A0CC401D"
+				id: "A27C83B9FEC0B728"
 				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
 				type: "item"
 			}]
@@ -122,13 +122,13 @@
 					type: "random"
 				},
 				{
-					id: "840BE341F3C80003"
+					id: "17AB5D9032711BDA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "CF6CB7A179F4BB0F"
+				id: "498AE7ED1CF773C2"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
@@ -145,13 +145,13 @@
 					type: "random"
 				},
 				{
-					id: "C8CDA5197CDBC570"
+					id: "A4B5C176784CC129"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "65F54F983F138545"
+				id: "A950BBACFDDB03DA"
 				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
 				type: "item"
 			}]
@@ -168,13 +168,13 @@
 					type: "random"
 				},
 				{
-					id: "3803C343215A3B27"
+					id: "93653FBC4AA746B8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7AF4C00B74AF5522"
+				id: "762AD572B37A7F3B"
 				item: { count: 1, id: "modern_industrialization:coke_oven" }
 				type: "item"
 			}]
@@ -193,13 +193,13 @@
 					type: "random"
 				},
 				{
-					id: "3C49C5EBEC73D48B"
+					id: "6034B833165C8618"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5504139D36C37474"
+				id: "168E7086FA11BD5C"
 				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 				type: "item"
 			}]
@@ -216,13 +216,13 @@
 					type: "random"
 				},
 				{
-					id: "DB7067EB6A8378DD"
+					id: "2BDBD7DCE0296B93"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0EBA0D68806BE089"
+				id: "8949F943B3D4D3FD"
 				item: { count: 16, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
@@ -239,13 +239,13 @@
 					type: "random"
 				},
 				{
-					id: "5BE5D9841C0824E3"
+					id: "0A90C101B1F48BBD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F481A900EDFE6A27"
+				id: "1C2949A7C7D2708A"
 				item: { count: 1, id: "modern_industrialization:steel_boiler" }
 				type: "item"
 			}]
@@ -262,13 +262,13 @@
 					type: "random"
 				},
 				{
-					id: "1A6B3325E41BFDE4"
+					id: "AE75C312058E5A1C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "C49E1EF83E389A37"
+				id: "F701C825BD9DA36B"
 				item: { count: 8, id: "modern_industrialization:analog_circuit" }
 				type: "item"
 			}]
@@ -286,13 +286,13 @@
 					type: "random"
 				},
 				{
-					id: "5352AAF9155528D6"
+					id: "972A9B603757458D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "BD34800EA6B014C3"
+				id: "7CCE8F76D0FEEA86"
 				item: { count: 4, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
 			}]
@@ -309,13 +309,13 @@
 					type: "random"
 				},
 				{
-					id: "06DB561C4E9F6DEC"
+					id: "6C564C432C8069C3"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8D572C0639E3B070"
+				id: "E6A640025F7784CB"
 				item: { count: 4, id: "modern_industrialization:motor" }
 				type: "item"
 			}]
@@ -332,13 +332,13 @@
 					type: "random"
 				},
 				{
-					id: "76A636B71BFC49FC"
+					id: "07F99ACA6FF1C341"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "A6363DD2FC61F623"
+				id: "374F904903D41ECB"
 				item: { count: 1, id: "modern_industrialization:electric_macerator" }
 				type: "item"
 			}]
@@ -355,13 +355,13 @@
 					type: "random"
 				},
 				{
-					id: "FF88B37586E71FCC"
+					id: "1395C5C8F6581775"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "1592B6D6758CDDB1"
+				id: "DA093CBB5FBEBEC0"
 				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "ADA253CC387B44E1"
+					id: "78F340BF90E0D6D7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5760A709F4E4A0CD"
+				id: "932461F05BA736D9"
 				item: { count: 4, id: "modern_industrialization:electronic_circuit" }
 				type: "item"
 			}]
@@ -403,13 +403,13 @@
 					type: "random"
 				},
 				{
-					id: "3E7A730914413482"
+					id: "F7D3EF2B1EBA0B2D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "1AE2CF8096D0FB4C"
+				id: "AA0B96CF5ECFA4F4"
 				item: { count: 1, id: "modern_industrialization:electric_quarry" }
 				type: "item"
 			}]
@@ -426,13 +426,13 @@
 					type: "random"
 				},
 				{
-					id: "CBF875EED8397ACE"
+					id: "540D98E74DDA1008"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "494DFCACA60E2525"
+				id: "3417136D3C1A4C32"
 				item: { count: 2, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]

@@ -31,13 +31,13 @@
 					type: "random"
 				},
 				{
-					id: "82FC0EEFF44FE0CD"
+					id: "AF02DEB3A8058D6C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "032DB01AD4B064EA"
+				id: "6E492077EE289871"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
@@ -54,13 +54,13 @@
 					type: "random"
 				},
 				{
-					id: "38ED81E1C8221FF0"
+					id: "B76573D8C0FA484C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3B804DE963886AC8"
+				id: "9069AA87FCBD0A50"
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
@@ -77,13 +77,13 @@
 					type: "random"
 				},
 				{
-					id: "C45390C6511B9AF8"
+					id: "19A9B574AA7EAC07"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E791B870C6DA0339"
+				id: "1A3A0D564F505699"
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 				type: "item"
 			}]
@@ -101,7 +101,7 @@
 				}
 			]
 			tasks: [{
-				id: "06C190A574B12FF6"
+				id: "678394F2CC689CB4"
 				item: { count: 4, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
@@ -119,13 +119,13 @@
 					type: "random"
 				},
 				{
-					id: "DF84C1A6FF8F959F"
+					id: "755987F76E157101"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0D4EC83633E0F5DF"
+				id: "30A47D645F80CCE1"
 				item: { count: 1, id: "functionalstorage:storage_controller" }
 				type: "item"
 			}]
@@ -145,7 +145,7 @@
 				}
 			]
 			tasks: [{
-				id: "770A86586A151193"
+				id: "0EC9B1167585FF47"
 				item: { count: 1, id: "functionalstorage:compacting_drawer" }
 				type: "item"
 			}]
@@ -162,13 +162,13 @@
 					type: "random"
 				},
 				{
-					id: "8BE18B27C5E60671"
+					id: "96F617ED914E028A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "36934D5E2FD8B34A"
+				id: "0BF4028CFDB2FCBC"
 				item: { count: 1, id: "sophisticatedstorage:iron_chest" }
 				type: "item"
 			}]
@@ -187,13 +187,13 @@
 					type: "random"
 				},
 				{
-					id: "5F2CDCE773DCDC9A"
+					id: "F05BC59F0192F879"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D9DDB5B3E32D28F7"
+				id: "10ECE58A4AA666F9"
 				item: { count: 1, id: "sophisticatedstorage:controller" }
 				type: "item"
 			}]
@@ -211,13 +211,13 @@
 					type: "random"
 				},
 				{
-					id: "E4DAE791F4B55866"
+					id: "485544212E676513"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D02D639AB29D314D"
+				id: "C73EB50E40A9095A"
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
@@ -236,13 +236,13 @@
 					type: "random"
 				},
 				{
-					id: "799926A03847455E"
+					id: "679435750909852E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "59D1DB3DDA933149"
+				id: "12831AF4A52D711A"
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
@@ -260,7 +260,7 @@
 				}
 			]
 			tasks: [{
-				id: "CB25AD78DE624CE7"
+				id: "9DD77F5A256F7912"
 				item: { count: 32, id: "pipez:item_pipe" }
 				type: "item"
 			}]
@@ -277,13 +277,13 @@
 					type: "random"
 				},
 				{
-					id: "766B65F82FD075F9"
+					id: "A9C3815ED971E9C4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "54DE2866AB9858CE"
+				id: "183A2E1DEA2E9A59"
 				item: { count: 16, id: "pipez:fluid_pipe" }
 				type: "item"
 			}]
@@ -303,7 +303,7 @@
 				}
 			]
 			tasks: [{
-				id: "EE8CC20B4270645C"
+				id: "453C7E1F178CA2B4"
 				item: { count: 16, id: "pipez:energy_pipe" }
 				type: "item"
 			}]
@@ -323,7 +323,7 @@
 				}
 			]
 			tasks: [{
-				id: "22502E5B45C0D72E"
+				id: "B4742CC8FD70662E"
 				item: { count: 1, id: "ironchest:gold_chest" }
 				type: "item"
 			}]
@@ -343,7 +343,7 @@
 				}
 			]
 			tasks: [{
-				id: "653409A6DC126CC1"
+				id: "CAD151DEBEAE8B08"
 				item: { count: 1, id: "ironfurnaces:gold_furnace" }
 				type: "item"
 			}]
@@ -360,13 +360,13 @@
 					type: "random"
 				},
 				{
-					id: "68F5E3CC612227B9"
+					id: "ABD410216DC25E5B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A4CCB0F8E9F88A43"
+				id: "3C7477F93D66292C"
 				item: { count: 4, id: "silentgear:blueprint_paper" }
 				type: "item"
 			}]
@@ -383,13 +383,13 @@
 					type: "random"
 				},
 				{
-					id: "5689992DEFB1F79D"
+					id: "33D390E90BDB4BDE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "EA8CE52D62302296"
+				id: "4B66161FB69C6218"
 				item: { count: 1, id: "silentgear:pickaxe_blueprint" }
 				type: "item"
 			}]
@@ -409,7 +409,7 @@
 				}
 			]
 			tasks: [{
-				id: "1C46FFFE3A6D598E"
+				id: "5064F84CE73B1BBE"
 				item: { count: 1, id: "silentgear:sword_blueprint" }
 				type: "item"
 			}]
@@ -427,7 +427,7 @@
 				}
 			]
 			tasks: [{
-				id: "828760C653F702C6"
+				id: "38A9158E75348DCE"
 				item: { count: 1, id: "constructionstick:iron_stick" }
 				type: "item"
 			}]
@@ -445,13 +445,13 @@
 					type: "random"
 				},
 				{
-					id: "C45B37ECF0165DA5"
+					id: "414606F281F4FFD3"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "AFB9D91114E308B7"
+				id: "B82032462A2EA0CE"
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
@@ -470,13 +470,13 @@
 					type: "random"
 				},
 				{
-					id: "15F075552B39D8C2"
+					id: "FD46F36FF7D36AE3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "97E221DE97523727"
+				id: "B3FFA2C7781DEB59"
 				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
 				type: "item"
 			}]
@@ -495,13 +495,13 @@
 					type: "random"
 				},
 				{
-					id: "7AAE6E1EE1D36353"
+					id: "82479E5040F05445"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "15773BE31710B286"
+				id: "1F8AFFF1EB9CF015"
 				item: { count: 1, id: "artifacts:umbrella" }
 				type: "item"
 			}]
@@ -520,13 +520,13 @@
 					type: "random"
 				},
 				{
-					id: "9EEDB576324064F3"
+					id: "E99D058796FC2490"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "C4294A8B162DB558"
+				id: "037BFBDA7D3C779A"
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
@@ -546,7 +546,7 @@
 				}
 			]
 			tasks: [{
-				id: "A2E95CC5EF229CCC"
+				id: "302C8FFE9E670DC9"
 				item: { count: 1, id: "supplementaries:faucet" }
 				type: "item"
 			}]

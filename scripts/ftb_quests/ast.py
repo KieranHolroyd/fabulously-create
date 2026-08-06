@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Sequence
 
-from .text import goal
+from .text import tutorial
 
 
 @dataclass(frozen=True)
@@ -86,8 +86,9 @@ def connected(
 
 
 # Step tuple used by linear tech chapters:
-# (n, task, title, count, what, body, tip, subtitle, dep)
-Step = tuple[int, str, str, int, str, str, str, str, int | None]
+# (n, task, title, count, what, why, steps, tip, subtitle, dep)
+# `steps` is a tuple[str, ...] of How-to lines (may be empty).
+Step = tuple[int, str, str, int, str, str, tuple[str, ...], str, str, int | None]
 
 
 def item(item_id: str, count: int = 1) -> ItemReward:
@@ -109,12 +110,12 @@ def step_row(
     xp_from: int | None = None,
     subtitle_prefix: str = "",
 ) -> list[Quest]:
-    """Lay out step tuples on a grid as Quest nodes."""
+    """Lay out tutorial step tuples on a grid as Quest nodes."""
     size_at = size_at or set()
     shape_at = shape_at or set()
     first_n = steps[0][0]
     out: list[Quest] = []
-    for n, task, title, count, what, body, tip, subtitle, dep in steps:
+    for n, task, title, count, what, why, how, tip, subtitle, dep in steps:
         idx = n - first_n
         out.append(
             Quest(
@@ -123,7 +124,7 @@ def step_row(
                 y=y + (idx // cols) * 2.5,
                 task=task,
                 title=title,
-                desc=goal(what, body, tip=tip),
+                desc=tutorial(what, why=why, steps=how or None, tip=tip or None),
                 task_count=count,
                 deps=[dep] if dep is not None else [],
                 links=[link_first] if n == first_n and link_first is not None else [],

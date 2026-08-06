@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "97D71EACBE906381"
+					id: "B81EB0FE9284C62C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "9AC2DE69B5629094"
+				id: "8F4BB9D36BA3D5F6"
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "C0DDBAB98D3A3EDE"
+					id: "3231AAD27C1C4129"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4B6BABBBA7B2614C"
+				id: "1FAF471A3A1FC13A"
 				item: { count: 1, id: "immersiveengineering:manual" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "0F99B344C3A35751"
+					id: "34096BC9E5B99CF1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "62EBCC70B498B197"
+				id: "87A122A0345B25C8"
 				item: { count: 32, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "2651E8F696B43173"
+					id: "6AB5DBC2A91FB386"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1DA6E8983DF7DFC6"
+				id: "D4A28837EF05205D"
 				item: { count: 24, id: "immersiveengineering:hemp_fiber" }
 				type: "item"
 			}]
@@ -122,13 +122,13 @@
 					type: "random"
 				},
 				{
-					id: "9372D50118A6E94C"
+					id: "1208B87FBF09316E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E66F73FE6C162D81"
+				id: "D768563A6B197A0C"
 				item: { count: 27, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
@@ -146,13 +146,13 @@
 					type: "random"
 				},
 				{
-					id: "89CCD565ED81E310"
+					id: "274909C1B113E2A3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7383F948F1C35823"
+				id: "4DC48746DEEDF593"
 				item: { count: 16, id: "immersiveengineering:coal_coke" }
 				type: "item"
 			}]
@@ -169,13 +169,13 @@
 					type: "random"
 				},
 				{
-					id: "0D7B8263712CD9F5"
+					id: "1759420600CF265B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "22C6447E4E229462"
+				id: "0884A8E55FD08ECE"
 				item: { count: 27, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
@@ -192,13 +192,13 @@
 					type: "random"
 				},
 				{
-					id: "E33BCEE47DC3C334"
+					id: "A52DC84AC946A8AF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "CCB7C1659428FE54"
+				id: "B8286F8352A1D6A9"
 				item: { count: 16, id: "immersiveengineering:ingot_steel" }
 				type: "item"
 			}]
@@ -215,13 +215,13 @@
 					type: "random"
 				},
 				{
-					id: "B159E6DDD915690A"
+					id: "ABBF6FBA5FB7DF7C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "24DE3CCA4A203AA7"
+				id: "54E3A800878FAD4A"
 				item: { count: 8, id: "immersiveengineering:light_engineering" }
 				type: "item"
 			}]
@@ -238,13 +238,13 @@
 					type: "random"
 				},
 				{
-					id: "4D65D9915D3FC636"
+					id: "F7938EA2C05718D0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "28F869013D8934DA"
+				id: "F04493DDC6C09945"
 				item: { count: 4, id: "immersiveengineering:heavy_engineering" }
 				type: "item"
 			}]
@@ -261,13 +261,13 @@
 					type: "random"
 				},
 				{
-					id: "8BA6A9E322CEE0C1"
+					id: "F176AB7F25E08859"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "01405814206DFD94"
+				id: "74F91B5F3D908E25"
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
@@ -284,13 +284,13 @@
 					type: "random"
 				},
 				{
-					id: "9042982E366E0768"
+					id: "98C01653CB7D4CAA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B1B7A2628D888159"
+				id: "3CD3022C3DFBDB84"
 				item: { count: 16, id: "immersiveengineering:wirecoil_copper" }
 				type: "item"
 			}]
@@ -307,13 +307,13 @@
 					type: "random"
 				},
 				{
-					id: "FE2B3A0977B7782B"
+					id: "8BDDA4975F76C6E5"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "BA3DC8F2DE41020B"
+				id: "46294363CAFBF049"
 				item: { count: 8, id: "immersiveengineering:connector_lv" }
 				type: "item"
 			}]
@@ -330,13 +330,13 @@
 					type: "random"
 				},
 				{
-					id: "9802F1FD53B32EB7"
+					id: "6281CFCD3D9CFD8D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "40290933630029C4"
+				id: "141892A8C64B46E5"
 				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
@@ -353,13 +353,13 @@
 					type: "random"
 				},
 				{
-					id: "FB084F3A5F3F3E28"
+					id: "41969343B1EDE6DA"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "616660898C4F3402"
+				id: "690BA4B52B1A9303"
 				item: { count: 1, id: "immersiveengineering:windmill" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "D6F99F2F68010DB5"
+					id: "ACD0F7887DF6DDE7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "C65C0D843D50F0F6"
+				id: "12C23768C0D17725"
 				item: { count: 4, id: "immersiveengineering:radiator" }
 				type: "item"
 			}]
@@ -401,13 +401,13 @@
 					type: "random"
 				},
 				{
-					id: "B072EDEA88DDF6D5"
+					id: "3775A588E85C75B6"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "290CDB81F8E485A7"
+				id: "333E8F65116F7877"
 				item: { count: 16, id: "immersiveengineering:conveyor_basic" }
 				type: "item"
 			}]
@@ -426,13 +426,13 @@
 					type: "random"
 				},
 				{
-					id: "5821335BA672CD31"
+					id: "53EC6CDD39581C57"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FF05F034412B97EA"
+				id: "B4EC9BE4177E1931"
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]

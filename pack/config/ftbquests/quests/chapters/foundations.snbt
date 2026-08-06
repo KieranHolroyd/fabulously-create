@@ -46,13 +46,13 @@
 					type: "random"
 				},
 				{
-					id: "711142D20F6C267C"
+					id: "49B02A11FF4E50BB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DCB285FB8CDA87CD"
+				id: "2A5E0A4ADCC4E821"
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
@@ -70,7 +70,7 @@
 				}
 			]
 			tasks: [{
-				id: "3B6E267D632332A4"
+				id: "1D9790E31B8E9C59"
 				item: { count: 16, id: "minecraft:oak_log" }
 				type: "item"
 			}]
@@ -87,13 +87,13 @@
 					type: "random"
 				},
 				{
-					id: "5A3C1D650446AF20"
+					id: "2DDB5D3338B43738"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "81FEBCC61AACA234"
+				id: "65875AE0DCBFA146"
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
@@ -111,7 +111,7 @@
 				}
 			]
 			tasks: [{
-				id: "1D31626F2992ECB6"
+				id: "F8147A908A4BFDB2"
 				item: { count: 64, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
@@ -128,13 +128,13 @@
 					type: "random"
 				},
 				{
-					id: "C935791B3A5A210A"
+					id: "E4DC906050328E37"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "79A99B3D166B7519"
+				id: "943155858D427107"
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
@@ -154,7 +154,7 @@
 				}
 			]
 			tasks: [{
-				id: "1AAE06BCFFD96520"
+				id: "1D68D4D3058CEAAF"
 				item: { count: 32, id: "minecraft:coal" }
 				type: "item"
 			}]
@@ -172,13 +172,13 @@
 					type: "random"
 				},
 				{
-					id: "585D1E7A0D1BE338"
+					id: "564C25A26040EC45"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8CEBCB5A28F0E41A"
+				id: "FE293CF9E6C9E5B0"
 				item: { count: 32, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
@@ -196,7 +196,7 @@
 				}
 			]
 			tasks: [{
-				id: "BDEDE25423873B32"
+				id: "B2825E43BC9D1B73"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
@@ -213,13 +213,13 @@
 					type: "random"
 				},
 				{
-					id: "868E6EDE947BD4C7"
+					id: "7CA6825573354CA4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6172CC7B213158EA"
+				id: "79EEC8EA6AD61F26"
 				item: { count: 32, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
@@ -237,13 +237,13 @@
 					type: "random"
 				},
 				{
-					id: "9ADF1E087A347E34"
+					id: "40CDA202ED26370C"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D5FB48D8F116B5B6"
+				id: "E13B8ADA06BABDB8"
 				item: { count: 5, id: "minecraft:diamond" }
 				type: "item"
 			}]
@@ -263,7 +263,7 @@
 				}
 			]
 			tasks: [{
-				id: "74FB8E9A07C815D2"
+				id: "F35A3A840DF2C35D"
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
@@ -283,7 +283,7 @@
 				}
 			]
 			tasks: [{
-				id: "7BEE24B9AC31F929"
+				id: "0BC2784CDD2DD24B"
 				item: { count: 16, id: "minecraft:bread" }
 				type: "item"
 			}]
@@ -301,7 +301,7 @@
 				}
 			]
 			tasks: [{
-				id: "CDD2A20FB5686923"
+				id: "955332617C53A69D"
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
@@ -318,13 +318,13 @@
 					type: "random"
 				},
 				{
-					id: "39F82635C1A9A848"
+					id: "B62F6C973967500D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B9DD742506F6B900"
+				id: "F838D136B211F57A"
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
@@ -344,7 +344,7 @@
 				}
 			]
 			tasks: [{
-				id: "DDB9F98CAD157AE3"
+				id: "CF0896014FC63E00"
 				item: { count: 1, id: "farmersdelight:iron_knife" }
 				type: "item"
 			}]
@@ -363,13 +363,13 @@
 					type: "random"
 				},
 				{
-					id: "031307D3E902C115"
+					id: "C6065CF06D109B2D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D8101A9982BB8E85"
+				id: "09F2488B79CE3601"
 				item: { count: 1, id: "comforts:sleeping_bag_red" }
 				type: "item"
 			}]
@@ -386,13 +386,13 @@
 					type: "random"
 				},
 				{
-					id: "395117E9D9A22D7F"
+					id: "32B48774F382982F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "37EA2A8CD7A98304"
+				id: "A4C4E6B2D3A6E138"
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
 				type: "item"
 			}]
@@ -410,7 +410,7 @@
 				}
 			]
 			tasks: [{
-				id: "66C42DBB434B3D4C"
+				id: "7FAFBCC4676527A7"
 				item: { count: 1, id: "ironchest:iron_chest" }
 				type: "item"
 			}]
@@ -427,13 +427,13 @@
 					type: "random"
 				},
 				{
-					id: "2C52EB0414C49920"
+					id: "CBADB0897370C828"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "851568778C40E3BC"
+				id: "631D5386241E8BF1"
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
@@ -452,13 +452,13 @@
 					type: "random"
 				},
 				{
-					id: "62A6CCD4146F64A0"
+					id: "6920F656A00C85F2"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2FA7015024275167"
+				id: "3BB28E305084BE25"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
@@ -477,13 +477,13 @@
 					type: "random"
 				},
 				{
-					id: "74D198AC3D8C041B"
+					id: "34B589C43C99E784"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D89AEF17ED06EDE6"
+				id: "EE8418191C587663"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
@@ -503,7 +503,7 @@
 				}
 			]
 			tasks: [{
-				id: "6E2ABBEB8E581F86"
+				id: "9D2CF8A3F2C5EF34"
 				item: { count: 1, id: "supplementaries:wrench" }
 				type: "item"
 			}]
@@ -522,13 +522,13 @@
 					type: "random"
 				},
 				{
-					id: "6503A26CD023956C"
+					id: "7F3391B62D802A04"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D8FB0A885A691ADD"
+				id: "66CBC729BF518D00"
 				item: { count: 1, id: "another_furniture:oak_chair" }
 				type: "item"
 			}]
@@ -547,13 +547,13 @@
 					type: "random"
 				},
 				{
-					id: "35E3FF843510F067"
+					id: "A3F26916961D6E3B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0E2D4EAACDBBEC28"
+				id: "E34DDC9BAEB60E16"
 				item: { count: 16, id: "minecraft:leather" }
 				type: "item"
 			}]

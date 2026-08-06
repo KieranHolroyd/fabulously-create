@@ -2,12 +2,27 @@
 	quest.B1000000000000C8.title: "Andesite Alloy"
 	quest.B1000000000000C8.quest_subtitle: "Create basics"
 	quest.B1000000000000C8.quest_desc: [
-		"&6Goal:&r Craft &632 andesite alloy&r.",
+		"Create's basic component. Everything kinetic — shafts, cogs, casings, presses — starts with andesite alloy.",
 		"",
-		"Create's basic component. Everything kinetic — shafts, cogs, casings, presses — starts here.",
+		"&6You will:&r
+&e•&r Craft 32 andesite alloy (andesite + iron nuggets, or bulk-mix later)
+&e•&r Hand-crank early machines, then graduate to water wheels
+&e•&r Build a press → mixer → crushing → brass line",
 		"",
-		"&7Tip:&r Recipe: andesite + iron nuggets in crafting, or bulk-mix later with a mixer + basin.",
-		"&7Next:&r Hand-crank a few machines, then build water wheels for free SU.",
+		"&7Tip:&r Stockpile alloy now — every casing and cog spends it.",
+		"",
+		"&6Goal:&r Craft &632 Andesite Alloy&r.",
+		"",
+		"Every shaft, cogwheel, casing, and press recipe spends alloy. A 32-stack is the minimum starter kit.",
+		"",
+		"&6How:&r
+&e1.&r Mine &6andesite&r and smelt iron into &eingots/nuggets&r.
+&e2.&r Craft alloy in a crafting table (andesite + iron nuggets) — JEI shows the exact shape.
+&e3.&r Later, bulk-mix andesite with iron nuggets in a basin under a Mechanical Mixer for mass production.",
+		"",
+		"&7Tip:&r Keep a chest of alloy next to your first kinetic line.",
+		"",
+		"&7Next:&r Hand crank a millstone or press to prove the network works.",
 		"",
 		"&6Connected:&r",
 		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
@@ -17,16 +32,31 @@
 	quest.B1000000000000C9.quest_desc: [
 		"&6Goal:&r Craft a hand crank.",
 		"",
-		"Manually spin early machines before water wheels. Great for testing a press or millstone setup."
+		"Manually spin early machines before water wheels. Great for testing a press or millstone setup.",
+		"",
+		"&6How:&r
+&e1.&r Craft a hand crank from andesite alloy (JEI).
+&e2.&r Place it on the end of a shaft connected to a machine.
+&e3.&r Hold right-click to spin — watch the stressometer overlay (goggles help).",
+		"",
+		"&7Tip:&r Use the crank only to prove a machine works; swap to a water wheel next.",
+		"",
+		"&7Next:&r Lay shafts so rotation can travel across your workshop."
 	]
 	quest.B1000000000000CA.title: "Shafts"
 	quest.B1000000000000CA.quest_subtitle: "Kinetics"
 	quest.B1000000000000CA.quest_desc: [
 		"&6Goal:&r Craft &616 shafts&r.",
 		"",
-		"Shafts carry rotation in a straight line. Hold a shaft and look at another to place long runs.",
+		"Shafts carry rotation in a straight line — the backbone of every kinetic network.",
 		"",
-		"&7Tip:&r Use a Create wrench to reverse rotation direction."
+		"&6How:&r
+&e1.&r Craft 16 shafts from andesite alloy.
+&e2.&r Place a shaft on your hand crank (or water wheel) output.
+&e3.&r Extend the line: hold a shaft and look at another shaft to place long runs.
+&e4.&r Use a Create wrench to reverse rotation direction when a machine spins the wrong way.",
+		"",
+		"&7Tip:&r Overstressed networks stop — add power or cut machines until SU balances."
 	]
 	quest.B1000000000000CB.title: "Cogwheels"
 	quest.B1000000000000CB.quest_subtitle: "Kinetics"
@@ -35,14 +65,28 @@
 		"",
 		"Small cogs turn corners and change shaft axis — the elbows of your kinetic network.",
 		"",
-		"&7Tip:&r Encasing cogs with andesite casing stops sideways interlocking."
+		"&6How:&r
+&e1.&r Craft 16 cogwheels (andesite alloy + planks).
+&e2.&r Place a cog on the side of a shaft to branch rotation 90°.
+&e3.&r Mesh two cogs to transfer power between parallel shafts.
+&e4.&r Encasing a cog with andesite casing stops sideways interlocking when you need a clean run.",
+		"",
+		"&7Tip:&r Cogs also act as belt pulleys later — keep extras."
 	]
 	quest.B1000000000000CC.title: "Large Cogwheels"
 	quest.B1000000000000CC.quest_subtitle: "Kinetics"
 	quest.B1000000000000CC.quest_desc: [
 		"&6Goal:&r Craft &68 large cogwheels&r.",
 		"",
-		"Pair large + small for gear ratios — speed up or slow down machines (stress changes too)."
+		"Pair large + small for gear ratios — speed up or slow down machines (stress changes too).",
+		"",
+		"&6How:&r
+&e1.&r Craft 8 large cogwheels.
+&e2.&r Mesh a large cog with a small cog: driving the large slows the small side; driving the small speeds the large side.
+&e3.&r Use slow shafts for high-stress machines (crushing, presses) and fast shafts for belts / fans.
+&e4.&r Check the stress overlay after each ratio change.",
+		"",
+		"&7Tip:&r If a machine needs more torque, gear down; if belts crawl, gear up."
 	]
 	quest.B1000000000000CD.title: "Water Power"
 	quest.B1000000000000CD.quest_subtitle: "Power"
@@ -51,7 +95,14 @@
 		"",
 		"Flowing water against the blades generates free SU (stress units). One or two wheels power a whole andesite workshop.",
 		"",
+		"&6How:&r
+&e1.&r Craft a water wheel and place it with space for water on both faces.
+&e2.&r Place water source blocks so water flows across the wheel blades (not still water).
+&e3.&r Attach a shaft to the wheel hub and run it into your workshop.
+&e4.&r Add a second wheel or large water wheel when stress capacity runs out.",
+		"",
 		"&7Tip:&r Later you'll want steam engines, diesel, or electricity for megabases.",
+		"",
 		"&7Next:&r Build andesite casings into a press + mixer line."
 	]
 	quest.B1000000000000CE.title: "Windmill Bearing"
@@ -59,14 +110,29 @@
 	quest.B1000000000000CE.quest_desc: [
 		"&6Goal:&r Craft a windmill bearing.",
 		"",
-		"Sail-powered SU when you have space for a big windmill — optional alternative to water wheels."
+		"Sail-powered SU when you have space for a big windmill — optional alternative to water wheels.",
+		"",
+		"&6How:&r
+&e1.&r Craft a windmill bearing and place it facing open sky / wind.
+&e2.&r Build a sail structure (wool sails on a rotatable frame) attached to the bearing.
+&e3.&r Assemble / start the bearing so the windmill spins and outputs rotation.
+&e4.&r Connect a shaft from the bearing into your kinetic network.",
+		"",
+		"&7Tip:&r Bigger sail area = more SU. Keep the rotor clear of buildings."
 	]
 	quest.B1000000000000CF.title: "Andesite Casing"
 	quest.B1000000000000CF.quest_subtitle: "Machines"
 	quest.B1000000000000CF.quest_desc: [
 		"&6Goal:&r Craft &616 andesite casings&r.",
 		"",
-		"Stripped logs + andesite alloy. Almost every andesite machine is built on casing."
+		"Stripped logs + andesite alloy. Almost every andesite machine is built on casing.",
+		"",
+		"&6How:&r
+&e1.&r Strip logs with an axe (right-click) for stripped wood.
+&e2.&r Craft casings: stripped log + andesite alloy (or apply alloy to stripped logs in-world).
+&e3.&r Stock 16+ — press, mixer, saw, fan, and gearbox recipes all spend them.",
+		"",
+		"&7Tip:&r A mechanical saw later makes plank/casing spam trivial."
 	]
 	quest.B1000000000000D0.title: "Mechanical Press"
 	quest.B1000000000000D0.quest_subtitle: "Machines"
@@ -75,48 +141,84 @@
 		"",
 		"Presses compact plates, smash items on a depot, and unlock sheet metal for pipes and casings.",
 		"",
-		"&7Tip:&r Power from the side; put a depot or basin underneath."
+		"&6How:&r
+&e1.&r Craft a Mechanical Press and place it with clearance underneath.
+&e2.&r Power the press from the side with a shaft / cog from your water wheel.
+&e3.&r Put a depot (or basin) under the press head.
+&e4.&r Drop iron ingots on the depot — the press stamps them into iron sheets.",
+		"",
+		"&7Tip:&r Sheets unlock fluid tanks, pipes, and many Create recipes — press a stack.",
+		"",
+		"&7Next:&r Add a basin under mixers/presses for bulk crafting."
 	]
 	quest.B1000000000000D1.title: "Basin"
 	quest.B1000000000000D1.quest_subtitle: "Machines"
 	quest.B1000000000000D1.quest_desc: [
 		"&6Goal:&r Craft a Basin.",
 		"",
-		"Mixers, presses, and bulk crafting use basins — dough, alloys, concrete, brass later with heat."
+		"Mixers, presses, and bulk crafting use basins — dough, alloys, concrete, brass later with heat.",
+		"",
+		"&6How:&r
+&e1.&r Craft a basin and place it on the ground (or on a depot-style spot under a machine).
+&e2.&r Leave one block of air above for a mixer or press head.
+&e3.&r Toss ingredients into the basin (or funnel them in once you have belts).
+&e4.&r Outputs can be pulled with funnels on the sides once logistics exist.",
+		"",
+		"&7Tip:&r Basins hold both items and fluids — keep a spare for chocolate / dough later."
 	]
 	quest.B1000000000000D2.title: "Mechanical Mixer"
 	quest.B1000000000000D2.quest_subtitle: "Machines"
 	quest.B1000000000000D2.quest_desc: [
 		"&6Goal:&r Build a Mechanical Mixer above a basin.",
 		"",
-		"Bulk-craft andesite alloy, dough, and (with a blaze burner) brass. Automate inputs with funnels once belts exist."
+		"Bulk-craft andesite alloy, dough, and (with a blaze burner) brass. Automate inputs with funnels once belts exist.",
+		"",
+		"&6How:&r
+&e1.&r Place a basin, then place the Mechanical Mixer in the block above it.
+&e2.&r Power the mixer from the side (shaft/cog).
+&e3.&r Drop andesite + iron nuggets into the basin — watch them bulk-mix into alloy.
+&e4.&r Later: put a blaze burner under the basin for heated mixes (brass).",
+		"",
+		"&7Tip:&r JEI shows which mixes need heat — no burner means no brass."
 	]
 	quest.B1000000000000D3.title: "Millstone"
 	quest.B1000000000000D3.quest_subtitle: "Machines"
 	quest.B1000000000000D3.quest_desc: [
 		"&6Goal:&r Build a Millstone.",
 		"",
-		"Mill wheat into flour and process early bulk goods with low stress cost."
+		"Mill wheat into flour and process early bulk goods with low stress cost.",
+		"",
+		"&6How:&r
+&e1.&r Craft and place a millstone.
+&e2.&r Power it from the side with a shaft.
+&e3.&r Drop wheat on top (or funnel in) to mill flour.
+&e4.&r Collect outputs from the bottom / sides for dough mixes."
 	]
 	quest.B1000000000000D4.title: "Mechanical Saw"
 	quest.B1000000000000D4.quest_subtitle: "Machines"
 	quest.B1000000000000D4.quest_desc: [
 		"&6Goal:&r Build a Mechanical Saw.",
 		"",
-		"Auto-cut logs into planks and process wood at factory scale — huge for casing spam."
+		"Auto-cut logs into planks and process wood at factory scale — huge for casing spam.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Mechanical Saw and place it facing a processing spot.
+&e2.&r Power it; drop logs onto a depot/belt in front of the blade.
+&e3.&r Collect planks — feed stripped wood + alloy into more casings.
+&e4.&r Optional: mount a saw on a contraption for tree farms later."
 	]
 	quest.B1000000000000D5.title: "Encased Fan"
 	quest.B1000000000000D5.quest_subtitle: "Machines"
 	quest.B1000000000000D5.quest_desc: [
 		"&6Goal:&r Build an Encased Fan.",
 		"",
-		"Point it at a processing path:",
+		"Fans blast items through processing paths — smoking, blasting, washing, and haunting.",
 		"",
-		"• Over fire / lava → &6smoking / blasting&r",
-		"",
-		"• Through water → &6washing&r (nuggets from gravel!)",
-		"",
-		"• Through lava carefully → &6haunting&r",
+		"&6How:&r
+&e1.&r Craft an Encased Fan and power it so air blows forward.
+&e2.&r Build a short tunnel of passable blocks in front of the fan.
+&e3.&r For washing: place water in the path and drop gravel / crushed ore through it for nuggets.
+&e4.&r For smoking/blasting: put fire / lava in the path (careful with lava). Haunting uses soul fire.",
 		"",
 		"&7Tip:&r Washing crushed ores after crushing wheels is a massive early ore multiplier."
 	]
@@ -125,7 +227,13 @@
 	quest.B1000000000000D6.quest_desc: [
 		"&6Goal:&r Craft &616 belt connectors&r.",
 		"",
-		"Belts move items between depots, basins, and inventories. Right-click two shafts to stretch a belt.",
+		"Belts move items between depots, basins, and inventories — Create's conveyor system.",
+		"",
+		"&6How:&r
+&e1.&r Craft belt connectors (dried kelp + andesite alloy).
+&e2.&r Place two shafts (or cogs) apart, then right-click both with a belt connector to stretch a belt.
+&e3.&r Power one shaft so the belt moves; drop items on top to convey them.
+&e4.&r Slope belts with shafts at different heights for chutes between floors.",
 		"",
 		"&7Tip:&r Dried kelp farms pay for themselves once belts go wide."
 	]
@@ -134,14 +242,28 @@
 	quest.B1000000000000D7.quest_desc: [
 		"&6Goal:&r Craft &68 depots&r.",
 		"",
-		"Depots hold a single stack for presses, deployers, and belt handoff — the workbench of kinetics."
+		"Depots hold a single stack for presses, deployers, and belt handoff — the workbench of kinetics.",
+		"",
+		"&6How:&r
+&e1.&r Craft 8 depots and place them under presses or along belt lines.
+&e2.&r Drop an item on a depot — a press above will process it in place.
+&e3.&r Use belts + funnels to load/unload depots automatically.
+&e4.&r Chain depot → belt → depot for assembly lines."
 	]
 	quest.B1000000000000D8.title: "Andesite Funnels"
 	quest.B1000000000000D8.quest_subtitle: "Logistics"
 	quest.B1000000000000D8.quest_desc: [
 		"&6Goal:&r Craft &68 andesite funnels&r.",
 		"",
-		"Pull and push items onto belts and into inventories. Brass funnels come later with filters."
+		"Pull and push items onto belts and into inventories. Brass funnels come later with filters.",
+		"",
+		"&6How:&r
+&e1.&r Craft 8 andesite funnels.
+&e2.&r Place a funnel on a chest/basin facing a belt to extract items onto the belt.
+&e3.&r Place a funnel facing into an inventory to insert from a belt.
+&e4.&r Use chutes for vertical drops when belts are overkill.",
+		"",
+		"&7Tip:&r Funnels only move when powered by kinetics on their belt/shaft side — check the goggles overlay."
 	]
 	quest.B1000000000000D9.title: "Crushing Wheels"
 	quest.B1000000000000D9.quest_subtitle: "Ores"
@@ -150,7 +272,15 @@
 		"",
 		"Crush ores for &amore output&r than a furnace — the pack's first real ore multiplier.",
 		"",
+		"&6How:&r
+&e1.&r Craft 2 crushing wheels.
+&e2.&r Place them as a facing pair (JEI / ponder shows the gap) so items fall between.
+&e3.&r Power both wheels so they rotate toward each other.
+&e4.&r Drop raw ore into the gap; collect crushed ore below with a belt or hopper.
+&e5.&r Wash crushed ore with a fan + water path for extra nuggets, then smelt.",
+		"",
 		"&7Tip:&r Wash crushed ores with a fan + water for extra nuggets.",
+		"",
 		"&7Next:&r Hunt zinc, then blaze burners for brass."
 	]
 	quest.B1000000000000DA.title: "Zinc Stockpile"
@@ -158,7 +288,13 @@
 	quest.B1000000000000DA.quest_desc: [
 		"&6Goal:&r Produce &616 zinc ingots&r.",
 		"",
-		"Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc."
+		"Zinc + copper (+ heat) = brass. Mine zinc ore or crush raw zinc.",
+		"",
+		"&6How:&r
+&e1.&r Mine zinc ore (or find raw zinc) — check JEI for worldgen look.
+&e2.&r Optional: crush zinc ore for better yields, then wash.
+&e3.&r Smelt until you hold 16 zinc ingots.
+&e4.&r Store next to copper — brass mixing will burn through both."
 	]
 	quest.B1000000000000DB.title: "Fluid Tanks"
 	quest.B1000000000000DB.quest_subtitle: "Fluids"
@@ -167,6 +303,12 @@
 		"",
 		"Store water, lava, chocolate, plant oil, diesel, and liquid XP later. Stack tanks into towers.",
 		"",
+		"&6How:&r
+&e1.&r Press copper into copper sheets, then craft fluid tanks.
+&e2.&r Place tanks adjacent to each other to form a multiblock tank tower.
+&e3.&r Right-click with a bucket to fill/empty for testing.
+&e4.&r Pipe in with mechanical pumps once you craft them.",
+		"",
 		"&7Next:&r Mechanical pumps and hose pulleys move fluids around the factory."
 	]
 	quest.B1000000000000DC.title: "Mechanical Pump"
@@ -174,14 +316,26 @@
 	quest.B1000000000000DC.quest_desc: [
 		"&6Goal:&r Build a Mechanical Pump.",
 		"",
-		"Move fluids through Create pipes under SU power — water for steam, oil for diesel, XP for enchanting."
+		"Move fluids through Create pipes under SU power — water for steam, oil for diesel, XP for enchanting.",
+		"",
+		"&6How:&r
+&e1.&r Craft copper fluid pipes and a mechanical pump.
+&e2.&r Connect pipe from a fluid tank (or source) through the pump to a destination tank.
+&e3.&r Power the pump with a shaft — flow direction follows pump orientation (wrench to flip).
+&e4.&r Verify transfer with a tank window or by bucket-testing the output."
 	]
 	quest.B1000000000000DD.title: "Hose Pulley"
 	quest.B1000000000000DD.quest_subtitle: "Fluids"
 	quest.B1000000000000DD.quest_desc: [
 		"&6Goal:&r Craft a hose pulley.",
 		"",
-		"Drain or fill lakes and infinite fluid sources into your tank network."
+		"Drain or fill lakes and infinite fluid sources into your tank network.",
+		"",
+		"&6How:&r
+&e1.&r Craft a hose pulley and place it above a fluid surface or tank.
+&e2.&r Connect fluid pipes from the pulley to your tank farm.
+&e3.&r Power the pulley; extend the hose into the fluid.
+&e4.&r Use it to drain a lake into tanks or dump fluids back out."
 	]
 	quest.B1000000000000DE.title: "Blaze Burner"
 	quest.B1000000000000DE.quest_subtitle: "Brass gate"
@@ -190,7 +344,14 @@
 		"",
 		"Empty burner + blaze. Feed blaze cakes or fuel to &6superheat&r for brass and heated mixes.",
 		"",
+		"&6How:&r
+&e1.&r Go to a Nether fortress (Waystone home first) and collect blaze rods / catch a blaze.
+&e2.&r Craft an empty blaze burner, then right-click it with a blaze to fill.
+&e3.&r Place the burner under a basin that has a mixer above.
+&e4.&r Feed fuel / blaze cakes until the burner reaches the heat level JEI shows for brass.",
+		"",
 		"&7Tip:&r Nether fortress or piglin trades. Place a Waystone before the trip.",
+		"",
 		"&7Next:&r Mix copper + zinc with heat → brass age."
 	]
 	quest.B1000000000000DF.title: "Brass Age"
@@ -200,6 +361,12 @@
 		"",
 		"Brass unlocks smart mechanisms, deployers, arms, trains, and most midgame Create addons.",
 		"",
+		"&6How:&r
+&e1.&r Set up basin + mixer + heated blaze burner underneath.
+&e2.&r Insert copper ingots + zinc ingots into the basin (ratios per JEI).
+&e3.&r Power the mixer until brass ingots craft; repeat until you have 32.
+&e4.&r Automate with funnels: copper chest → basin ← zinc chest, output funnel to a brass chest.",
+		"",
 		"&7Tip:&r Automate brass early — precision mechanisms will eat it forever."
 	]
 	quest.B1000000000000E0.title: "Brass Casing"
@@ -207,14 +374,25 @@
 	quest.B1000000000000E0.quest_desc: [
 		"&6Goal:&r Craft &616 brass casings&r.",
 		"",
-		"Frames deployers, mechanical arms, smart chutes, and precision machines."
+		"Frames deployers, mechanical arms, smart chutes, and precision machines.",
+		"",
+		"&6How:&r
+&e1.&r Press brass into brass sheets if the recipe needs them.
+&e2.&r Craft brass casings from brass + stripped wood (same idea as andesite casing).
+&e3.&r Stock 16+ before starting deployers and mechanical crafters."
 	]
 	quest.B1000000000000E1.title: "Electron Tubes"
 	quest.B1000000000000E1.quest_subtitle: "Brass"
 	quest.B1000000000000E1.quest_desc: [
 		"&6Goal:&r Craft &68 electron tubes&r.",
 		"",
-		"Polished rose quartz + iron plates. The redstone-smart part inside precision builds."
+		"Polished rose quartz + iron plates. The redstone-smart part inside precision builds.",
+		"",
+		"&6How:&r
+&e1.&r Craft rose quartz (quartz + redstone), then polish it (sandpaper / deployers).
+&e2.&r Press iron sheets as needed.
+&e3.&r Craft 8 electron tubes from JEI.
+&e4.&r Keep extras — mechanical crafters and smart machines spend them."
 	]
 	quest.B1000000000000E2.title: "Mechanical Crafters"
 	quest.B1000000000000E2.quest_subtitle: "Midgame"
@@ -222,6 +400,12 @@
 		"&6Goal:&r Craft &69 mechanical crafters&r.",
 		"",
 		"Arrange them into a crafting grid for sequenced assembly — how precision mechanisms are born.",
+		"",
+		"&6How:&r
+&e1.&r Craft 9 mechanical crafters.
+&e2.&r Place them in a 3×3 grid facing the same way; connect with a crafter arrangement (wrench / ponder).
+&e3.&r Power the bank of crafters from one kinetic input.
+&e4.&r Set the crafting pattern for the next recipe (or prepare for sequenced assembly with deployers).",
 		"",
 		"&7Tip:&r JEI shows the assembly sequence. Automate inputs with funnels/arms."
 	]
@@ -232,7 +416,14 @@
 		"",
 		"Midgame Create currency — arms, consoles, trains, and many addons want them.",
 		"",
+		"&6How:&r
+&e1.&r Open JEI on Precision Mechanism and note the sequenced assembly steps.
+&e2.&r Build a loop: belt + depot/belt chain with deployers holding the required parts (cogwheels, large cogs, electron tubes, etc.).
+&e3.&r Insert incomplete mechanisms into the loop; deployers apply parts in order until complete.
+&e4.&r Output finished mechanisms to a chest — craft 8 total (automate if hand-feeding hurts).",
+		"",
 		"&7Tip:&r If crafting these by hand hurts, your factory isn't finished yet.",
+		"",
 		"&7Next:&r Deployers and arms next — then Ore Excavation for infinite ore."
 	]
 	quest.B1000000000000E4.title: "Deployer"
@@ -240,21 +431,43 @@
 	quest.B1000000000000E4.quest_desc: [
 		"&6Goal:&r Build a Deployer.",
 		"",
-		"Auto-uses items: applying tools, placing blocks, assembly sequences, farming, and more."
+		"Auto-uses items: applying tools, placing blocks, assembly sequences, farming, and more.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Deployer and place it facing a depot or belt lane.
+&e2.&r Power it; put the held item (tool, cogwheel, electron tube…) in the deployer hand slot.
+&e3.&r Filter/hand items so each deployer applies one assembly step.
+&e4.&r Use on a depot: item arrives → deployer uses held item → item continues down the line.",
+		"",
+		"&7Tip:&r Deployers are the hands of sequenced assembly — one deployer per ingredient step."
 	]
 	quest.B1000000000000E5.title: "Mechanical Arm"
 	quest.B1000000000000E5.quest_subtitle: "Brass machines"
 	quest.B1000000000000E5.quest_desc: [
 		"&6Goal:&r Build a Mechanical Arm.",
 		"",
-		"Program inputs/outputs to move items between inventories without belts everywhere."
+		"Program inputs/outputs to move items between inventories without belts everywhere.",
+		"",
+		"&6How:&r
+&e1.&r Craft a Mechanical Arm and place it within reach of two inventories/depots.
+&e2.&r Power the arm; open its UI and set deposit/withdraw targets by clicking inventories.
+&e3.&r Assign which slots / filters it should move.
+&e4.&r Test with a single stack, then trust it for crafter feeding and mechanism outputs."
 	]
 	quest.B1000000000000E6.title: "Steam Engine"
 	quest.B1000000000000E6.quest_subtitle: "Power"
 	quest.B1000000000000E6.quest_desc: [
 		"&6Goal:&r Build a Steam Engine.",
 		"",
-		"Serious SU from water tanks + blaze burners — the jump from water wheels to real factories."
+		"Serious SU from water tanks + blaze burners — the jump from water wheels to real factories.",
+		"",
+		"&6How:&r
+&e1.&r Build a fluid tank tower filled with water.
+&e2.&r Attach blaze burners to heat the boiler / tank setup per JEI \\& ponder.
+&e3.&r Place the steam engine against the heated tank and connect a shaft output.
+&e4.&r Whisk / engine assembly produces high SU — gear it into your main network.",
+		"",
+		"&7Tip:&r Keep water topped up with a pump + hose pulley from a lake."
 	]
 	quest.B1000000000000E7.title: "Vein Finder"
 	quest.B1000000000000E7.quest_subtitle: "Ores"
@@ -263,6 +476,12 @@
 		"",
 		"Scan for infinite ore veins, then plant a drilling machine. The pack's answer to strip-mining forever.",
 		"",
+		"&6How:&r
+&e1.&r Craft the Vein Finder from JEI.
+&e2.&r Right-click in the world to scan; note vein type and position.
+&e3.&r Travel to the vein marker and clear a pad for the drilling machine.
+&e4.&r Return once you have drills and SU to spare.",
+		"",
 		"&7Tip:&r Best once crushing wheels make processing cheap."
 	]
 	quest.B1000000000000E8.title: "Drilling Machine"
@@ -270,42 +489,75 @@
 	quest.B1000000000000E8.quest_desc: [
 		"&6Goal:&r Build a Drilling Machine on a found vein.",
 		"",
-		"Feed it SU and drills for passive ore. Pair with crushing + washing for absurd ingot/hour."
+		"Feed it SU and drills for passive ore. Pair with crushing + washing for absurd ingot/hour.",
+		"",
+		"&6How:&r
+&e1.&r Place the Drilling Machine on the located vein.
+&e2.&r Connect kinetic power (water wheels → steam/diesel later).
+&e3.&r Insert drill heads and set fluid/drill requirements per JEI.
+&e4.&r Pipe or funnel ore output into your crushing → washing → smelting line."
 	]
 	quest.B1000000000000E9.title: "New Age Coil"
 	quest.B1000000000000E9.quest_subtitle: "Power"
 	quest.B1000000000000E9.quest_desc: [
 		"&6Goal:&r Craft a Create: New Age generator coil.",
 		"",
-		"Magnets and electrical generation that pair with Create kinetics — another power path beside diesel and CCA."
+		"Magnets and electrical generation that pair with Create kinetics — another power path beside diesel and CCA.",
+		"",
+		"&6How:&r
+&e1.&r Craft a generator coil and the magnets / wires JEI lists.
+&e2.&r Assemble the New Age generator structure (coil + magnets) per ponder/JEI.
+&e3.&r Spin the kinetic input to generate electricity.
+&e4.&r Route power to motors or FE machines as needed."
 	]
 	quest.B1000000000000EA.title: "New Age Motor"
 	quest.B1000000000000EA.quest_subtitle: "Power"
 	quest.B1000000000000EA.quest_desc: [
 		"&6Goal:&r Craft a basic motor (Create: New Age).",
 		"",
-		"Turn electrical power back into rotation for remote workshops."
+		"Turn electrical power back into rotation for remote workshops.",
+		"",
+		"&6How:&r
+&e1.&r Craft a basic motor.
+&e2.&r Supply it with New Age / FE electricity from your generator.
+&e3.&r Attach a shaft to the motor output and power distant machines.
+&e4.&r Use for outposts where water wheels are awkward."
 	]
 	quest.B1000000000000EB.title: "Factory Catwalks"
 	quest.B1000000000000EB.quest_subtitle: "Building"
 	quest.B1000000000000EB.quest_desc: [
 		"&6Goal:&r Craft an andesite catwalk (Create Deco).",
 		"",
-		"Industrial décor that makes factories readable — walkways, hulls, lamps, and sheet metal."
+		"Industrial décor that makes factories readable — walkways, hulls, lamps, and sheet metal.",
+		"",
+		"&6How:&r
+&e1.&r Craft an andesite catwalk from JEI.
+&e2.&r Place walkways above machine lines so you can service kinetics safely.
+&e3.&r Add supports / lamps so the factory stays navigable at night."
 	]
 	quest.B1000000000000EC.title: "Copycat Block"
 	quest.B1000000000000EC.quest_subtitle: "Building"
 	quest.B1000000000000EC.quest_desc: [
 		"&6Goal:&r Craft a Copycats+ copycat block.",
 		"",
-		"Disguise technical blocks as any material — hide cables and machines inside pretty walls."
+		"Disguise technical blocks as any material — hide cables and machines inside pretty walls.",
+		"",
+		"&6How:&r
+&e1.&r Craft a copycat block.
+&e2.&r Place it, then apply a material (right-click with a block) to copy its appearance.
+&e3.&r Wrap shafts, pipes, or ugly machinery in matching walls."
 	]
 	quest.B1000000000000ED.title: "Train Interiors"
 	quest.B1000000000000ED.quest_subtitle: "Building"
 	quest.B1000000000000ED.quest_desc: [
 		"&6Goal:&r Craft seatwood planks (Create: Interiors).",
 		"",
-		"Furniture and seating for trains and stations — optional flair once tracks exist."
+		"Furniture and seating for trains and stations — optional flair once tracks exist.",
+		"",
+		"&6How:&r
+&e1.&r Craft seatwood planks from JEI.
+&e2.&r Build chairs / interiors inside a train carriage or station.
+&e3.&r Ride in style once your track network is online."
 	]
 	quest.B1000000000000EE.title: "Train Track"
 	quest.B1000000000000EE.quest_subtitle: "Trains"
@@ -314,6 +566,14 @@
 		"",
 		"Trains move bulk items and players across the map. Steam 'n' Rails adds more track styles and conductors later.",
 		"",
+		"&6How:&r
+&e1.&r Craft 16 tracks (andesite alloy + stone/andesite per JEI).
+&e2.&r Place a track line by clicking sequentially along the path (shift for slopes/curves as prompted).
+&e3.&r Add a station block / train assembly when you have a locomotive package.
+&e4.&r Assemble a train on a robust track, define schedules, and haul items between bases.",
+		"",
+		"&7Tip:&r Trains need precision mechanisms and brass — finish those first if assembly is locked.",
+		"",
 		"&7Next:&r Beyond Brass covers conductor whistles and fuel tanks."
 	]
 	quest.B1000000000000EF.title: "Copper Magnet"
@@ -321,6 +581,11 @@
 	quest.B1000000000000EF.quest_desc: [
 		"&6Goal:&r Craft a copper magnet (Stuff 'N Additions).",
 		"",
-		"Pull nearby items — great while mining or standing near crushing outputs."
+		"Pull nearby items — great while mining or standing near crushing outputs.",
+		"",
+		"&6How:&r
+&e1.&r Craft a copper magnet from JEI.
+&e2.&r Keep it in your inventory / Curios as the mod expects.
+&e3.&r Stand near crushing-wheel outputs or ore drops to vacuum items."
 	]
 }
