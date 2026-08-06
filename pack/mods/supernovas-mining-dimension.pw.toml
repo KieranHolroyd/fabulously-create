@@ -1,0 +1,13 @@
+name = "Supernova's Mining Dimension"
+filename = "supernovas_mining_dimension-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r6mgOpqr/versions/F3okMczh/supernovas_mining_dimension-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "fbb8f3b1663ab31c3b2d9a4b6bf62a708e2931a4dbcded8d1405f9af1aaaf897664982eb6d43b279fb4bac6284e068e403d26c59679831bc88b190b796160be7"
+
+[update]
+[update.modrinth]
+mod-id = "r6mgOpqr"
+version = "F3okMczh"

@@ -29,13 +29,13 @@
 					type: "random"
 				},
 				{
-					id: "68B49820FA3CFD84"
+					id: "3771BBD326B9E69E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "AEDBB0135F718E5A"
+				id: "056174C178F64481"
 				item: { count: 16, id: "refinedstorage:quartz_enriched_iron" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "E6416598163A1298"
+					id: "A9CEECA42C0CE23F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FAAF8BCF752DB81C"
+				id: "CC33A7BDA359A747"
 				item: { count: 1, id: "refinedstorage:controller" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "3A731D86EAF5FFC4"
+					id: "36E08DC6B3EEF3D6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "584E1DA44D593B13"
+				id: "94BC201B460F8913"
 				item: { count: 32, id: "refinedstorage:cable" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "D0FE9E773C69D844"
+					id: "6482A491DB256A9F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "39DF82DCC7599F4C"
+				id: "2B1018907C47160C"
 				item: { count: 1, id: "refinedstorage:disk_drive" }
 				type: "item"
 			}]
@@ -122,13 +122,13 @@
 					type: "random"
 				},
 				{
-					id: "AC267740B47CF71C"
+					id: "7BC56756B98E3F25"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "BD26F96C35A8A8D5"
+				id: "51FD12591ED0F19E"
 				item: { count: 1, id: "refinedstorage:16k_storage_disk" }
 				type: "item"
 			}]
@@ -145,13 +145,13 @@
 					type: "random"
 				},
 				{
-					id: "900A3FDD4C855F68"
+					id: "4D0F440779055BD7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A1D28D8F843E1339"
+				id: "6072FAD3D7B1CDFA"
 				item: { count: 1, id: "refinedstorage:grid" }
 				type: "item"
 			}]
@@ -170,13 +170,13 @@
 					type: "random"
 				},
 				{
-					id: "BB532D831C2665B5"
+					id: "CCF54A863D3DD298"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5916367D34587D91"
+				id: "56BB7C6262502BA2"
 				item: { count: 1, id: "refinedstorage:crafting_grid" }
 				type: "item"
 			}]
@@ -193,13 +193,13 @@
 					type: "random"
 				},
 				{
-					id: "06FF52B11D918883"
+					id: "1BCA9E6DB7200D74"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "87EA9804F1DB6A48"
+				id: "95FBE69663B63DC9"
 				item: { count: 1, id: "refinedstorage:4096b_fluid_storage_disk" }
 				type: "item"
 			}]
@@ -216,13 +216,13 @@
 					type: "random"
 				},
 				{
-					id: "719FE9DE5FAF19FD"
+					id: "C324AAAAC9EC64CC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1AF573BB9CCA7B20"
+				id: "24200EEC4EBCE72F"
 				item: { count: 2, id: "refinedstorage:external_storage" }
 				type: "item"
 			}]
@@ -239,13 +239,13 @@
 					type: "random"
 				},
 				{
-					id: "00C504A5B15FC1B8"
+					id: "4626C06D13F3A8B8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1009BB3D0D26C415"
+				id: "A1783032BDCC39FE"
 				item: { count: 2, id: "refinedstorage:importer" }
 				type: "item"
 			}]
@@ -262,13 +262,13 @@
 					type: "random"
 				},
 				{
-					id: "F1C519466BCFB78B"
+					id: "12836F7208EC30BD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E4A6A979C0F8D30F"
+				id: "0DBBF8F63F6BA51F"
 				item: { count: 2, id: "refinedstorage:exporter" }
 				type: "item"
 			}]
@@ -285,13 +285,13 @@
 					type: "random"
 				},
 				{
-					id: "1E32F37C30C12256"
+					id: "F6C417B612313E8D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "616DD7656F02A143"
+				id: "7A04DCE1FB307079"
 				item: { count: 2, id: "refinedstorage:interface" }
 				type: "item"
 			}]
@@ -308,13 +308,13 @@
 					type: "random"
 				},
 				{
-					id: "2584BD43D58466C7"
+					id: "250C0681999A49C9"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "ADDE1C4C983FC1F7"
+				id: "DC5E47B96344E488"
 				item: { count: 1, id: "refinedstorage:pattern_grid" }
 				type: "item"
 			}]
@@ -331,13 +331,13 @@
 					type: "random"
 				},
 				{
-					id: "33F18D7447D0D3A7"
+					id: "5B80C7C38A619CC1"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "753B5F5F5A060B5D"
+				id: "8AC8CE9A9FCCD8BE"
 				item: { count: 8, id: "refinedstorage:pattern" }
 				type: "item"
 			}]
@@ -355,13 +355,13 @@
 					type: "random"
 				},
 				{
-					id: "6E96EE22101EB15B"
+					id: "838E40F3731DFB17"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "42508257EA61C9E9"
+				id: "C289BD34CC9B0260"
 				item: { count: 2, id: "refinedstorage:autocrafter" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "876FA40ED4BEAE89"
+					id: "968498FDB3853831"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "413CE656E85A904A"
+				id: "CA23EDF266C7917D"
 				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
 				type: "item"
 			}]
@@ -403,13 +403,13 @@
 					type: "random"
 				},
 				{
-					id: "6DF733373C7BEB78"
+					id: "9EA0B467CD6CD4F5"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3F61B479F60FDB2E"
+				id: "D5FB486F49A6372A"
 				item: { count: 1, id: "refinedstorage:wireless_grid" }
 				type: "item"
 			}]
@@ -426,13 +426,13 @@
 					type: "random"
 				},
 				{
-					id: "86ECED0A1545D79D"
+					id: "73ED7855216A220B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "19349C5350CAE8A7"
+				id: "8AC22E5B538D6DC0"
 				item: { count: 1, id: "extradisks:1024k_item_storage_disk" }
 				type: "item"
 			}]
@@ -449,13 +449,13 @@
 					type: "random"
 				},
 				{
-					id: "117EE5BC8B1A3695"
+					id: "DE14F213ED086517"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FE8C0BBFE3E9A94C"
+				id: "07AAB3AB5DF0DC59"
 				item: { count: 1, id: "extrastorage:advanced_importer" }
 				type: "item"
 			}]
@@ -472,13 +472,13 @@
 					type: "random"
 				},
 				{
-					id: "13C92980652F7455"
+					id: "DA9D28593889575F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "001E0D67D6DA729E"
+				id: "067234E1ECEB403D"
 				item: { count: 1, id: "extrastorage:advanced_exporter" }
 				type: "item"
 			}]
@@ -495,13 +495,13 @@
 					type: "random"
 				},
 				{
-					id: "632996CE30562671"
+					id: "751C63BD5A4D50BD"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "AA0F36EEDEE54231"
+				id: "AB43C7B590AFBAE3"
 				item: { count: 1, id: "extrastorage:netherite_crafter" }
 				type: "item"
 			}]
@@ -520,13 +520,13 @@
 					type: "random"
 				},
 				{
-					id: "A47D47B40FDBB513"
+					id: "BAB19C8D9A757C76"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "4FA546470EE5E009"
+				id: "01C81677B54E8078"
 				item: { count: 1, id: "extrastorage:disk_1048576b_fluid" }
 				type: "item"
 			}]

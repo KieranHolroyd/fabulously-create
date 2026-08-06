@@ -13,6 +13,9 @@ dist/
 .packwiz/
 .official-server
 
+# graphify output
+graphify-out/
+
 # Python
 scripts/__pycache__/
 __pycache__/

@@ -71,7 +71,11 @@ def escape_ftb_ampersands(s: str) -> str:
 
 def snbt_escape(s: str) -> str:
     s = escape_ftb_ampersands(s)
-    return s.replace("\\", "\\\\").replace('"', '\\"')
+    s = s.replace("\\", "\\\\").replace('"', '\\"')
+    # FTB Quests reads each quest_desc entry as a single-line SNBT string;
+    # a raw newline breaks the quoted string across lines and corrupts the
+    # file. Line breaks must be the literal two-char escape `\n` instead.
+    return s.replace("\n", "\\n")
 
 
 def format_desc(desc: str | list[str]) -> list[str]:
@@ -213,6 +217,30 @@ def quest_link_snbt(link: dict) -> str:
     return "\n".join(lines)
 
 
+def quest_lang_lines(chapter: CompiledChapter) -> list[str]:
+    """Flat `quest.<id>.<key>` lang lines for one chapter's quests.
+
+    FTB Quests (2101.1.x) only loads `quests/lang/<locale>.snbt` as a single
+    flat file (non-recursive `Files.list`); a `lang/en_us/chapters/*.snbt`
+    tree is silently ignored. All chapters' lines must be merged into one
+    file — see `main()`.
+    """
+    lines: list[str] = []
+    for qid, meta in chapter.lang.items():
+        if "title" in meta:
+            lines.append(f'\tquest.{qid}.title: "{snbt_escape(meta["title"])}"')
+        if "subtitle" in meta:
+            lines.append(f'\tquest.{qid}.quest_subtitle: "{snbt_escape(meta["subtitle"])}"')
+        if "desc" in meta:
+            parts = format_desc(meta["desc"])
+            lines.append(f"\tquest.{qid}.quest_desc: [")
+            for i, p in enumerate(parts):
+                comma = "," if i < len(parts) - 1 else ""
+                lines.append(f'\t\t"{snbt_escape(p)}"{comma}')
+            lines.append("\t]")
+    return lines
+
+
 def write_chapter(chapter: CompiledChapter, order_index: int) -> None:
     blocks = [
         quest_snbt(
@@ -262,27 +290,6 @@ def write_chapter(chapter: CompiledChapter, order_index: int) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
 
-    lang_path = QUESTS / "lang" / "en_us" / "chapters" / f"{chapter.key}.snbt"
-    lang_path.parent.mkdir(parents=True, exist_ok=True)
-    lang_lines = ["{"]
-    for qid, meta in chapter.lang.items():
-        if "title" in meta:
-            lang_lines.append(f'\tquest.{qid}.title: "{snbt_escape(meta["title"])}"')
-        if "subtitle" in meta:
-            lang_lines.append(
-                f'\tquest.{qid}.quest_subtitle: "{snbt_escape(meta["subtitle"])}"'
-            )
-        if "desc" in meta:
-            parts = format_desc(meta["desc"])
-            lang_lines.append(f"\tquest.{qid}.quest_desc: [")
-            for i, p in enumerate(parts):
-                comma = "," if i < len(parts) - 1 else ""
-                lang_lines.append(f'\t\t"{snbt_escape(p)}"{comma}')
-            lang_lines.append("\t]")
-    lang_lines.append("}")
-    lang_lines.append("")
-    lang_path.write_text("\n".join(lang_lines), encoding="utf-8")
-
 
 def main() -> None:
     book = build_book()
@@ -291,7 +298,7 @@ def main() -> None:
     QUESTS.mkdir(parents=True, exist_ok=True)
     (QUESTS / "chapters").mkdir(exist_ok=True)
     write_reward_table()
-    (QUESTS / "lang" / "en_us" / "chapters").mkdir(parents=True, exist_ok=True)
+    (QUESTS / "lang").mkdir(parents=True, exist_ok=True)
 
     (QUESTS / "data.snbt").write_text(
         "\n".join(
@@ -338,33 +345,26 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    (QUESTS / "lang" / "en_us" / "file.snbt").write_text(
-        "{\n"
-        f'\tfile.{FILE_ID}.title: "Fabulously Create"\n'
-        "}\n",
-        encoding="utf-8",
-    )
-    (QUESTS / "lang" / "en_us" / "chapter_group.snbt").write_text(
-        "{\n"
-        f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"\n'
-        "}\n",
-        encoding="utf-8",
-    )
-
-    chapter_lang = ["{"]
+    # FTB Quests (2101.1.x) loads exactly one flat file per locale —
+    # `quests/lang/<locale>.snbt` — via a non-recursive directory listing.
+    # A split `lang/en_us/...` tree is silently ignored, so every translated
+    # string (titles, subtitles, descriptions, connection links) must live
+    # in this single combined file.
+    lang_lines = [
+        "{",
+        f'\tfile.{FILE_ID}.title: "Fabulously Create"',
+        f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"',
+    ]
     for chapter in compiled.values():
-        chapter_lang.append(
-            f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"'
-        )
-        chapter_lang.append(
+        lang_lines.append(f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"')
+        lang_lines.append(
             f'\tchapter.{chapter.chapter_id}.chapter_subtitle: '
             f'["{snbt_escape(chapter.subtitle)}"]'
         )
-    chapter_lang.extend(["}", ""])
-    (QUESTS / "lang" / "en_us" / "chapter.snbt").write_text(
-        "\n".join(chapter_lang),
-        encoding="utf-8",
-    )
+    for chapter in compiled.values():
+        lang_lines.extend(quest_lang_lines(chapter))
+    lang_lines.extend(["}", ""])
+    (QUESTS / "lang" / "en_us.snbt").write_text("\n".join(lang_lines), encoding="utf-8")
 
     for order_index, chapter in enumerate(compiled.values()):
         write_chapter(chapter, order_index)

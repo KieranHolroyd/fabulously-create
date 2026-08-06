@@ -29,13 +29,13 @@
 					type: "random"
 				},
 				{
-					id: "D1B536DBF1086244"
+					id: "60C27E0928F8E75E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "9BBF88F08FF27BF1"
+				id: "C858C9BAF8344BF9"
 				item: { count: 16, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
@@ -52,13 +52,13 @@
 					type: "random"
 				},
 				{
-					id: "B2B6E3792ED6AA22"
+					id: "DBCEB94F2CE98C53"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0958EC399E40C01E"
+				id: "49D9D34DDD25E62B"
 				item: { count: 8, id: "fluxnetworks:flux_core" }
 				type: "item"
 			}]
@@ -75,13 +75,13 @@
 					type: "random"
 				},
 				{
-					id: "ACB6477DAC8C12FA"
+					id: "B49693CD7D76F187"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2B85D20499CA622A"
+				id: "498EE8898F58CAD1"
 				item: { count: 4, id: "fluxnetworks:flux_block" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "BB95FDE584703EE0"
+					id: "A4589EEACC72F89F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6F9458BD2DEE7B90"
+				id: "EA12251159ADF6EA"
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
@@ -123,13 +123,13 @@
 					type: "random"
 				},
 				{
-					id: "C6074600FCFEC4A9"
+					id: "8C2A01A3C408F2C1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "9693B76DAF91BDCC"
+				id: "D65831B72951E13D"
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
@@ -146,13 +146,13 @@
 					type: "random"
 				},
 				{
-					id: "D0EE3E221B4738E0"
+					id: "2B44F9EB06878737"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F36F7048B9A1A7F1"
+				id: "82E92C38ECC779E3"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
 			}]
@@ -171,13 +171,13 @@
 					type: "random"
 				},
 				{
-					id: "A7A846AF3D333D78"
+					id: "7CA7A0DDBD3E7B4A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "94D1B1DD2F195DD1"
+				id: "B199E798AED65BDA"
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
@@ -194,13 +194,13 @@
 					type: "random"
 				},
 				{
-					id: "9C2548F056DB6059"
+					id: "5A1E323B0A7A58BD"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FBBEF35471ADE1CE"
+				id: "28CCFA92D2F59258"
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
@@ -217,13 +217,13 @@
 					type: "random"
 				},
 				{
-					id: "3DE4641499726980"
+					id: "92F58ABD1F2188B6"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "7B09FAE648FFC638"
+				id: "46CCC44F9D0E432E"
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
@@ -242,13 +242,13 @@
 					type: "random"
 				},
 				{
-					id: "80B615CC18B89481"
+					id: "564410B66A04BFAF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "BFD2F7924A16370C"
+				id: "CA89C7C2946B7CC5"
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]
