@@ -182,6 +182,7 @@ def quest_snbt(
     size: float = 1.0,
     shape: str | None = None,
     hide_until_deps: bool = False,
+    checkmark: bool = False,
 ) -> str:
     deps = deps or []
     configured_rewards = rewards or [{"type": "xp_levels", "xp_levels": 1}]
@@ -244,8 +245,11 @@ def quest_snbt(
 
     lines.append("\t\t\ttasks: [{")
     lines.append(f'\t\t\t\tid: "{hid()}"')
-    lines.append(f'\t\t\t\titem: {{ count: {task_count}, id: "{task_item}" }}')
-    lines.append('\t\t\t\ttype: "item"')
+    if checkmark:
+        lines.append('\t\t\t\ttype: "checkmark"')
+    else:
+        lines.append(f'\t\t\t\titem: {{ count: {task_count}, id: "{task_item}" }}')
+        lines.append('\t\t\t\ttype: "item"')
     lines.append("\t\t\t}]")
     lines.append(f"\t\t\tx: {x:.1f}d")
     lines.append(f"\t\t\ty: {y:.1f}d")
@@ -340,6 +344,7 @@ def write_chapter(chapter: CompiledChapter, order_index: int) -> None:
             size=q.get("size", 1.0),
             shape=q.get("shape"),
             hide_until_deps=q.get("hide_until_deps", False),
+            checkmark=q.get("checkmark", False),
         )
         for q in chapter.quests
     ]

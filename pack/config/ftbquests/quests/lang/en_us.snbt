@@ -285,6 +285,13 @@
 		"",
 		"&7Next:&r Bags \\& Blades opens with a Sophisticated Backpack."
 	]
+	quest.3100000000016058.title: "Welcome to Turning Gears"
+	quest.3100000000016058.quest_subtitle: ""
+	quest.3100000000016058.quest_desc: [
+		"Andesite → brass → drills, trains, and power",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.31000000000000C8.title: "Andesite Alloy"
 	quest.31000000000000C8.quest_subtitle: "Create basics"
 	quest.31000000000000C8.quest_desc: [
@@ -718,6 +725,13 @@
 		"",
 		"&6How:&r\n&e1.&r Craft a copper magnet from JEI.\n&e2.&r Keep it in your inventory / Curios as the mod expects.\n&e3.&r Stand near crushing-wheel outputs or ore drops to vacuum items."
 	]
+	quest.31000000000160BC.title: "Welcome to Bags \\& Blades"
+	quest.31000000000160BC.quest_subtitle: ""
+	quest.31000000000160BC.quest_desc: [
+		"Backpacks, drawers, pipes, Silent Gear, building tools",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.310000000000012C.title: "Backpack"
 	quest.310000000000012C.quest_subtitle: "Carry more"
 	quest.310000000000012C.quest_desc: [
@@ -965,6 +979,13 @@
 		"",
 		"&6How:&r\n&e1.&r Craft a Supplementaries faucet.\n&e2.&r Place it on the side of a tank, jar, or cauldron.\n&e3.&r Activate to pour fluid into the block below (cauldron, basin, etc.).\n&e4.&r Use for small kitchen / XP bottle setups without a full pipe network."
 	]
+	quest.3100000000016120.title: "Welcome to Wires \\& Wits"
+	quest.3100000000016120.quest_subtitle: ""
+	quest.3100000000016120.quest_desc: [
+		"ID networks, diesel, FE, and factory enchanting",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.3100000000000190.title: "Menril Wood"
 	quest.3100000000000190.quest_subtitle: "Integrated Dynamics"
 	quest.3100000000000190.quest_desc: [
@@ -1209,6 +1230,13 @@
 		"Compact kinetic routing for dense factory floors — squeeze more shafts into less space.",
 		"",
 		"&6How:&r\n&e1.&r Craft a parallel gearbox.\n&e2.&r Place it where two parallel shafts need to share rotation in a tight footprint.\n&e3.&r Connect inputs/outputs and verify direction with a wrench.\n&e4.&r Replace bulky cog towers on crowded floors."
+	]
+	quest.31000000000160D4.title: "Welcome to Refined Storage"
+	quest.31000000000160D4.quest_subtitle: ""
+	quest.31000000000160D4.quest_desc: [
+		"Digital item and fluid storage, Create integration, and autocrafting",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.3100000000000144.title: "Quartz-Enriched Iron"
 	quest.3100000000000144.quest_subtitle: "Core"
@@ -1499,6 +1527,13 @@
 		"",
 		"&7Next:&r Your RS hub is complete — grow patterns and power as the factory expands."
 	]
+	quest.3100000000016138.title: "Welcome to Powah"
+	quest.3100000000016138.quest_subtitle: ""
+	quest.3100000000016138.quest_desc: [
+		"FE generation, energizing tiers, reactors, and wireless charging",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.31000000000001A8.title: "Dielectric Beginnings"
 	quest.31000000000001A8.quest_subtitle: "Powah · Materials"
 	quest.31000000000001A8.quest_desc: [
@@ -1774,6 +1809,13 @@
 		"&7Tip:&r Nitro batteries + Nitro transmitters keep jetpacks aloft all day.",
 		"",
 		"&7Next:&r Powah chapter complete — feed Flux Networks or RS from this grid."
+	]
+	quest.310000000001614D.title: "Welcome to RFTools"
+	quest.310000000001614D.quest_subtitle: ""
+	quest.310000000001614D.quest_desc: [
+		"Power, automation, storage scanning, teleportation, and dimensions",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.31000000000001BD.title: "RFTools Framework"
 	quest.31000000000001BD.quest_subtitle: "RFTools · Foundation"
@@ -2103,6 +2145,13 @@
 		"",
 		"&7Next:&r RFTools path complete — Flux Networks can wireless your FE grid next."
 	]
+	quest.3100000000016166.title: "Welcome to Flux Networks"
+	quest.3100000000016166.quest_subtitle: ""
+	quest.3100000000016166.quest_desc: [
+		"Cross-dimensional wireless FE transfer, control, and storage",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.31000000000001D6.title: "Flux from Bedrock"
 	quest.31000000000001D6.quest_subtitle: "Flux Networks · Materials"
 	quest.31000000000001D6.quest_desc: [
@@ -2235,6 +2284,13 @@
 		"&7Tip:&r Pair Gargantuan storage with Nitro-tier generation for real endgame wireless FE.",
 		"",
 		"&7Next:&r Flux chapter complete — wireless power your factories and dimensions."
+	]
+	quest.31000000000161E8.title: "Welcome to Mekanism"
+	quest.31000000000161E8.quest_subtitle: ""
+	quest.31000000000161E8.quest_desc: [
+		"Steel casings, ore processing, gases, factories, and QIO",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.3100000000000258.title: "Osmium Supply"
 	quest.3100000000000258.quest_subtitle: "Mekanism · Materials"
@@ -2542,6 +2598,13 @@
 		"",
 		"&7Next:&r Chapter complete — push factories, ore tiers, and QIO as your base grows."
 	]
+	quest.310000000001621A.title: "Welcome to Mekanism Reactors"
+	quest.310000000001621A.quest_subtitle: ""
+	quest.310000000001621A.quest_desc: [
+		"Heat, solar, wind, fission, turbines, and fusion power",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.310000000000028A.title: "Heat Generator"
 	quest.310000000000028A.quest_subtitle: "Mekanism Generators · Early power"
 	quest.310000000000028A.quest_desc: [
@@ -2763,6 +2826,13 @@
 		"",
 		"&7Tip:&r Craft spare Hohlraums before the first attempt — learning runs are rarely one-and-done."
 	]
+	quest.310000000001624C.title: "Welcome to Extreme Reactors"
+	quest.310000000001624C.quest_subtitle: ""
+	quest.310000000001624C.quest_desc: [
+		"Yellorium reactors, steam turbines, and fuel reprocessing",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.31000000000002BC.title: "Yellorium"
 	quest.31000000000002BC.quest_subtitle: "Extreme Reactors · Fuel"
 	quest.31000000000002BC.quest_desc: [
@@ -2966,6 +3036,13 @@
 		"&6How:&r\n&e1.&r Follow JEI for &6Ludicrite&r — blutonium from reprocessing plus End-dimension or other gated ingredients typically appear.\n&e2.&r Keep the reprocessor fed so blutonium doesn't become the bottleneck mid-craft.\n&e3.&r Craft four ingots and stash spares for any ludicrite-tier parts you still want.",
 		"",
 		"&7Tip:&r If a ingredient looks alien, check the End and your cyanite stocks first."
+	]
+	quest.310000000001627E.title: "Welcome to Modern Industrialization"
+	quest.310000000001627E.quest_subtitle: ""
+	quest.310000000001627E.quest_desc: [
+		"Steam age, steel, circuits, electric machines, and quarries",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.31000000000002EE.title: "Forge Hammer"
 	quest.31000000000002EE.quest_subtitle: "Modern Industrialization · Age 1"
@@ -3208,6 +3285,13 @@
 		"",
 		"&7Next:&r Chapter complete — push large boilers, blast furnaces, and HV machines next."
 	]
+	quest.31000000000162B0.title: "Welcome to Industrial Foregoing"
+	quest.31000000000162B0.quest_subtitle: ""
+	quest.31000000000162B0.quest_desc: [
+		"Latex, plastic, farms, mob slaughter, lasers, and infinity tools",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
+	]
 	quest.3100000000000320.title: "Pity Machine Frame"
 	quest.3100000000000320.quest_subtitle: "Industrial Foregoing · Frames"
 	quest.3100000000000320.quest_desc: [
@@ -3433,6 +3517,13 @@
 		"&7Tip:&r Feed it power and materials; tank size and speed upgrades change everything.",
 		"",
 		"&7Next:&r Chapter complete — ether gas and more infinity tools await in JEI when you are ready."
+	]
+	quest.31000000000162E2.title: "Welcome to Immersive Engineering"
+	quest.31000000000162E2.quest_subtitle: ""
+	quest.31000000000162E2.quest_desc: [
+		"Coke ovens, blast furnaces, wires, diesel, and arc furnaces",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.3100000000000352.title: "Engineer's Hammer"
 	quest.3100000000000352.quest_subtitle: "Immersive Engineering · Tools"
@@ -3674,6 +3765,13 @@
 		"&7Tip:&r Pair with a Crusher multiblock upstream for dust → Arc Furnace alloy lines.",
 		"",
 		"&7Next:&r Chapter complete — excavator and metal press await in the Manual when you need bulk ore."
+	]
+	quest.3100000000016184.title: "Welcome to Beyond Brass"
+	quest.3100000000016184.quest_subtitle: ""
+	quest.3100000000016184.quest_desc: [
+		"Netherite, flight, railways, bosses, and the sky",
+		"",
+		"&7Click the checkbox to mark this complete and dive in.&r"
 	]
 	quest.31000000000001F4.title: "Netherite"
 	quest.31000000000001F4.quest_subtitle: "Endgame gate"

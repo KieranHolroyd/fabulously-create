@@ -44,7 +44,31 @@
 	]
 	quests: [
 		{
-			dependencies: ["310000000000006A"]
+			id: "3100000000016058"
+			rewards: [
+				{
+					id: "0500000000016058"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "33CBA49588CD1384"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4A00F6AD87E79943"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: [
+				"3100000000016058"
+				"310000000000006A"
+			]
 			id: "31000000000000C8"
 			shape: "gear"
 			size: 2.0d
@@ -55,13 +79,13 @@
 					type: "random"
 				},
 				{
-					id: "4AF37BF0637C4BA0"
+					id: "5A1775D2869C1D75"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7913C885057E6429"
+				id: "138A9E1C17FE772C"
 				item: { count: 32, id: "create:andesite_alloy" }
 				type: "item"
 			}]
@@ -79,7 +103,7 @@
 				}
 			]
 			tasks: [{
-				id: "6F99055D9A02FA87"
+				id: "107074845158DAD0"
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
@@ -97,7 +121,7 @@
 				}
 			]
 			tasks: [{
-				id: "783D462216FBB08E"
+				id: "0D87F0DDFBB68349"
 				item: { count: 16, id: "create:shaft" }
 				type: "item"
 			}]
@@ -115,7 +139,7 @@
 				}
 			]
 			tasks: [{
-				id: "17DDE13277680788"
+				id: "5CC689A2E3E3F973"
 				item: { count: 16, id: "create:cogwheel" }
 				type: "item"
 			}]
@@ -132,13 +156,13 @@
 					type: "random"
 				},
 				{
-					id: "4C348AC468D7BD23"
+					id: "2038366C3D476643"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6EB3B19CE83BB6ED"
+				id: "34A41E68C9CA5E8B"
 				item: { count: 8, id: "create:large_cogwheel" }
 				type: "item"
 			}]
@@ -157,7 +181,7 @@
 				}
 			]
 			tasks: [{
-				id: "797CB4FD4C9502C3"
+				id: "360C85DCECD5CC7D"
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
@@ -176,13 +200,13 @@
 					type: "random"
 				},
 				{
-					id: "3FBD7F282380309A"
+					id: "46C365F47B3287B6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4C9CB91001A5E0E5"
+				id: "2EB1C7DD30039E8E"
 				item: { count: 1, id: "create:windmill_bearing" }
 				type: "item"
 			}]
@@ -200,7 +224,7 @@
 				}
 			]
 			tasks: [{
-				id: "1C6859B3DB56F0AF"
+				id: "1A3F980D9B2C30D7"
 				item: { count: 16, id: "create:andesite_casing" }
 				type: "item"
 			}]
@@ -217,13 +241,13 @@
 					type: "random"
 				},
 				{
-					id: "126141D34AAB412A"
+					id: "053EA0985CD39BE0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "33C78AD8947D5A43"
+				id: "5873ACF33EB57092"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
@@ -241,7 +265,7 @@
 				}
 			]
 			tasks: [{
-				id: "7032EC449F5F1D5D"
+				id: "377E10526AFB3193"
 				item: { count: 1, id: "create:basin" }
 				type: "item"
 			}]
@@ -259,13 +283,13 @@
 					type: "random"
 				},
 				{
-					id: "37ADEC34DD0B88D1"
+					id: "463E38BE67DC1742"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7C6C8648B80BD25F"
+				id: "5085F3D343319961"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
@@ -285,7 +309,7 @@
 				}
 			]
 			tasks: [{
-				id: "0B95D583B6EF75B8"
+				id: "3457DE049A7730E7"
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
@@ -302,13 +326,13 @@
 					type: "random"
 				},
 				{
-					id: "20E22552BB88CB74"
+					id: "053DA82EC368E032"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "052B8199B25FAA56"
+				id: "2C031672ABD0E05B"
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
@@ -325,13 +349,13 @@
 					type: "random"
 				},
 				{
-					id: "41FDC33A34B5B16E"
+					id: "4395E08F539A561F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "20921B060FDE1E7C"
+				id: "24AA64485AA6F26F"
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
@@ -349,7 +373,7 @@
 				}
 			]
 			tasks: [{
-				id: "6E18F0A2B2305098"
+				id: "1657C390081467CA"
 				item: { count: 16, id: "create:belt_connector" }
 				type: "item"
 			}]
@@ -366,13 +390,13 @@
 					type: "random"
 				},
 				{
-					id: "29FDBB337AFB0F41"
+					id: "3B9E9893CAB8F19D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6755FDAAEB0A0F74"
+				id: "3E596650DE0B06BB"
 				item: { count: 8, id: "create:depot" }
 				type: "item"
 			}]
@@ -390,7 +414,7 @@
 				}
 			]
 			tasks: [{
-				id: "42C37381586650C5"
+				id: "4A5811322BF7AF4C"
 				item: { count: 8, id: "create:andesite_funnel" }
 				type: "item"
 			}]
@@ -411,13 +435,13 @@
 					type: "random"
 				},
 				{
-					id: "5F63C8E4A9A6B51D"
+					id: "074EC327841B968B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "341E272D3F05FFB4"
+				id: "3463FF3742AC8C1A"
 				item: { count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
@@ -434,13 +458,13 @@
 					type: "random"
 				},
 				{
-					id: "6D4D839D2E56BD17"
+					id: "0342AE42AB52570D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "507152AC8C51CCC4"
+				id: "7CA4341D2C715259"
 				item: { count: 16, id: "create:zinc_ingot" }
 				type: "item"
 			}]
@@ -458,7 +482,7 @@
 				}
 			]
 			tasks: [{
-				id: "46D93553B1702917"
+				id: "33E9D5E62FC4EC4D"
 				item: { count: 4, id: "create:fluid_tank" }
 				type: "item"
 			}]
@@ -475,13 +499,13 @@
 					type: "random"
 				},
 				{
-					id: "27104F6320B22D77"
+					id: "1A1C910E9D280714"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "09B4D9CEF25AEE02"
+				id: "490B73CC561DD635"
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
@@ -501,7 +525,7 @@
 				}
 			]
 			tasks: [{
-				id: "27A16F1819684E09"
+				id: "7B0E81985B878D8E"
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
@@ -520,7 +544,7 @@
 				}
 			]
 			tasks: [{
-				id: "3F283200574BBD2E"
+				id: "00D68A4070C241D3"
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
@@ -542,13 +566,13 @@
 					type: "random"
 				},
 				{
-					id: "57D92677A93FD44D"
+					id: "56B40E9CAB3463C1"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "17152E7F0E9ED9CA"
+				id: "65023F5749C4AA93"
 				item: { count: 32, id: "create:brass_ingot" }
 				type: "item"
 			}]
@@ -566,7 +590,7 @@
 				}
 			]
 			tasks: [{
-				id: "55348D076DAADF99"
+				id: "03EED3EFBDA47A5A"
 				item: { count: 16, id: "create:brass_casing" }
 				type: "item"
 			}]
@@ -584,7 +608,7 @@
 				}
 			]
 			tasks: [{
-				id: "6E66DCA3EC5848E3"
+				id: "170C720E6A03261A"
 				item: { count: 8, id: "create:electron_tube" }
 				type: "item"
 			}]
@@ -602,13 +626,13 @@
 					type: "random"
 				},
 				{
-					id: "038BA36DCC916F4E"
+					id: "059470B2B0DFC445"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2671B83EFE4B1055"
+				id: "67C7B5AF00552204"
 				item: { count: 9, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
@@ -627,13 +651,13 @@
 					type: "random"
 				},
 				{
-					id: "619D08F801FA95A7"
+					id: "38D91265DD150D34"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "0BE2303F5B125390"
+				id: "3747169E7425053D"
 				item: { count: 8, id: "create:precision_mechanism" }
 				type: "item"
 			}]
@@ -650,13 +674,13 @@
 					type: "random"
 				},
 				{
-					id: "705EFA7AD4275E14"
+					id: "12566F015CB24089"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0EB0BA458C0ED485"
+				id: "5242142A37BA54FE"
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
@@ -677,13 +701,13 @@
 					type: "random"
 				},
 				{
-					id: "224944F51F88A299"
+					id: "22479FEAEFB304F4"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "05DFD20B125ACC96"
+				id: "41338DEB769D1C1A"
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
@@ -702,13 +726,13 @@
 					type: "random"
 				},
 				{
-					id: "66088301394350A2"
+					id: "53E8BB119C318EAE"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "0764165777EDEEB5"
+				id: "399D8D7FEF948A7E"
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
 			}]
@@ -725,13 +749,13 @@
 					type: "random"
 				},
 				{
-					id: "22728963A9ADC02B"
+					id: "26C195513C212E2B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "069B7CC325DB2CF6"
+				id: "1FFCC53AE43C9789"
 				item: { count: 1, id: "createoreexcavation:vein_finder" }
 				type: "item"
 			}]
@@ -749,13 +773,13 @@
 					type: "random"
 				},
 				{
-					id: "39357640D64E650E"
+					id: "370ACB63906642E6"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "14811B5F42E76BAD"
+				id: "4030E0EE9FF57583"
 				item: { count: 1, id: "createoreexcavation:drilling_machine" }
 				type: "item"
 			}]
@@ -774,13 +798,13 @@
 					type: "random"
 				},
 				{
-					id: "4446A509C55792F1"
+					id: "561F344B027AC791"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "66F686C5492E1379"
+				id: "11238EDFB39C0AD9"
 				item: { count: 1, id: "create_new_age:generator_coil" }
 				type: "item"
 			}]
@@ -799,13 +823,13 @@
 					type: "random"
 				},
 				{
-					id: "0A7BCD05B8902B6E"
+					id: "4769BD1C80153568"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7442F9BC3378CD4C"
+				id: "6308A9C3B9E8A7B9"
 				item: { count: 1, id: "create_new_age:basic_motor" }
 				type: "item"
 			}]
@@ -825,7 +849,7 @@
 				}
 			]
 			tasks: [{
-				id: "48274C7D3BAFBDD1"
+				id: "1137A4A483841FC8"
 				item: { count: 1, id: "createdeco:andesite_catwalk" }
 				type: "item"
 			}]
@@ -844,13 +868,13 @@
 					type: "random"
 				},
 				{
-					id: "5AFEFFF912703271"
+					id: "10C400FA03764B7D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4B0B1F73D3D0696C"
+				id: "60756C18E0ABF7B6"
 				item: { count: 1, id: "copycats:copycat_block" }
 				type: "item"
 			}]
@@ -870,7 +894,7 @@
 				}
 			]
 			tasks: [{
-				id: "0180B9B625FC44EE"
+				id: "6B3DE1D61C90CDD4"
 				item: { count: 1, id: "interiors:seatwood_planks" }
 				type: "item"
 			}]
@@ -887,13 +911,13 @@
 					type: "random"
 				},
 				{
-					id: "2BF9FD3CF93F8758"
+					id: "18FBAF0ABD1C47ED"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "05A4D3B71C1BA9AD"
+				id: "59D1062EF54D9C18"
 				item: { count: 16, id: "create:track" }
 				type: "item"
 			}]
@@ -913,7 +937,7 @@
 				}
 			]
 			tasks: [{
-				id: "0AAFA4A453DACF3E"
+				id: "66C6307E2C64C320"
 				item: { count: 1, id: "create_sa:copper_magnet" }
 				type: "item"
 			}]

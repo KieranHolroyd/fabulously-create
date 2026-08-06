@@ -97,6 +97,7 @@ def compile_quest(
         "size": quest.size,
         "shape": quest.shape,
         "hide_until_deps": quest.hide_until_deps,
+        "checkmark": quest.checkmark,
     }
     lang = {
         "title": quest.title,

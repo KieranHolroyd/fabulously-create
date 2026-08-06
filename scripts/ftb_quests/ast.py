@@ -37,6 +37,9 @@ class Quest:
     shape: str | None = None
     subtitle: str = ""
     hide_until_deps: bool = False
+    # Click-to-complete task with no item requirement, instead of the
+    # default item-collection task.
+    checkmark: bool = False
 
 
 @dataclass
