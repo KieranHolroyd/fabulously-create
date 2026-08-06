@@ -29,13 +29,13 @@
 					type: "random"
 				},
 				{
-					id: "B84A33197C8A149D"
+					id: "1820BC7C086BDD74"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "53A1D7FCBC2D84B5"
+				id: "52BD0F636C21DA9F"
 				item: { count: 16, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
@@ -52,13 +52,13 @@
 					type: "random"
 				},
 				{
-					id: "20894E66DB74E615"
+					id: "AD78FB7305FA9448"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "912A00A4D7B14C89"
+				id: "7A253CD4297378F5"
 				item: { count: 16, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "4B7110628F36AE45"
+					id: "D63357150CEBD4CB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8604302E372C8D25"
+				id: "7ACDEA63F7E1DC89"
 				item: { count: 8, id: "mekanism:steel_casing" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "26A7D12CBC3F8946"
+					id: "E6C57B2FB639B07B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "32C1CC6DDB8C2C16"
+				id: "1872889EAB19BCD2"
 				item: { count: 8, id: "mekanism:basic_control_circuit" }
 				type: "item"
 			}]
@@ -123,13 +123,13 @@
 					type: "random"
 				},
 				{
-					id: "BC5143D62AE2EDE9"
+					id: "40919BF886BBC45B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "025C76E23B83C3B1"
+				id: "A7F0F0792388F1F4"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
@@ -146,13 +146,13 @@
 					type: "random"
 				},
 				{
-					id: "5AEA78775A8007C6"
+					id: "DE285B2BB4631B56"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "44C3CDE896F5A2A5"
+				id: "C262A1AED326CA43"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
@@ -169,13 +169,13 @@
 					type: "random"
 				},
 				{
-					id: "33212C4F8927BF71"
+					id: "931A37A160EFD73D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A02BE3F4E8A83973"
+				id: "9B1AADC41B7B11AF"
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
@@ -192,13 +192,13 @@
 					type: "random"
 				},
 				{
-					id: "50A34C6797F99AD6"
+					id: "0ED9D6C97670C09F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "47CF94D5B4B246B0"
+				id: "DE7948A59E7D42A2"
 				item: { count: 8, id: "mekanism:alloy_infused" }
 				type: "item"
 			}]
@@ -215,13 +215,13 @@
 					type: "random"
 				},
 				{
-					id: "B315550D6C2E0364"
+					id: "348CCCFB4960CCF7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "606FFA2A0A9492AE"
+				id: "65DB81642B50199B"
 				item: { count: 4, id: "mekanism:advanced_control_circuit" }
 				type: "item"
 			}]
@@ -238,13 +238,13 @@
 					type: "random"
 				},
 				{
-					id: "A8DA8FCDD8F22D0A"
+					id: "A522139D4824F20C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7E7FA903070FF95F"
+				id: "CCAB44F6345A7594"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
 			}]
@@ -261,13 +261,13 @@
 					type: "random"
 				},
 				{
-					id: "6C270827317B0F20"
+					id: "92EB2BCD5B44B250"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "605D33FAC0CB2209"
+				id: "E48091F69ED31128"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
 			}]
@@ -284,13 +284,13 @@
 					type: "random"
 				},
 				{
-					id: "2B5BEC4E54DE6EE6"
+					id: "61BAFC608E983DCB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0218F5D7018FDAE3"
+				id: "733B698237FB1D7F"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
 			}]
@@ -307,13 +307,13 @@
 					type: "random"
 				},
 				{
-					id: "693B53B5633EBE59"
+					id: "F0EB1CE32939D1CD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "AE47E66B645C54D5"
+				id: "2C23D9C670613EE9"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
 				type: "item"
 			}]
@@ -330,13 +330,13 @@
 					type: "random"
 				},
 				{
-					id: "8EA0FFED0CE4091F"
+					id: "401DAF7AEE5D60C7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "059924C6508FF507"
+				id: "1A51F02A8F7E313F"
 				item: { count: 32, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
@@ -353,13 +353,13 @@
 					type: "random"
 				},
 				{
-					id: "39CC879AFA375FFB"
+					id: "CCAB0B9BCEEF144F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DDC5CCABD6E27D9A"
+				id: "1CCCA8E777E1124C"
 				item: { count: 32, id: "mekanism:basic_logistical_transporter" }
 				type: "item"
 			}]
@@ -376,13 +376,13 @@
 					type: "random"
 				},
 				{
-					id: "D7F84DFE01D4CEEE"
+					id: "80242DFB41A730EA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DFC1E8B52E673414"
+				id: "66FFEAC5C35523D6"
 				item: { count: 16, id: "mekanism:basic_pressurized_tube" }
 				type: "item"
 			}]
@@ -399,13 +399,13 @@
 					type: "random"
 				},
 				{
-					id: "11FC27B13C4C5262"
+					id: "1D27C554CE243F12"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1C2886FE3BB0AE5B"
+				id: "BF404D7E78797465"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
 				type: "item"
 			}]
@@ -422,13 +422,13 @@
 					type: "random"
 				},
 				{
-					id: "50DAA433F1B3E503"
+					id: "A8B1CC6C0FFFA82D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "F9541F139306CC60"
+				id: "1DB1D62B7F414756"
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
@@ -447,13 +447,13 @@
 					type: "random"
 				},
 				{
-					id: "1DE0A3ECC044A6D3"
+					id: "CA6B01D88A9B507D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6EA419C4E07FD9D8"
+				id: "EF61DCCF0DEDBB88"
 				item: { count: 1, id: "mekanism:digital_miner" }
 				type: "item"
 			}]
@@ -470,13 +470,13 @@
 					type: "random"
 				},
 				{
-					id: "1D4D26286038EE86"
+					id: "D25078FC470DD202"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3B4D0B23969B80B8"
+				id: "CA4E83864F286E6E"
 				item: { count: 1, id: "mekanism:atomic_disassembler" }
 				type: "item"
 			}]
@@ -494,13 +494,13 @@
 					type: "random"
 				},
 				{
-					id: "FBF2BAA33495873C"
+					id: "0FE2947E815241BE"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2739B335FC240BA3"
+				id: "EF6339BC4B4F95B3"
 				item: { count: 1, id: "mekanism:qio_dashboard" }
 				type: "item"
 			}]
@@ -517,13 +517,13 @@
 					type: "random"
 				},
 				{
-					id: "D403134F1F0AD4B6"
+					id: "0BD3AA75AF6DBE88"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2FEB93BCC1F132C5"
+				id: "FB32CFF143BB0080"
 				item: { count: 4, id: "mekanism:alloy_atomic" }
 				type: "item"
 			}]
@@ -542,13 +542,13 @@
 					type: "random"
 				},
 				{
-					id: "D49B8CCAD295DBC2"
+					id: "2975D3D6C0AFF723"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D119BE13A7F7720B"
+				id: "8C075D5F701C51A4"
 				item: { count: 1, id: "mekanism:teleporter" }
 				type: "item"
 			}]

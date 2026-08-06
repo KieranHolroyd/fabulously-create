@@ -345,26 +345,40 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # FTB Quests (2101.1.x) loads exactly one flat file per locale —
-    # `quests/lang/<locale>.snbt` — via a non-recursive directory listing.
-    # A split `lang/en_us/...` tree is silently ignored, so every translated
-    # string (titles, subtitles, descriptions, connection links) must live
-    # in this single combined file.
-    lang_lines = [
-        "{",
-        f'\tfile.{FILE_ID}.title: "Fabulously Create"',
-        f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"',
-    ]
+    # FTB Quests (2101.1.x) loads a split `quests/lang/<locale>/...` tree,
+    # matching what other actively-maintained NeoForge 1.21 packs (e.g.
+    # ATM-10) ship: file.snbt, chapter_group.snbt, chapter.snbt, and one
+    # file per chapter under chapters/. A single combined en_us.snbt is
+    # NOT picked up.
+    lang_dir = QUESTS / "lang" / "en_us"
+    (lang_dir / "chapters").mkdir(parents=True, exist_ok=True)
+
+    (lang_dir / "file.snbt").write_text(
+        "\n".join(["{", f'\tfile.{FILE_ID}.title: "Fabulously Create"', "}", ""]),
+        encoding="utf-8",
+    )
+    (lang_dir / "chapter_group.snbt").write_text(
+        "\n".join(
+            ["{", f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"', "}", ""]
+        ),
+        encoding="utf-8",
+    )
+
+    chapter_lines = ["{"]
     for chapter in compiled.values():
-        lang_lines.append(f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"')
-        lang_lines.append(
+        chapter_lines.append(f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"')
+        chapter_lines.append(
             f'\tchapter.{chapter.chapter_id}.chapter_subtitle: '
             f'["{snbt_escape(chapter.subtitle)}"]'
         )
+    chapter_lines.extend(["}", ""])
+    (lang_dir / "chapter.snbt").write_text("\n".join(chapter_lines), encoding="utf-8")
+
     for chapter in compiled.values():
-        lang_lines.extend(quest_lang_lines(chapter))
-    lang_lines.extend(["}", ""])
-    (QUESTS / "lang" / "en_us.snbt").write_text("\n".join(lang_lines), encoding="utf-8")
+        quest_lines = ["{", *quest_lang_lines(chapter), "}", ""]
+        (lang_dir / "chapters" / f"{chapter.key}.snbt").write_text(
+            "\n".join(quest_lines), encoding="utf-8"
+        )
 
     for order_index, chapter in enumerate(compiled.values()):
         write_chapter(chapter, order_index)

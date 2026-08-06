@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "D113E525884D135D"
+					id: "DBD6862AD9D8C43C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "717DB68C31B8A325"
+				id: "D59EC9D673FADA32"
 				item: { count: 16, id: "bigreactors:yellorium_ingot" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "0132343EA4508F47"
+					id: "4078CCAAD0B15AD7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "ED0823F351BDE6AD"
+				id: "13A5D77333D94CDD"
 				item: { count: 16, id: "bigreactors:graphite_ingot" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "D38E2096876F9102"
+					id: "1BB499A486587BB5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6D98E151A4CFC3E6"
+				id: "FCE2FE4BE977180B"
 				item: { count: 24, id: "bigreactors:basic_reactorcasing" }
 				type: "item"
 			}]
@@ -101,13 +101,13 @@
 					type: "random"
 				},
 				{
-					id: "4460005F1E2729BD"
+					id: "5DE517C59D62512A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "C44024958CB58783"
+				id: "AE7DB8761F072D73"
 				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 				type: "item"
 			}]
@@ -124,13 +124,13 @@
 					type: "random"
 				},
 				{
-					id: "E523FFB4861946F0"
+					id: "C4ACF3DDC126AE38"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E588AFD38ACD23C7"
+				id: "DE3E47A7C0C036E4"
 				item: { count: 4, id: "bigreactors:basic_reactorfuelrod" }
 				type: "item"
 			}]
@@ -147,13 +147,13 @@
 					type: "random"
 				},
 				{
-					id: "4B395146EBB09CC2"
+					id: "9F7C11C82EFBD9E1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "34CA3C9A7EA8FE31"
+				id: "1F01F8B6AA45033F"
 				item: { count: 2, id: "bigreactors:basic_reactorcontrolrod" }
 				type: "item"
 			}]
@@ -170,13 +170,13 @@
 					type: "random"
 				},
 				{
-					id: "7E24AB39DECA8A19"
+					id: "E4C623E21B416035"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "25E241506429E4EB"
+				id: "68CCCA3B73DD232D"
 				item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
 				type: "item"
 			}]
@@ -193,13 +193,13 @@
 					type: "random"
 				},
 				{
-					id: "BE2E684A2CD1C0FA"
+					id: "2528BC1D687B441D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "69D8E10FE31DA30E"
+				id: "7D06517C9798E21B"
 				item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
 				type: "item"
 			}]
@@ -216,13 +216,13 @@
 					type: "random"
 				},
 				{
-					id: "3AD799F627B38730"
+					id: "2534C0B9AE3DCF07"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "90FC524DEB2CBAA6"
+				id: "D6CC786ADD8870B0"
 				item: { count: 8, id: "bigreactors:cyanite_ingot" }
 				type: "item"
 			}]
@@ -239,13 +239,13 @@
 					type: "random"
 				},
 				{
-					id: "442D2EE875D817A6"
+					id: "91985D058BC4F004"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "4B663EE4AFEE4CB6"
+				id: "9542D1B6A048A490"
 				item: { count: 20, id: "bigreactors:basic_turbinecasing" }
 				type: "item"
 			}]
@@ -263,13 +263,13 @@
 					type: "random"
 				},
 				{
-					id: "BFE1A6C321F8356D"
+					id: "A370F78C1304C205"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "500910B01FC61663"
+				id: "359D4239DC414698"
 				item: { count: 1, id: "bigreactors:basic_turbinecontroller" }
 				type: "item"
 			}]
@@ -286,13 +286,13 @@
 					type: "random"
 				},
 				{
-					id: "1D839DB8005EBC4C"
+					id: "ED977DC9FBD68D1B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5A268EDEB81ABA07"
+				id: "AE83A5A1FE859140"
 				item: { count: 8, id: "bigreactors:basic_turbinerotorblade" }
 				type: "item"
 			}]
@@ -309,13 +309,13 @@
 					type: "random"
 				},
 				{
-					id: "E9542792B94853CD"
+					id: "877059234C3F2B6A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "456C9CCFEFD8B98E"
+				id: "A02998B6612EB68F"
 				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
 				type: "item"
 			}]
@@ -334,13 +334,13 @@
 					type: "random"
 				},
 				{
-					id: "5AECC76EA99458C3"
+					id: "19B195705EAE0919"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E7697C0D5FBC90CB"
+				id: "6EA2ACC2F129F932"
 				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
 				type: "item"
 			}]
@@ -357,13 +357,13 @@
 					type: "random"
 				},
 				{
-					id: "72A6E950872A09E1"
+					id: "4D6E5EB876117DA1"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "26E3E17FC8D434F9"
+				id: "A9D2374D5FEB7F71"
 				item: { count: 4, id: "bigreactors:ludicrite_ingot" }
 				type: "item"
 			}]

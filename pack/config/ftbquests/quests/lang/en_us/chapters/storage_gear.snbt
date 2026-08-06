@@ -1,0 +1,249 @@
+{
+	quest.B10000000000012C.title: "Backpack"
+	quest.B10000000000012C.quest_subtitle: "Carry more"
+	quest.B10000000000012C.quest_desc: [
+		"Upgradeable carry storage — stack, magnet, feeding, and tool-swap upgrades turn your inventory into a workshop.",
+		"",
+		"&6You will:&r\n&e•&r Craft a Sophisticated Backpack and open it with right-click\n&e•&r Install upgrades from the backpack GUI\n&e•&r Graduate to drawers, Pipez, and Tom's Storage for base logistics",
+		"",
+		"&7Tip:&r Iron backpack + stack upgrade first, then drawers for bulk materials.",
+		"",
+		"&6Goal:&r Craft a Sophisticated Backpack.",
+		"",
+		"Your first expandable inventory — mining trips and factory wiring stop fighting a 36-slot limit.",
+		"",
+		"&6How:&r\n&e1.&r Craft the basic backpack (leather + chest materials — check JEI).\n&e2.&r Right-click to open it; wear it in the chest/back slot if your UI supports it.\n&e3.&r Open the upgrade tab and note empty upgrade slots for later stack/magnet upgrades.",
+		"",
+		"&7Tip:&r Do not throw the backpack away when upgrading — higher tiers usually upgrade in place.",
+		"",
+		"&7Next:&r Iron backpack for more slots, then drawers for bulk ore.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
+	]
+	quest.B10000000000012D.title: "Iron Backpack"
+	quest.B10000000000012D.quest_subtitle: "Carry more"
+	quest.B10000000000012D.quest_desc: [
+		"&6Goal:&r Upgrade to an Iron Backpack.",
+		"",
+		"More slots for long cave runs and factory wiring sessions.",
+		"",
+		"&6How:&r\n&e1.&r Craft the iron backpack upgrade / recipe from JEI.\n&e2.&r Apply it to your basic backpack (crafting grid or upgrade UI).\n&e3.&r Re-equip and confirm the extra slots before your next mining trip."
+	]
+	quest.B10000000000012E.title: "Stack Upgrade"
+	quest.B10000000000012E.quest_subtitle: "Carry more"
+	quest.B10000000000012E.quest_desc: [
+		"&6Goal:&r Craft a stack upgrade (tier 1) for your backpack.",
+		"",
+		"Carry fewer slot types and more of what matters — alloy, sheets, mechanisms.",
+		"",
+		"&6How:&r\n&e1.&r Craft a tier-1 stack upgrade.\n&e2.&r Open the backpack GUI and place the upgrade in an upgrade slot.\n&e3.&r Fill stacks of alloy / ingots to see the higher stack size.",
+		"",
+		"&7Tip:&r Pickup and magnet upgrades pair well for crushing-wheel cleanup."
+	]
+	quest.B10000000000012F.title: "Drawers"
+	quest.B10000000000012F.quest_subtitle: "Storage"
+	quest.B10000000000012F.quest_desc: [
+		"&6Goal:&r Craft &64 Functional Storage drawers&r.",
+		"",
+		"Drawers compact a huge count of one item — perfect for cobble, andesite alloy, and ingots.",
+		"",
+		"&6How:&r\n&e1.&r Craft 4 oak (or any wood) 1×1 drawers.\n&e2.&r Place them on a wall near your factory inputs.\n&e3.&r Right-click with an item to lock / fill that drawer's type.\n&e4.&r Label mentally: cobble, alloy, iron, copper — one type each.",
+		"",
+		"&7Next:&r Add a storage controller to talk to many drawers at once."
+	]
+	quest.B100000000000130.title: "Drawer Controller"
+	quest.B100000000000130.quest_subtitle: "Storage"
+	quest.B100000000000130.quest_desc: [
+		"&6Goal:&r Craft a Functional Storage controller.",
+		"",
+		"Access a whole drawer wall from one block — pipe into the controller, not every drawer.",
+		"",
+		"&6How:&r\n&e1.&r Craft a storage controller.\n&e2.&r Place it touching your drawer cluster (same contiguous wall).\n&e3.&r Open the controller to browse all linked drawers.\n&e4.&r Point Pipez / funnels at the controller for bulk import/export."
+	]
+	quest.B100000000000131.title: "Compacting Drawer"
+	quest.B100000000000131.quest_subtitle: "Storage"
+	quest.B100000000000131.quest_desc: [
+		"&6Goal:&r Craft a compacting drawer.",
+		"",
+		"Auto-crafts nuggets ↔ ingots ↔ blocks. Perfect for iron, gold, and Create metals.",
+		"",
+		"&6How:&r\n&e1.&r Craft a compacting drawer and place it in your drawer wall.\n&e2.&r Insert iron (or another compactable metal) — watch nuggets/ingots/blocks convert.\n&e3.&r Link it through the storage controller with the rest of the wall.\n&e4.&r Pipe forge outputs here to auto-compress storage."
+	]
+	quest.B100000000000132.title: "Sophisticated Chest"
+	quest.B100000000000132.quest_subtitle: "Storage"
+	quest.B100000000000132.quest_desc: [
+		"&6Goal:&r Craft a Sophisticated Storage iron chest.",
+		"",
+		"Upgradeable chests/barrels with the same upgrade ecosystem as backpacks — filters, compacting, and more.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Sophisticated Storage iron chest.\n&e2.&r Place it and open the upgrade slots in its GUI.\n&e3.&r Install filters / pickup / compacting upgrades as needed.\n&e4.&r Use for mixed junk that does not belong in single-item drawers."
+	]
+	quest.B100000000000133.title: "Storage Controller"
+	quest.B100000000000133.quest_subtitle: "Storage"
+	quest.B100000000000133.quest_desc: [
+		"&6Goal:&r Craft a Sophisticated Storage controller.",
+		"",
+		"Network nearby sophisticated containers for combined access.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Sophisticated Storage controller.\n&e2.&r Place it within range of your sophisticated chests/barrels.\n&e3.&r Open the controller to access the networked containers together.\n&e4.&r Optional: link to pipes for a second storage bus beside drawers."
+	]
+	quest.B100000000000134.title: "Tom's Storage Hub"
+	quest.B100000000000134.quest_subtitle: "Storage"
+	quest.B100000000000134.quest_desc: [
+		"&6Goal:&r Craft Tom's Inventory Connector.",
+		"",
+		"Link nearby inventories and browse them from a terminal — lightweight digital storage without AE2.",
+		"",
+		"&6How:&r\n&e1.&r Craft Tom's Inventory Connector and place it centrally.\n&e2.&r Ensure chests/drawers you want linked are within range (use cables for larger bases).\n&e3.&r Open the connector / attached terminal to browse combined inventories.\n&e4.&r Add more storage in range rather than running across the base.",
+		"",
+		"&7Tip:&r Keep linked chests close; use cables for larger bases.",
+		"",
+		"&7Next:&r Add a crafting terminal for JEI-friendly crafting from the network."
+	]
+	quest.B100000000000135.title: "Crafting Terminal"
+	quest.B100000000000135.quest_subtitle: "Storage"
+	quest.B100000000000135.quest_desc: [
+		"&6Goal:&r Craft Tom's Crafting Terminal.",
+		"",
+		"Craft using everything the Inventory Connector can see. Pair with Pipez or Create for restocking.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Crafting Terminal.\n&e2.&r Attach / place it on the Inventory Connector network.\n&e3.&r Open it and craft with JEI transfer from networked items.\n&e4.&r Restock ingredients via Pipez into connector-linked chests."
+	]
+	quest.B100000000000136.title: "Item Pipes"
+	quest.B100000000000136.quest_subtitle: "Pipes"
+	quest.B100000000000136.quest_desc: [
+		"&6Goal:&r Craft &632 Pipez item pipes&r.",
+		"",
+		"Chest-to-chest logistics with filters — simpler than Create belts for bulk sorting.",
+		"",
+		"&6How:&r\n&e1.&r Craft 32 item pipes and a Pipez wrench if you lack one.\n&e2.&r Connect a source chest to a destination (drawer controller works great).\n&e3.&r Use the wrench to set extract/insert sides and distribution mode.\n&e4.&r Add filter upgrades so only the right items move.",
+		"",
+		"&7Tip:&r Configure with a wrench. Upgrades raise speed."
+	]
+	quest.B100000000000137.title: "Fluid Pipes"
+	quest.B100000000000137.quest_subtitle: "Pipes"
+	quest.B100000000000137.quest_desc: [
+		"&6Goal:&r Craft &616 fluid pipes&r.",
+		"",
+		"Move water, lava, chocolate, diesel, and Create fluids between tanks and machines.",
+		"",
+		"&6How:&r\n&e1.&r Craft 16 fluid pipes.\n&e2.&r Connect a fluid tank or cauldron to a machine/tank destination.\n&e3.&r Wrench-configure extract on the source and insert on the sink.\n&e4.&r Use filters when multiple fluids share a pipe network."
+	]
+	quest.B100000000000138.title: "Energy Pipes"
+	quest.B100000000000138.quest_subtitle: "Pipes"
+	quest.B100000000000138.quest_desc: [
+		"&6Goal:&r Craft &616 energy pipes&r.",
+		"",
+		"Move FE between Create Crafts \\& Additions machines, jetpack chargers, and electric addons.",
+		"",
+		"&6How:&r\n&e1.&r Craft 16 energy pipes.\n&e2.&r Connect an FE source (alternator buffer, diesel gens, etc.) to a consumer.\n&e3.&r Wrench sides to extract from batteries and insert into machines.\n&e4.&r Upgrade transfer rate if chargers starve."
+	]
+	quest.B100000000000139.title: "Gold Chest"
+	quest.B100000000000139.quest_subtitle: "Storage"
+	quest.B100000000000139.quest_desc: [
+		"&6Goal:&r Upgrade to a Gold Chest.",
+		"",
+		"When drawer networks aren't enough for mixed junk storage.",
+		"",
+		"&6How:&r\n&e1.&r Craft / upgrade to a Gold Chest from JEI.\n&e2.&r Place it near your crafting terminal for overflow misc items.\n&e3.&r Keep ores and bulk mats in drawers — gold chests for mixed loot."
+	]
+	quest.B10000000000013A.title: "Gold Furnace"
+	quest.B10000000000013A.quest_subtitle: "Smelting"
+	quest.B10000000000013A.quest_desc: [
+		"&6Goal:&r Craft a Gold Furnace.",
+		"",
+		"Big smelting speed jump. Diamond / netherite tiers wait in Beyond Brass.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Gold Furnace (upgrade path from iron — check JEI).\n&e2.&r Move your smelting line over and keep it fueled.\n&e3.&r Pipe ore in / ingots out with Pipez for a hands-off smeltery."
+	]
+	quest.B10000000000013B.title: "Blueprint Paper"
+	quest.B10000000000013B.quest_subtitle: "Gear"
+	quest.B10000000000013B.quest_desc: [
+		"&6Goal:&r Craft &64 Silent Gear blueprint papers&r.",
+		"",
+		"Blueprints let you stamp modular tool recipes. Mix materials for mining speed, durability, and harvest level.",
+		"",
+		"&6How:&r\n&e1.&r Craft 4 blueprint papers from JEI.\n&e2.&r Keep them for tool blueprints (pickaxe next).\n&e3.&r Skim JEI material traits so you know which metals to save."
+	]
+	quest.B10000000000013C.title: "Pickaxe Blueprint"
+	quest.B10000000000013C.quest_subtitle: "Gear"
+	quest.B10000000000013C.quest_desc: [
+		"&6Goal:&r Craft a Silent Gear pickaxe blueprint.",
+		"",
+		"Build modular pickaxes — head, rod, and tip materials each matter.",
+		"",
+		"&6How:&r\n&e1.&r Craft a pickaxe blueprint.\n&e2.&r Use it at the Silent Gear crafting station / recipe to assemble head + rod (+ tip).\n&e3.&r Pick materials for harvest level and durability (iron/diamond early; better metals later).\n&e4.&r Repair / swap parts as you unlock stronger materials.",
+		"",
+		"&7Tip:&r JEI shows material traits. Upgrade tips as you find better metals."
+	]
+	quest.B10000000000013D.title: "Sword Blueprint"
+	quest.B10000000000013D.quest_subtitle: "Gear"
+	quest.B10000000000013D.quest_desc: [
+		"&6Goal:&r Craft a Silent Gear sword blueprint.",
+		"",
+		"Optional combat path — match materials to your mining set for style points.",
+		"",
+		"&6How:&r\n&e1.&r Craft a sword blueprint.\n&e2.&r Assemble a sword with the same material family as your pickaxe.\n&e3.&r Test damage / durability; re-part if a better metal drops."
+	]
+	quest.B10000000000013E.title: "Construction Stick"
+	quest.B10000000000013E.quest_subtitle: "Building"
+	quest.B10000000000013E.quest_desc: [
+		"&6Goal:&r Craft an Iron Construction Stick.",
+		"",
+		"Extend walls and platforms in one click — faster base building before Building Gadgets.",
+		"",
+		"&6How:&r\n&e1.&r Craft an Iron Construction Stick.\n&e2.&r Select a building block and aim at a surface.\n&e3.&r Extend floors/walls in the stick's placement mode (scroll / keys per mod).\n&e4.&r Undo mistakes with the stick's undo if available — practice on a test wall."
+	]
+	quest.B10000000000013F.title: "Building Gadget"
+	quest.B10000000000013F.quest_subtitle: "Building"
+	quest.B10000000000013F.quest_desc: [
+		"&6Goal:&r Craft a Building Gadget 2.",
+		"",
+		"Copy / build / exchange blocks in bulk — perfect for factories and railways.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Building Gadget and charge / fuel it if required.\n&e2.&r Set the block type and build mode (wall, surface, etc.).\n&e3.&r Hold enough blocks in inventory, then click to place large sections.\n&e4.&r Use it to stamp Create factory footprints quickly.",
+		"",
+		"&7Tip:&r Exchanging and copy-paste gadgets are worth unlocking next."
+	]
+	quest.B100000000000140.title: "Copy-Paste Gadget"
+	quest.B100000000000140.quest_subtitle: "Building"
+	quest.B100000000000140.quest_desc: [
+		"&6Goal:&r Craft the Copy-Paste Gadget.",
+		"",
+		"Save a structure and stamp it elsewhere — repeated factory modules become trivial.",
+		"",
+		"&6How:&r\n&e1.&r Craft the Copy-Paste Gadget.\n&e2.&r Select a region of your factory module and copy it.\n&e3.&r Paste at a new location with the required blocks in inventory.\n&e4.&r Save templates for belt lines, steam setups, or station buildings."
+	]
+	quest.B100000000000141.title: "Artifact Hunt"
+	quest.B100000000000141.quest_subtitle: "Trinkets"
+	quest.B100000000000141.quest_desc: [
+		"&6Goal:&r Find an Artifacts umbrella (or any artifact you prefer — umbrella is the checklist item).",
+		"",
+		"Trinkets drop from chests, mobs, and exploration. Equip them in Curios slots.",
+		"",
+		"&6How:&r\n&e1.&r Explore structures / defeat mobs that drop Artifacts.\n&e2.&r Pick up an umbrella (or keep hunting until one drops).\n&e3.&r Equip it in a Curios slot and test its effect.",
+		"",
+		"&7Tip:&r Truly optional scavenger hunt — skip if RNG hates you."
+	]
+	quest.B100000000000142.title: "Structure Scout"
+	quest.B100000000000142.quest_subtitle: "Exploration"
+	quest.B100000000000142.quest_desc: [
+		"&6Goal:&r Craft an Eye of Ender.",
+		"",
+		"Stronghold energy is optional this early — mostly a reminder that &6Lootr&r makes structure chests per-player.",
+		"",
+		"&6How:&r\n&e1.&r Craft an Eye of Ender (blaze powder + ender pearl).\n&e2.&r Optional: throw it to locate a stronghold when you are ready.\n&e3.&r Raid structures with friends — each player gets their own Lootr chests.",
+		"",
+		"&7Tip:&r Raid structures with friends without loot drama."
+	]
+	quest.B100000000000143.title: "Faucet"
+	quest.B100000000000143.quest_subtitle: "QoL"
+	quest.B100000000000143.quest_desc: [
+		"&6Goal:&r Craft a Supplementaries faucet.",
+		"",
+		"Pour fluids from tanks/cauldrons — handy QoL beside Create pumps.",
+		"",
+		"&6How:&r\n&e1.&r Craft a Supplementaries faucet.\n&e2.&r Place it on the side of a tank, jar, or cauldron.\n&e3.&r Activate to pour fluid into the block below (cauldron, basin, etc.).\n&e4.&r Use for small kitchen / XP bottle setups without a full pipe network."
+	]
+}

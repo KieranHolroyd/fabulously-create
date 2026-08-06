@@ -1,0 +1,135 @@
+{
+	quest.B1000000000001D6.title: "Flux from Bedrock"
+	quest.B1000000000001D6.quest_subtitle: "Flux Networks · Materials"
+	quest.B1000000000001D6.quest_desc: [
+		"&6Goal:&r Produce &616 Flux Dust&r.",
+		"",
+		"Foundation material for a wireless FE network — made via the special bedrock interaction recipe.",
+		"",
+		"&6How:&r\n&e1.&r Open JEI on Flux Dust and note the exact in-world bedrock process.\n&e2.&r Bring redstone (and any other listed ingredients) to bedrock level.\n&e3.&r Run the interaction until you have a batch of 16+ dust.",
+		"",
+		"&7Tip:&r Batch dust early — every Flux device eats cores made from it.",
+		"",
+		"&7Next:&r Craft Flux Cores.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Dimensional Cell\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000001C2\"}}"
+	]
+	quest.B1000000000001D7.title: "Flux Cores"
+	quest.B1000000000001D7.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D7.quest_desc: [
+		"&6Goal:&r Craft &68 Flux Cores&r.",
+		"",
+		"Cores turn Flux Dust into network devices and storage components.",
+		"",
+		"&6How:&r\n&e1.&r Craft eight Flux Cores from dust and JEI ingredients.\n&e2.&r Store extras in Refined Storage for Plug/Point/Controller crafts.\n&e3.&r Keep producing dust so cores never gate expansion.",
+		"",
+		"&7Tip:&r Stock cores before you place half a wireless grid.",
+		"",
+		"&7Next:&r Compress into Flux Blocks."
+	]
+	quest.B1000000000001D8.title: "Flux Block"
+	quest.B1000000000001D8.quest_subtitle: "Flux Networks · Components"
+	quest.B1000000000001D8.quest_desc: [
+		"&6Goal:&r Craft &64 Flux Blocks&r.",
+		"",
+		"Compressed network material used by the more capable Flux devices.",
+		"",
+		"&6How:&r\n&e1.&r Craft four Flux Blocks from cores/dust per JEI.\n&e2.&r Hold them for Plugs, Points, Controllers, and storage tiers.\n&e3.&r Automate dust → core → block before building at scale.",
+		"",
+		"&7Tip:&r Automate the material chain once wireless FE becomes factory-critical.",
+		"",
+		"&7Next:&r Craft a Flux Plug to inject FE."
+	]
+	quest.B1000000000001D9.title: "Flux Plug"
+	quest.B1000000000001D9.quest_subtitle: "Flux Networks · Wireless input"
+	quest.B1000000000001D9.quest_desc: [
+		"&6Goal:&r Craft a Flux Plug.",
+		"",
+		"Takes FE from an attached generator, cell, or machine and inserts it into your wireless network.",
+		"",
+		"&6How:&r\n&e1.&r Place the Flux Plug on the output face of a Powah or RFTools energy cell.\n&e2.&r Open the Plug GUI, create or select a named network, and join it.\n&e3.&r Set a transfer limit so one Plug does not dump the entire buffer instantly.",
+		"",
+		"&7Tip:&r Name the network (“Main Factory”) before placing the first Point.",
+		"",
+		"&7Next:&r Craft a Flux Point to pull FE out."
+	]
+	quest.B1000000000001DA.title: "Flux Point"
+	quest.B1000000000001DA.quest_subtitle: "Flux Networks · Wireless output"
+	quest.B1000000000001DA.quest_desc: [
+		"&6Goal:&r Craft a Flux Point.",
+		"",
+		"Extracts FE from the wireless network into RS, RFTools, Create electrical machines, and more.",
+		"",
+		"&6How:&r\n&e1.&r Place the Flux Point on a machine or cell that should receive FE.\n&e2.&r Join the same network name as your Plug.\n&e3.&r Set priority and transfer limits so one hungry machine cannot starve the base.",
+		"",
+		"&7Tip:&r High priority for RS Controllers and teleporters; low for optional gadgets.",
+		"",
+		"&7Next:&r Craft a Configurator, then a Controller."
+	]
+	quest.B1000000000001DB.title: "Flux Configurator"
+	quest.B1000000000001DB.quest_subtitle: "Flux Networks · Network tools"
+	quest.B1000000000001DB.quest_desc: [
+		"&6Goal:&r Craft a Flux Configurator.",
+		"",
+		"Speeds up network-device management while building and troubleshooting.",
+		"",
+		"&6How:&r\n&e1.&r Craft the Configurator and keep it on your hotbar.\n&e2.&r Use it to edit network membership, names, and device settings without digging GUIs.\n&e3.&r On multiplayer, set security so strangers cannot join your FE grid.",
+		"",
+		"&7Tip:&r Name networks by purpose and lock them on servers.",
+		"",
+		"&7Next:&r Add a Flux Controller for central management."
+	]
+	quest.B1000000000001DC.title: "Flux Controller"
+	quest.B1000000000001DC.quest_subtitle: "Flux Networks · Network control"
+	quest.B1000000000001DC.quest_desc: [
+		"&6Goal:&r Craft a Flux Controller.",
+		"",
+		"Central network management — enables wireless charging options and advanced network features.",
+		"",
+		"&6How:&r\n&e1.&r Place the Flux Controller and join it to your main network.\n&e2.&r Open network settings: review chunk loading, transfer bypass, and member permissions.\n&e3.&r Enable only the features you need — do not turn everything on blindly.",
+		"",
+		"&7Tip:&r Wireless player charging still needs surplus generation wired in via Plugs.",
+		"",
+		"&7Next:&r Add Flux Storage for wireless buffers."
+	]
+	quest.B1000000000001DD.title: "Basic Flux Storage"
+	quest.B1000000000001DD.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DD.quest_desc: [
+		"&6Goal:&r Craft Basic Flux Storage.",
+		"",
+		"Network storage absorbs surplus generation and covers demand spikes without extra cables.",
+		"",
+		"&6How:&r\n&e1.&r Place Basic Flux Storage and join it to the same network as Plugs/Points.\n&e2.&r Confirm it charges from Plug surplus and discharges when Points demand FE.\n&e3.&r Keep a physical Powah/RFTools buffer too for layered resilience.",
+		"",
+		"&7Tip:&r Wireless + physical buffers beat either alone when teleporters spike.",
+		"",
+		"&7Next:&r Upgrade to Herculean storage."
+	]
+	quest.B1000000000001DE.title: "Herculean Storage"
+	quest.B1000000000001DE.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DE.quest_desc: [
+		"&6Goal:&r Upgrade to Herculean Flux Storage.",
+		"",
+		"Factory-scale reserves for autocrafting, teleportation, and dimension upkeep.",
+		"",
+		"&6How:&r\n&e1.&r Craft Herculean Flux Storage and join the main network.\n&e2.&r Watch actual input/output rates in the GUI under load.\n&e3.&r If capacity is full but Points still starve, add generation — not only storage.",
+		"",
+		"&7Tip:&r Capacity alone does not solve a generation shortage.",
+		"",
+		"&7Next:&r Cap the grid with Gargantuan storage."
+	]
+	quest.B1000000000001DF.title: "Gargantuan Storage"
+	quest.B1000000000001DF.quest_subtitle: "Flux Networks · Energy storage"
+	quest.B1000000000001DF.quest_desc: [
+		"&6Goal:&r Craft Gargantuan Flux Storage.",
+		"",
+		"Largest survival Flux storage tier — endgame reservoir for a fully wireless power grid.",
+		"",
+		"&6How:&r\n&e1.&r Craft Gargantuan Flux Storage and attach it to the main network.\n&e2.&r Feed it from automated high-tier Powah (reactors/Nitro) via Plugs.\n&e3.&r Monitor fill from your RFTools control room or Flux GUI during peak autocrafting.",
+		"",
+		"&7Tip:&r Pair Gargantuan storage with Nitro-tier generation for real endgame wireless FE.",
+		"",
+		"&7Next:&r Flux chapter complete — wireless power your factories and dimensions."
+	]
+}

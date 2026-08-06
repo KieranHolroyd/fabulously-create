@@ -1,0 +1,32 @@
+{
+	chapter.A200000000000001.title: "1. Getting Started"
+	chapter.A200000000000001.chapter_subtitle: ["Wood, iron, food, Waystones — leave the caves ready"]
+	chapter.A200000000000002.title: "2. Turning Gears"
+	chapter.A200000000000002.chapter_subtitle: ["Andesite → brass → drills, trains, and power"]
+	chapter.A200000000000003.title: "3. Bags \\& Blades"
+	chapter.A200000000000003.chapter_subtitle: ["Backpacks, drawers, pipes, Silent Gear, building tools"]
+	chapter.A200000000000004.title: "4. Wires \\& Wits"
+	chapter.A200000000000004.chapter_subtitle: ["ID networks, diesel, FE, and factory enchanting"]
+	chapter.A200000000000006.title: "5. Refined Storage"
+	chapter.A200000000000006.chapter_subtitle: ["Digital item and fluid storage, Create integration, and autocrafting"]
+	chapter.A200000000000007.title: "6. Powah"
+	chapter.A200000000000007.chapter_subtitle: ["FE generation, energizing tiers, reactors, and wireless charging"]
+	chapter.A200000000000008.title: "7. RFTools"
+	chapter.A200000000000008.chapter_subtitle: ["Power, automation, storage scanning, teleportation, and dimensions"]
+	chapter.A200000000000009.title: "8. Flux Networks"
+	chapter.A200000000000009.chapter_subtitle: ["Cross-dimensional wireless FE transfer, control, and storage"]
+	chapter.A20000000000000A.title: "9. Mekanism"
+	chapter.A20000000000000A.chapter_subtitle: ["Steel casings, ore processing, gases, factories, and QIO"]
+	chapter.A20000000000000B.title: "10. Mekanism Reactors"
+	chapter.A20000000000000B.chapter_subtitle: ["Heat, solar, wind, fission, turbines, and fusion power"]
+	chapter.A20000000000000C.title: "11. Extreme Reactors"
+	chapter.A20000000000000C.chapter_subtitle: ["Yellorium reactors, steam turbines, and fuel reprocessing"]
+	chapter.A20000000000000D.title: "12. Modern Industrialization"
+	chapter.A20000000000000D.chapter_subtitle: ["Steam age, steel, circuits, electric machines, and quarries"]
+	chapter.A20000000000000E.title: "13. Industrial Foregoing"
+	chapter.A20000000000000E.chapter_subtitle: ["Latex, plastic, farms, mob slaughter, lasers, and infinity tools"]
+	chapter.A20000000000000F.title: "14. Immersive Engineering"
+	chapter.A20000000000000F.chapter_subtitle: ["Coke ovens, blast furnaces, wires, diesel, and arc furnaces"]
+	chapter.A200000000000005.title: "15. Beyond Brass"
+	chapter.A200000000000005.chapter_subtitle: ["Netherite, flight, railways, bosses, and the sky"]
+}

@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "0C862CD0FC55BFFB"
+					id: "D63A2F0D0965532C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "94C2A51D9B841853"
+				id: "F931531686DCAAE7"
 				item: { count: 4, id: "industrialforegoing:machine_frame_pity" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "593187FA78E5EBE6"
+					id: "8495C6E615AB2400"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B46CB0AC50915755"
+				id: "1E5E4B53E4A05FAE"
 				item: { count: 2, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "3BCD9A24E61C5D44"
+					id: "3366AF1E4C6F16BC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "21A71D5C6384250E"
+				id: "366CCA5EE34062E0"
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "721939772DAA760D"
+					id: "65DC8398EAAB23CC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "07CA8A35BE0E475B"
+				id: "AB0B1C5D5A452960"
 				item: { count: 16, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
@@ -123,13 +123,13 @@
 					type: "random"
 				},
 				{
-					id: "6A6D52A13C6D5714"
+					id: "5E7D368EC1AC7408"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "050789631338FEED"
+				id: "33E91F9DF7FBFCE7"
 				item: { count: 2, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
@@ -146,13 +146,13 @@
 					type: "random"
 				},
 				{
-					id: "F11D0A39BA790A26"
+					id: "8BF8760107918C4A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A4628A1D499871CC"
+				id: "53476475DE6E2A3F"
 				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
 				type: "item"
 			}]
@@ -169,13 +169,13 @@
 					type: "random"
 				},
 				{
-					id: "51D995C1B2E754FB"
+					id: "51D591837F22FF38"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DE795DA8D2918F43"
+				id: "4F424E98A0782DF2"
 				item: { count: 1, id: "industrialforegoing:plant_sower" }
 				type: "item"
 			}]
@@ -192,13 +192,13 @@
 					type: "random"
 				},
 				{
-					id: "5633E80113361781"
+					id: "DD827AE9D622FAA0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "EA3092B702303ECC"
+				id: "92821E9F9EB2D5FE"
 				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
 				type: "item"
 			}]
@@ -215,13 +215,13 @@
 					type: "random"
 				},
 				{
-					id: "C56A833C36AB4C48"
+					id: "879381474E3437F6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D3FC1F9E8B5AECB7"
+				id: "BBA76481605FE9E0"
 				item: { count: 2, id: "industrialforegoing:hydroponic_bed" }
 				type: "item"
 			}]
@@ -238,13 +238,13 @@
 					type: "random"
 				},
 				{
-					id: "AED7438E3458D114"
+					id: "B374656FB76239B3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5A7A57C28001FA6D"
+				id: "3A59AAAC119EA73E"
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
 				type: "item"
 			}]
@@ -261,13 +261,13 @@
 					type: "random"
 				},
 				{
-					id: "819F84E24D24F595"
+					id: "1149929EF8CFF3B0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E169B725B62D47D6"
+				id: "386F0BF7F22E3271"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
@@ -284,13 +284,13 @@
 					type: "random"
 				},
 				{
-					id: "8EA5F59A50D18973"
+					id: "937C89C3406362E2"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "75B200BB35686321"
+				id: "1C3EBF625B85F808"
 				item: { count: 8, id: "industrialforegoing:pink_slime" }
 				type: "item"
 			}]
@@ -307,13 +307,13 @@
 					type: "random"
 				},
 				{
-					id: "2B99C5B76A89932C"
+					id: "3909163C21C1F656"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D1BCCAD9C57B7A1F"
+				id: "896714F8B4A65176"
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
 			}]
@@ -332,13 +332,13 @@
 					type: "random"
 				},
 				{
-					id: "CB78CA65ECB45AC6"
+					id: "84F3C4CB6A063CE9"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "F566102551CD1BBD"
+				id: "7654C3481D0D93FC"
 				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
 				type: "item"
 			}]
@@ -355,13 +355,13 @@
 					type: "random"
 				},
 				{
-					id: "CD3517CC2A5F203A"
+					id: "AA0869427D3F7436"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "07F7D02ADF0842E0"
+				id: "8938FA398FC927A3"
 				item: { count: 1, id: "industrialforegoing:laser_drill" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "335306C05B4C0A41"
+					id: "9858118FA14585FE"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2771B125CF2A9375"
+				id: "24A01C46A5AF897D"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
@@ -403,13 +403,13 @@
 					type: "random"
 				},
 				{
-					id: "626B117A688B7BE0"
+					id: "257C0388AF5965BD"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8E9E2BC0DA3DFCBB"
+				id: "4F4DE48D1BB07265"
 				item: { count: 1, id: "industrialforegoing:infinity_drill" }
 				type: "item"
 			}]

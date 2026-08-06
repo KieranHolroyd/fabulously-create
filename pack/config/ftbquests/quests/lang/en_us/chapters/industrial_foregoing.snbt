@@ -1,0 +1,228 @@
+{
+	quest.B100000000000320.title: "Pity Machine Frame"
+	quest.B100000000000320.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B100000000000320.quest_desc: [
+		"&6Goal:&r Craft &64 Pity Machine Frames&r.",
+		"",
+		"Industrial Foregoing starts with Pity frames — wooden-tier chassis for extractors and early machines.",
+		"",
+		"&6How:&r\n&e1.&r Craft &6Pity Machine Frames&r from wood, iron, and redstone parts (JEI).\n&e2.&r Keep extras — Fluid Extractors and the Latex Processing Unit each want frames.",
+		"",
+		"&7Tip:&r You will rebuild these into Simple/Advanced/Supreme frames as you climb.",
+		"",
+		"&7Next:&r Fluid Extractors against a tree line.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
+	]
+	quest.B100000000000321.title: "Fluid Extractor"
+	quest.B100000000000321.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000321.quest_desc: [
+		"&6Goal:&r Craft &62 Fluid Extractors&r.",
+		"",
+		"Extractors pull &6Latex&r from logs — the start of dry rubber and plastic.",
+		"",
+		"&6How:&r\n&e1.&r Place each &6Fluid Extractor&r facing into a log (oak and most logs work).\n&e2.&r Power the extractors (Pitiful Generator later, or any FE cable).\n&e3.&r Pipe latex out of the fluid side into a tank or straight into the Latex Processing Unit.\n&e4.&r Keep a tree farm or Plant Gatherer replacing logs as they get stripped/consumed.",
+		"",
+		"&7Tip:&r Multiple extractors on one trunk speed latex if the wood type allows.",
+		"",
+		"&7Next:&r Latex Processing Unit to make dry rubber."
+	]
+	quest.B100000000000322.title: "Latex Processing"
+	quest.B100000000000322.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000322.quest_desc: [
+		"&6Goal:&r Craft a Latex Processing Unit.",
+		"",
+		"Turns latex into tiny dry rubber → dry rubber → plastic — IF's core material chain.",
+		"",
+		"&6How:&r\n&e1.&r Place the unit; connect FE and pipe in &6Latex&r + &6Water&r.\n&e2.&r Pull &6Tiny Dry Rubber&r / &6Dry Rubber&r from the item output into a chest.\n&e3.&r Buffer latex in a fluid tank so extractors never back up into a full machine.",
+		"",
+		"&7Tip:&r Water and power keep the unit running — a sink or Create hose is enough water.",
+		"",
+		"&7Next:&r Craft Plastic from dry rubber."
+	]
+	quest.B100000000000323.title: "Plastic"
+	quest.B100000000000323.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000323.quest_desc: [
+		"&6Goal:&r Craft &616 Plastic&r.",
+		"",
+		"Plastic appears in nearly every IF machine and upgrade. Overproduce early.",
+		"",
+		"&6How:&r\n&e1.&r Compress or craft &6Dry Rubber&r from tiny dry rubber (JEI).\n&e2.&r Smelt/craft dry rubber into &6Plastic&r.\n&e3.&r Stockpile at least a stack before building Simple-tier machines.",
+		"",
+		"&7Tip:&r Pink slime later supplements high-tier crafts — plastic never stops being useful.",
+		"",
+		"&7Next:&r Upgrade to Simple Machine Frames."
+	]
+	quest.B100000000000324.title: "Simple Machine Frame"
+	quest.B100000000000324.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B100000000000324.quest_desc: [
+		"&6Goal:&r Craft &62 Simple Machine Frames&r.",
+		"",
+		"Simple frames unlock the main farming, generator, and mob machines.",
+		"",
+		"&6How:&r\n&e1.&r Craft Simple frames from &6Pity Frames&r + &6Plastic&r + iron-tier materials (JEI).\n&e2.&r Save them for Plant Sower/Gatherer, Pitiful Generator, and Mob Slaughter.",
+		"",
+		"&7Tip:&r Iron, plastic, and pity frames typically combine here — check JEI.",
+		"",
+		"&7Next:&r Pitiful Generator to bootstrap FE."
+	]
+	quest.B100000000000325.title: "Pitiful Generator"
+	quest.B100000000000325.quest_subtitle: "Industrial Foregoing · Power"
+	quest.B100000000000325.quest_desc: [
+		"&6Goal:&r Craft a Pitiful Generator.",
+		"",
+		"A humble solid-fuel FE generator to bootstrap IF machines before biofuel or pink-slime power.",
+		"",
+		"&6How:&r\n&e1.&r Place the generator near your latex/farm machines.\n&e2.&r Insert solid fuel; pull FE out with energy cables/conduits into machine sides.\n&e3.&r Replace later with Biofuel or Protein generators once farms and mob lines run.",
+		"",
+		"&7Tip:&r One generator can feed several early machines if you buffer with an energy cell.",
+		"",
+		"&7Next:&r Plant Sower for crop automation."
+	]
+	quest.B100000000000326.title: "Plant Sower"
+	quest.B100000000000326.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000326.quest_desc: [
+		"&6Goal:&r Craft a Plant Sower.",
+		"",
+		"Auto-plants seeds in a working area — the start of IF crop automation.",
+		"",
+		"&6How:&r\n&e1.&r Place the &6Plant Sower&r facing a farmland / Hydroponic Bed grid.\n&e2.&r Power it; put seeds in the input slots.\n&e3.&r Open the GUI and set the work area (or insert &6Range Addons&r).\n&e4.&r Pair with a Plant Gatherer covering the same plots.",
+		"",
+		"&7Tip:&r Fertilizer addon / fertilizer fluid speeds growth when you are ready.",
+		"",
+		"&7Next:&r Plant Gatherer to harvest the field."
+	]
+	quest.B100000000000327.title: "Plant Gatherer"
+	quest.B100000000000327.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000327.quest_desc: [
+		"&6Goal:&r Craft a Plant Gatherer.",
+		"",
+		"Harvests grown crops into its inventory or pipes — essential beside the sower.",
+		"",
+		"&6How:&r\n&e1.&r Place the Gatherer so its area overlaps the sower's crops.\n&e2.&r Power it; insert &6Range&r and &6Speed Addons&r as needed.\n&e3.&r Pipe crops out to storage; return seeds to the Sower.",
+		"",
+		"&7Tip:&r Speed addons keep up with bone-meal or fertilizer spam.",
+		"",
+		"&7Next:&r Hydroponic Beds for compact indoor farms."
+	]
+	quest.B100000000000328.title: "Hydroponic Bed"
+	quest.B100000000000328.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000328.quest_desc: [
+		"&6Goal:&r Craft &62 Hydroponic Beds&r.",
+		"",
+		"Compact soil substitutes for dense indoor farms without vanilla farmland water tricks.",
+		"",
+		"&6How:&r\n&e1.&r Craft and place &6Hydroponic Beds&r in a grid under your sower/gatherer.\n&e2.&r Plant via the Plant Sower as if they were farmland.\n&e3.&r Pipe water/fertilizer into beds if the recipe/GUI requires fluid for max speed.",
+		"",
+		"&7Tip:&r Great under sowers when you do not want to manage vanilla farmland water.",
+		"",
+		"&7Next:&r Mob Slaughter Factory on a separate branch."
+	]
+	quest.B100000000000329.title: "Mob Slaughter"
+	quest.B100000000000329.quest_subtitle: "Industrial Foregoing · Mobs"
+	quest.B100000000000329.quest_desc: [
+		"&6Goal:&r Craft a Mob Slaughter Factory.",
+		"",
+		"Grinds mobs into meat and &6Pink Slime&r fluid — brutal but efficient for frames and infinity tools.",
+		"",
+		"&6How:&r\n&e1.&r Build a contained mob spawn area (dark room, spawner, or cursed earth style).\n&e2.&r Place the &6Mob Slaughter Factory&r so mobs walk into its working range; power it.\n&e3.&r Pipe &6Meat&r and &6Pink Slime&r fluids into tanks; pull item drops if enabled.\n&e4.&r Insert range/speed addons so the kill box covers the whole pad.",
+		"",
+		"&cCaution:&r Open kill boxes near your base are messy — wall them in and vacuum items.",
+		"",
+		"&7Tip:&r Pink slime fluid is the prize — do not void it.",
+		"",
+		"&7Next:&r Dissolution Chamber for pink slime crafting."
+	]
+	quest.B10000000000032A.title: "Dissolution Chamber"
+	quest.B10000000000032A.quest_subtitle: "Industrial Foregoing · Processing"
+	quest.B10000000000032A.quest_desc: [
+		"&6Goal:&r Craft a Dissolution Chamber.",
+		"",
+		"Mixes items and fluids into advanced IF components, including pink slimeballs and many mid/late crafts.",
+		"",
+		"&6How:&r\n&e1.&r Place and power the chamber; pipe in required fluids (pink slime, latex, etc. per JEI).\n&e2.&r Insert catalog items into the item slots for the recipe.\n&e3.&r Pull crafted outputs automatically — keep one chamber piped as a permanent station.",
+		"",
+		"&7Tip:&r Many mid/late crafts are dissolution recipes — treat it like a second crafting table with tanks.",
+		"",
+		"&7Next:&r Collect Pink Slimeballs."
+	]
+	quest.B10000000000032B.title: "Pink Slime"
+	quest.B10000000000032B.quest_subtitle: "Industrial Foregoing · Mobs"
+	quest.B10000000000032B.quest_desc: [
+		"&6Goal:&r Collect &68 Pink Slimeballs&r.",
+		"",
+		"Pink slime is the prestige goo for Advanced/Supreme frames and infinity tools.",
+		"",
+		"&6How:&r\n&e1.&r Pipe pink slime fluid from the Mob Slaughter Factory into the Dissolution Chamber.\n&e2.&r Run the slimeball recipes; stockpile at least 8.",
+		"",
+		"&7Tip:&r Mob slaughter is the usual farm — never discard slime fluid.",
+		"",
+		"&7Next:&r Advanced Machine Frame."
+	]
+	quest.B10000000000032C.title: "Advanced Frame"
+	quest.B10000000000032C.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B10000000000032C.quest_desc: [
+		"&6Goal:&r Craft an Advanced Machine Frame.",
+		"",
+		"Advanced frames unlock stronger generators, ore lasers, and late machines.",
+		"",
+		"&6How:&r\n&e1.&r Craft from &6Simple Frames&r + &6Plastic&r + &6Pink Slime&r + gold-tier materials (JEI).\n&e2.&r Reserve the first frame for the Ore Laser Base.",
+		"",
+		"&7Tip:&r Automate plastic and pink slime before you need a second Advanced frame.",
+		"",
+		"&7Next:&r Ore Laser Base."
+	]
+	quest.B10000000000032D.title: "Ore Laser Base"
+	quest.B10000000000032D.quest_subtitle: "Industrial Foregoing · Lasers"
+	quest.B10000000000032D.quest_desc: [
+		"&6Goal:&r Craft an Ore Laser Base.",
+		"",
+		"Laser drills mine specific ores from a vertical beam when paired with a lens and drill — excellent for rare resources.",
+		"",
+		"&6How:&r\n&e1.&r Place the &6Ore Laser Base&r with clear vertical space for the beam.\n&e2.&r Power it heavily; insert the correct &6Laser Lens&r for your target ore (JEI weights).\n&e3.&r Mount a &6Laser Drill&r above/below as the structure requires.\n&e4.&r Pipe ores out; biome and dimension affect drop tables — check JEI.",
+		"",
+		"&7Tip:&r Power hungry but steady once tuned — buffer FE beside the base.",
+		"",
+		"&7Next:&r Craft the Laser Drill itself."
+	]
+	quest.B10000000000032E.title: "Laser Drill"
+	quest.B10000000000032E.quest_subtitle: "Industrial Foregoing · Lasers"
+	quest.B10000000000032E.quest_desc: [
+		"&6Goal:&r Craft a Laser Drill.",
+		"",
+		"Works with the Ore Laser Base and lens to actually mine the ore table.",
+		"",
+		"&6How:&r\n&e1.&r Craft the &6Laser Drill&r and place it on the laser base stack per JEI/guidebook.\n&e2.&r Confirm the lens in the base matches the ore you want.\n&e3.&r Pull outputs into storage; swap lenses when changing targets.",
+		"",
+		"&7Tip:&r Biome and dimension affect tables — check JEI for lens weights before building a second drill.",
+		"",
+		"&7Next:&r Supreme Machine Frame for endgame tools."
+	]
+	quest.B10000000000032F.title: "Supreme Frame"
+	quest.B10000000000032F.quest_subtitle: "Industrial Foregoing · Endgame"
+	quest.B10000000000032F.quest_desc: [
+		"&6Goal:&r Craft a Supreme Machine Frame.",
+		"",
+		"Top chassis tier for the strongest IF machines and infinity tool crafting.",
+		"",
+		"&6How:&r\n&e1.&r Craft from Advanced frames + pink slime + late materials (JEI).\n&e2.&r By now latex, plastic, and pink slime lines should be fully automatic.",
+		"",
+		"&7Tip:&r Make two if you plan multiple infinity tools.",
+		"",
+		"&7Next:&r Infinity Drill."
+	]
+	quest.B100000000000330.title: "Infinity Drill"
+	quest.B100000000000330.quest_subtitle: "Industrial Foregoing · Endgame"
+	quest.B100000000000330.quest_desc: [
+		"&6Goal:&r Craft an Infinity Drill.",
+		"",
+		"A chargeable, upgradeable drill that grows with additives — IF's signature mining tool.",
+		"",
+		"&6How:&r\n&e1.&r Craft the &6Infinity Drill&r at the Dissolution Chamber / crafting path JEI shows (Supreme frame tier).\n&e2.&r Charge it with FE; open the GUI to add tank size, speed, and special additives.\n&e3.&r Mine in area modes once upgraded — keep a power station nearby for top-ups.",
+		"",
+		"&7Tip:&r Feed it power and materials; tank size and speed upgrades change everything.",
+		"",
+		"&7Next:&r Chapter complete — ether gas and more infinity tools await in JEI when you are ready."
+	]
+}
