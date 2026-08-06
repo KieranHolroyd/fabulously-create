@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "modern_industrialization"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "modern_industrialization:forge_hammer"
 	}
-	id: "A20000000000000D"
+	id: "020000000000000D"
 	order_index: 11
 	quest_links: [
 		{
-			id: "A088B6F72902001B"
-			linked_quest: "B10000000000006A"
+			id: "2088B6F72902001B"
+			linked_quest: "310000000000006A"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,23 +20,23 @@
 	]
 	quests: [
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B1000000000002EE"
+			dependencies: ["310000000000006A"]
+			id: "31000000000002EE"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000002EE"
+					id: "05000000000002EE"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "7D0A97C81A652EB5"
+					id: "3E8232569A19A1A8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "65969D7BCAA916B1"
+				id: "08CEB9125F947D3C"
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
@@ -44,22 +44,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002EE"]
-			id: "B1000000000002EF"
+			dependencies: ["31000000000002EE"]
+			id: "31000000000002EF"
 			rewards: [
 				{
-					id: "C1000000000002EF"
+					id: "05000000000002EF"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "9F35E2D490EE6438"
+					id: "6888B6631BFA6724"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "808AF7A6A4D956C6"
+				id: "139B36F3849F9186"
 				item: { count: 16, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
@@ -67,22 +67,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002EF"]
-			id: "B1000000000002F0"
+			dependencies: ["31000000000002EF"]
+			id: "31000000000002F0"
 			rewards: [
 				{
-					id: "C1000000000002F0"
+					id: "05000000000002F0"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "746E748B3C9CEC2C"
+					id: "00113CAE52A1C87F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6030AE00D57E58ED"
+				id: "634EBB0B2549A2ED"
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
 			}]
@@ -90,22 +90,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F0"]
-			id: "B1000000000002F1"
+			dependencies: ["31000000000002F0"]
+			id: "31000000000002F1"
 			rewards: [
 				{
-					id: "C1000000000002F1"
+					id: "05000000000002F1"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "DD16B51CCC737433"
+					id: "146F4AE355486DD6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "680B3E84B1709BDA"
+				id: "386C68035294C445"
 				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
 				type: "item"
 			}]
@@ -113,22 +113,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F1"]
-			id: "B1000000000002F2"
+			dependencies: ["31000000000002F1"]
+			id: "31000000000002F2"
 			rewards: [
 				{
-					id: "C1000000000002F2"
+					id: "05000000000002F2"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "5BDB36FBFF2B926D"
+					id: "4CD3C36B3A0343BD"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4E380588C7910955"
+				id: "6939594D2F5C6762"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
@@ -136,22 +136,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F2"]
-			id: "B1000000000002F3"
+			dependencies: ["31000000000002F2"]
+			id: "31000000000002F3"
 			rewards: [
 				{
-					id: "C1000000000002F3"
+					id: "05000000000002F3"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "4FF1EF40173AC69C"
+					id: "5A81B1EA14F4B5E0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "93349AC80106A0F0"
+				id: "6D17C1D7FA260CD9"
 				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
 				type: "item"
 			}]
@@ -159,22 +159,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F3"]
-			id: "B1000000000002F4"
+			dependencies: ["31000000000002F3"]
+			id: "31000000000002F4"
 			rewards: [
 				{
-					id: "C1000000000002F4"
+					id: "05000000000002F4"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "FAB73D9ACB182B24"
+					id: "47AD875D5C63D2F6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DF481514B7D24AB0"
+				id: "36054E18AF23C17B"
 				item: { count: 1, id: "modern_industrialization:coke_oven" }
 				type: "item"
 			}]
@@ -182,24 +182,24 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F4"]
-			id: "B1000000000002F5"
+			dependencies: ["31000000000002F4"]
+			id: "31000000000002F5"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000002F5"
+					id: "05000000000002F5"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "CB5653D77DB33B2A"
+					id: "4C9265C892842C99"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "346C417E46EE04AF"
+				id: "483BD71554CB8DEF"
 				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 				type: "item"
 			}]
@@ -207,22 +207,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F5"]
-			id: "B1000000000002F6"
+			dependencies: ["31000000000002F5"]
+			id: "31000000000002F6"
 			rewards: [
 				{
-					id: "C1000000000002F6"
+					id: "05000000000002F6"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C2B2C9277C83BF3E"
+					id: "0A8B9C880E6F4ED5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "393D8971163305F2"
+				id: "39270211D28AC120"
 				item: { count: 16, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
@@ -230,22 +230,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B1000000000002F6"]
-			id: "B1000000000002F7"
+			dependencies: ["31000000000002F6"]
+			id: "31000000000002F7"
 			rewards: [
 				{
-					id: "C1000000000002F7"
+					id: "05000000000002F7"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A2B1B47756132BFC"
+					id: "03D6CC64726DA963"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "087EC277F07CE52B"
+				id: "100C79B98112DD0E"
 				item: { count: 1, id: "modern_industrialization:steel_boiler" }
 				type: "item"
 			}]
@@ -253,22 +253,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002F6"]
-			id: "B1000000000002F8"
+			dependencies: ["31000000000002F6"]
+			id: "31000000000002F8"
 			rewards: [
 				{
-					id: "C1000000000002F8"
+					id: "05000000000002F8"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "4FBBC127E5195884"
+					id: "2AA9E016C7E45EF4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "169C47530DF6872F"
+				id: "363A1737E098EF61"
 				item: { count: 8, id: "modern_industrialization:analog_circuit" }
 				type: "item"
 			}]
@@ -276,23 +276,23 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002F8"]
-			id: "B1000000000002F9"
+			dependencies: ["31000000000002F8"]
+			id: "31000000000002F9"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000002F9"
+					id: "05000000000002F9"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "6E7475246BBF4933"
+					id: "5A5205E11C134A83"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "DFED7CD795B8E65C"
+				id: "477F9DFE4DE37E4A"
 				item: { count: 4, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
 			}]
@@ -300,22 +300,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002F9"]
-			id: "B1000000000002FA"
+			dependencies: ["31000000000002F9"]
+			id: "31000000000002FA"
 			rewards: [
 				{
-					id: "C1000000000002FA"
+					id: "05000000000002FA"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "919DDFB9B7A4949B"
+					id: "3BE8B5E011AF3043"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FD2FF3AA62D842B3"
+				id: "2F70B2445C5C4A12"
 				item: { count: 4, id: "modern_industrialization:motor" }
 				type: "item"
 			}]
@@ -323,22 +323,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002FA"]
-			id: "B1000000000002FB"
+			dependencies: ["31000000000002FA"]
+			id: "31000000000002FB"
 			rewards: [
 				{
-					id: "C1000000000002FB"
+					id: "05000000000002FB"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3D7A1039D22D1875"
+					id: "780E2FF8A7415927"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3C11D608A6B15DBE"
+				id: "60791C11A84FD36B"
 				item: { count: 1, id: "modern_industrialization:electric_macerator" }
 				type: "item"
 			}]
@@ -346,22 +346,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002FB"]
-			id: "B1000000000002FC"
+			dependencies: ["31000000000002FB"]
+			id: "31000000000002FC"
 			rewards: [
 				{
-					id: "C1000000000002FC"
+					id: "05000000000002FC"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A78A458C4B53A197"
+					id: "0297C67A43BFD661"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "906DE07C65F0DD58"
+				id: "1AD750427CD493B9"
 				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
 				type: "item"
 			}]
@@ -369,22 +369,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002FC"]
-			id: "B1000000000002FD"
+			dependencies: ["31000000000002FC"]
+			id: "31000000000002FD"
 			rewards: [
 				{
-					id: "C1000000000002FD"
+					id: "05000000000002FD"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "6EE0C031ABBABC47"
+					id: "74D8F43DE8B3E923"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "BD089CCB846C91FE"
+				id: "63014E117348D12A"
 				item: { count: 4, id: "modern_industrialization:electronic_circuit" }
 				type: "item"
 			}]
@@ -392,24 +392,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002FD"]
-			id: "B1000000000002FE"
+			dependencies: ["31000000000002FD"]
+			id: "31000000000002FE"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000002FE"
+					id: "05000000000002FE"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "48D5837D699E3693"
+					id: "0E7324BB62E15B3B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "C8A33AEB07F412C3"
+				id: "42F90AA41B4744A8"
 				item: { count: 1, id: "modern_industrialization:electric_quarry" }
 				type: "item"
 			}]
@@ -417,22 +417,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000002FE"]
-			id: "B1000000000002FF"
+			dependencies: ["31000000000002FE"]
+			id: "31000000000002FF"
 			rewards: [
 				{
-					id: "C1000000000002FF"
+					id: "05000000000002FF"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "14D428F2703EB92E"
+					id: "17F040A4F87E1E6D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "C56A6916460C47B2"
+				id: "644F4A01FE9DAC59"
 				item: { count: 2, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]

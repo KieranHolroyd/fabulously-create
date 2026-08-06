@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "industrial_foregoing"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "industrialforegoing:machine_frame_pity"
 	}
-	id: "A20000000000000E"
+	id: "020000000000000E"
 	order_index: 12
 	quest_links: [
 		{
-			id: "E0BFE44A9ED79604"
-			linked_quest: "B10000000000006A"
+			id: "60BFE44A9ED79604"
+			linked_quest: "310000000000006A"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,23 +20,23 @@
 	]
 	quests: [
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B100000000000320"
+			dependencies: ["310000000000006A"]
+			id: "3100000000000320"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000320"
+					id: "0500000000000320"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "D63A2F0D0965532C"
+					id: "32E97BCCDFA91D7B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F931531686DCAAE7"
+				id: "5C7F8BCBE77E004B"
 				item: { count: 4, id: "industrialforegoing:machine_frame_pity" }
 				type: "item"
 			}]
@@ -44,22 +44,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000320"]
-			id: "B100000000000321"
+			dependencies: ["3100000000000320"]
+			id: "3100000000000321"
 			rewards: [
 				{
-					id: "C100000000000321"
+					id: "0500000000000321"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8495C6E615AB2400"
+					id: "6249BDC9256AE756"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1E5E4B53E4A05FAE"
+				id: "4D4F1BDA72F534EF"
 				item: { count: 2, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
@@ -67,22 +67,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000321"]
-			id: "B100000000000322"
+			dependencies: ["3100000000000321"]
+			id: "3100000000000322"
 			rewards: [
 				{
-					id: "C100000000000322"
+					id: "0500000000000322"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3366AF1E4C6F16BC"
+					id: "7441FE90B378A1E3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "366CCA5EE34062E0"
+				id: "2E672808E21541C6"
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
@@ -90,22 +90,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000322"]
-			id: "B100000000000323"
+			dependencies: ["3100000000000322"]
+			id: "3100000000000323"
 			rewards: [
 				{
-					id: "C100000000000323"
+					id: "0500000000000323"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "65DC8398EAAB23CC"
+					id: "6F94DEA1965E995C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "AB0B1C5D5A452960"
+				id: "790D6F3E0DECF516"
 				item: { count: 16, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
@@ -113,23 +113,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000323"]
-			id: "B100000000000324"
+			dependencies: ["3100000000000323"]
+			id: "3100000000000324"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000324"
+					id: "0500000000000324"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "5E7D368EC1AC7408"
+					id: "714299354262084E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "33E91F9DF7FBFCE7"
+				id: "332E2161AB1796EB"
 				item: { count: 2, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
@@ -137,22 +137,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000324"]
-			id: "B100000000000325"
+			dependencies: ["3100000000000324"]
+			id: "3100000000000325"
 			rewards: [
 				{
-					id: "C100000000000325"
+					id: "0500000000000325"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8BF8760107918C4A"
+					id: "13EC5209C66D03E6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "53476475DE6E2A3F"
+				id: "76959365E25C38FE"
 				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
 				type: "item"
 			}]
@@ -160,22 +160,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000324"]
-			id: "B100000000000326"
+			dependencies: ["3100000000000324"]
+			id: "3100000000000326"
 			rewards: [
 				{
-					id: "C100000000000326"
+					id: "0500000000000326"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "51D591837F22FF38"
+					id: "3D9B8F25D8611A42"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4F424E98A0782DF2"
+				id: "2F31DACD78D1D88A"
 				item: { count: 1, id: "industrialforegoing:plant_sower" }
 				type: "item"
 			}]
@@ -183,22 +183,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000326"]
-			id: "B100000000000327"
+			dependencies: ["3100000000000326"]
+			id: "3100000000000327"
 			rewards: [
 				{
-					id: "C100000000000327"
+					id: "0500000000000327"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "DD827AE9D622FAA0"
+					id: "2834CFD2CD35C6A5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "92821E9F9EB2D5FE"
+				id: "19FBD1C6A7AEA0D2"
 				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
 				type: "item"
 			}]
@@ -206,22 +206,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000327"]
-			id: "B100000000000328"
+			dependencies: ["3100000000000327"]
+			id: "3100000000000328"
 			rewards: [
 				{
-					id: "C100000000000328"
+					id: "0500000000000328"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "879381474E3437F6"
+					id: "465EE0BD67D95A9C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "BBA76481605FE9E0"
+				id: "2C51F358FD0F2A22"
 				item: { count: 2, id: "industrialforegoing:hydroponic_bed" }
 				type: "item"
 			}]
@@ -229,22 +229,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000324"]
-			id: "B100000000000329"
+			dependencies: ["3100000000000324"]
+			id: "3100000000000329"
 			rewards: [
 				{
-					id: "C100000000000329"
+					id: "0500000000000329"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "B374656FB76239B3"
+					id: "3808DBF4F9EBFED0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3A59AAAC119EA73E"
+				id: "35676BC991062C99"
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
 				type: "item"
 			}]
@@ -252,22 +252,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000329"]
-			id: "B10000000000032A"
+			dependencies: ["3100000000000329"]
+			id: "310000000000032A"
 			rewards: [
 				{
-					id: "C10000000000032A"
+					id: "050000000000032A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "1149929EF8CFF3B0"
+					id: "204D8E43A21C3251"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "386F0BF7F22E3271"
+				id: "0E3FEDB9C084C9FF"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
@@ -275,22 +275,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032A"]
-			id: "B10000000000032B"
+			dependencies: ["310000000000032A"]
+			id: "310000000000032B"
 			rewards: [
 				{
-					id: "C10000000000032B"
+					id: "050000000000032B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "937C89C3406362E2"
+					id: "3B7B8F6705C36C84"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1C3EBF625B85F808"
+				id: "5E80B4A94CB69B14"
 				item: { count: 8, id: "industrialforegoing:pink_slime" }
 				type: "item"
 			}]
@@ -298,22 +298,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032B"]
-			id: "B10000000000032C"
+			dependencies: ["310000000000032B"]
+			id: "310000000000032C"
 			rewards: [
 				{
-					id: "C10000000000032C"
+					id: "050000000000032C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3909163C21C1F656"
+					id: "7389F3FE90C6BC81"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "896714F8B4A65176"
+				id: "0FC98F9F92F992C2"
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
 			}]
@@ -321,24 +321,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032C"]
-			id: "B10000000000032D"
+			dependencies: ["310000000000032C"]
+			id: "310000000000032D"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000032D"
+					id: "050000000000032D"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "84F3C4CB6A063CE9"
+					id: "3C69BD9E2BFA5697"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "7654C3481D0D93FC"
+				id: "22E4537EB746970A"
 				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
 				type: "item"
 			}]
@@ -346,22 +346,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032D"]
-			id: "B10000000000032E"
+			dependencies: ["310000000000032D"]
+			id: "310000000000032E"
 			rewards: [
 				{
-					id: "C10000000000032E"
+					id: "050000000000032E"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "AA0869427D3F7436"
+					id: "6D8F52B0C487244B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8938FA398FC927A3"
+				id: "3B48005784B420C3"
 				item: { count: 1, id: "industrialforegoing:laser_drill" }
 				type: "item"
 			}]
@@ -369,22 +369,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032E"]
-			id: "B10000000000032F"
+			dependencies: ["310000000000032E"]
+			id: "310000000000032F"
 			rewards: [
 				{
-					id: "C10000000000032F"
+					id: "050000000000032F"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "9858118FA14585FE"
+					id: "28F3353A15D2F353"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "24A01C46A5AF897D"
+				id: "1787F5654813A5D6"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
@@ -392,24 +392,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000032F"]
-			id: "B100000000000330"
+			dependencies: ["310000000000032F"]
+			id: "3100000000000330"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000330"
+					id: "0500000000000330"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "257C0388AF5965BD"
+					id: "5ACFEC91BA856EC0"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "4F4DE48D1BB07265"
+				id: "7FBFA2A3176CDBD2"
 				item: { count: 1, id: "industrialforegoing:infinity_drill" }
 				type: "item"
 			}]

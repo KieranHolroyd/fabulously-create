@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='industrial_foregoing',
         base=800,
-        chapter_id='A20000000000000E',
+        chapter_id='020000000000000E',
         icon='industrialforegoing:machine_frame_pity',
         title='13. Industrial Foregoing',
         subtitle='Latex, plastic, farms, mob slaughter, lasers, and infinity tools',

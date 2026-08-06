@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='refined_storage',
         base=324,
-        chapter_id='A200000000000006',
+        chapter_id='0200000000000006',
         icon='refinedstorage:controller',
         title='5. Refined Storage',
         subtitle='Digital item and fluid storage, Create integration, and autocrafting',

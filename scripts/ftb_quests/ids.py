@@ -8,8 +8,14 @@ Modern Industrialization 750+, Industrial Foregoing 800+, Immersive Engineering 
 
 
 def quest_id(n: int) -> str:
-    """Stable FTB quest id for an absolute quest number."""
-    return f"B1{n:014X}"
+    """Stable FTB quest id for an absolute quest number.
+
+    FTB Quests ids are parsed as signed 64-bit longs; a leading hex digit
+    of 8-F overflows Long.MAX_VALUE and gets silently discarded/regenerated
+    at load, which orphans every lang file key referencing the original id.
+    Keep the leading nibble (the "3") in 0-7.
+    """
+    return f"31{n:014X}"
 
 
 # Foundations

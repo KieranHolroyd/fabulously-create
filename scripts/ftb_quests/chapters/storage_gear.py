@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='storage_gear',
         base=300,
-        chapter_id='A200000000000003',
+        chapter_id='0200000000000003',
         icon='sophisticatedbackpacks:backpack',
         title='3. Bags & Blades',
         subtitle='Backpacks, drawers, pipes, Silent Gear, building tools',

@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='immersive_engineering',
         base=850,
-        chapter_id='A20000000000000F',
+        chapter_id='020000000000000F',
         icon='immersiveengineering:hammer',
         title='14. Immersive Engineering',
         subtitle='Coke ovens, blast furnaces, wires, diesel, and arc furnaces',

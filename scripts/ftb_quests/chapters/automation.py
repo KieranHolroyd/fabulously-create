@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='automation',
         base=400,
-        chapter_id='A200000000000004',
+        chapter_id='0200000000000004',
         icon='integrateddynamics:cable',
         title='4. Wires & Wits',
         subtitle='ID networks, diesel, FE, and factory enchanting',

@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "powah"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "powah:energizing_orb"
 	}
-	id: "A200000000000007"
+	id: "0200000000000007"
 	order_index: 5
 	quest_links: [
 		{
 			id: "24D3D8531E6FE64A"
-			linked_quest: "B1000000000000DF"
+			linked_quest: "31000000000000DF"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,22 +20,22 @@
 	]
 	quests: [
 		{
-			dependencies: ["B1000000000000DF"]
-			id: "B1000000000001A8"
+			dependencies: ["31000000000000DF"]
+			id: "31000000000001A8"
 			rewards: [
 				{
-					id: "C1000000000001A8"
+					id: "05000000000001A8"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A7192531183D49AB"
+					id: "334A4AE370828575"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "C34F1320FD6C056D"
+				id: "57A33BB65FD156B1"
 				item: { count: 16, id: "powah:dielectric_paste" }
 				type: "item"
 			}]
@@ -43,23 +43,23 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001A8"]
-			id: "B1000000000001A9"
+			dependencies: ["31000000000001A8"]
+			id: "31000000000001A9"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001A9"
+					id: "05000000000001A9"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A03E9E97F3ECCADA"
+					id: "18B5105390775641"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "9C734FD491670178"
+				id: "17091CE7E8EC7990"
 				item: { count: 1, id: "powah:furnator_starter" }
 				type: "item"
 			}]
@@ -67,22 +67,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001A9"]
-			id: "B1000000000001AA"
+			dependencies: ["31000000000001A9"]
+			id: "31000000000001AA"
 			rewards: [
 				{
-					id: "C1000000000001AA"
+					id: "05000000000001AA"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "288CBB47D45C7A9E"
+					id: "43C6FBF2A9E18AA6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3ED613D2C36C60C8"
+				id: "240629F78470966D"
 				item: { count: 16, id: "powah:energy_cable_starter" }
 				type: "item"
 			}]
@@ -90,22 +90,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AA"]
-			id: "B1000000000001AB"
+			dependencies: ["31000000000001AA"]
+			id: "31000000000001AB"
 			rewards: [
 				{
-					id: "C1000000000001AB"
+					id: "05000000000001AB"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "426DDB24A9A93A3A"
+					id: "5543480FE82F3A18"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3D692EC818ECEB48"
+				id: "7C7B57AB8987C051"
 				item: { count: 1, id: "powah:energy_cell_starter" }
 				type: "item"
 			}]
@@ -113,22 +113,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AB"]
-			id: "B1000000000001AC"
+			dependencies: ["31000000000001AB"]
+			id: "31000000000001AC"
 			rewards: [
 				{
-					id: "C1000000000001AC"
+					id: "05000000000001AC"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8DC5A1B08AC515B0"
+					id: "15087C61FE0089E5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "88EB47027DA7F89E"
+				id: "12DFD2C2A813851C"
 				item: { count: 1, id: "powah:thermo_generator_starter" }
 				type: "item"
 			}]
@@ -136,22 +136,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AC"]
-			id: "B1000000000001AD"
+			dependencies: ["31000000000001AC"]
+			id: "31000000000001AD"
 			rewards: [
 				{
-					id: "C1000000000001AD"
+					id: "05000000000001AD"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "27B60F17AF874E21"
+					id: "2C2C28573C89D2DC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5C797D756A619D70"
+				id: "11A5C3C47128CE94"
 				item: { count: 1, id: "powah:magmator_starter" }
 				type: "item"
 			}]
@@ -159,22 +159,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AC"]
-			id: "B1000000000001AE"
+			dependencies: ["31000000000001AC"]
+			id: "31000000000001AE"
 			rewards: [
 				{
-					id: "C1000000000001AE"
+					id: "05000000000001AE"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C0861581FA449C3B"
+					id: "660D2B7523B0D51D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "05111D6181CF9EF0"
+				id: "62BAA2CF4C575CA3"
 				item: { count: 1, id: "powah:solar_panel_starter" }
 				type: "item"
 			}]
@@ -182,24 +182,24 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AB"]
-			id: "B1000000000001AF"
+			dependencies: ["31000000000001AB"]
+			id: "31000000000001AF"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001AF"
+					id: "05000000000001AF"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A007C605BBE3DB14"
+					id: "6D1001D97512F2AC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B8F0A688A7E79A20"
+				id: "72FF93990D6E40A7"
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
@@ -207,22 +207,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001AF"]
-			id: "B1000000000001B0"
+			dependencies: ["31000000000001AF"]
+			id: "31000000000001B0"
 			rewards: [
 				{
-					id: "C1000000000001B0"
+					id: "05000000000001B0"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "0A527FFDF4A3F3EF"
+					id: "283342DFDF4E291E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1B708D5135B4A63A"
+				id: "6736317F30BAFD57"
 				item: { count: 2, id: "powah:energizing_rod_starter" }
 				type: "item"
 			}]
@@ -230,22 +230,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001B0"]
-			id: "B1000000000001B1"
+			dependencies: ["31000000000001B0"]
+			id: "31000000000001B1"
 			rewards: [
 				{
-					id: "C1000000000001B1"
+					id: "05000000000001B1"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "5878BF0290203085"
+					id: "4E1A5B21D7378044"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "7086290345478823"
+				id: "301B3B33A7B80737"
 				item: { count: 8, id: "powah:steel_energized" }
 				type: "item"
 			}]
@@ -253,22 +253,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B2"
+			dependencies: ["31000000000001B1"]
+			id: "31000000000001B2"
 			rewards: [
 				{
-					id: "C1000000000001B2"
+					id: "05000000000001B2"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "55EF2AF25881AE41"
+					id: "49B1AAC3ABB923D1"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "4FCB46C9501A55BF"
+				id: "08777325A2A16DCA"
 				item: { count: 8, id: "powah:crystal_blazing" }
 				type: "item"
 			}]
@@ -276,22 +276,22 @@
 			y: 7.0d
 		},
 		{
-			dependencies: ["B1000000000001B2"]
-			id: "B1000000000001B3"
+			dependencies: ["31000000000001B2"]
+			id: "31000000000001B3"
 			rewards: [
 				{
-					id: "C1000000000001B3"
+					id: "05000000000001B3"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "119A29F1E88EAA4A"
+					id: "0247E3419FE843E0"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "F482CB44FDED93A0"
+				id: "159AD4FDA5210FEE"
 				item: { count: 8, id: "powah:crystal_niotic" }
 				type: "item"
 			}]
@@ -299,22 +299,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B3"]
-			id: "B1000000000001B4"
+			dependencies: ["31000000000001B3"]
+			id: "31000000000001B4"
 			rewards: [
 				{
-					id: "C1000000000001B4"
+					id: "05000000000001B4"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "06A609D37A8269E3"
+					id: "400BDAF93ACBAE1E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8B53C1DD841872D9"
+				id: "596FA51DF5E33236"
 				item: { count: 8, id: "powah:crystal_spirited" }
 				type: "item"
 			}]
@@ -322,22 +322,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B4"]
-			id: "B1000000000001B5"
+			dependencies: ["31000000000001B4"]
+			id: "31000000000001B5"
 			rewards: [
 				{
-					id: "C1000000000001B5"
+					id: "05000000000001B5"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C46EBF01BD99EAE2"
+					id: "54909887BE922F61"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "D80317B6374AE50B"
+				id: "1006AA59B111B755"
 				item: { count: 4, id: "powah:crystal_nitro" }
 				type: "item"
 			}]
@@ -345,22 +345,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B6"
+			dependencies: ["31000000000001B1"]
+			id: "31000000000001B6"
 			rewards: [
 				{
-					id: "C1000000000001B6"
+					id: "05000000000001B6"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "043803BEB3C90E1B"
+					id: "5DB30E4865AA5ACC"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "65004E25EBE65621"
+				id: "353F03FB78A27359"
 				item: { count: 16, id: "powah:uraninite" }
 				type: "item"
 			}]
@@ -368,23 +368,23 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B6"]
-			id: "B1000000000001B7"
+			dependencies: ["31000000000001B6"]
+			id: "31000000000001B7"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001B7"
+					id: "05000000000001B7"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "2AD1535F2EEAFB43"
+					id: "11893731AF765EC2"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "E317F85A6E7AE89C"
+				id: "0C016CBE6682BB08"
 				item: { count: 1, id: "powah:reactor_starter" }
 				type: "item"
 			}]
@@ -392,24 +392,24 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B5"]
-			id: "B1000000000001B8"
+			dependencies: ["31000000000001B5"]
+			id: "31000000000001B8"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001B8"
+					id: "05000000000001B8"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C7A4BA4DBEA5050D"
+					id: "252032D78EC4EF2E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "B44A02E65940406C"
+				id: "4CFAFAE68BBCFC28"
 				item: { count: 1, id: "powah:reactor_nitro" }
 				type: "item"
 			}]
@@ -417,22 +417,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B1"]
-			id: "B1000000000001B9"
+			dependencies: ["31000000000001B1"]
+			id: "31000000000001B9"
 			rewards: [
 				{
-					id: "C1000000000001B9"
+					id: "05000000000001B9"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8909B855A26C2C28"
+					id: "1C6763D647B7A59D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "49B3A87A59871367"
+				id: "3B992FF2224327EE"
 				item: { count: 1, id: "powah:ender_cell_starter" }
 				type: "item"
 			}]
@@ -440,22 +440,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001B9"]
-			id: "B1000000000001BA"
+			dependencies: ["31000000000001B9"]
+			id: "31000000000001BA"
 			rewards: [
 				{
-					id: "C1000000000001BA"
+					id: "05000000000001BA"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3D1919C62082345B"
+					id: "772ABEA161C6C251"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "CCDFF9F00A61DE22"
+				id: "4429CC64219AB705"
 				item: { count: 2, id: "powah:ender_gate_starter" }
 				type: "item"
 			}]
@@ -463,24 +463,24 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001BA"]
-			id: "B1000000000001BB"
+			dependencies: ["31000000000001BA"]
+			id: "31000000000001BB"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001BB"
+					id: "05000000000001BB"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "5FD3840AF838192D"
+					id: "3822AF4856C35258"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9754EF079C33D189"
+				id: "501C1412A4CC7785"
 				item: { count: 1, id: "powah:player_transmitter_starter" }
 				type: "item"
 			}]
@@ -488,22 +488,22 @@
 			y: 9.5d
 		},
 		{
-			dependencies: ["B1000000000001BB"]
-			id: "B1000000000001BC"
+			dependencies: ["31000000000001BB"]
+			id: "31000000000001BC"
 			rewards: [
 				{
-					id: "C1000000000001BC"
+					id: "05000000000001BC"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3CF76E549829E64D"
+					id: "1B0A2408FF8EA747"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "DDF5140D59F21995"
+				id: "00EB3CA9C82BE096"
 				item: { count: 1, id: "powah:battery_starter" }
 				type: "item"
 			}]

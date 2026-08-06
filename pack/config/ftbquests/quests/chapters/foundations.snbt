@@ -2,24 +2,24 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "foundations"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "minecraft:iron_pickaxe"
 	}
-	id: "A200000000000001"
+	id: "0200000000000001"
 	order_index: 0
 	quest_links: [
 		{
 			id: "5115D0D76D166336"
-			linked_quest: "B1000000000000C8"
+			linked_quest: "31000000000000C8"
 			shape: "pentagon"
 			size: 1.25d
 			x: 22.5d
 			y: 0.0d
 		},
 		{
-			id: "88B51DCB9C8D675C"
-			linked_quest: "B10000000000012C"
+			id: "08B51DCB9C8D675C"
+			linked_quest: "310000000000012C"
 			shape: "pentagon"
 			size: 1.25d
 			x: 22.5d
@@ -27,7 +27,7 @@
 		},
 		{
 			id: "31F727E076E9AAE5"
-			linked_quest: "B100000000000190"
+			linked_quest: "3100000000000190"
 			shape: "pentagon"
 			size: 1.25d
 			x: 22.5d
@@ -36,23 +36,23 @@
 	]
 	quests: [
 		{
-			id: "B100000000000064"
+			id: "3100000000000064"
 			shape: "gear"
 			size: 2.0d
 			rewards: [
 				{
-					id: "C100000000000064"
+					id: "0500000000000064"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "36986B8174638F9E"
+					id: "2B3F559A34962E81"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5FA608894EE4C0F5"
+				id: "3D6E735D6E5FA62C"
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
@@ -60,17 +60,17 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000064"]
-			id: "B100000000000065"
+			dependencies: ["3100000000000064"]
+			id: "3100000000000065"
 			rewards: [
 				{
-					id: "C100000000000065"
+					id: "0500000000000065"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "B746E17BAE29BED2"
+				id: "251312261CA3C267"
 				item: { count: 16, id: "minecraft:oak_log" }
 				type: "item"
 			}]
@@ -78,22 +78,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000065"]
-			id: "B100000000000066"
+			dependencies: ["3100000000000065"]
+			id: "3100000000000066"
 			rewards: [
 				{
-					id: "C100000000000066"
+					id: "0500000000000066"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8A2A2C29B4CFCC0D"
+					id: "5F96AE5149944B1F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0DC3BA2C70B80792"
+				id: "10A2D937DFFE5A44"
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
@@ -101,17 +101,17 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000066"]
-			id: "B100000000000067"
+			dependencies: ["3100000000000066"]
+			id: "3100000000000067"
 			rewards: [
 				{
-					id: "C100000000000067"
+					id: "0500000000000067"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "C4FE6DC1A06BF664"
+				id: "2B98F792159792D7"
 				item: { count: 64, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
@@ -119,22 +119,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000067"]
-			id: "B100000000000068"
+			dependencies: ["3100000000000067"]
+			id: "3100000000000068"
 			rewards: [
 				{
-					id: "C100000000000068"
+					id: "0500000000000068"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "AA596591EC6C851E"
+					id: "2D66CB3C469C1631"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0F1C1BFBB5C277CD"
+				id: "518D9924C9E95ED7"
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
@@ -142,19 +142,19 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000068"]
+			dependencies: ["3100000000000068"]
 			hide_until_deps_visible: true
-			id: "B100000000000069"
+			id: "3100000000000069"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000069"
+					id: "0500000000000069"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "993E2B182819FF36"
+				id: "16A7F9FC0095647D"
 				item: { count: 32, id: "minecraft:coal" }
 				type: "item"
 			}]
@@ -162,23 +162,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000068"]
-			id: "B10000000000006A"
+			dependencies: ["3100000000000068"]
+			id: "310000000000006A"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000006A"
+					id: "050000000000006A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C8A5430F5560B0B7"
+					id: "726D82DB2973906C"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "604D803D5C0580B2"
+				id: "7F75C5980D722E39"
 				item: { count: 32, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
@@ -186,17 +186,17 @@
 			y: -2.0d
 		},
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B10000000000006B"
+			dependencies: ["310000000000006A"]
+			id: "310000000000006B"
 			rewards: [
 				{
-					id: "C10000000000006B"
+					id: "050000000000006B"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "DCC79DE5B7F50F0E"
+				id: "0CFCA5C4CFF4BC2C"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
@@ -204,22 +204,22 @@
 			y: -2.0d
 		},
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B10000000000006C"
+			dependencies: ["310000000000006A"]
+			id: "310000000000006C"
 			rewards: [
 				{
-					id: "C10000000000006C"
+					id: "050000000000006C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "9769132585E9ECEE"
+					id: "64F357AC9FCEDBE5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "51EED26C28903188"
+				id: "4ED8E14C0C036F10"
 				item: { count: 32, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
@@ -227,23 +227,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000006B"]
-			id: "B10000000000006D"
+			dependencies: ["310000000000006B"]
+			id: "310000000000006D"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000006D"
+					id: "050000000000006D"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "4946FA20158DC7E5"
+					id: "5B88842146C91BB9"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "94C10AE09EA579A5"
+				id: "36B0BFFE26D4E2EF"
 				item: { count: 5, id: "minecraft:diamond" }
 				type: "item"
 			}]
@@ -251,19 +251,19 @@
 			y: -2.0d
 		},
 		{
-			dependencies: ["B10000000000006D"]
-			id: "B10000000000006E"
+			dependencies: ["310000000000006D"]
+			id: "310000000000006E"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000006E"
+					id: "050000000000006E"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "CE8EAB177A442DDD"
+				id: "116A3C2992E914F9"
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
@@ -271,19 +271,19 @@
 			y: -2.0d
 		},
 		{
-			dependencies: ["B100000000000067"]
+			dependencies: ["3100000000000067"]
 			hide_until_deps_visible: true
-			id: "B10000000000006F"
+			id: "310000000000006F"
 			optional: true
 			rewards: [
 				{
-					id: "C10000000000006F"
+					id: "050000000000006F"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "1BDA6B29F6696B99"
+				id: "2B3E292C200917A9"
 				item: { count: 16, id: "minecraft:bread" }
 				type: "item"
 			}]
@@ -291,17 +291,17 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000068"]
-			id: "B100000000000070"
+			dependencies: ["3100000000000068"]
+			id: "3100000000000070"
 			rewards: [
 				{
-					id: "C100000000000070"
+					id: "0500000000000070"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "83029B132C0F998F"
+				id: "68CB9E136B96E19F"
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
@@ -309,22 +309,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000070"]
-			id: "B100000000000071"
+			dependencies: ["3100000000000070"]
+			id: "3100000000000071"
 			rewards: [
 				{
-					id: "C100000000000071"
+					id: "0500000000000071"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "9C34B1D16AE14EDC"
+					id: "2F789F740E3EC4AF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "CB3BAC9885CBB761"
+				id: "5BF07A6E4DBBC69B"
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
@@ -332,19 +332,19 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000071"]
+			dependencies: ["3100000000000071"]
 			hide_until_deps_visible: true
-			id: "B100000000000072"
+			id: "3100000000000072"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000072"
+					id: "0500000000000072"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "3546D9385C8E776F"
+				id: "1A4F29BC01E64C3B"
 				item: { count: 1, id: "farmersdelight:iron_knife" }
 				type: "item"
 			}]
@@ -352,24 +352,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000006B"]
+			dependencies: ["310000000000006B"]
 			hide_until_deps_visible: true
-			id: "B100000000000073"
+			id: "3100000000000073"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000073"
+					id: "0500000000000073"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "E74890D4832259D4"
+					id: "11238DA1D0EAA993"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DEE03941F95A6136"
+				id: "7FB5A132FF6CB1D2"
 				item: { count: 1, id: "comforts:sleeping_bag_red" }
 				type: "item"
 			}]
@@ -377,22 +377,22 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B10000000000006B"]
-			id: "B100000000000074"
+			dependencies: ["310000000000006B"]
+			id: "3100000000000074"
 			rewards: [
 				{
-					id: "C100000000000074"
+					id: "0500000000000074"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "EC076FB13620033A"
+					id: "0FC6594BC1C90EDE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "24F7F10643DA4771"
+				id: "7A20BC502190D2C2"
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
 				type: "item"
 			}]
@@ -400,17 +400,17 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B100000000000075"
+			dependencies: ["310000000000006A"]
+			id: "3100000000000075"
 			rewards: [
 				{
-					id: "C100000000000075"
+					id: "0500000000000075"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "B5FCA3D5581C20BE"
+				id: "7AAA47D31DE028CA"
 				item: { count: 1, id: "ironchest:iron_chest" }
 				type: "item"
 			}]
@@ -418,22 +418,22 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000075"]
-			id: "B100000000000076"
+			dependencies: ["3100000000000075"]
+			id: "3100000000000076"
 			rewards: [
 				{
-					id: "C100000000000076"
+					id: "0500000000000076"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "1C706E02321277A8"
+					id: "223B5976D517102E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A1182C1A38073951"
+				id: "06386A4D875C91F0"
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
@@ -441,24 +441,24 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B10000000000006E"]
+			dependencies: ["310000000000006E"]
 			hide_until_deps_visible: true
-			id: "B100000000000077"
+			id: "3100000000000077"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000077"
+					id: "0500000000000077"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "F682338F6623D24D"
+					id: "2A81C63A6C2ECD50"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "B6976CCCE8F9D093"
+				id: "147E24C05F2AEE45"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
@@ -466,24 +466,24 @@
 			y: -4.0d
 		},
 		{
-			dependencies: ["B10000000000006E"]
+			dependencies: ["310000000000006E"]
 			hide_until_deps_visible: true
-			id: "B100000000000078"
+			id: "3100000000000078"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000078"
+					id: "0500000000000078"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8C997C5B85401FE6"
+					id: "408F72DB5297A1DB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F311B9510FCF66B5"
+				id: "44CB14DE296C3E65"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
@@ -491,19 +491,19 @@
 			y: -4.0d
 		},
 		{
-			dependencies: ["B100000000000074"]
+			dependencies: ["3100000000000074"]
 			hide_until_deps_visible: true
-			id: "B100000000000079"
+			id: "3100000000000079"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000079"
+					id: "0500000000000079"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "E768B54A42FDA9BB"
+				id: "5B8009413EAE74EE"
 				item: { count: 1, id: "supplementaries:wrench" }
 				type: "item"
 			}]
@@ -511,24 +511,24 @@
 			y: -4.0d
 		},
 		{
-			dependencies: ["B100000000000075"]
+			dependencies: ["3100000000000075"]
 			hide_until_deps_visible: true
-			id: "B10000000000007A"
+			id: "310000000000007A"
 			optional: true
 			rewards: [
 				{
-					id: "C10000000000007A"
+					id: "050000000000007A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "324F355EFE0AA91F"
+					id: "14BD9D5B8E864DE0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F4FFB23DE6750D9C"
+				id: "35B52664310AA145"
 				item: { count: 1, id: "another_furniture:oak_chair" }
 				type: "item"
 			}]
@@ -536,24 +536,24 @@
 			y: -4.0d
 		},
 		{
-			dependencies: ["B10000000000006A"]
+			dependencies: ["310000000000006A"]
 			hide_until_deps_visible: true
-			id: "B10000000000007B"
+			id: "310000000000007B"
 			optional: true
 			rewards: [
 				{
-					id: "C10000000000007B"
+					id: "050000000000007B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "372DD062E0DA1C22"
+					id: "0E730CAAD91DDEB7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D1C068B51ACABAE7"
+				id: "5E4B526F9974BEC7"
 				item: { count: 16, id: "minecraft:leather" }
 				type: "item"
 			}]

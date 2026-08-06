@@ -18,9 +18,15 @@ from .ids import quest_id
 
 
 def stable_link_id(chapter_key: str, linked_absolute: int, x: float, y: float) -> str:
-    """Deterministic 16-hex id for a quest_link entry."""
+    """Deterministic 16-hex id for a quest_link entry.
+
+    FTB Quests ids are parsed as signed 64-bit longs; a leading hex digit of
+    8-F overflows Long.MAX_VALUE and gets silently discarded/regenerated at
+    load. Force the leading nibble into 0-7.
+    """
     payload = f"{chapter_key}:{linked_absolute}:{x:.3f}:{y:.3f}".encode()
-    return hashlib.md5(payload).hexdigest()[:16].upper()
+    digest = hashlib.md5(payload).hexdigest()[:16].upper()
+    return format(int(digest, 16) & 0x7FFFFFFFFFFFFFFF, "016X")
 
 
 def page_link(absolute: int, label: str) -> str:

@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='rftools',
         base=445,
-        chapter_id='A200000000000008',
+        chapter_id='0200000000000008',
         icon='rftoolsbase:machine_frame',
         title='7. RFTools',
         subtitle='Power, automation, storage scanning, teleportation, and dimensions',

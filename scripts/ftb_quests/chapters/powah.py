@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='powah',
         base=424,
-        chapter_id='A200000000000007',
+        chapter_id='0200000000000007',
         icon='powah:energizing_orb',
         title='6. Powah',
         subtitle='FE generation, energizing tiers, reactors, and wireless charging',

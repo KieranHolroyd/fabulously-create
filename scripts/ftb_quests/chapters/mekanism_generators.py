@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='mekanism_generators',
         base=650,
-        chapter_id='A20000000000000B',
+        chapter_id='020000000000000B',
         icon='mekanismgenerators:fission_reactor_casing',
         title='10. Mekanism Reactors',
         subtitle='Heat, solar, wind, fission, turbines, and fusion power',

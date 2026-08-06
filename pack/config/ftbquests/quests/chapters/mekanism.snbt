@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "mekanism"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "mekanism:steel_casing"
 	}
-	id: "A20000000000000A"
+	id: "020000000000000A"
 	order_index: 8
 	quest_links: [
 		{
-			id: "932D38C28CBE191D"
-			linked_quest: "B1000000000000DF"
+			id: "132D38C28CBE191D"
+			linked_quest: "31000000000000DF"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,22 +20,22 @@
 	]
 	quests: [
 		{
-			dependencies: ["B1000000000000DF"]
-			id: "B100000000000258"
+			dependencies: ["31000000000000DF"]
+			id: "3100000000000258"
 			rewards: [
 				{
-					id: "C100000000000258"
+					id: "0500000000000258"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "1820BC7C086BDD74"
+					id: "47692FEB10260800"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "52BD0F636C21DA9F"
+				id: "6BB438B1CC35C1C7"
 				item: { count: 16, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
@@ -43,22 +43,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000258"]
-			id: "B100000000000259"
+			dependencies: ["3100000000000258"]
+			id: "3100000000000259"
 			rewards: [
 				{
-					id: "C100000000000259"
+					id: "0500000000000259"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "AD78FB7305FA9448"
+					id: "5C1D0B35BB62A3B6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7A253CD4297378F5"
+				id: "1B19575ECE98F2E2"
 				item: { count: 16, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
@@ -66,23 +66,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000259"]
-			id: "B10000000000025A"
+			dependencies: ["3100000000000259"]
+			id: "310000000000025A"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000025A"
+					id: "050000000000025A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "D63357150CEBD4CB"
+					id: "17399D19AC13F46E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7ACDEA63F7E1DC89"
+				id: "61416F4AD16D1936"
 				item: { count: 8, id: "mekanism:steel_casing" }
 				type: "item"
 			}]
@@ -90,22 +90,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025A"]
-			id: "B10000000000025B"
+			dependencies: ["310000000000025A"]
+			id: "310000000000025B"
 			rewards: [
 				{
-					id: "C10000000000025B"
+					id: "050000000000025B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "E6C57B2FB639B07B"
+					id: "64C3DECD161AB444"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1872889EAB19BCD2"
+				id: "0054A4F3272F54F6"
 				item: { count: 8, id: "mekanism:basic_control_circuit" }
 				type: "item"
 			}]
@@ -113,23 +113,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025B"]
-			id: "B10000000000025C"
+			dependencies: ["310000000000025B"]
+			id: "310000000000025C"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000025C"
+					id: "050000000000025C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "40919BF886BBC45B"
+					id: "4D1BE933D863A5FB"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "A7F0F0792388F1F4"
+				id: "5425FF220A5B36A9"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
@@ -137,22 +137,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025C"]
-			id: "B10000000000025D"
+			dependencies: ["310000000000025C"]
+			id: "310000000000025D"
 			rewards: [
 				{
-					id: "C10000000000025D"
+					id: "050000000000025D"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "DE285B2BB4631B56"
+					id: "2D4F0B53D5F57B0D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "C262A1AED326CA43"
+				id: "4B19946BA05DBD07"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
@@ -160,22 +160,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025D"]
-			id: "B10000000000025E"
+			dependencies: ["310000000000025D"]
+			id: "310000000000025E"
 			rewards: [
 				{
-					id: "C10000000000025E"
+					id: "050000000000025E"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "931A37A160EFD73D"
+					id: "1A8CA4785E6FAE16"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "9B1AADC41B7B11AF"
+				id: "00B4D2640601E431"
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
@@ -183,22 +183,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025D"]
-			id: "B10000000000025F"
+			dependencies: ["310000000000025D"]
+			id: "310000000000025F"
 			rewards: [
 				{
-					id: "C10000000000025F"
+					id: "050000000000025F"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "0ED9D6C97670C09F"
+					id: "23E06B7F7ECBDCA8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DE7948A59E7D42A2"
+				id: "180960128311B2F2"
 				item: { count: 8, id: "mekanism:alloy_infused" }
 				type: "item"
 			}]
@@ -206,22 +206,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000025F"]
-			id: "B100000000000260"
+			dependencies: ["310000000000025F"]
+			id: "3100000000000260"
 			rewards: [
 				{
-					id: "C100000000000260"
+					id: "0500000000000260"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "348CCCFB4960CCF7"
+					id: "6038E2EBE154E0C0"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "65DB81642B50199B"
+				id: "6A51AFE34E1647A3"
 				item: { count: 4, id: "mekanism:advanced_control_circuit" }
 				type: "item"
 			}]
@@ -229,22 +229,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000260"]
-			id: "B100000000000261"
+			dependencies: ["3100000000000260"]
+			id: "3100000000000261"
 			rewards: [
 				{
-					id: "C100000000000261"
+					id: "0500000000000261"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A522139D4824F20C"
+					id: "7A226F0E2F99A679"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "CCAB44F6345A7594"
+				id: "74B0F39C91787AB4"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
 			}]
@@ -252,22 +252,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000261"]
-			id: "B100000000000262"
+			dependencies: ["3100000000000261"]
+			id: "3100000000000262"
 			rewards: [
 				{
-					id: "C100000000000262"
+					id: "0500000000000262"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "92EB2BCD5B44B250"
+					id: "406B153547666026"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "E48091F69ED31128"
+				id: "61472FA29FC2F9B2"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
 			}]
@@ -275,22 +275,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000262"]
-			id: "B100000000000263"
+			dependencies: ["3100000000000262"]
+			id: "3100000000000263"
 			rewards: [
 				{
-					id: "C100000000000263"
+					id: "0500000000000263"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "61BAFC608E983DCB"
+					id: "2A19B7FAF89BBDF8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "733B698237FB1D7F"
+				id: "066A44338025B40B"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
 			}]
@@ -298,22 +298,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000260"]
-			id: "B100000000000264"
+			dependencies: ["3100000000000260"]
+			id: "3100000000000264"
 			rewards: [
 				{
-					id: "C100000000000264"
+					id: "0500000000000264"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "F0EB1CE32939D1CD"
+					id: "6516222AD541DD26"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2C23D9C670613EE9"
+				id: "13886233509A1C17"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
 				type: "item"
 			}]
@@ -321,22 +321,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000025B"]
-			id: "B100000000000265"
+			dependencies: ["310000000000025B"]
+			id: "3100000000000265"
 			rewards: [
 				{
-					id: "C100000000000265"
+					id: "0500000000000265"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "401DAF7AEE5D60C7"
+					id: "0E1CAEE76269B91D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1A51F02A8F7E313F"
+				id: "01D927ED8420B5A3"
 				item: { count: 32, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
@@ -344,22 +344,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000265"]
-			id: "B100000000000266"
+			dependencies: ["3100000000000265"]
+			id: "3100000000000266"
 			rewards: [
 				{
-					id: "C100000000000266"
+					id: "0500000000000266"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "CCAB0B9BCEEF144F"
+					id: "11DB5DD84CE25C01"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1CCCA8E777E1124C"
+				id: "099A08E75193E7F7"
 				item: { count: 32, id: "mekanism:basic_logistical_transporter" }
 				type: "item"
 			}]
@@ -367,22 +367,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000266"]
-			id: "B100000000000267"
+			dependencies: ["3100000000000266"]
+			id: "3100000000000267"
 			rewards: [
 				{
-					id: "C100000000000267"
+					id: "0500000000000267"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "80242DFB41A730EA"
+					id: "4115E258DBE67938"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "66FFEAC5C35523D6"
+				id: "17977AFCCE421E95"
 				item: { count: 16, id: "mekanism:basic_pressurized_tube" }
 				type: "item"
 			}]
@@ -390,22 +390,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000265"]
-			id: "B100000000000268"
+			dependencies: ["3100000000000265"]
+			id: "3100000000000268"
 			rewards: [
 				{
-					id: "C100000000000268"
+					id: "0500000000000268"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "1D27C554CE243F12"
+					id: "1E7563EE35EE1507"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "BF404D7E78797465"
+				id: "18BCEDADF6D2FAAB"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
 				type: "item"
 			}]
@@ -413,22 +413,22 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B100000000000260"]
-			id: "B100000000000269"
+			dependencies: ["3100000000000260"]
+			id: "3100000000000269"
 			rewards: [
 				{
-					id: "C100000000000269"
+					id: "0500000000000269"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A8B1CC6C0FFFA82D"
+					id: "45FF5D7B9DD8B08E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "1DB1D62B7F414756"
+				id: "6A01FC2B50E7C530"
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
@@ -436,24 +436,24 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B100000000000260"]
-			id: "B10000000000026A"
+			dependencies: ["3100000000000260"]
+			id: "310000000000026A"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000026A"
+					id: "050000000000026A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "CA6B01D88A9B507D"
+					id: "0447A4FB1DAEC4EA"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "EF61DCCF0DEDBB88"
+				id: "7589FA5DCE95F434"
 				item: { count: 1, id: "mekanism:digital_miner" }
 				type: "item"
 			}]
@@ -461,22 +461,22 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B10000000000026A"]
-			id: "B10000000000026B"
+			dependencies: ["310000000000026A"]
+			id: "310000000000026B"
 			rewards: [
 				{
-					id: "C10000000000026B"
+					id: "050000000000026B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "D25078FC470DD202"
+					id: "0604CD46BFE0191A"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "CA4E83864F286E6E"
+				id: "62EC0CB45F089B07"
 				item: { count: 1, id: "mekanism:atomic_disassembler" }
 				type: "item"
 			}]
@@ -484,23 +484,23 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B100000000000268"]
-			id: "B10000000000026C"
+			dependencies: ["3100000000000268"]
+			id: "310000000000026C"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000026C"
+					id: "050000000000026C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "0FE2947E815241BE"
+					id: "7DF26D79EB8F1969"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "EF6339BC4B4F95B3"
+				id: "57ABF39B0F13C2CF"
 				item: { count: 1, id: "mekanism:qio_dashboard" }
 				type: "item"
 			}]
@@ -508,22 +508,22 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B100000000000264"]
-			id: "B10000000000026D"
+			dependencies: ["3100000000000264"]
+			id: "310000000000026D"
 			rewards: [
 				{
-					id: "C10000000000026D"
+					id: "050000000000026D"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "0BD3AA75AF6DBE88"
+					id: "45E0FEBABD5E8F1F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FB32CFF143BB0080"
+				id: "06335D686DB8C223"
 				item: { count: 4, id: "mekanism:alloy_atomic" }
 				type: "item"
 			}]
@@ -531,24 +531,24 @@
 			y: 5.0d
 		},
 		{
-			dependencies: ["B10000000000026D"]
-			id: "B10000000000026E"
+			dependencies: ["310000000000026D"]
+			id: "310000000000026E"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000026E"
+					id: "050000000000026E"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "2975D3D6C0AFF723"
+					id: "044A66475D28C5F8"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "8C075D5F701C51A4"
+				id: "727AA68ECC2273B6"
 				item: { count: 1, id: "mekanism:teleporter" }
 				type: "item"
 			}]

@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='foundations',
         base=100,
-        chapter_id='A200000000000001',
+        chapter_id='0200000000000001',
         icon='minecraft:iron_pickaxe',
         title='1. Getting Started',
         subtitle='Wood, iron, food, Waystones — leave the caves ready',

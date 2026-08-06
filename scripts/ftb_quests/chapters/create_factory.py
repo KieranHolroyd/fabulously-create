@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='create_factory',
         base=200,
-        chapter_id='A200000000000002',
+        chapter_id='0200000000000002',
         icon='create:cogwheel',
         title='2. Turning Gears',
         subtitle='Andesite → brass → drills, trains, and power',

@@ -21,7 +21,7 @@ from ftb_quests.compile import CompiledChapter, compile_book
 ROOT = Path(__file__).resolve().parents[1]
 QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
 
-GROUP_MAIN = "A100000000000001"
+GROUP_MAIN = "0100000000000001"
 FILE_ID = "0000000000000001"
 REWARD_TABLE_ID = "7100000000000001"
 REWARD_TABLE_ID_LONG = int(REWARD_TABLE_ID, 16)
@@ -61,7 +61,16 @@ _BARE_AMP = re.compile(r"(?<!\\)&(?![0-9a-fk-orA-FK-OR])")
 
 
 def hid() -> str:
-    return secrets.token_hex(8).upper()
+    """Random 16-hex-digit FTB Quests id.
+
+    FTB Quests ids are parsed as signed 64-bit longs; a leading hex digit
+    of 8-F overflows Long.MAX_VALUE and gets silently discarded/regenerated
+    at load, orphaning any lang file keys that reference the original id.
+    Keep the leading nibble in 0-7.
+    """
+    first = secrets.choice("01234567")
+    rest = secrets.token_hex(8).upper()[1:]
+    return first + rest
 
 
 def escape_ftb_ampersands(s: str) -> str:
@@ -127,7 +136,7 @@ def quest_snbt(
     lines.append("\t\t\trewards: [")
     reward_blocks = []
     for r in rewards:
-        rid = f"C1{int(qid[2:], 16):014X}" if r["type"] == "random" else hid()
+        rid = f"05{int(qid[2:], 16):014X}" if r["type"] == "random" else hid()
         rb = ["\t\t\t\t{"]
         rtype = r["type"]
         if rtype == "item":
@@ -345,40 +354,34 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # FTB Quests (2101.1.x) loads a split `quests/lang/<locale>/...` tree,
-    # matching what other actively-maintained NeoForge 1.21 packs (e.g.
-    # ATM-10) ship: file.snbt, chapter_group.snbt, chapter.snbt, and one
-    # file per chapter under chapters/. A single combined en_us.snbt is
-    # NOT picked up.
-    lang_dir = QUESTS / "lang" / "en_us"
-    (lang_dir / "chapters").mkdir(parents=True, exist_ok=True)
-
-    (lang_dir / "file.snbt").write_text(
-        "\n".join(["{", f'\tfile.{FILE_ID}.title: "Fabulously Create"', "}", ""]),
-        encoding="utf-8",
-    )
-    (lang_dir / "chapter_group.snbt").write_text(
-        "\n".join(
-            ["{", f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"', "}", ""]
-        ),
-        encoding="utf-8",
-    )
-
-    chapter_lines = ["{"]
+    # FTB Quests (2101.1.x) reads/writes exactly one flat file per locale —
+    # `quests/lang/<locale>.snbt`. The mod itself only ever creates this
+    # flat file (confirmed by editing quest text in-game and inspecting the
+    # server's config/ftbquests/quests/lang/ output); a split lang/<locale>/
+    # tree is never read.
+    #
+    # The real cause of missing text wasn't the lang file shape at all: FTB
+    # Quests ids are parsed as signed 64-bit longs, and any id whose leading
+    # hex nibble is 8-F overflows Long.MAX_VALUE. Out-of-range ids get
+    # silently discarded and regenerated at load, which orphans every lang
+    # key referencing the original id — titles/subtitles happened to still
+    # render because chapter titles are literal fields, not lang lookups.
+    # See hid() and ftb_quests/ids.py:quest_id() for the id-range fix.
+    lang_lines = [
+        "{",
+        f'\tfile.{FILE_ID}.title: "Fabulously Create"',
+        f'\tchapter_group.{GROUP_MAIN}.title: "Main Progression"',
+    ]
     for chapter in compiled.values():
-        chapter_lines.append(f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"')
-        chapter_lines.append(
+        lang_lines.append(f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"')
+        lang_lines.append(
             f'\tchapter.{chapter.chapter_id}.chapter_subtitle: '
             f'["{snbt_escape(chapter.subtitle)}"]'
         )
-    chapter_lines.extend(["}", ""])
-    (lang_dir / "chapter.snbt").write_text("\n".join(chapter_lines), encoding="utf-8")
-
     for chapter in compiled.values():
-        quest_lines = ["{", *quest_lang_lines(chapter), "}", ""]
-        (lang_dir / "chapters" / f"{chapter.key}.snbt").write_text(
-            "\n".join(quest_lines), encoding="utf-8"
-        )
+        lang_lines.extend(quest_lang_lines(chapter))
+    lang_lines.extend(["}", ""])
+    (QUESTS / "lang" / "en_us.snbt").write_text("\n".join(lang_lines), encoding="utf-8")
 
     for order_index, chapter in enumerate(compiled.values()):
         write_chapter(chapter, order_index)

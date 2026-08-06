@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "immersive_engineering"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "immersiveengineering:hammer"
 	}
-	id: "A20000000000000F"
+	id: "020000000000000F"
 	order_index: 13
 	quest_links: [
 		{
-			id: "92CA0BAF6EA0742B"
-			linked_quest: "B10000000000006A"
+			id: "12CA0BAF6EA0742B"
+			linked_quest: "310000000000006A"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,23 +20,23 @@
 	]
 	quests: [
 		{
-			dependencies: ["B10000000000006A"]
-			id: "B100000000000352"
+			dependencies: ["310000000000006A"]
+			id: "3100000000000352"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000352"
+					id: "0500000000000352"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "BC5574E0FC6CFAD5"
+					id: "129BEF70FED80DF6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "951660CFEF2B5FF5"
+				id: "28485AABD8B2FE35"
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
@@ -44,22 +44,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000352"]
-			id: "B100000000000353"
+			dependencies: ["3100000000000352"]
+			id: "3100000000000353"
 			rewards: [
 				{
-					id: "C100000000000353"
+					id: "0500000000000353"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "6E525FD4B84559E3"
+					id: "53EE83C1F8C038E1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "78017F7B8CDE51F6"
+				id: "61C7C57B9EAD0BC3"
 				item: { count: 1, id: "immersiveengineering:manual" }
 				type: "item"
 			}]
@@ -67,22 +67,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000353"]
-			id: "B100000000000354"
+			dependencies: ["3100000000000353"]
+			id: "3100000000000354"
 			rewards: [
 				{
-					id: "C100000000000354"
+					id: "0500000000000354"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "60E82E593E582C98"
+					id: "2C9CFF78C83B3315"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "8B95635520CEB52C"
+				id: "69D737A6C2BEDD48"
 				item: { count: 32, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
@@ -90,22 +90,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000354"]
-			id: "B100000000000355"
+			dependencies: ["3100000000000354"]
+			id: "3100000000000355"
 			rewards: [
 				{
-					id: "C100000000000355"
+					id: "0500000000000355"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "506671EB6B77FCFF"
+					id: "1ECC35875B125C99"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "84EB1892FE377709"
+				id: "644D5ADAE78546A5"
 				item: { count: 24, id: "immersiveengineering:hemp_fiber" }
 				type: "item"
 			}]
@@ -113,22 +113,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000354"]
-			id: "B100000000000356"
+			dependencies: ["3100000000000354"]
+			id: "3100000000000356"
 			rewards: [
 				{
-					id: "C100000000000356"
+					id: "0500000000000356"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "921166C80966C299"
+					id: "5FE7E1C6548472A5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "F8FD925EE27D0898"
+				id: "71B87AFFFDFE2E47"
 				item: { count: 27, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
@@ -136,23 +136,23 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000356"]
-			id: "B100000000000357"
+			dependencies: ["3100000000000356"]
+			id: "3100000000000357"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000357"
+					id: "0500000000000357"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "E98CEE64331F6E64"
+					id: "4744A2871A581CFE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "84FBD24AC0597C1E"
+				id: "07E4B2DF7F3BDDE5"
 				item: { count: 16, id: "immersiveengineering:coal_coke" }
 				type: "item"
 			}]
@@ -160,22 +160,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000357"]
-			id: "B100000000000358"
+			dependencies: ["3100000000000357"]
+			id: "3100000000000358"
 			rewards: [
 				{
-					id: "C100000000000358"
+					id: "0500000000000358"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "65FE38AB8539E17C"
+					id: "59384AAC040B4E13"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4856E0BE162C3CBD"
+				id: "475A58538B61DBE6"
 				item: { count: 27, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
@@ -183,22 +183,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000358"]
-			id: "B100000000000359"
+			dependencies: ["3100000000000358"]
+			id: "3100000000000359"
 			rewards: [
 				{
-					id: "C100000000000359"
+					id: "0500000000000359"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "9DF7F92E34BB061C"
+					id: "18AD9E3D492A1DAF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "210860A8AD4F5BCC"
+				id: "206BB710016DA7AF"
 				item: { count: 16, id: "immersiveengineering:ingot_steel" }
 				type: "item"
 			}]
@@ -206,22 +206,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000359"]
-			id: "B10000000000035A"
+			dependencies: ["3100000000000359"]
+			id: "310000000000035A"
 			rewards: [
 				{
-					id: "C10000000000035A"
+					id: "050000000000035A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "624CE6695443F72E"
+					id: "2D99BF3CD9AB509A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DDA205C9DC065F86"
+				id: "62FDB3C1E6744DEA"
 				item: { count: 8, id: "immersiveengineering:light_engineering" }
 				type: "item"
 			}]
@@ -229,22 +229,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B10000000000035A"]
-			id: "B10000000000035B"
+			dependencies: ["310000000000035A"]
+			id: "310000000000035B"
 			rewards: [
 				{
-					id: "C10000000000035B"
+					id: "050000000000035B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "01A0628922C29810"
+					id: "5CAACC5CF6CDDAD6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "72D980B9ED08C2B5"
+				id: "517BC82777726195"
 				item: { count: 4, id: "immersiveengineering:heavy_engineering" }
 				type: "item"
 			}]
@@ -252,22 +252,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035A"]
-			id: "B10000000000035C"
+			dependencies: ["310000000000035A"]
+			id: "310000000000035C"
 			rewards: [
 				{
-					id: "C10000000000035C"
+					id: "050000000000035C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C8A08EE63C826E21"
+					id: "6B6CE3B084D84FEA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "016816139BA097B3"
+				id: "2356368B2D071A2C"
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
@@ -275,22 +275,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035A"]
-			id: "B10000000000035D"
+			dependencies: ["310000000000035A"]
+			id: "310000000000035D"
 			rewards: [
 				{
-					id: "C10000000000035D"
+					id: "050000000000035D"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "CA89FE9763B1D4D8"
+					id: "56D8925226D5B93F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "497B2619EDA3B4AA"
+				id: "1EFEB626AE786EA6"
 				item: { count: 16, id: "immersiveengineering:wirecoil_copper" }
 				type: "item"
 			}]
@@ -298,22 +298,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035D"]
-			id: "B10000000000035E"
+			dependencies: ["310000000000035D"]
+			id: "310000000000035E"
 			rewards: [
 				{
-					id: "C10000000000035E"
+					id: "050000000000035E"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "D901B5C497545E10"
+					id: "60476B6BF5383353"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "78090E29E6091E13"
+				id: "0C055DDBA3AF1E1F"
 				item: { count: 8, id: "immersiveengineering:connector_lv" }
 				type: "item"
 			}]
@@ -321,22 +321,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035E"]
-			id: "B10000000000035F"
+			dependencies: ["310000000000035E"]
+			id: "310000000000035F"
 			rewards: [
 				{
-					id: "C10000000000035F"
+					id: "050000000000035F"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "37EA544499EC1E0E"
+					id: "1F85DABDE32C2DC7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "B7DE3DDD22F1C768"
+				id: "4756F0D1053012CF"
 				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
@@ -344,22 +344,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000355"]
-			id: "B100000000000360"
+			dependencies: ["3100000000000355"]
+			id: "3100000000000360"
 			rewards: [
 				{
-					id: "C100000000000360"
+					id: "0500000000000360"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "887B1A10E0B96069"
+					id: "55E67F2B9795A354"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "28F179EE07181417"
+				id: "454D76D48DBBF994"
 				item: { count: 1, id: "immersiveengineering:windmill" }
 				type: "item"
 			}]
@@ -367,24 +367,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035B"]
-			id: "B100000000000361"
+			dependencies: ["310000000000035B"]
+			id: "3100000000000361"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000361"
+					id: "0500000000000361"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "4AA349D4CB1C80C1"
+					id: "20E8451EDFAAB667"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "212A8FB333CE6666"
+				id: "1D4C02E06067571B"
 				item: { count: 4, id: "immersiveengineering:radiator" }
 				type: "item"
 			}]
@@ -392,22 +392,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B10000000000035B"]
-			id: "B100000000000362"
+			dependencies: ["310000000000035B"]
+			id: "3100000000000362"
 			rewards: [
 				{
-					id: "C100000000000362"
+					id: "0500000000000362"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "2E7A5D5D91BC98EE"
+					id: "6F5C3F6E1F82D4D8"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "70E3ACD826B7C558"
+				id: "0DC7DBAADDFCE43A"
 				item: { count: 16, id: "immersiveengineering:conveyor_basic" }
 				type: "item"
 			}]
@@ -415,24 +415,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000361"]
-			id: "B100000000000363"
+			dependencies: ["3100000000000361"]
+			id: "3100000000000363"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000363"
+					id: "0500000000000363"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "1F42EA042C7BAD89"
+					id: "194FFF9194C717AE"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3D59FBA9F30DE59D"
+				id: "2BF7EF6C170887B6"
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]

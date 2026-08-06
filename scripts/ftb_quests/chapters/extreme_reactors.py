@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='extreme_reactors',
         base=700,
-        chapter_id='A20000000000000C',
+        chapter_id='020000000000000C',
         icon='bigreactors:basic_reactorcontroller',
         title='11. Extreme Reactors',
         subtitle='Yellorium reactors, steam turbines, and fuel reprocessing',

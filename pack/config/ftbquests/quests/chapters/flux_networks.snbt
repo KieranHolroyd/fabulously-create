@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "flux_networks"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "fluxnetworks:flux_controller"
 	}
-	id: "A200000000000009"
+	id: "0200000000000009"
 	order_index: 7
 	quest_links: [
 		{
 			id: "184C2BF97341E2DD"
-			linked_quest: "B1000000000001C2"
+			linked_quest: "31000000000001C2"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,22 +20,22 @@
 	]
 	quests: [
 		{
-			dependencies: ["B1000000000001C2"]
-			id: "B1000000000001D6"
+			dependencies: ["31000000000001C2"]
+			id: "31000000000001D6"
 			rewards: [
 				{
-					id: "C1000000000001D6"
+					id: "05000000000001D6"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "162DDC776CA03FE4"
+					id: "6847033D4653A364"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "26CE97224119F77F"
+				id: "0A319BE851AE9033"
 				item: { count: 16, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
@@ -43,22 +43,22 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001D6"]
-			id: "B1000000000001D7"
+			dependencies: ["31000000000001D6"]
+			id: "31000000000001D7"
 			rewards: [
 				{
-					id: "C1000000000001D7"
+					id: "05000000000001D7"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "E5D54AA3A3AFAB57"
+					id: "02C015BAAC609BEA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D5124F758C1C77C4"
+				id: "09F5E0BD06578231"
 				item: { count: 8, id: "fluxnetworks:flux_core" }
 				type: "item"
 			}]
@@ -66,22 +66,22 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001D7"]
-			id: "B1000000000001D8"
+			dependencies: ["31000000000001D7"]
+			id: "31000000000001D8"
 			rewards: [
 				{
-					id: "C1000000000001D8"
+					id: "05000000000001D8"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "87A2ACA7A2F6CDD0"
+					id: "0608108495596D1D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2DAEA69EBF874415"
+				id: "4502165F2BDF171F"
 				item: { count: 4, id: "fluxnetworks:flux_block" }
 				type: "item"
 			}]
@@ -89,23 +89,23 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001D8"]
-			id: "B1000000000001D9"
+			dependencies: ["31000000000001D8"]
+			id: "31000000000001D9"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001D9"
+					id: "05000000000001D9"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "F78251B4CAD600A7"
+					id: "08CAF32F108BBC18"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "54067A3FA108CE28"
+				id: "000D16FB8698A2B2"
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
@@ -113,23 +113,23 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001D9"]
-			id: "B1000000000001DA"
+			dependencies: ["31000000000001D9"]
+			id: "31000000000001DA"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001DA"
+					id: "05000000000001DA"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "DA1D941A2B4B6711"
+					id: "1A484B4DDDCC7F32"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "69A9925CEC84EFFE"
+				id: "1A0752F64B1FF81D"
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
@@ -137,22 +137,22 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001DA"]
-			id: "B1000000000001DB"
+			dependencies: ["31000000000001DA"]
+			id: "31000000000001DB"
 			rewards: [
 				{
-					id: "C1000000000001DB"
+					id: "05000000000001DB"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "0B0FEFB3971D899D"
+					id: "666E4EB832B460BE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4D1980D5724E3396"
+				id: "52E3A0362644200F"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
 			}]
@@ -160,24 +160,24 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001DB"]
-			id: "B1000000000001DC"
+			dependencies: ["31000000000001DB"]
+			id: "31000000000001DC"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001DC"
+					id: "05000000000001DC"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "EF1E32D8BAD5D6AE"
+					id: "67283C68CA22CEB5"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2B0BA1F1676DD181"
+				id: "2E0436AD39AF6E93"
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
@@ -185,22 +185,22 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001DA"]
-			id: "B1000000000001DD"
+			dependencies: ["31000000000001DA"]
+			id: "31000000000001DD"
 			rewards: [
 				{
-					id: "C1000000000001DD"
+					id: "05000000000001DD"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "A04025936E495976"
+					id: "34FBC71DD6588D96"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "FB33596CB8BFFD4B"
+				id: "37FF25725FC09543"
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
@@ -208,22 +208,22 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001DD"]
-			id: "B1000000000001DE"
+			dependencies: ["31000000000001DD"]
+			id: "31000000000001DE"
 			rewards: [
 				{
-					id: "C1000000000001DE"
+					id: "05000000000001DE"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "C84BFD385840B61D"
+					id: "7FE50125F7C3C343"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "01EC220221750651"
+				id: "76DB968C4ACC4EAE"
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
@@ -231,24 +231,24 @@
 			y: 18.0d
 		},
 		{
-			dependencies: ["B1000000000001DE"]
-			id: "B1000000000001DF"
+			dependencies: ["31000000000001DE"]
+			id: "31000000000001DF"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001DF"
+					id: "05000000000001DF"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "4834FCC8DF6506F6"
+					id: "7613299E32E22A7E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3FA413896607BA7E"
+				id: "5CD9BC8C1A44836F"
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]

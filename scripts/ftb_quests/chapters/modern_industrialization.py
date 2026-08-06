@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='modern_industrialization',
         base=750,
-        chapter_id='A20000000000000D',
+        chapter_id='020000000000000D',
         icon='modern_industrialization:forge_hammer',
         title='12. Modern Industrialization',
         subtitle='Steam age, steel, circuits, electric machines, and quarries',

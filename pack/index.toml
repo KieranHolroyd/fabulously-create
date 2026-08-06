@@ -6,71 +6,139 @@ hash = "d17cae28cb10ad5f21bfd95034c831abfefa43dbb335f27888420140431295b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automation.snbt"
-hash = "11960ab37918f8e4b626b2f52ba42296f6daa0718eb53e285ef36e20897af050"
+hash = "47d89316733b5eda251fc47f2ab368964ceb7b5ebdd8c853bd33a3e45482d88f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_factory.snbt"
-hash = "adea7aae6625cdf2d15766eba42fac6aa8e0a86348d959352675728e3a16a65a"
+hash = "375886d46caaa6274909c6389181e9cbe6c6a392b92e8dbae91db4a62835fb5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/extreme_reactors.snbt"
-hash = "3a2ab2ceda0a25a655b5399d7a78512a505cb218bb3555004e4269391dd33142"
+hash = "01b9afd4d9fd91243c85b4ba37578626634c31c8c28abc297cfd790af2b63bbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/flux_networks.snbt"
-hash = "1464989ce1255bd096257226ff436fecca6494e22b07fc073f429f308ce5ab5d"
+hash = "c36c25aeb1ca7b712ada7803b1d74cfcd266ca6ca7baff609e87fcbb072d3ec1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/foundations.snbt"
-hash = "06ce0e58393daaaf4d1ac4e0ac9dc0d66e7492123d39ca11f9d98053816b18c8"
+hash = "809a7f392da959db08937814a60b378b121144d27fe31a1fa28d30c502b0a9a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
-hash = "26de4fe484a1135ad51d590d72e7c1373cfff60cf121ad5e92b4adfb077a82be"
+hash = "417daa692064a04ab93964b2386ddf4ee23784ef9f87b710427aa5f9a5c44d08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "22bfcffda6b4ac62488b86b09d6b7a42aa61af3e32f4f473228802d8a52dcf2f"
+hash = "13a58d22037af62428228c22bbb7adffe2f438e513c1b6b1c888f484b7ca0b0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/late_game.snbt"
-hash = "2b629d13e1c253de7e36715324bf2a721bb1d06e68fc24a0389a0335e4ff3cd0"
+hash = "492bddf0c12bbe02ebdb5cff4aa6a3134f8da0d7af7044e6b998dea42fe83433"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "fd01f4171b5d5325032bde44fd79cf22b59f4b5cc5ee9f68646991c85c647976"
+hash = "9d634d1e1f22466104785d2918d7d2bce2d03e7d08b5f7e872d7d19a87a66cf9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism_generators.snbt"
-hash = "508410e590c17933a1448ca0808df3d00b461f586f17f83fe252f26fa36fa220"
+hash = "57f7114613b3389556ef0e8a2f50ad3338c92af71bab90f9e45a63f620a7dc70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
-hash = "69fdd333a7debb0ecec4f81b1f1264bdc920f6c817fb0f1114dfd3e23a4ec70f"
+hash = "e18674eb79474a3acdf0a6dfa11b002e3e98b6701a42f67d6e2513cdba8fdcf0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/powah.snbt"
-hash = "386f754a20d7caf19e82615c19704b8d867c31498f370d589ab958ce2ec4feab"
+hash = "11230d908e7c7d3c27efb88b0f7b208a412706bfce889920b41bc4585202075f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
-hash = "9828485a05ec4fe8997dfa75cc7b939008cc8415a1699763c494ff610e5a4bba"
+hash = "5ee12e6795e11da0d850a0bff94075a3395908a964327d27043eba5aaaeb931a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rftools.snbt"
-hash = "51b6b7367d689a90ab95fe629c6820730e919ddda8714a45f86d2b2019d496e9"
+hash = "b30a5b68445b72d95c90067e3af439672aef4a8afc920675d584735d17428d43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_gear.snbt"
-hash = "9f2d4ba919788f1024afe536f4b5a51092331eacd47930e357252d36a5023ea1"
+hash = "b3aca1a3f4beed9ee4eb59329305b5d43bb92c8d260d37d0a628221ba6bd30c5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "1495114777818c439deaec2c5c578efa5f796e9dbbf9b2b35da19fc7aefd94b8"
 
 [[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "62c3fc6d64beb2d0e269d3754623a2834536784364922af93dfd43ed21f3d5d5"
+file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
+hash = "d86a653dc8b12cca545044fa7f5b4ff79dce4a036b0c2baa592763edc37cffff"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter_group.snbt"
+hash = "342b8da3f7dd4a9c3c700b9d31dd7f25eab87398d9c00ba80de359de83c5ce41"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/automation.snbt"
+hash = "fdcc37604b93ac9bd9c3fd33cbcc3bc0627d73faf909f05d23f41f0a90fc8dfc"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/create_factory.snbt"
+hash = "9cf557b82c725e058c1fc9b27352ddde7643ea3c9ef1fa34c720f1d171e7f5cc"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/extreme_reactors.snbt"
+hash = "27a8712a44eae9777c1c5b80a16633ea60cf4211871964844ffbdb9409223154"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/flux_networks.snbt"
+hash = "045855defc5d30b30f569262532e4bf2b0ae43b9826f95e9a6096eabe2c71647"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/foundations.snbt"
+hash = "1184c35d7ee80ab509f4998c5f1fb3c41090ce7b1134a3d8fdbaf2948afd3250"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/immersive_engineering.snbt"
+hash = "c0012c56a111ca0123e9406d9ce49b4924a124dd2c2584b0918d9905e1139025"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/industrial_foregoing.snbt"
+hash = "10b3eeb94ceaf588b5438291242de1ba2799520c6d514d03da66267b4c3329d7"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/late_game.snbt"
+hash = "cf204c50022ad405fe8664f9b423a3cedcf00f03ab478c6987c659161023e47f"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/mekanism.snbt"
+hash = "8e433d125cccc7bfced461a4c9f6180eb0cf02efc7a52cf3534bf716b15e202c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/mekanism_generators.snbt"
+hash = "821307c47f723a0949816602b256417f5e8d2cea9102429e96edb4c5a54180ff"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/modern_industrialization.snbt"
+hash = "04777123fadeba72afd0105e44ff7fb82bbef98516086cd0bca6bd944e59024e"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/powah.snbt"
+hash = "f995c2003a28e03afe7bfd157be0a2049824af56522d11f4fc4b10ea7a8cdbdc"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/refined_storage.snbt"
+hash = "00baaa87f43316dd8a132d52c4c3254d16d8e1dc174308f392c2c2c915fcf0cd"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/rftools.snbt"
+hash = "88d7e8aa160355eeb030e406e88ee567b8566345393d504d24480f3ba83a964d"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/storage_gear.snbt"
+hash = "dadf2b53ee0afb97dff7d06383a485fbbeca94ce596d5ef064d7d3506fde9691"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/file.snbt"
+hash = "e592086712f791e9bb7eb2c16e3b9ada92ca3c2e20b1549a2788c76dfb3be09c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/quest_treasure.snbt"

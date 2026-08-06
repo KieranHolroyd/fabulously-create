@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='late_game',
         base=500,
-        chapter_id='A200000000000005',
+        chapter_id='0200000000000005',
         icon='minecraft:netherite_ingot',
         title='15. Beyond Brass',
         subtitle='Netherite, flight, railways, bosses, and the sky',

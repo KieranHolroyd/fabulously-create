@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "automation"
-	group: "A100000000000001"
+	group: "0100000000000001"
 	icon: {
 		id: "integrateddynamics:cable"
 	}
-	id: "A200000000000004"
+	id: "0200000000000004"
 	order_index: 3
 	quest_links: [
 		{
-			id: "ACEE7139219F6400"
-			linked_quest: "B1000000000000DF"
+			id: "2CEE7139219F6400"
+			linked_quest: "31000000000000DF"
 			shape: "pentagon"
 			size: 1.25d
 			x: -2.5d
@@ -20,23 +20,23 @@
 	]
 	quests: [
 		{
-			dependencies: ["B1000000000000DF"]
-			id: "B100000000000190"
+			dependencies: ["31000000000000DF"]
+			id: "3100000000000190"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000190"
+					id: "0500000000000190"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "2647BAE3009B1A28"
+					id: "13D0176D12527EA7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2A2D8DFD4064104A"
+				id: "3DCD6C8F6B84BB2B"
 				item: { count: 16, id: "integrateddynamics:menril_log" }
 				type: "item"
 			}]
@@ -44,24 +44,24 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000190"]
-			id: "B100000000000191"
+			dependencies: ["3100000000000190"]
+			id: "3100000000000191"
 			shape: "gear"
 			size: 2.0d
 			rewards: [
 				{
-					id: "C100000000000191"
+					id: "0500000000000191"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "365DC4DF38D680AE"
+					id: "31A8974406C96F2B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "00A94CE24D452D1B"
+				id: "208D7CA80842CEB6"
 				item: { count: 32, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
@@ -69,22 +69,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000191"]
-			id: "B100000000000192"
+			dependencies: ["3100000000000191"]
+			id: "3100000000000192"
 			rewards: [
 				{
-					id: "C100000000000192"
+					id: "0500000000000192"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "E3F0EB640234431C"
+					id: "23185227C522A20B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "44E5979E41B4395D"
+				id: "205DF91495BD3A91"
 				item: { count: 1, id: "integrateddynamics:logic_programmer" }
 				type: "item"
 			}]
@@ -92,17 +92,17 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000192"]
-			id: "B100000000000193"
+			dependencies: ["3100000000000192"]
+			id: "3100000000000193"
 			rewards: [
 				{
-					id: "C100000000000193"
+					id: "0500000000000193"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "3398EA373559C0B2"
+				id: "764F4EE666C46AFD"
 				item: { count: 16, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
@@ -110,22 +110,22 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000193"]
-			id: "B100000000000194"
+			dependencies: ["3100000000000193"]
+			id: "3100000000000194"
 			rewards: [
 				{
-					id: "C100000000000194"
+					id: "0500000000000194"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "520C4E70362FD998"
+					id: "2FC8F95101195592"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "ABADC0E10820C04F"
+				id: "7C029B8A6BEF913D"
 				item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
 				type: "item"
 			}]
@@ -133,19 +133,19 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000193"]
+			dependencies: ["3100000000000193"]
 			hide_until_deps_visible: true
-			id: "B100000000000195"
+			id: "3100000000000195"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000195"
+					id: "0500000000000195"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "14ADEC5D54D0A713"
+				id: "1BC2CDE6E5CBC5F3"
 				item: { count: 1, id: "integrateddynamics:part_display_panel" }
 				type: "item"
 			}]
@@ -153,17 +153,17 @@
 			y: 0.0d
 		},
 		{
-			dependencies: ["B100000000000191"]
-			id: "B100000000000196"
+			dependencies: ["3100000000000191"]
+			id: "3100000000000196"
 			rewards: [
 				{
-					id: "C100000000000196"
+					id: "0500000000000196"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "055D056353B5C710"
+				id: "0C1C8A0EB6BAE737"
 				item: { count: 4, id: "integratedtunnels:part_interface_item" }
 				type: "item"
 			}]
@@ -171,22 +171,22 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000196"]
-			id: "B100000000000197"
+			dependencies: ["3100000000000196"]
+			id: "3100000000000197"
 			rewards: [
 				{
-					id: "C100000000000197"
+					id: "0500000000000197"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "370B3C2137E2E46C"
+					id: "725E330EEF22A375"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DB34F4BE439E0DA4"
+				id: "55DD8ADFE399E891"
 				item: { count: 1, id: "integratedtunnels:part_importer_item" }
 				type: "item"
 			}]
@@ -194,19 +194,19 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000196"]
+			dependencies: ["3100000000000196"]
 			hide_until_deps_visible: true
-			id: "B100000000000198"
+			id: "3100000000000198"
 			optional: true
 			rewards: [
 				{
-					id: "C100000000000198"
+					id: "0500000000000198"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "1FA9DA84824DF03E"
+				id: "38E96E880C2348EA"
 				item: { count: 2, id: "integratedtunnels:part_interface_fluid" }
 				type: "item"
 			}]
@@ -214,24 +214,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000197"]
-			id: "B100000000000199"
+			dependencies: ["3100000000000197"]
+			id: "3100000000000199"
 			shape: "hexagon"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C100000000000199"
+					id: "0500000000000199"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "78C9A1226EABDC25"
+					id: "31DC7B09C762E644"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3861C2E9201245BF"
+				id: "088A96BDE10E055E"
 				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
 				type: "item"
 			}]
@@ -239,23 +239,23 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000199"]
-			id: "B10000000000019A"
+			dependencies: ["3100000000000199"]
+			id: "310000000000019A"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000019A"
+					id: "050000000000019A"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "3C3A54D2949BB77D"
+					id: "755E536F4285F509"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "9FB81F98CB23682F"
+				id: "74A7E1124D081702"
 				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
 				type: "item"
 			}]
@@ -263,22 +263,22 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B100000000000191"]
-			id: "B10000000000019B"
+			dependencies: ["3100000000000191"]
+			id: "310000000000019B"
 			rewards: [
 				{
-					id: "C10000000000019B"
+					id: "050000000000019B"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "F9B0F32E09F63B99"
+					id: "2FC94B3839FA0CCE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "AE49E36CCCA2289D"
+				id: "191ADF72B6D53BC7"
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
@@ -286,22 +286,22 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B10000000000019B"]
-			id: "B10000000000019C"
+			dependencies: ["310000000000019B"]
+			id: "310000000000019C"
 			rewards: [
 				{
-					id: "C10000000000019C"
+					id: "050000000000019C"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "8C95E6AC7DBB4E63"
+					id: "09AD0AEE14B1FB3A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1280423FE0179B2B"
+				id: "4534F121BCD5661E"
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
@@ -309,19 +309,19 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B10000000000019C"]
+			dependencies: ["310000000000019C"]
 			hide_until_deps_visible: true
-			id: "B10000000000019D"
+			id: "310000000000019D"
 			optional: true
 			rewards: [
 				{
-					id: "C10000000000019D"
+					id: "050000000000019D"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "4104A7880826D083"
+				id: "0C5E8AC550E61A66"
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
@@ -329,22 +329,22 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B10000000000019C"]
-			id: "B10000000000019E"
+			dependencies: ["310000000000019C"]
+			id: "310000000000019E"
 			rewards: [
 				{
-					id: "C10000000000019E"
+					id: "050000000000019E"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "EF9024AECA3E793B"
+					id: "686BA397BB3EA0F9"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "DB37C2012A9C8B2E"
+				id: "4970B84AB850B347"
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
 				type: "item"
 			}]
@@ -352,23 +352,23 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B10000000000019E"]
-			id: "B10000000000019F"
+			dependencies: ["310000000000019E"]
+			id: "310000000000019F"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C10000000000019F"
+					id: "050000000000019F"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "6956409C51770504"
+					id: "3C88BA3A53F62A49"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "A0BC5F3E4A9F88CD"
+				id: "6754964E711169BA"
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
@@ -376,24 +376,24 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B10000000000019F"]
+			dependencies: ["310000000000019F"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A0"
+			id: "31000000000001A0"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A0"
+					id: "05000000000001A0"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "22CE39249C09EE3B"
+					id: "5C7A51E770B76A9F"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "D3F24E14A85BA8E4"
+				id: "555E72B1D5FECADC"
 				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
 				type: "item"
 			}]
@@ -401,22 +401,22 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B100000000000199"]
-			id: "B1000000000001A1"
+			dependencies: ["3100000000000199"]
+			id: "31000000000001A1"
 			rewards: [
 				{
-					id: "C1000000000001A1"
+					id: "05000000000001A1"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "F0BD024EE6A3ABF8"
+					id: "5CCA57D7A9CDDDD4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FDAF8924C888D27C"
+				id: "7F6D1535CF27409C"
 				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 				type: "item"
 			}]
@@ -424,23 +424,23 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000001A1"]
-			id: "B1000000000001A2"
+			dependencies: ["31000000000001A1"]
+			id: "31000000000001A2"
 			size: 1.5d
 			rewards: [
 				{
-					id: "C1000000000001A2"
+					id: "05000000000001A2"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "FBBA74D2F0E9CFD5"
+					id: "5C3972C8D2A3F37B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "65F29802E52A1407"
+				id: "47E2182BA2974744"
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
@@ -448,24 +448,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B1000000000001A2"]
+			dependencies: ["31000000000001A2"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A3"
+			id: "31000000000001A3"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A3"
+					id: "05000000000001A3"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "82FF26DB98CE80E8"
+					id: "15F414ABAD7E866D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "615C870581D90BBE"
+				id: "16B47FA4A80451EF"
 				item: { count: 1, id: "create_enchantment_industry:printer" }
 				type: "item"
 			}]
@@ -473,24 +473,24 @@
 			y: 2.5d
 		},
 		{
-			dependencies: ["B100000000000199"]
+			dependencies: ["3100000000000199"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A4"
+			id: "31000000000001A4"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A4"
+					id: "05000000000001A4"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "B81B3F6E258AEF13"
+					id: "6640B53EB52E1288"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "537F55051BD8F3CA"
+				id: "2A2308AC88F674CD"
 				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
@@ -498,19 +498,19 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B1000000000001A4"]
+			dependencies: ["31000000000001A4"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A5"
+			id: "31000000000001A5"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A5"
+					id: "05000000000001A5"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "70C3F64C21ED4096"
+				id: "5C2E93C52E98D8E3"
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
@@ -518,24 +518,24 @@
 			y: 4.5d
 		},
 		{
-			dependencies: ["B10000000000019B"]
+			dependencies: ["310000000000019B"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A6"
+			id: "31000000000001A6"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A6"
+					id: "05000000000001A6"
 					table_id: 8142508126285856769L
 					type: "random"
 				},
 				{
-					id: "5675FD880F7E15D4"
+					id: "0DBB2C954AC44683"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "FC31D33DCE051175"
+				id: "22D5143FFD250952"
 				item: { count: 1, id: "create_connected:brake" }
 				type: "item"
 			}]
@@ -543,19 +543,19 @@
 			y: -2.5d
 		},
 		{
-			dependencies: ["B1000000000001A6"]
+			dependencies: ["31000000000001A6"]
 			hide_until_deps_visible: true
-			id: "B1000000000001A7"
+			id: "31000000000001A7"
 			optional: true
 			rewards: [
 				{
-					id: "C1000000000001A7"
+					id: "05000000000001A7"
 					table_id: 8142508126285856769L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "41ADD2007E6A831D"
+				id: "4C22AF62C4665FB2"
 				item: { count: 1, id: "create_connected:parallel_gearbox" }
 				type: "item"
 			}]

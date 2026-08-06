@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='flux_networks',
         base=470,
-        chapter_id='A200000000000009',
+        chapter_id='0200000000000009',
         icon='fluxnetworks:flux_controller',
         title='8. Flux Networks',
         subtitle='Cross-dimensional wireless FE transfer, control, and storage',

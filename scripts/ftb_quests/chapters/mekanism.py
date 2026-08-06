@@ -10,7 +10,7 @@ def chapter() -> Chapter:
     return Chapter(
         key='mekanism',
         base=600,
-        chapter_id='A20000000000000A',
+        chapter_id='020000000000000A',
         icon='mekanism:steel_casing',
         title='9. Mekanism',
         subtitle='Steel casings, ore processing, gases, factories, and QIO',
