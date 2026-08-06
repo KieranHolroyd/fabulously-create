@@ -15,6 +15,18 @@
 	chapter.A200000000000008.chapter_subtitle: ["Power, automation, storage scanning, teleportation, and dimensions"]
 	chapter.A200000000000009.title: "8. Flux Networks"
 	chapter.A200000000000009.chapter_subtitle: ["Cross-dimensional wireless FE transfer, control, and storage"]
-	chapter.A200000000000005.title: "9. Beyond Brass"
+	chapter.A20000000000000A.title: "9. Mekanism"
+	chapter.A20000000000000A.chapter_subtitle: ["Steel casings, ore processing, gases, factories, and QIO"]
+	chapter.A20000000000000B.title: "10. Mekanism Reactors"
+	chapter.A20000000000000B.chapter_subtitle: ["Heat, solar, wind, fission, turbines, and fusion power"]
+	chapter.A20000000000000C.title: "11. Extreme Reactors"
+	chapter.A20000000000000C.chapter_subtitle: ["Yellorium reactors, steam turbines, and fuel reprocessing"]
+	chapter.A20000000000000D.title: "12. Modern Industrialization"
+	chapter.A20000000000000D.chapter_subtitle: ["Steam age, steel, circuits, electric machines, and quarries"]
+	chapter.A20000000000000E.title: "13. Industrial Foregoing"
+	chapter.A20000000000000E.chapter_subtitle: ["Latex, plastic, farms, mob slaughter, lasers, and infinity tools"]
+	chapter.A20000000000000F.title: "14. Immersive Engineering"
+	chapter.A20000000000000F.chapter_subtitle: ["Coke ovens, blast furnaces, wires, diesel, and arc furnaces"]
+	chapter.A200000000000005.title: "15. Beyond Brass"
 	chapter.A200000000000005.chapter_subtitle: ["Netherite, flight, railways, bosses, and the sky"]
 }

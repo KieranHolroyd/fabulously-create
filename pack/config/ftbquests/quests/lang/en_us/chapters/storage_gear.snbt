@@ -7,7 +7,10 @@
 		"Upgrade it with stack, magnet, feeding, and tool-swap upgrades — your inventory becomes a workshop.",
 		"",
 		"&7Tip:&r Right-click to open. Craft upgrades and install them in the backpack GUI.",
-		"&7Next:&r Iron backpack + stack upgrade, then drawers for bulk materials."
+		"&7Next:&r Iron backpack + stack upgrade, then drawers for bulk materials.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
 	]
 	quest.B10000000000012D.title: "Iron Backpack"
 	quest.B10000000000012D.quest_subtitle: "Carry more"

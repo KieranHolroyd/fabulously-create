@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "industrial_foregoing"
+	group: "A100000000000001"
+	icon: {
+		id: "industrialforegoing:machine_frame_pity"
+	}
+	id: "A20000000000000E"
+	order_index: 12
+	quest_links: [
+		{
+			id: "E0BFE44A9ED79604"
+			linked_quest: "B10000000000006A"
+			shape: "pentagon"
+			size: 1.25d
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["B10000000000006A"]
+			id: "B100000000000320"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000320"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "38B0B4141409CDCE"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "198714C5137EB870"
+				item: { count: 4, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000320"]
+			id: "B100000000000321"
+			rewards: [
+				{
+					id: "C100000000000321"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "5D0C98D5493A0FE3"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "E849D9494EF1B8F8"
+				item: { count: 2, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000321"]
+			id: "B100000000000322"
+			rewards: [
+				{
+					id: "C100000000000322"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "A9D4B04A3BE178AC"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "C0D7B5FECC8773AA"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000322"]
+			id: "B100000000000323"
+			rewards: [
+				{
+					id: "C100000000000323"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "1CCFC9AB2C02D497"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3CEC054A329D9758"
+				item: { count: 16, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000323"]
+			id: "B100000000000324"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000324"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "10042599BAD93980"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "B612F2C73F3E739C"
+				item: { count: 2, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000324"]
+			id: "B100000000000325"
+			rewards: [
+				{
+					id: "C100000000000325"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "0ADDEF952FB46FF3"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "FF189FF491A3DA10"
+				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000324"]
+			id: "B100000000000326"
+			rewards: [
+				{
+					id: "C100000000000326"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "236FBC94EF6283A3"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "B370B74F663F0E0C"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000326"]
+			id: "B100000000000327"
+			rewards: [
+				{
+					id: "C100000000000327"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "12EAD60CF4026F3B"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "474923760D7CF498"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000327"]
+			id: "B100000000000328"
+			rewards: [
+				{
+					id: "C100000000000328"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "77452A306D610A4A"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "59145453768B21D7"
+				item: { count: 2, id: "industrialforegoing:hydroponic_bed" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000324"]
+			id: "B100000000000329"
+			rewards: [
+				{
+					id: "C100000000000329"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "EEC25D9C1FD96149"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "610BFF3AFE9BCC5F"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000329"]
+			id: "B10000000000032A"
+			rewards: [
+				{
+					id: "C10000000000032A"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "EC68BDE7F8A10B20"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "474C5844CBDB8D98"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032A"]
+			id: "B10000000000032B"
+			rewards: [
+				{
+					id: "C10000000000032B"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "AB7DFEFF10DB9CDD"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2526EFA0D70C335E"
+				item: { count: 8, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032B"]
+			id: "B10000000000032C"
+			rewards: [
+				{
+					id: "C10000000000032C"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "43E1A6B1BE13D731"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "993FD87399F6C10E"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032C"]
+			id: "B10000000000032D"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C10000000000032D"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "9305FCF75E18370E"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "826878994A93FC0E"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032D"]
+			id: "B10000000000032E"
+			rewards: [
+				{
+					id: "C10000000000032E"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "5641B274102F7BCB"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "27352A2686EC02A3"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032E"]
+			id: "B10000000000032F"
+			rewards: [
+				{
+					id: "C10000000000032F"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "9F108358F212ED7C"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "B711688762C6E13A"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B10000000000032F"]
+			id: "B100000000000330"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000330"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "6ECDE310C149ECA2"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2DDDC04E9AD9EEC6"
+				item: { count: 1, id: "industrialforegoing:infinity_drill" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+	]
+	title: "13. Industrial Foregoing"
+}

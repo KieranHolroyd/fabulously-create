@@ -1,0 +1,158 @@
+{
+	quest.B100000000000320.title: "Pity Machine Frame"
+	quest.B100000000000320.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B100000000000320.quest_desc: [
+		"&6Goal:&r Craft &64 Pity Machine Frames&r.",
+		"",
+		"Industrial Foregoing starts with Pity frames — wooden-tier chassis for extractors and early machines.",
+		"",
+		"&7Tip:&r You'll rebuild these into Simple/Advanced/Supreme frames as you climb.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
+	]
+	quest.B100000000000321.title: "Fluid Extractor"
+	quest.B100000000000321.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000321.quest_desc: [
+		"&6Goal:&r Craft &62 Fluid Extractors&r.",
+		"",
+		"Extract latex from logs. Place against wood and pipe latex into a processing unit.",
+		"",
+		"&7Tip:&r Oak and other logs work; keep a tree farm glued to the extractors."
+	]
+	quest.B100000000000322.title: "Latex Processing"
+	quest.B100000000000322.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000322.quest_desc: [
+		"&6Goal:&r Craft a Latex Processing Unit.",
+		"",
+		"Turn latex into tiny dry rubber, then dry rubber, then plastic — IF's core material chain.",
+		"",
+		"&7Tip:&r Water and power keep the unit running; buffer latex in a tank."
+	]
+	quest.B100000000000323.title: "Plastic"
+	quest.B100000000000323.quest_subtitle: "Industrial Foregoing · Latex"
+	quest.B100000000000323.quest_desc: [
+		"&6Goal:&r Craft &616 Plastic&r.",
+		"",
+		"Plastic appears in nearly every IF machine upgrade. Overproduce early.",
+		"",
+		"&7Tip:&r Pink slime later supplements high-tier crafts — plastic never stops being useful."
+	]
+	quest.B100000000000324.title: "Simple Machine Frame"
+	quest.B100000000000324.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B100000000000324.quest_desc: [
+		"&6Goal:&r Craft &62 Simple Machine Frames&r.",
+		"",
+		"Simple frames unlock the main farming and mob machines.",
+		"",
+		"&7Tip:&r Iron, plastic, and pity frames typically combine here — check JEI."
+	]
+	quest.B100000000000325.title: "Pitiful Generator"
+	quest.B100000000000325.quest_subtitle: "Industrial Foregoing · Power"
+	quest.B100000000000325.quest_desc: [
+		"&6Goal:&r Craft a Pitiful Generator.",
+		"",
+		"A humble solid-fuel FE generator to bootstrap IF machines before biofuel.",
+		"",
+		"&7Tip:&r Replace it with Biofuel or Protein generators once farms run."
+	]
+	quest.B100000000000326.title: "Plant Sower"
+	quest.B100000000000326.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000326.quest_desc: [
+		"&6Goal:&r Craft a Plant Sower.",
+		"",
+		"Auto-plants seeds in a working area — the start of IF crop automation.",
+		"",
+		"&7Tip:&r Pair with a Plant Gatherer and Fertilizer for a full farm loop."
+	]
+	quest.B100000000000327.title: "Plant Gatherer"
+	quest.B100000000000327.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000327.quest_desc: [
+		"&6Goal:&r Craft a Plant Gatherer.",
+		"",
+		"Harvests grown crops into its inventory or pipes. Essential beside the sower.",
+		"",
+		"&7Tip:&r Range addons expand coverage; speed addons keep up with bone-meal spam."
+	]
+	quest.B100000000000328.title: "Hydroponic Bed"
+	quest.B100000000000328.quest_subtitle: "Industrial Foregoing · Farming"
+	quest.B100000000000328.quest_desc: [
+		"&6Goal:&r Craft &62 Hydroponic Beds&r.",
+		"",
+		"Compact soil substitutes for dense indoor farms.",
+		"",
+		"&7Tip:&r Great under sowers when you don't want to manage vanilla farmland water."
+	]
+	quest.B100000000000329.title: "Mob Slaughter"
+	quest.B100000000000329.quest_subtitle: "Industrial Foregoing · Mobs"
+	quest.B100000000000329.quest_desc: [
+		"&6Goal:&r Craft a Mob Slaughter Factory.",
+		"",
+		"Grinds mobs into meat and pink slime fluid — brutal but efficient.",
+		"",
+		"&7Tip:&r Feed it a contained spawner area; collect pink slime for frames and infinity tools."
+	]
+	quest.B10000000000032A.title: "Dissolution Chamber"
+	quest.B10000000000032A.quest_subtitle: "Industrial Foregoing · Processing"
+	quest.B10000000000032A.quest_desc: [
+		"&6Goal:&r Craft a Dissolution Chamber.",
+		"",
+		"Mix items and fluids into advanced IF components, including pink slime processing.",
+		"",
+		"&7Tip:&r Many mid/late crafts are dissolution recipes — keep one piped and powered."
+	]
+	quest.B10000000000032B.title: "Pink Slime"
+	quest.B10000000000032B.quest_subtitle: "Industrial Foregoing · Mobs"
+	quest.B10000000000032B.quest_desc: [
+		"&6Goal:&r Collect &68 Pink Slimeballs&r.",
+		"",
+		"Pink slime is the prestige goo for Advanced/Supreme frames and infinity tools.",
+		"",
+		"&7Tip:&r Mob slaughter is the usual farm; don't discard slime fluid."
+	]
+	quest.B10000000000032C.title: "Advanced Frame"
+	quest.B10000000000032C.quest_subtitle: "Industrial Foregoing · Frames"
+	quest.B10000000000032C.quest_desc: [
+		"&6Goal:&r Craft an Advanced Machine Frame.",
+		"",
+		"Advanced frames unlock stronger generators, lasers, and late machines.",
+		"",
+		"&7Tip:&r Plastic + pink slime + gold-tier materials are common ingredients."
+	]
+	quest.B10000000000032D.title: "Ore Laser Base"
+	quest.B10000000000032D.quest_subtitle: "Industrial Foregoing · Lasers"
+	quest.B10000000000032D.quest_desc: [
+		"&6Goal:&r Craft an Ore Laser Base.",
+		"",
+		"Laser drills mine specific ores from a vertical beam when paired with a lens and drill.",
+		"",
+		"&7Tip:&r Power hungry but excellent for rare resources once tuned."
+	]
+	quest.B10000000000032E.title: "Laser Drill"
+	quest.B10000000000032E.quest_subtitle: "Industrial Foregoing · Lasers"
+	quest.B10000000000032E.quest_desc: [
+		"&6Goal:&r Craft a Laser Drill.",
+		"",
+		"Mount above/below the ore laser base with the correct lens for your target ore.",
+		"",
+		"&7Tip:&r Biome and dimension affect tables — check JEI for lens weights."
+	]
+	quest.B10000000000032F.title: "Supreme Frame"
+	quest.B10000000000032F.quest_subtitle: "Industrial Foregoing · Endgame"
+	quest.B10000000000032F.quest_desc: [
+		"&6Goal:&r Craft a Supreme Machine Frame.",
+		"",
+		"Top chassis tier for the strongest IF machines and infinity tool crafting.",
+		"",
+		"&7Tip:&r By now latex, plastic, and pink slime lines should be fully automatic."
+	]
+	quest.B100000000000330.title: "Infinity Drill"
+	quest.B100000000000330.quest_subtitle: "Industrial Foregoing · Endgame"
+	quest.B100000000000330.quest_desc: [
+		"&6Goal:&r Craft an Infinity Drill.",
+		"",
+		"A chargeable, upgradeable drill that grows with additives — IF's signature mining tool.",
+		"",
+		"&7Tip:&r Feed it power and materials; tank size and speed upgrades change everything."
+	]
+}

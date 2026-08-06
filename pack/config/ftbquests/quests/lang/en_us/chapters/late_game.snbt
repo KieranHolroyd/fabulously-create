@@ -7,7 +7,10 @@
 		"Ancient debris + gold. The late-game material gate for this book — furnaces, sticks, and flex.",
 		"",
 		"&7Tip:&r Bring fire resistance, a Waystone, and dignity.",
-		"&7Next:&r Flight, trains, cannons, and the finale bosses await."
+		"&7Next:&r Flight, trains, cannons, and the finale bosses await.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Precision Mechanisms\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000E3\"}}"
 	]
 	quest.B1000000000001F5.title: "Netherite Furnace"
 	quest.B1000000000001F5.quest_subtitle: "Smelting"
@@ -88,7 +91,10 @@
 	quest.B1000000000001FF.quest_desc: [
 		"&6Goal:&r Craft &664 Create tracks&r.",
 		"",
-		"Link factories across the map. Trains move bulk ore, fuel, and players."
+		"Link factories across the map. Trains move bulk ore, fuel, and players.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Train Track\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000EE\"}}"
 	]
 	quest.B100000000000200.title: "Conductor Whistle"
 	quest.B100000000000200.quest_subtitle: "Trains"
@@ -111,7 +117,10 @@
 		"",
 		"If this hurts, your assembly line isn't automated enough yet — go fix that.",
 		"",
-		"&7Tip:&r Mechanical crafters + deployers + arms should be feeding a chest nonstop."
+		"&7Tip:&r Mechanical crafters + deployers + arms should be feeding a chest nonstop.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Precision Mechanisms\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000E3\"}}"
 	]
 	quest.B100000000000203.title: "Wither Down"
 	quest.B100000000000203.quest_subtitle: "Boss"

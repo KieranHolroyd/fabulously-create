@@ -1,0 +1,398 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "mekanism_generators"
+	group: "A100000000000001"
+	icon: {
+		id: "mekanismgenerators:fission_reactor_casing"
+	}
+	id: "A20000000000000B"
+	order_index: 9
+	quest_links: [
+		{
+			id: "84495453775851F8"
+			linked_quest: "B100000000000258"
+			shape: "pentagon"
+			size: 1.25d
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["B100000000000258"]
+			id: "B10000000000028A"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C10000000000028A"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "3BA1F115A7370491"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "FB90E748C0A8ADAA"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028A"]
+			id: "B10000000000028B"
+			rewards: [
+				{
+					id: "C10000000000028B"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "303F983E3FE80B0D"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "D5EF000741038E3C"
+				item: { count: 2, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028B"]
+			id: "B10000000000028C"
+			rewards: [
+				{
+					id: "C10000000000028C"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "F1F3835AF39C725D"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "689F850B95482780"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028B"]
+			id: "B10000000000028D"
+			rewards: [
+				{
+					id: "C10000000000028D"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "8394EB519E550875"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "A7A648FDC4EBCA94"
+				item: { count: 1, id: "mekanismgenerators:bio_generator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028D"]
+			id: "B10000000000028E"
+			rewards: [
+				{
+					id: "C10000000000028E"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "ABCCF4DB4690082F"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "79CA5544E976B45D"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028C"]
+			id: "B10000000000028F"
+			rewards: [
+				{
+					id: "C10000000000028F"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "AE5651C108513D00"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "EFC0EBFB2B0EA70A"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B10000000000028E"]
+			id: "B100000000000290"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000290"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "E9A73B0A04C0797C"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "54CC0C8B9D753E7B"
+				item: { count: 32, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000290"]
+			id: "B100000000000291"
+			rewards: [
+				{
+					id: "C100000000000291"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "C0B78AD27F418AE9"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "94AA450D2C358C24"
+				item: { count: 4, id: "mekanismgenerators:fission_fuel_assembly" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B100000000000291"]
+			id: "B100000000000292"
+			rewards: [
+				{
+					id: "C100000000000292"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "CED6D793E3278383"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "C6E228BA270B223B"
+				item: { count: 2, id: "mekanismgenerators:control_rod_assembly" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000292"]
+			id: "B100000000000293"
+			rewards: [
+				{
+					id: "C100000000000293"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "CB2BE34B1C292AF4"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "FCB98C4D093C20D9"
+				item: { count: 2, id: "mekanismgenerators:fission_reactor_port" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000293"]
+			id: "B100000000000294"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000294"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "4E63975653037EC4"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2C2855D44B058DDD"
+				item: { count: 24, id: "mekanismgenerators:turbine_casing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000294"]
+			id: "B100000000000295"
+			rewards: [
+				{
+					id: "C100000000000295"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "5792833871D53734"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "E02EFC6F205DDA7B"
+				item: { count: 8, id: "mekanismgenerators:turbine_blade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000295"]
+			id: "B100000000000296"
+			rewards: [
+				{
+					id: "C100000000000296"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "6CACB5297243404D"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "9D2921454CC91CD5"
+				item: { count: 2, id: "mekanismgenerators:electromagnetic_coil" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000296"]
+			id: "B100000000000297"
+			rewards: [
+				{
+					id: "C100000000000297"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "7424BD4A2A480CE9"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "E28F64782B71A731"
+				item: { count: 16, id: "mekanismgenerators:fusion_reactor_frame" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000297"]
+			id: "B100000000000298"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "C100000000000298"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "C074D400E757EA71"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "B5254866F51C8A11"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["B100000000000298"]
+			id: "B100000000000299"
+			rewards: [
+				{
+					id: "C100000000000299"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "BD3F2042BDE6FA15"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "287CDAFA3892D9E8"
+				item: { count: 1, id: "mekanismgenerators:hohlraum" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+	]
+	title: "10. Mekanism Reactors"
+}

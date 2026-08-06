@@ -6,12 +6,17 @@ Design goals:
 - Flexible chapter exploration with optional side quests
 - One exciting weighted reward roll per quest, plus any configured XP
 - Multi-line quest text with tips and next-step hints
+
+Quest definitions live as an AST under scripts/ftb_quests/.
 """
 from __future__ import annotations
 
 import re
 import secrets
 from pathlib import Path
+
+from ftb_quests import build_book
+from ftb_quests.compile import CompiledChapter, compile_book
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
@@ -54,64 +59,6 @@ COOL_REWARDS = [
 # FTB Quests treats &X as a formatting code (0-9, a-f, k-o, r). Literal & must be \&.
 _BARE_AMP = re.compile(r"(?<!\\)&(?![0-9a-fk-orA-FK-OR])")
 
-CHAPTERS = {
-    # filename -> (id, icon, title, subtitle)
-    "foundations": (
-        "A200000000000001",
-        "minecraft:iron_pickaxe",
-        "1. Getting Started",
-        "Wood, iron, food, Waystones — leave the caves ready",
-    ),
-    "create_factory": (
-        "A200000000000002",
-        "create:cogwheel",
-        "2. Turning Gears",
-        "Andesite → brass → drills, trains, and power",
-    ),
-    "storage_gear": (
-        "A200000000000003",
-        "sophisticatedbackpacks:backpack",
-        "3. Bags & Blades",
-        "Backpacks, drawers, pipes, Silent Gear, building tools",
-    ),
-    "automation": (
-        "A200000000000004",
-        "integrateddynamics:cable",
-        "4. Wires & Wits",
-        "ID networks, diesel, FE, and factory enchanting",
-    ),
-    "refined_storage": (
-        "A200000000000006",
-        "refinedstorage:controller",
-        "5. Refined Storage",
-        "Digital item and fluid storage, Create integration, and autocrafting",
-    ),
-    "powah": (
-        "A200000000000007",
-        "powah:energizing_orb",
-        "6. Powah",
-        "FE generation, energizing tiers, reactors, and wireless charging",
-    ),
-    "rftools": (
-        "A200000000000008",
-        "rftoolsbase:machine_frame",
-        "7. RFTools",
-        "Power, automation, storage scanning, teleportation, and dimensions",
-    ),
-    "flux_networks": (
-        "A200000000000009",
-        "fluxnetworks:flux_controller",
-        "8. Flux Networks",
-        "Cross-dimensional wireless FE transfer, control, and storage",
-    ),
-    "late_game": (
-        "A200000000000005",
-        "minecraft:netherite_ingot",
-        "9. Beyond Brass",
-        "Netherite, flight, railways, bosses, and the sky",
-    ),
-}
-
 
 def hid() -> str:
     return secrets.token_hex(8).upper()
@@ -125,11 +72,6 @@ def escape_ftb_ampersands(s: str) -> str:
 def snbt_escape(s: str) -> str:
     s = escape_ftb_ampersands(s)
     return s.replace("\\", "\\\\").replace('"', '\\"')
-
-
-def Q(n: int) -> str:
-    """Stable quest IDs across regenerations."""
-    return f"B1{n:014X}"
 
 
 def format_desc(desc: str | list[str]) -> list[str]:
@@ -254,14 +196,24 @@ def write_reward_table() -> None:
     (table_dir / "quest_treasure.snbt").write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_chapter(
-    filename: str,
-    chapter_id: str,
-    icon: str,
-    title: str,
-    quests_meta: list[dict],
-    lang_quests: dict[str, dict],
-) -> None:
+def quest_link_snbt(link: dict) -> str:
+    lines = [
+        "\t\t{",
+        f'\t\t\tid: "{link["id"]}"',
+        f'\t\t\tlinked_quest: "{link["linked_quest"]}"',
+    ]
+    if link.get("shape"):
+        lines.append(f'\t\t\tshape: "{link["shape"]}"')
+    size = link.get("size", 1.0)
+    if size != 1.0:
+        lines.append(f"\t\t\tsize: {size:.2f}d".replace(".00d", ".0d"))
+    lines.append(f'\t\t\tx: {link["x"]:.1f}d')
+    lines.append(f'\t\t\ty: {link["y"]:.1f}d')
+    lines.append("\t\t}")
+    return "\n".join(lines)
+
+
+def write_chapter(chapter: CompiledChapter, order_index: int) -> None:
     blocks = [
         quest_snbt(
             q["id"],
@@ -276,41 +228,44 @@ def write_chapter(
             shape=q.get("shape"),
             hide_until_deps=q.get("hide_until_deps", False),
         )
-        for q in quests_meta
+        for q in chapter.quests
     ]
 
-    order = list(CHAPTERS).index(filename)
+    if chapter.quest_links:
+        links_block = ",\n".join(quest_link_snbt(link) for link in chapter.quest_links)
+        quest_links_snbt = "\tquest_links: [\n" + links_block + "\n\t]"
+    else:
+        quest_links_snbt = "\tquest_links: [ ]"
 
     content = "\n".join(
         [
             "{",
             "\tdefault_hide_dependency_lines: false",
             '\tdefault_quest_shape: "rsquare"',
-            f'\tfilename: "{filename}"',
+            f'\tfilename: "{chapter.key}"',
             f'\tgroup: "{GROUP_MAIN}"',
             "\ticon: {",
-            f'\t\tid: "{icon}"',
+            f'\t\tid: "{chapter.icon}"',
             "\t}",
-            f'\tid: "{chapter_id}"',
-            f"\torder_index: {order}",
-            "\tquest_links: [ ]",
+            f'\tid: "{chapter.chapter_id}"',
+            f"\torder_index: {order_index}",
+            quest_links_snbt,
             "\tquests: [",
             ",\n".join(blocks),
             "\t]",
-            # Embedded so the UI never falls back to the filename
-            f'\ttitle: "{snbt_escape(title)}"',
+            f'\ttitle: "{snbt_escape(chapter.title)}"',
             "}",
             "",
         ]
     )
-    path = QUESTS / "chapters" / f"{filename}.snbt"
+    path = QUESTS / "chapters" / f"{chapter.key}.snbt"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
 
-    lang_path = QUESTS / "lang" / "en_us" / "chapters" / f"{filename}.snbt"
+    lang_path = QUESTS / "lang" / "en_us" / "chapters" / f"{chapter.key}.snbt"
     lang_path.parent.mkdir(parents=True, exist_ok=True)
     lang_lines = ["{"]
-    for qid, meta in lang_quests.items():
+    for qid, meta in chapter.lang.items():
         if "title" in meta:
             lang_lines.append(f'\tquest.{qid}.title: "{snbt_escape(meta["title"])}"')
         if "subtitle" in meta:
@@ -329,98 +284,10 @@ def write_chapter(
     lang_path.write_text("\n".join(lang_lines), encoding="utf-8")
 
 
-def add(
-    bag: list[dict],
-    lang: dict[str, dict],
-    n: int,
-    base: int,
-    x: float,
-    y: float,
-    task: str,
-    title: str,
-    desc: str | list[str],
-    *,
-    task_count: int = 1,
-    deps: list[int] | None = None,
-    links: list[int] | None = None,
-    rewards: list[dict] | None = None,
-    optional: bool = False,
-    size: float = 1.0,
-    shape: str | None = None,
-    subtitle: str = "",
-    hide_until_deps: bool = False,
-) -> str:
-    """deps = relative indices in this chapter; links = absolute quest numbers (e.g. 106)."""
-    qid = Q(base + n)
-    dep_ids = [Q(base + i) for i in (deps or [])] + [Q(i) for i in (links or [])]
-    # De-dupe while preserving order
-    seen: set[str] = set()
-    ordered: list[str] = []
-    for d in dep_ids:
-        if d not in seen:
-            seen.add(d)
-            ordered.append(d)
-    bag.append(
-        {
-            "id": qid,
-            "x": x,
-            "y": y,
-            "task": task,
-            "task_count": task_count,
-            "rewards": rewards,
-            "deps": ordered,
-            "optional": optional,
-            "size": size,
-            "shape": shape,
-            "hide_until_deps": hide_until_deps,
-        }
-    )
-    lang[qid] = {"title": title, "desc": desc, "subtitle": subtitle}
-    return qid
-
-
-def item(item_id: str, count: int = 1) -> dict:
-    return {"type": "item", "item": item_id, "count": count}
-
-
-def xp_levels(n: int = 1) -> dict:
-    return {"type": "xp_levels", "xp_levels": n}
-
-
 def main() -> None:
-    # Import chapter definitions (keeps this file focused on SNBT I/O).
-    from ftb_quest_book import build_all
+    book = build_book()
+    compiled = compile_book(book)
 
-    chapters = build_all(add)
-    f, fl = chapters["foundations"]
-    c, cl = chapters["create_factory"]
-    s, sl = chapters["storage_gear"]
-    a, al = chapters["automation"]
-    l, ll = chapters["late_game"]
-
-    def extract(
-        source: list[dict],
-        source_lang: dict[str, dict],
-        first: int,
-        last: int,
-    ) -> tuple[list[dict], dict[str, dict]]:
-        """Move a stable quest-ID range into its own visible chapter."""
-        ids = {Q(n) for n in range(first, last + 1)}
-        selected = [quest for quest in source if quest["id"] in ids]
-        source[:] = [quest for quest in source if quest["id"] not in ids]
-        selected_lang = {
-            quest["id"]: source_lang.pop(quest["id"])
-            for quest in selected
-            if quest["id"] in source_lang
-        }
-        return selected, selected_lang
-
-    rs, rsl = extract(s, sl, 324, 345)
-    pw, pwl = extract(a, al, 424, 444)
-    rf, rfl = extract(a, al, 445, 469)
-    fx, fxl = extract(a, al, 470, 479)
-
-    # Write book metadata
     QUESTS.mkdir(parents=True, exist_ok=True)
     (QUESTS / "chapters").mkdir(exist_ok=True)
     write_reward_table()
@@ -483,11 +350,15 @@ def main() -> None:
         "}\n",
         encoding="utf-8",
     )
+
     chapter_lang = ["{"]
-    for _key, (cid, _icon, title, subtitle) in CHAPTERS.items():
-        chapter_lang.append(f'\tchapter.{cid}.title: "{snbt_escape(title)}"')
+    for chapter in compiled.values():
         chapter_lang.append(
-            f'\tchapter.{cid}.chapter_subtitle: ["{snbt_escape(subtitle)}"]'
+            f'\tchapter.{chapter.chapter_id}.title: "{snbt_escape(chapter.title)}"'
+        )
+        chapter_lang.append(
+            f'\tchapter.{chapter.chapter_id}.chapter_subtitle: '
+            f'["{snbt_escape(chapter.subtitle)}"]'
         )
     chapter_lang.extend(["}", ""])
     (QUESTS / "lang" / "en_us" / "chapter.snbt").write_text(
@@ -495,22 +366,11 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    generated = {
-        "foundations": (f, fl),
-        "create_factory": (c, cl),
-        "storage_gear": (s, sl),
-        "automation": (a, al),
-        "refined_storage": (rs, rsl),
-        "powah": (pw, pwl),
-        "rftools": (rf, rfl),
-        "flux_networks": (fx, fxl),
-        "late_game": (l, ll),
-    }
-    for filename, (quests, lang) in generated.items():
-        write_chapter(filename, *CHAPTERS[filename][:3], quests, lang)
+    for order_index, chapter in enumerate(compiled.values()):
+        write_chapter(chapter, order_index)
 
-    total = sum(len(quests) for quests, _lang in generated.values())
-    print(f"Generated {total} quests across {len(generated)} chapters → {QUESTS}")
+    total = sum(len(chapter.quests) for chapter in compiled.values())
+    print(f"Generated {total} quests across {len(compiled)} chapters → {QUESTS}")
 
 
 if __name__ == "__main__":

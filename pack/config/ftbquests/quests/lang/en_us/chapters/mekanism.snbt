@@ -1,0 +1,212 @@
+{
+	quest.B100000000000258.title: "Osmium Supply"
+	quest.B100000000000258.quest_subtitle: "Mekanism · Materials"
+	quest.B100000000000258.quest_desc: [
+		"&6Goal:&r Smelt &616 Osmium Ingots&r.",
+		"",
+		"Osmium is Mekanism's signature metal — circuits, machines, and compressed alloys all start here.",
+		"",
+		"&7Tip:&r Mine osmium ore or process it through Create crushers if you prefer factory ore lines.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Brass Age\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000DF\"}}"
+	]
+	quest.B100000000000259.title: "Steel Infusion"
+	quest.B100000000000259.quest_subtitle: "Mekanism · Materials"
+	quest.B100000000000259.quest_desc: [
+		"&6Goal:&r Craft &616 Steel Ingots&r.",
+		"",
+		"Infuse iron with carbon in a Metallurgic Infuser (or pull steel from another mod) to unlock Steel Casings.",
+		"",
+		"&7Tip:&r Keep charcoal or coal dust stocked; early steel batches disappear fast."
+	]
+	quest.B10000000000025A.title: "Steel Casing"
+	quest.B10000000000025A.quest_subtitle: "Mekanism · Foundation"
+	quest.B10000000000025A.quest_desc: [
+		"&6Goal:&r Craft &68 Steel Casings&r.",
+		"",
+		"Almost every Mekanism machine sits on a Steel Casing. Batch them before the machine rush.",
+		"",
+		"&7Tip:&r Pair casings with Basic Control Circuits for the first machine wave."
+	]
+	quest.B10000000000025B.title: "Basic Circuits"
+	quest.B10000000000025B.quest_subtitle: "Mekanism · Foundation"
+	quest.B10000000000025B.quest_desc: [
+		"&6Goal:&r Craft &68 Basic Control Circuits&r.",
+		"",
+		"Circuits gate machine tiers. Basic is your first stop; Advanced/Elite/Ultimate follow the alloy ladder.",
+		"",
+		"&7Tip:&r Enrich redstone and compress circuits with osmium once the Enrichment Chamber is up."
+	]
+	quest.B10000000000025C.title: "Metallurgic Infuser"
+	quest.B10000000000025C.quest_subtitle: "Mekanism · Machines"
+	quest.B10000000000025C.quest_desc: [
+		"&6Goal:&r Craft a Metallurgic Infuser.",
+		"",
+		"Infuse metals with carbon, redstone, diamond, refined obsidian, and more — the heart of Mekanism alloys.",
+		"",
+		"&7Tip:&r Side-config input/output with the Configurator; energy tablets charge early machines."
+	]
+	quest.B10000000000025D.title: "Enrichment Chamber"
+	quest.B10000000000025D.quest_subtitle: "Mekanism · Machines"
+	quest.B10000000000025D.quest_desc: [
+		"&6Goal:&r Craft an Enrichment Chamber.",
+		"",
+		"Enrich ores, redstone, diamonds, and other materials for better yields and circuit ingredients.",
+		"",
+		"&7Tip:&r Speed and energy upgrades pay for themselves once ore lines are feeding it."
+	]
+	quest.B10000000000025E.title: "Mekanism Crusher"
+	quest.B10000000000025E.quest_subtitle: "Mekanism · Machines"
+	quest.B10000000000025E.quest_desc: [
+		"&6Goal:&r Craft a Mekanism Crusher.",
+		"",
+		"Crush ores and intermediates alongside Create mills — useful when you want FE-powered dust production.",
+		"",
+		"&7Tip:&r Factory upgrades turn this into a multi-slot crushing line later."
+	]
+	quest.B10000000000025F.title: "Infused Alloy"
+	quest.B10000000000025F.quest_subtitle: "Mekanism · Alloys"
+	quest.B10000000000025F.quest_desc: [
+		"&6Goal:&r Craft &68 Infused Alloys&r.",
+		"",
+		"Redstone-infused iron is the first alloy tier — Advanced circuits and many mid machines need it.",
+		"",
+		"&7Tip:&r Automate redstone enrichment before you mass-produce Advanced Control Circuits."
+	]
+	quest.B100000000000260.title: "Advanced Circuits"
+	quest.B100000000000260.quest_subtitle: "Mekanism · Alloys"
+	quest.B100000000000260.quest_desc: [
+		"&6Goal:&r Craft &64 Advanced Control Circuits&r.",
+		"",
+		"Advanced circuits unlock stronger machines, better transporters, and the next alloy step.",
+		"",
+		"&7Tip:&r Stockpile infused alloy; every upgrade path burns through these."
+	]
+	quest.B100000000000261.title: "Purification Chamber"
+	quest.B100000000000261.quest_subtitle: "Mekanism · Ore processing"
+	quest.B100000000000261.quest_desc: [
+		"&6Goal:&r Craft a Purification Chamber.",
+		"",
+		"Oxygen-assisted ore purification is the next yield jump after enrichment.",
+		"",
+		"&7Tip:&r Feed oxygen from an Electrolytic Separator once you start gas processing."
+	]
+	quest.B100000000000262.title: "Electrolytic Separator"
+	quest.B100000000000262.quest_subtitle: "Mekanism · Gases"
+	quest.B100000000000262.quest_desc: [
+		"&6Goal:&r Craft an Electrolytic Separator.",
+		"",
+		"Split water into hydrogen and oxygen — coolant, purification, and gas-burning power all depend on it.",
+		"",
+		"&7Tip:&r Dump excess hydrogen into a Gas-Burning Generator or store it in chemical tanks."
+	]
+	quest.B100000000000263.title: "Chemical Injection"
+	quest.B100000000000263.quest_subtitle: "Mekanism · Ore processing"
+	quest.B100000000000263.quest_desc: [
+		"&6Goal:&r Craft a Chemical Injection Chamber.",
+		"",
+		"Hydrogen chloride injection pushes ore processing into elite yields.",
+		"",
+		"&7Tip:&r Make HCl by infusing hydrogen with chlorine from salt brine electrolysis."
+	]
+	quest.B100000000000264.title: "Osmium Compressor"
+	quest.B100000000000264.quest_subtitle: "Mekanism · Machines"
+	quest.B100000000000264.quest_desc: [
+		"&6Goal:&r Craft an Osmium Compressor.",
+		"",
+		"Compress osmium onto dusts for refined glowstone, obsidian products, and other late intermediates.",
+		"",
+		"&7Tip:&r Pair with a Combiner when recipes want compressed blocks or blended dusts."
+	]
+	quest.B100000000000265.title: "Universal Cables"
+	quest.B100000000000265.quest_subtitle: "Mekanism · Logistics"
+	quest.B100000000000265.quest_desc: [
+		"&6Goal:&r Craft &632 Basic Universal Cables&r.",
+		"",
+		"Move FE between cubes, machines, and chargepads. Upgrade cable tiers when transfer rate stalls.",
+		"",
+		"&7Tip:&r Configurator sets pull/push modes on cable connections."
+	]
+	quest.B100000000000266.title: "Logistical Transporters"
+	quest.B100000000000266.quest_subtitle: "Mekanism · Logistics"
+	quest.B100000000000266.quest_desc: [
+		"&6Goal:&r Craft &632 Basic Logistical Transporters&r.",
+		"",
+		"Mekanism's item pipes with filters, color coding, and round-robin — great beside Create belts.",
+		"",
+		"&7Tip:&r Use configurator color modes to keep ore lines from mixing."
+	]
+	quest.B100000000000267.title: "Pressurized Tubes"
+	quest.B100000000000267.quest_subtitle: "Mekanism · Logistics"
+	quest.B100000000000267.quest_desc: [
+		"&6Goal:&r Craft &616 Basic Pressurized Tubes&r.",
+		"",
+		"Move chemicals and gases between separators, chambers, and tanks.",
+		"",
+		"&7Tip:&r Leak-free routing matters once radioactive or expensive gases enter the network."
+	]
+	quest.B100000000000268.title: "Energy Cube"
+	quest.B100000000000268.quest_subtitle: "Mekanism · Power"
+	quest.B100000000000268.quest_desc: [
+		"&6Goal:&r Craft a Basic Energy Cube.",
+		"",
+		"Buffer FE for machine halls. Upgrade through Advanced/Elite/Ultimate as demand grows.",
+		"",
+		"&7Tip:&r Place cubes at the center of machine clusters to shorten cable runs."
+	]
+	quest.B100000000000269.title: "Factory Installer"
+	quest.B100000000000269.quest_subtitle: "Mekanism · Factories"
+	quest.B100000000000269.quest_desc: [
+		"&6Goal:&r Craft a Basic Tier Installer.",
+		"",
+		"Right-click a machine to turn it into a factory with more processing slots.",
+		"",
+		"&7Tip:&r Higher-tier installers stack further — plan floor space before upgrading everything."
+	]
+	quest.B10000000000026A.title: "Digital Miner"
+	quest.B10000000000026A.quest_subtitle: "Mekanism · Late tools"
+	quest.B10000000000026A.quest_desc: [
+		"&6Goal:&r Craft a Digital Miner.",
+		"",
+		"Filter-based area mining that respects configs and silk-touch options — the ultimate ore vacuum.",
+		"",
+		"&7Tip:&r Feed it serious power and set precise filters so you don't shred your base biome."
+	]
+	quest.B10000000000026B.title: "Atomic Disassembler"
+	quest.B10000000000026B.quest_subtitle: "Mekanism · Late tools"
+	quest.B10000000000026B.quest_desc: [
+		"&6Goal:&r Craft an Atomic Disassembler.",
+		"",
+		"A configurable all-tool that scales with energy upgrades — mining, combat, and vein modes in one.",
+		"",
+		"&7Tip:&r Charge it on a Chargepad connected to your energy network."
+	]
+	quest.B10000000000026C.title: "QIO Dashboard"
+	quest.B10000000000026C.quest_subtitle: "Mekanism · Storage"
+	quest.B10000000000026C.quest_desc: [
+		"&6Goal:&r Craft a QIO Dashboard.",
+		"",
+		"Quantum Item Orchestration stores huge item volumes wirelessly once drives and frequency links are set.",
+		"",
+		"&7Tip:&r Start with a base QIO Drive and expand frequencies carefully."
+	]
+	quest.B10000000000026D.title: "Atomic Alloy"
+	quest.B10000000000026D.quest_subtitle: "Mekanism · Endgame"
+	quest.B10000000000026D.quest_desc: [
+		"&6Goal:&r Craft &64 Atomic Alloys&r.",
+		"",
+		"Diamond-infused reinforced alloy is Mekanism's top crafting tier for elite machines and teleporters.",
+		"",
+		"&7Tip:&r Automate the full alloy ladder before chasing MekaSuit modules."
+	]
+	quest.B10000000000026E.title: "Mekanism Teleporter"
+	quest.B10000000000026E.quest_subtitle: "Mekanism · Endgame"
+	quest.B10000000000026E.quest_desc: [
+		"&6Goal:&r Craft a Mekanism Teleporter.",
+		"",
+		"Frame a portal and link frequencies for instant base-to-base travel.",
+		"",
+		"&7Tip:&r Teleporter Frames are cheap; energy cost and linking are the real setup."
+	]
+}

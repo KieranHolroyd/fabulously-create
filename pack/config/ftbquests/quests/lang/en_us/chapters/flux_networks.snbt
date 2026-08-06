@@ -6,7 +6,10 @@
 		"",
 		"Flux Dust is the foundation of a wireless FE network and is created through its special bedrock interaction recipe.",
 		"",
-		"&7Tip:&r Check JEI for the exact in-world process; bring enough redstone for a batch."
+		"&7Tip:&r Check JEI for the exact in-world process; bring enough redstone for a batch.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Dimensional Cell\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000001C2\"}}"
 	]
 	quest.B1000000000001D7.title: "Flux Cores"
 	quest.B1000000000001D7.quest_subtitle: "Flux Networks · Components"

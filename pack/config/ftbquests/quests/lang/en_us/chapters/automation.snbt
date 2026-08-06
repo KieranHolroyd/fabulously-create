@@ -7,7 +7,10 @@
 		"Menril fuels Integrated Dynamics crafting. Find menril trees / berries in the world (Nature's Compass helps).",
 		"",
 		"&7Tip:&r Crystalized menril chunks also drop — keep them for cables and variables.",
-		"&7Next:&r Spin up a cable network, then learn variables."
+		"&7Next:&r Spin up a cable network, then learn variables.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Brass Age\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000DF\"}}"
 	]
 	quest.B100000000000191.title: "Logic Network"
 	quest.B100000000000191.quest_subtitle: "Integrated Dynamics"

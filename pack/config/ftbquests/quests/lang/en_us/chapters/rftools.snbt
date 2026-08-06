@@ -6,7 +6,10 @@
 		"",
 		"Machine Frames are the common chassis for the entire RFTools suite.",
 		"",
-		"&7Tip:&r Keep a batch in Refined Storage; nearly every branch consumes them."
+		"&7Tip:&r Keep a batch in Refined Storage; nearly every branch consumes them.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Starter Energy Cell\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000001AB\"}}"
 	]
 	quest.B1000000000001BE.title: "Smart Wrench"
 	quest.B1000000000001BE.quest_subtitle: "RFTools · Tools"

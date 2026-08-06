@@ -7,7 +7,10 @@
 		"Create's basic component. Everything kinetic — shafts, cogs, casings, presses — starts here.",
 		"",
 		"&7Tip:&r Recipe: andesite + iron nuggets in crafting, or bulk-mix later with a mixer + basin.",
-		"&7Next:&r Hand-crank a few machines, then build water wheels for free SU."
+		"&7Next:&r Hand-crank a few machines, then build water wheels for free SU.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
 	]
 	quest.B1000000000000C9.title: "Hand Crank"
 	quest.B1000000000000C9.quest_subtitle: "Kinetics"

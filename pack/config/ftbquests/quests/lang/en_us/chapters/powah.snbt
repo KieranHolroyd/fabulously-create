@@ -6,7 +6,10 @@
 		"",
 		"Powah uses dielectric paste, rods, and casings throughout every generator and storage tier.",
 		"",
-		"&7Tip:&r Cook it in batches; upgrading machines repeatedly consumes plenty."
+		"&7Tip:&r Cook it in batches; upgrading machines repeatedly consumes plenty.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Brass Age\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000DF\"}}"
 	]
 	quest.B1000000000001A9.title: "Starter Furnator"
 	quest.B1000000000001A9.quest_subtitle: "Powah · Generation"

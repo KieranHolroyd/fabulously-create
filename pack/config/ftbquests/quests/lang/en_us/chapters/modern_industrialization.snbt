@@ -1,0 +1,167 @@
+{
+	quest.B1000000000002EE.title: "Forge Hammer"
+	quest.B1000000000002EE.quest_subtitle: "Modern Industrialization · Age 1"
+	quest.B1000000000002EE.quest_desc: [
+		"&6Goal:&r Craft a Forge Hammer.",
+		"",
+		"MI starts with manual forging — plates, rods, and rings from ingots before machines take over.",
+		"",
+		"&7Tip:&r Pound a stack of iron plates now; bronze recipes will thank you.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Iron Stockpile\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000006A\"}}"
+	]
+	quest.B1000000000002EF.title: "Bronze Age"
+	quest.B1000000000002EF.quest_subtitle: "Modern Industrialization · Age 1"
+	quest.B1000000000002EF.quest_desc: [
+		"&6Goal:&r Craft &616 Bronze Ingots&r.",
+		"",
+		"Bronze unlocks the first steam machines and boilers — MI's true beginning.",
+		"",
+		"&7Tip:&r Tin + copper; Create mixing can help if you already have a brass factory."
+	]
+	quest.B1000000000002F0.title: "Bronze Boiler"
+	quest.B1000000000002F0.quest_subtitle: "Modern Industrialization · Steam"
+	quest.B1000000000002F0.quest_desc: [
+		"&6Goal:&r Craft a Bronze Boiler.",
+		"",
+		"Burn fuel to make steam for bronze machines. Pipe steam with fluid pipes to machine hatches.",
+		"",
+		"&7Tip:&r Keep a water supply attached; dry boilers do nothing."
+	]
+	quest.B1000000000002F1.title: "Bronze Furnace"
+	quest.B1000000000002F1.quest_subtitle: "Modern Industrialization · Steam"
+	quest.B1000000000002F1.quest_desc: [
+		"&6Goal:&r Craft a Bronze Furnace.",
+		"",
+		"Steam-powered smelting that outpaces a vanilla furnace once steam is stable.",
+		"",
+		"&7Tip:&r Item pipes move ores in and ingots out while you expand."
+	]
+	quest.B1000000000002F2.title: "Bronze Compressor"
+	quest.B1000000000002F2.quest_subtitle: "Modern Industrialization · Steam"
+	quest.B1000000000002F2.quest_desc: [
+		"&6Goal:&r Craft a Bronze Compressor.",
+		"",
+		"Automate plates and other compressed parts so you can retire the Forge Hammer for bulk work.",
+		"",
+		"&7Tip:&r Steel age recipes still want lots of plates — overproduce."
+	]
+	quest.B1000000000002F3.title: "Bronze Macerator"
+	quest.B1000000000002F3.quest_subtitle: "Modern Industrialization · Steam"
+	quest.B1000000000002F3.quest_desc: [
+		"&6Goal:&r Craft a Bronze Macerator.",
+		"",
+		"Crush ores and solids with steam power — MI's early dust line.",
+		"",
+		"&7Tip:&r Double-process ores when recipes allow for better yields."
+	]
+	quest.B1000000000002F4.title: "Coke Oven"
+	quest.B1000000000002F4.quest_subtitle: "Modern Industrialization · Steel"
+	quest.B1000000000002F4.quest_desc: [
+		"&6Goal:&r Build a Coke Oven multiblock.",
+		"",
+		"Coal coke and creosote start the steel path. Bring fire-clay bricks and a valid hollow structure.",
+		"",
+		"&7Tip:&r Creosote is useful elsewhere — store it instead of voiding."
+	]
+	quest.B1000000000002F5.title: "Steam Blast Furnace"
+	quest.B1000000000002F5.quest_subtitle: "Modern Industrialization · Steel"
+	quest.B1000000000002F5.quest_desc: [
+		"&6Goal:&r Build a Steam Blast Furnace.",
+		"",
+		"Blast iron with coke toward steel. This multiblock is the gate to Steel machines.",
+		"",
+		"&7Tip:&r Keep steam pressure high; starved SFBs crawl."
+	]
+	quest.B1000000000002F6.title: "Steel Stockpile"
+	quest.B1000000000002F6.quest_subtitle: "Modern Industrialization · Steel"
+	quest.B1000000000002F6.quest_desc: [
+		"&6Goal:&r Produce &616 Steel Ingots&r.",
+		"",
+		"Steel unlocks stronger machines, better boilers, and the jump toward electricity.",
+		"",
+		"&7Tip:&r Batch plates and rods immediately after the first steel pour."
+	]
+	quest.B1000000000002F7.title: "Steel Boiler"
+	quest.B1000000000002F7.quest_subtitle: "Modern Industrialization · Steel"
+	quest.B1000000000002F7.quest_desc: [
+		"&6Goal:&r Craft a Steel Boiler.",
+		"",
+		"Higher steam output for steel-tier machines and larger factories.",
+		"",
+		"&7Tip:&r Upgrade pipe networks when steam demand outruns bronze boilers."
+	]
+	quest.B1000000000002F8.title: "Analog Circuits"
+	quest.B1000000000002F8.quest_subtitle: "Modern Industrialization · Electric"
+	quest.B1000000000002F8.quest_desc: [
+		"&6Goal:&r Craft &68 Analog Circuits&r.",
+		"",
+		"Circuits are MI's long progression spine — analog today, electronic/digital/quantum later.",
+		"",
+		"&7Tip:&r Automate circuit board ingredients before you feel the craft spam."
+	]
+	quest.B1000000000002F9.title: "Basic Machine Hull"
+	quest.B1000000000002F9.quest_subtitle: "Modern Industrialization · Electric"
+	quest.B1000000000002F9.quest_desc: [
+		"&6Goal:&r Craft &64 Basic Machine Hulls&r.",
+		"",
+		"Electric machines are built on hulls. Basic hulls cover LV; advanced tiers follow.",
+		"",
+		"&7Tip:&r Motors, conveyors, and robot arms share parts with hull crafts — stock components."
+	]
+	quest.B1000000000002FA.title: "Motors"
+	quest.B1000000000002FA.quest_subtitle: "Modern Industrialization · Electric"
+	quest.B1000000000002FA.quest_desc: [
+		"&6Goal:&r Craft &64 Motors&r.",
+		"",
+		"Motors drive electric machines and appear in countless component recipes.",
+		"",
+		"&7Tip:&r Tin cables and rubber often gate early motor crafts — check JEI."
+	]
+	quest.B1000000000002FB.title: "Electric Macerator"
+	quest.B1000000000002FB.quest_subtitle: "Modern Industrialization · Electric"
+	quest.B1000000000002FB.quest_desc: [
+		"&6Goal:&r Craft an Electric Macerator.",
+		"",
+		"FE-powered crushing for serious ore throughput once LV power is online.",
+		"",
+		"&7Tip:&r Feed it with item pipes and pull dusts into an RS or Create line."
+	]
+	quest.B1000000000002FC.title: "LV Diesel Generator"
+	quest.B1000000000002FC.quest_subtitle: "Modern Industrialization · Electric"
+	quest.B1000000000002FC.quest_desc: [
+		"&6Goal:&r Craft an LV Diesel Generator.",
+		"",
+		"Burn diesel/biodiesel for steady LV FE when steam turbines aren't enough.",
+		"",
+		"&7Tip:&r Oil drilling and distillation unlock proper fuel logistics later."
+	]
+	quest.B1000000000002FD.title: "Electronic Circuits"
+	quest.B1000000000002FD.quest_subtitle: "Modern Industrialization · Mid game"
+	quest.B1000000000002FD.quest_desc: [
+		"&6Goal:&r Craft &64 Electronic Circuits&r.",
+		"",
+		"MV progression and better machines demand electronic circuits.",
+		"",
+		"&7Tip:&r Plan clean-room style crafting arrays — circuit crafting is a factory of its own."
+	]
+	quest.B1000000000002FE.title: "Electric Quarry"
+	quest.B1000000000002FE.quest_subtitle: "Modern Industrialization · Mid game"
+	quest.B1000000000002FE.quest_desc: [
+		"&6Goal:&r Craft an Electric Quarry.",
+		"",
+		"Automated chunk mining with drill heads and power — MI's answer to bulk resource gathering.",
+		"",
+		"&7Tip:&r Clear the work area and supply drill heads before activating."
+	]
+	quest.B1000000000002FF.title: "Digital Circuits"
+	quest.B1000000000002FF.quest_subtitle: "Modern Industrialization · Late"
+	quest.B1000000000002FF.quest_desc: [
+		"&6Goal:&r Craft &62 Digital Circuits&r.",
+		"",
+		"HV-tier brains for advanced machines and late multiblocks.",
+		"",
+		"&7Tip:&r By now circuit automation should be hands-off; if not, fix that first."
+	]
+}

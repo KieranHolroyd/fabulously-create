@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.17** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.18** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -123,7 +123,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Curios API](https://modrinth.com/mod/curios) | Extra equipment slots |
 | [Artifacts](https://modrinth.com/mod/artifacts) | Curios trinkets and relics |
 | [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | Hold key to vein-mine connected blocks |
-| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Quest book and progression (**212** pack quests in `config/ftbquests/`) |
+| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Quest book and progression (**319** pack quests in `config/ftbquests/`) |
 | [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | Required by FTB Quests |
 | [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | Required by FTB mods |
 | [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | JEI and other mod integrations for FTB Quests |
@@ -181,7 +181,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 - **Java 21+** is required for client and server.
 - **Iris** and **Steam 'n' Rails Neoforge** are beta — expect occasional issues.
 - **Create: Enchantment Industry** is pinned to release **2.4.2** (not the preview alpha).
-- **FTB Quests:** 9-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Refined Storage, Powah, RFTools, and Flux Networks each have their own dedicated chapter. Definitions live in `scripts/ftb_quest_book.py`.
+- **FTB Quests:** 15-category book under `pack/config/ftbquests/` (regenerate with `python3 scripts/generate-ftb-quests.py`). Every quest rolls once on the shared weighted Quest Treasure table; configured XP remains guaranteed. Dedicated chapters cover Refined Storage, Powah, RFTools, Flux Networks, Mekanism, Mekanism Reactors, Extreme Reactors, Modern Industrialization, Industrial Foregoing, and Immersive Engineering. Definitions live as an AST under `scripts/ftb_quests/` (one module per chapter).
 - Not FO parity: most Fabulously Optimized visual QoL mods are still missing.
 - **Server pack:** run `./scripts/build-server-pack.sh` for a dedicated server without client-only mods.
 - Rebuild the curated list with `./scripts/bootstrap-neoforge-pack.sh`.

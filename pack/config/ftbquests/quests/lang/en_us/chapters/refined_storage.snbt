@@ -6,7 +6,10 @@
 		"",
 		"This is Refined Storage's base material. Keep quartz, iron, redstone, and silicon processing close to your factory.",
 		"",
-		"&7Tip:&r Batch the processor ingredients now; every network device uses them."
+		"&7Tip:&r Batch the processor ingredients now; every network device uses them.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Precision Mechanisms\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B1000000000000E3\"}}"
 	]
 	quest.B100000000000145.title: "Network Controller"
 	quest.B100000000000145.quest_subtitle: "Core"

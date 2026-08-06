@@ -1,0 +1,140 @@
+{
+	quest.B1000000000002BC.title: "Yellorium"
+	quest.B1000000000002BC.quest_subtitle: "Extreme Reactors · Fuel"
+	quest.B1000000000002BC.quest_desc: [
+		"&6Goal:&r Smelt &616 Yellorium Ingots&r.",
+		"",
+		"Yellorite ore smelts into yellorium — Extreme Reactors' primary fuel metal.",
+		"",
+		"&7Tip:&r Deepslate yellorite appears underground; Nature's Compass won't help, so dig or use a Digital Miner filter.",
+		"",
+		"&6Connected:&r",
+		"{\"text\":\"\\u2192 Alternator\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"B10000000000019B\"}}"
+	]
+	quest.B1000000000002BD.title: "Graphite Bars"
+	quest.B1000000000002BD.quest_subtitle: "Extreme Reactors · Materials"
+	quest.B1000000000002BD.quest_desc: [
+		"&6Goal:&r Craft &616 Graphite Bars&r.",
+		"",
+		"Graphite is used throughout reactor and turbine crafting. Keep a chest reserved for it.",
+		"",
+		"&7Tip:&r JEI shows charcoal/coal coke routes depending on other mods present."
+	]
+	quest.B1000000000002BE.title: "Reactor Casing"
+	quest.B1000000000002BE.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002BE.quest_desc: [
+		"&6Goal:&r Craft &624 Basic Reactor Casings&r.",
+		"",
+		"Casings form the hollow shell of a Basic reactor. Controllers, fuel rods, and ports replace face blocks.",
+		"",
+		"&7Tip:&r Start with a small cuboid; bigger reactors need proportional cooling and control rods."
+	]
+	quest.B1000000000002BF.title: "Reactor Controller"
+	quest.B1000000000002BF.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002BF.quest_desc: [
+		"&6Goal:&r Craft a Basic Reactor Controller.",
+		"",
+		"The controller validates the multiblock and exposes heat, fuel, and power controls.",
+		"",
+		"&7Tip:&r If formation fails, check corners, hollow interior, and that only valid parts sit on the shell."
+	]
+	quest.B1000000000002C0.title: "Fuel Rods"
+	quest.B1000000000002C0.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002C0.quest_desc: [
+		"&6Goal:&r Craft &64 Basic Reactor Fuel Rods&r.",
+		"",
+		"Fuel rods hold yellorium (and later fuels). More rods raise output and heat.",
+		"",
+		"&7Tip:&r Insert control rods above fuel columns so you can throttle the reaction."
+	]
+	quest.B1000000000002C1.title: "Control Rods"
+	quest.B1000000000002C1.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002C1.quest_desc: [
+		"&6Goal:&r Craft &62 Basic Reactor Control Rods&r.",
+		"",
+		"Control rods insert into fuel columns to moderate the reaction and prevent meltdowns.",
+		"",
+		"&7Tip:&r Keep insertion high until coolant and power taps are ready."
+	]
+	quest.B1000000000002C2.title: "Power Tap"
+	quest.B1000000000002C2.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002C2.quest_desc: [
+		"&6Goal:&r Craft a Basic Passive FE Power Tap.",
+		"",
+		"Extract FE directly from a passively cooled reactor — the simplest Extreme Reactors power setup.",
+		"",
+		"&7Tip:&r Active taps and steam turbine loops unlock much higher efficiency later."
+	]
+	quest.B1000000000002C3.title: "Access Port"
+	quest.B1000000000002C3.quest_subtitle: "Extreme Reactors · Reactor"
+	quest.B1000000000002C3.quest_desc: [
+		"&6Goal:&r Craft a Basic Solid Access Port.",
+		"",
+		"Automate fuel insert and waste extract through the access port with pipes or transporters.",
+		"",
+		"&7Tip:&r Cyanite waste piles up — plan a reprocessor or storage before scaling fuel rods."
+	]
+	quest.B1000000000002C4.title: "Cyanite Waste"
+	quest.B1000000000002C4.quest_subtitle: "Extreme Reactors · Fuel cycle"
+	quest.B1000000000002C4.quest_desc: [
+		"&6Goal:&r Collect &68 Cyanite Ingots&r.",
+		"",
+		"Spent fuel becomes cyanite. Reprocess it toward blutonium or store it safely.",
+		"",
+		"&7Tip:&r Don't void it casually if you plan ludicrite-tier endgame fuels."
+	]
+	quest.B1000000000002C5.title: "Turbine Housing"
+	quest.B1000000000002C5.quest_subtitle: "Extreme Reactors · Turbine"
+	quest.B1000000000002C5.quest_desc: [
+		"&6Goal:&r Craft &620 Basic Turbine Housings&r.",
+		"",
+		"Actively cooled reactors vent steam into a turbine multiblock for far more FE than a power tap.",
+		"",
+		"&7Tip:&r Rotor shafts, blades, coils, and a bearing complete the interior."
+	]
+	quest.B1000000000002C6.title: "Turbine Controller"
+	quest.B1000000000002C6.quest_subtitle: "Extreme Reactors · Turbine"
+	quest.B1000000000002C6.quest_desc: [
+		"&6Goal:&r Craft a Basic Turbine Controller.",
+		"",
+		"Validates the turbine and shows RPM, intake, and energy output.",
+		"",
+		"&7Tip:&r Match coil count and blade count to steam supply — overspeed wastes efficiency."
+	]
+	quest.B1000000000002C7.title: "Rotor Blades"
+	quest.B1000000000002C7.quest_subtitle: "Extreme Reactors · Turbine"
+	quest.B1000000000002C7.quest_desc: [
+		"&6Goal:&r Craft &68 Basic Turbine Rotor Blades&r.",
+		"",
+		"Blades catch steam flow along the rotor shaft. Balance them with coil induction.",
+		"",
+		"&7Tip:&r Too many blades without coils stalls; too many coils without blades underproduce."
+	]
+	quest.B1000000000002C8.title: "Cyanite Reprocessor"
+	quest.B1000000000002C8.quest_subtitle: "Extreme Reactors · Fuel cycle"
+	quest.B1000000000002C8.quest_desc: [
+		"&6Goal:&r Craft a Reprocessor Controller.",
+		"",
+		"The reprocessor multiblock turns cyanite waste back into useful fuels for the next tier.",
+		"",
+		"&7Tip:&r Bring fluid injectors, power ports, and casings — JEI/Patchouli show the full part list."
+	]
+	quest.B1000000000002C9.title: "Reinforced Reactor"
+	quest.B1000000000002C9.quest_subtitle: "Extreme Reactors · Endgame"
+	quest.B1000000000002C9.quest_desc: [
+		"&6Goal:&r Craft a Reinforced Reactor Controller.",
+		"",
+		"Reinforced parts support larger, hotter reactors and better late fuels like blutonium and ludicrite.",
+		"",
+		"&7Tip:&r Upgrade when Basic size or heat caps hold you back — not before the fuel cycle is stable."
+	]
+	quest.B1000000000002CA.title: "Ludicrite"
+	quest.B1000000000002CA.quest_subtitle: "Extreme Reactors · Endgame"
+	quest.B1000000000002CA.quest_desc: [
+		"&6Goal:&r Craft &64 Ludicrite Ingots&r.",
+		"",
+		"Ludicrite is an Extreme Reactors endgame material for top-tier components and bragging rights.",
+		"",
+		"&7Tip:&r Blutonium and End-dimension ingredients typically gate this craft — check JEI."
+	]
+}
