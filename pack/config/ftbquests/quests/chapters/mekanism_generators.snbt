@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "13421B7D1100726E"
+					id: "208A8A04EAEFFD34"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4A99FEBDC78CBDE0"
+				id: "6FFED90B1BA7472C"
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "025B264BAB70D676"
+					id: "4D0E8923E6E357AA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3F84335783815E41"
+				id: "6B263191F67185AB"
 				item: { count: 2, id: "mekanismgenerators:solar_generator" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "19961516E1372623"
+					id: "06AC7916727805A3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "55BA604CA58AFBFB"
+				id: "5FB5EC4B8EE741C2"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
 				type: "item"
 			}]
@@ -99,13 +99,13 @@
 					type: "random"
 				},
 				{
-					id: "281ACA697D153679"
+					id: "7FC4894BA154BD08"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6CEF197D47A83BDE"
+				id: "79E01E0FBA55B7F6"
 				item: { count: 1, id: "mekanismgenerators:bio_generator" }
 				type: "item"
 			}]
@@ -122,13 +122,13 @@
 					type: "random"
 				},
 				{
-					id: "2ED522DBB9EFD88E"
+					id: "449C96ED2526BB9C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3D9B400D3A3C7CD3"
+				id: "3A523AAD13C1076A"
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
@@ -145,13 +145,13 @@
 					type: "random"
 				},
 				{
-					id: "60926827657AD37C"
+					id: "4DDD9AC1631902E6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "49CCD8702182F8B9"
+				id: "2AA14F2347A007A3"
 				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
 				type: "item"
 			}]
@@ -170,13 +170,13 @@
 					type: "random"
 				},
 				{
-					id: "25F8985657F68AE3"
+					id: "5FBB7975D062DC1B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1B62E07AB5324123"
+				id: "5A7A7DD6B855C20D"
 				item: { count: 32, id: "mekanismgenerators:fission_reactor_casing" }
 				type: "item"
 			}]
@@ -193,13 +193,13 @@
 					type: "random"
 				},
 				{
-					id: "1C5FAE84C7128CC8"
+					id: "53B9002DA05ACECC"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0CD84A1AA2642EEF"
+				id: "0DFBCE37BF43FDEA"
 				item: { count: 4, id: "mekanismgenerators:fission_fuel_assembly" }
 				type: "item"
 			}]
@@ -216,17 +216,17 @@
 					type: "random"
 				},
 				{
-					id: "1F99DEFF9F434A42"
+					id: "54437D1515FE2145"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "38A55F1D004160AB"
+				id: "0FB53D717F0F7F1A"
 				item: { count: 2, id: "mekanismgenerators:control_rod_assembly" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 20.0d
 			y: 2.5d
 		},
 		{
@@ -239,17 +239,17 @@
 					type: "random"
 				},
 				{
-					id: "6EB44BBD1146E1C4"
+					id: "56538C29F647550B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "047AE04565F0BBF1"
+				id: "6FE2873CCBE82352"
 				item: { count: 2, id: "mekanismgenerators:fission_reactor_port" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 22.5d
 			y: 2.5d
 		},
 		{
@@ -263,17 +263,17 @@
 					type: "random"
 				},
 				{
-					id: "0617603279B93C29"
+					id: "1605BB0F27B0DF39"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5FEA214A54F2513F"
+				id: "57CAF64D3114E4F9"
 				item: { count: 24, id: "mekanismgenerators:turbine_casing" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 25.0d
 			y: 2.5d
 		},
 		{
@@ -286,17 +286,17 @@
 					type: "random"
 				},
 				{
-					id: "2443561FB033FCB4"
+					id: "219304524DF99C71"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "68B5F92594EECAB0"
+				id: "2D1E65BBA41D3724"
 				item: { count: 8, id: "mekanismgenerators:turbine_blade" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 27.5d
 			y: 2.5d
 		},
 		{
@@ -309,17 +309,17 @@
 					type: "random"
 				},
 				{
-					id: "00800331A423315C"
+					id: "18E34C6B9EE5CED3"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5A6A587C5B92E6F6"
+				id: "066CDAA665A2923D"
 				item: { count: 2, id: "mekanismgenerators:electromagnetic_coil" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 30.0d
 			y: 2.5d
 		},
 		{
@@ -332,17 +332,17 @@
 					type: "random"
 				},
 				{
-					id: "7DF92853DD7E7AEC"
+					id: "1F65E6C16D17D6F3"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "13E58AB682180737"
+				id: "7E0660B7FD9E11BC"
 				item: { count: 16, id: "mekanismgenerators:fusion_reactor_frame" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 32.5d
 			y: 2.5d
 		},
 		{
@@ -357,17 +357,17 @@
 					type: "random"
 				},
 				{
-					id: "5A042CD05CA0226F"
+					id: "4DBAAE52C9EE5F0B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "082CE0D16DC75E32"
+				id: "661DC2A0F19C6B0A"
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 35.0d
 			y: 2.5d
 		},
 		{
@@ -380,17 +380,17 @@
 					type: "random"
 				},
 				{
-					id: "4BA19619DFF7494F"
+					id: "5F1743D3F2B7F4DF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5289967C1E5E3854"
+				id: "39E19381DF3E5ABF"
 				item: { count: 1, id: "mekanismgenerators:hohlraum" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 37.5d
 			y: 2.5d
 		}
 	]

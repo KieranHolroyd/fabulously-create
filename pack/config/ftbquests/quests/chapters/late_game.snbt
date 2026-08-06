@@ -39,13 +39,13 @@
 					type: "random"
 				},
 				{
-					id: "626D86068D9A91E4"
+					id: "195D2AE31F9AB90D"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "4D5EB731B9F24191"
+				id: "4C4132EC9D49CB91"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
@@ -62,13 +62,13 @@
 					type: "random"
 				},
 				{
-					id: "3BFE73158A780E2E"
+					id: "0D48C47FCD1A0B57"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "357978210E41260B"
+				id: "557FBE0E72BAD8DD"
 				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
 				type: "item"
 			}]
@@ -88,11 +88,11 @@
 				}
 			]
 			tasks: [{
-				id: "26CAB9103BC3A8E6"
+				id: "22B98C622551CCB8"
 				item: { count: 1, id: "ironchest:obsidian_chest" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 2.5d
 		},
 		{
@@ -108,11 +108,11 @@
 				}
 			]
 			tasks: [{
-				id: "779E5E827135B2F9"
+				id: "0EB8EC69E945F791"
 				item: { count: 1, id: "ironchest:diamond_chest" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -2.5d
 		},
 		{
@@ -125,13 +125,13 @@
 					type: "random"
 				},
 				{
-					id: "5005D75FDC952D91"
+					id: "03AEE0592B02A3E7"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7CBAE974A7B03781"
+				id: "270A072AF537E5E6"
 				item: { count: 2, id: "ironjetpacks:thruster" }
 				type: "item"
 			}]
@@ -149,7 +149,7 @@
 				}
 			]
 			tasks: [{
-				id: "092DEA4FB454A3B1"
+				id: "7A2035CB1BAD6553"
 				item: { count: 1, id: "ironjetpacks:cell" }
 				type: "item"
 			}]
@@ -168,13 +168,13 @@
 					type: "random"
 				},
 				{
-					id: "29959066DEBB2A00"
+					id: "048BED3417E54BCC"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "5102860B079AB236"
+				id: "1C846D47F62B818A"
 				item: { count: 1, id: "ironjetpacks:jetpack" }
 				type: "item"
 			}]
@@ -192,17 +192,17 @@
 					type: "random"
 				},
 				{
-					id: "1AC360F3F79ED1DE"
+					id: "55BE2B3485188409"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "671206430E3D0AEF"
+				id: "5EFBE8E4876B4530"
 				item: { count: 1, id: "create_jetpack:jetpack" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 12.5d
 			y: -2.5d
 		},
 		{
@@ -217,17 +217,17 @@
 					type: "random"
 				},
 				{
-					id: "14D2F8285F987BF9"
+					id: "1989EC2157B809AA"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "696F104D31F151B1"
+				id: "13946A4A2F61EC74"
 				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 15.0d
 			y: -2.5d
 		},
 		{
@@ -242,17 +242,17 @@
 					type: "random"
 				},
 				{
-					id: "1819FA588DFA4B35"
+					id: "743F9F6B8360ECF3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "50D0D0ABAFF3811F"
+				id: "43D8DECA6319015A"
 				item: { count: 1, id: "createbigcannons:cannon_mount" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 15.0d
 			y: 2.5d
 		},
 		{
@@ -268,11 +268,11 @@
 				}
 			]
 			tasks: [{
-				id: "2BC5D8816C934156"
+				id: "6A88BF54F5E10462"
 				item: { count: 1, id: "createbigcannons:solid_shot" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 17.5d
 			y: 2.5d
 		},
 		{
@@ -288,17 +288,17 @@
 					type: "random"
 				},
 				{
-					id: "30CED742BFCE77FB"
+					id: "0511180B5E4E4D79"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "430BE69D7BB3756A"
+				id: "660069B12CD5BBA8"
 				item: { count: 64, id: "create:track" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 20.0d
 			y: 2.5d
 		},
 		{
@@ -311,17 +311,17 @@
 					type: "random"
 				},
 				{
-					id: "11C72BCBAA45C27B"
+					id: "5D4840D82D47A814"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "20AB2BBEE9654D55"
+				id: "18188C34B82C5542"
 				item: { count: 1, id: "railways:conductor_whistle" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 22.5d
 			y: 2.5d
 		},
 		{
@@ -337,11 +337,11 @@
 				}
 			]
 			tasks: [{
-				id: "68D6ACD3E0C7BA4B"
+				id: "7C6EAA9C4414E87F"
 				item: { count: 1, id: "bellsandwhistles:headlight" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 25.0d
 			y: 2.5d
 		},
 		{
@@ -358,13 +358,13 @@
 					type: "random"
 				},
 				{
-					id: "313AB1695EA24449"
+					id: "0CF25856D4658181"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "7CF39EF84D1C7B43"
+				id: "7E2DD12D35E91623"
 				item: { count: 32, id: "create:precision_mechanism" }
 				type: "item"
 			}]
@@ -383,13 +383,13 @@
 					type: "random"
 				},
 				{
-					id: "561B58F549F2BF3C"
+					id: "44AC84F122234DB6"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "463720CE5501F96E"
+				id: "2FB233D6D9692343"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
@@ -409,13 +409,13 @@
 					type: "random"
 				},
 				{
-					id: "0760A51B0558369B"
+					id: "69C3EAF3DB1F41BD"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "3CADBE48489C5A0F"
+				id: "0CE3C4112E0CFC9B"
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
@@ -434,13 +434,13 @@
 					type: "random"
 				},
 				{
-					id: "0A0AA103BE443886"
+					id: "5E123B2FB6E75E29"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "76800136601BB3AC"
+				id: "57EFDCE29C3FB779"
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
@@ -459,17 +459,17 @@
 					type: "random"
 				},
 				{
-					id: "05D4A608520588EF"
+					id: "7D27E62663F46649"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6B82BEC0D32F355F"
+				id: "62B57B67E0187D39"
 				item: { count: 1, id: "constructionstick:netherite_stick" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 17.5d
 			y: -2.5d
 		},
 		{
@@ -484,17 +484,17 @@
 					type: "random"
 				},
 				{
-					id: "21D1CE71EB926474"
+					id: "1CC1BD635B5DA1D9"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3218B9FFDB621895"
+				id: "6E191ED38F945B21"
 				item: { count: 8, id: "tombstone:grave_dust" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 20.0d
 			y: -2.5d
 		},
 		{
@@ -510,11 +510,11 @@
 				}
 			]
 			tasks: [{
-				id: "7113BB87233424CD"
+				id: "0EA3F8D5F4707D4A"
 				item: { count: 1, id: "create_sa:brass_drill_head" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 22.5d
 			y: -2.5d
 		},
 		{
@@ -529,17 +529,17 @@
 					type: "random"
 				},
 				{
-					id: "0C5F5B22A7A3920D"
+					id: "59986D80198AE0ED"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5DB746861B191329"
+				id: "5E327E29246BF3C0"
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.5d
 			y: -4.5d
 		}
 	]

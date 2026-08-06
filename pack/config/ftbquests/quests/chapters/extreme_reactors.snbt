@@ -30,13 +30,13 @@
 					type: "random"
 				},
 				{
-					id: "34430511E2740FDF"
+					id: "7CA07C5A21320639"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4EBC906D5D9007C8"
+				id: "1BC5A869B3D1B872"
 				item: { count: 16, id: "bigreactors:yellorium_ingot" }
 				type: "item"
 			}]
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "6800365632516FEF"
+					id: "7F11A8D27B824C58"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "694EF6897F2DB8C7"
+				id: "046C2D0AFF829DBF"
 				item: { count: 16, id: "bigreactors:graphite_ingot" }
 				type: "item"
 			}]
@@ -76,13 +76,13 @@
 					type: "random"
 				},
 				{
-					id: "34ED09182620FBED"
+					id: "6BA80A0B1A7430F5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7EE7202190A6935E"
+				id: "3B8D56906F17B029"
 				item: { count: 24, id: "bigreactors:basic_reactorcasing" }
 				type: "item"
 			}]
@@ -101,13 +101,13 @@
 					type: "random"
 				},
 				{
-					id: "134E6C1CEB5F9347"
+					id: "0419DBEEC40D5062"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0A41DEE2C2A1482F"
+				id: "789E72087F0E81B5"
 				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 				type: "item"
 			}]
@@ -124,13 +124,13 @@
 					type: "random"
 				},
 				{
-					id: "466A55BD5445A7F0"
+					id: "06C780D6C0D184EE"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4DFA178FE0FC2A32"
+				id: "58B06692FD07ADFB"
 				item: { count: 4, id: "bigreactors:basic_reactorfuelrod" }
 				type: "item"
 			}]
@@ -147,13 +147,13 @@
 					type: "random"
 				},
 				{
-					id: "20026028D24BEDDF"
+					id: "36D0D6A77755695D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "577CDD012ECE12C7"
+				id: "1004EC19078DD617"
 				item: { count: 2, id: "bigreactors:basic_reactorcontrolrod" }
 				type: "item"
 			}]
@@ -170,13 +170,13 @@
 					type: "random"
 				},
 				{
-					id: "354A78446B5574F4"
+					id: "4F1593BDE479442A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "20B7D7B7D0AE565B"
+				id: "15BEDADE376010D9"
 				item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
 				type: "item"
 			}]
@@ -193,13 +193,13 @@
 					type: "random"
 				},
 				{
-					id: "0C434406E50275A3"
+					id: "5CED8C9A1C23B53A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4972B680016D91DC"
+				id: "07027309C25B05B1"
 				item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
 				type: "item"
 			}]
@@ -216,17 +216,17 @@
 					type: "random"
 				},
 				{
-					id: "452C6BF0097C2BC9"
+					id: "4613C16C8AF88D00"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7030DBFB8994D674"
+				id: "182C5AD3EF7FC424"
 				item: { count: 8, id: "bigreactors:cyanite_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 20.0d
 			y: 2.5d
 		},
 		{
@@ -239,17 +239,17 @@
 					type: "random"
 				},
 				{
-					id: "1EA6F7A1F6A82375"
+					id: "1E4ED3D796982567"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "7E9C03B1AD8F0014"
+				id: "49440D9B57FE91DE"
 				item: { count: 20, id: "bigreactors:basic_turbinecasing" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 22.5d
 			y: 2.5d
 		},
 		{
@@ -263,17 +263,17 @@
 					type: "random"
 				},
 				{
-					id: "0DFE0D3769FC2BBD"
+					id: "16D148E3BADA0642"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "414A1516EDC2033E"
+				id: "1377EC406E3AF91C"
 				item: { count: 1, id: "bigreactors:basic_turbinecontroller" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 25.0d
 			y: 2.5d
 		},
 		{
@@ -286,17 +286,17 @@
 					type: "random"
 				},
 				{
-					id: "105A09E667176C5E"
+					id: "67328DC6E477DD5F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "665B475011F9D32B"
+				id: "6CC1097EE6C6DFF0"
 				item: { count: 8, id: "bigreactors:basic_turbinerotorblade" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 27.5d
 			y: 2.5d
 		},
 		{
@@ -309,17 +309,17 @@
 					type: "random"
 				},
 				{
-					id: "1A390FDD6D4D00B8"
+					id: "04243E89D5338D98"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2355FCBEF0E660C4"
+				id: "4B3EDF1A97AD52DF"
 				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 30.0d
 			y: 2.5d
 		},
 		{
@@ -334,17 +334,17 @@
 					type: "random"
 				},
 				{
-					id: "459A7F964B0736EC"
+					id: "00D99CEBBB94E585"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6BFB7F31A029A529"
+				id: "1E9176760C2C2EBD"
 				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 32.5d
 			y: 2.5d
 		},
 		{
@@ -357,17 +357,17 @@
 					type: "random"
 				},
 				{
-					id: "66CC6EEE4317FE00"
+					id: "3E5E5A2350C20F3E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "61199AF1AD5CEE1A"
+				id: "0D66672270F74B7A"
 				item: { count: 4, id: "bigreactors:ludicrite_ingot" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 35.0d
 			y: 2.5d
 		}
 	]

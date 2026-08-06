@@ -8,6 +8,55 @@ from .ast import Book, Chapter, ItemReward, Quest, QuestLink, XpLevels
 from .connections import stable_link_id
 from .ids import quest_id
 
+
+def _corrected_x(chapter: Chapter, step: float = 2.5) -> dict[int, float]:
+    """Push quests right until dependency lines flow forward and rows don't collide.
+
+    Hand-authored x/y sometimes places a quest to the left of a quest it
+    depends on (a branch row restarting its x near the chapter's start).
+    FTB Quests draws a straight dependency line between quest centers, so
+    that reads as an arrow pointing backwards and crosses over unrelated
+    nodes.
+
+    Two constraints are relaxed to a fixed point:
+      1. x(quest) >= x(dependency) + step, for every same-chapter dep.
+      2. Within a row (same y), quests keep their authored left-to-right
+         order but are spread out by at least `step` so a dependency push
+         can't stack two of them on the same spot.
+    x only ever increases; y (lane/row grouping) is never touched.
+    """
+    by_n = {q.n: q for q in chapter.quests}
+    x = {q.n: q.x for q in chapter.quests}
+
+    rows: dict[float, list[int]] = {}
+    for q in chapter.quests:
+        rows.setdefault(q.y, []).append(q.n)
+    for row in rows.values():
+        row.sort(key=lambda n: by_n[n].x)
+
+    for _ in range(len(chapter.quests) + 1):
+        changed = False
+        for q in chapter.quests:
+            for dep_n in q.deps:
+                dep_q = by_n.get(dep_n)
+                if dep_q is None:
+                    continue
+                floor = x[dep_n] + step
+                if x[q.n] < floor:
+                    x[q.n] = floor
+                    changed = True
+        for row in rows.values():
+            for prev_n, n in zip(row, row[1:]):
+                floor = x[prev_n] + step
+                if x[n] < floor:
+                    x[n] = floor
+                    changed = True
+        if not changed:
+            break
+
+    return x
+
+
 def _rewards_to_dicts(quest: Quest) -> list[dict[str, Any]] | None:
     if not quest.rewards:
         return None
@@ -22,7 +71,9 @@ def _rewards_to_dicts(quest: Quest) -> list[dict[str, Any]] | None:
     return out
 
 
-def compile_quest(chapter: Chapter, quest: Quest) -> tuple[dict[str, Any], dict[str, Any]]:
+def compile_quest(
+    chapter: Chapter, quest: Quest, x_by_n: dict[int, float]
+) -> tuple[dict[str, Any], dict[str, Any]]:
     absolute = chapter.base + quest.n
     qid = quest_id(absolute)
     dep_ids = [quest_id(chapter.base + i) for i in quest.deps] + [
@@ -36,7 +87,7 @@ def compile_quest(chapter: Chapter, quest: Quest) -> tuple[dict[str, Any], dict[
             ordered.append(dep)
     meta = {
         "id": qid,
-        "x": quest.x,
+        "x": x_by_n[quest.n],
         "y": quest.y,
         "task": quest.task,
         "task_count": quest.task_count,
@@ -82,10 +133,11 @@ class CompiledChapter:
 
 
 def compile_chapter(chapter: Chapter) -> CompiledChapter:
+    x_by_n = _corrected_x(chapter)
     quests_meta: list[dict[str, Any]] = []
     lang_map: dict[str, dict[str, Any]] = {}
     for quest in chapter.quests:
-        meta, lang = compile_quest(chapter, quest)
+        meta, lang = compile_quest(chapter, quest, x_by_n)
         quests_meta.append(meta)
         lang_map[meta["id"]] = lang
     return CompiledChapter(
