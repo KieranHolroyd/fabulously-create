@@ -27,18 +27,28 @@ REWARD_TABLE_ID = "7100000000000001"
 REWARD_TABLE_ID_LONG = int(REWARD_TABLE_ID, 16)
 
 # Shared weighted pool used by every quest. Counts are deliberately useful,
-# while progression-skipping prizes have very low weights.
+# while progression-skipping prizes have very low weights. Grouped roughly
+# common -> jackpot; every modded id here is confirmed to exist in this pack
+# (pulled from real quest task items).
 COOL_REWARDS = [
+    # --- Vanilla staples (common-ish) ---
     ("minecraft:diamond", 8, 12.0),
     ("minecraft:emerald_block", 2, 10.0),
     ("minecraft:experience_bottle", 16, 10.0),
+    ("minecraft:iron_ingot", 16, 11.0),
+    ("minecraft:copper_ingot", 24, 10.0),
+    ("minecraft:coal", 32, 9.0),
     ("minecraft:ender_eye", 6, 8.0),
     ("minecraft:blaze_rod", 12, 8.0),
+    ("minecraft:leather", 16, 8.0),
+    # --- Vanilla uncommon ---
     ("minecraft:shulker_shell", 4, 7.0),
     ("minecraft:echo_shard", 4, 6.0),
     ("minecraft:dragon_breath", 6, 6.0),
     ("minecraft:nautilus_shell", 8, 6.0),
     ("minecraft:wither_skeleton_skull", 2, 5.0),
+    ("minecraft:beacon", 1, 2.0),
+    # --- Vanilla rare / jackpot ---
     ("minecraft:heart_of_the_sea", 1, 4.0),
     ("minecraft:trident", 1, 3.0),
     ("minecraft:netherite_scrap", 3, 3.0),
@@ -48,12 +58,78 @@ COOL_REWARDS = [
     ("minecraft:enchanted_golden_apple", 1, 1.0),
     ("minecraft:netherite_ingot", 1, 1.0),
     ("minecraft:totem_of_undying", 1, 1.0),
+    ("minecraft:dragon_egg", 1, 0.4),
     ("minecraft:nether_star", 1, 0.5),
     ("minecraft:elytra", 1, 0.25),
+    # --- Create ---
+    ("create:zinc_ingot", 16, 10.0),
+    ("create:brass_ingot", 8, 9.0),
+    ("create:andesite_alloy", 16, 9.0),
+    ("create:electron_tube", 4, 6.0),
     ("create:precision_mechanism", 2, 7.0),
     ("create:blaze_cake", 4, 6.0),
     ("create:sturdy_sheet", 4, 4.0),
+    ("create_sa:brass_jetpack_chestplate", 1, 0.6),
+    ("create_jetpack:jetpack", 1, 0.5),
+    # --- Mekanism ---
+    ("mekanism:ingot_osmium", 16, 9.0),
+    ("mekanism:ingot_steel", 12, 8.0),
+    ("mekanism:alloy_infused", 8, 6.0),
+    ("mekanism:alloy_atomic", 4, 3.0),
+    ("mekanism:advanced_control_circuit", 4, 3.5),
+    ("mekanism:atomic_disassembler", 1, 0.8),
+    ("mekanismgenerators:hohlraum", 1, 0.5),
+    # --- Powah ---
+    ("powah:uraninite", 8, 5.0),
+    ("powah:dielectric_paste", 8, 5.0),
+    ("powah:steel_energized", 8, 5.0),
+    ("powah:crystal_blazing", 2, 3.0),
+    ("powah:crystal_niotic", 2, 2.0),
+    ("powah:crystal_nitro", 1, 1.0),
+    ("powah:crystal_spirited", 1, 0.8),
+    # --- Immersive Engineering ---
+    ("immersiveengineering:ingot_steel", 12, 8.0),
+    ("immersiveengineering:coal_coke", 12, 7.0),
+    ("immersiveengineering:hemp_fiber", 16, 6.0),
+    ("immersiveengineering:graphite_electrode", 2, 3.0),
+    # --- Modern Industrialization ---
+    ("modern_industrialization:bronze_ingot", 12, 8.0),
+    ("modern_industrialization:steel_ingot", 12, 7.0),
+    ("modern_industrialization:electronic_circuit", 6, 5.0),
+    ("modern_industrialization:digital_circuit", 3, 3.0),
+    ("modern_industrialization:motor", 2, 3.0),
+    # --- Industrial Foregoing ---
+    ("industrialforegoing:pink_slime", 4, 3.0),
+    ("industrialforegoing:plastic", 8, 5.0),
+    ("industrialforegoing:machine_frame_advanced", 1, 1.5),
+    # --- Refined Storage ---
+    ("refinedstorage:quartz_enriched_iron", 8, 6.0),
+    ("refinedstorage:16k_storage_disk", 1, 2.5),
+    ("refinedstorage:wireless_grid", 1, 1.5),
+    # --- RFTools ---
+    ("rftoolsbase:dimensionalshard", 4, 4.0),
+    ("rftoolspower:cell1", 1, 2.0),
+    # --- Flux Networks ---
+    ("fluxnetworks:flux_dust", 8, 5.0),
+    ("fluxnetworks:basic_flux_storage", 1, 2.5),
+    # --- Extreme Reactors (Big Reactors) ---
+    ("bigreactors:yellorium_ingot", 8, 4.0),
+    ("bigreactors:graphite_ingot", 8, 5.0),
+    ("bigreactors:cyanite_ingot", 4, 3.0),
+    ("bigreactors:ludicrite_ingot", 2, 1.0),
+    # --- Silent Gear ---
+    ("silentgear:blueprint_paper", 4, 5.0),
+    ("silentgear:pickaxe_blueprint", 1, 2.0),
+    ("silentgear:sword_blueprint", 1, 2.0),
+    # --- Storage / QoL ---
+    ("sophisticatedbackpacks:iron_backpack", 1, 3.0),
+    ("sophisticatedbackpacks:stack_upgrade_tier_1", 1, 3.0),
+    ("sophisticatedstorage:iron_chest", 1, 2.5),
+    ("ironchest:diamond_chest", 1, 1.0),
+    ("ironjetpacks:cell", 2, 2.0),
     ("waystones:warp_stone", 1, 5.0),
+    ("naturescompass:naturescompass", 1, 2.0),
+    ("tombstone:grave_dust", 4, 4.0),
 ]
 
 # FTB Quests treats &X as a formatting code (0-9, a-f, k-o, r). Literal & must be \&.

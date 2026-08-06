@@ -39,13 +39,13 @@
 					type: "random"
 				},
 				{
-					id: "195D2AE31F9AB90D"
+					id: "1EB3A3D100C6C437"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "4C4132EC9D49CB91"
+				id: "4A60896FA93E0E32"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
@@ -62,13 +62,13 @@
 					type: "random"
 				},
 				{
-					id: "0D48C47FCD1A0B57"
+					id: "3275B490BEE86116"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "557FBE0E72BAD8DD"
+				id: "15A211DA1B03CBC0"
 				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
 				type: "item"
 			}]
@@ -88,7 +88,7 @@
 				}
 			]
 			tasks: [{
-				id: "22B98C622551CCB8"
+				id: "1BBCE00E67C3ED88"
 				item: { count: 1, id: "ironchest:obsidian_chest" }
 				type: "item"
 			}]
@@ -108,7 +108,7 @@
 				}
 			]
 			tasks: [{
-				id: "0EB8EC69E945F791"
+				id: "78FD31B355706490"
 				item: { count: 1, id: "ironchest:diamond_chest" }
 				type: "item"
 			}]
@@ -125,13 +125,13 @@
 					type: "random"
 				},
 				{
-					id: "03AEE0592B02A3E7"
+					id: "6925AEA7E564E7E8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "270A072AF537E5E6"
+				id: "0B31B61BF831461A"
 				item: { count: 2, id: "ironjetpacks:thruster" }
 				type: "item"
 			}]
@@ -149,7 +149,7 @@
 				}
 			]
 			tasks: [{
-				id: "7A2035CB1BAD6553"
+				id: "7F363842894BFEE7"
 				item: { count: 1, id: "ironjetpacks:cell" }
 				type: "item"
 			}]
@@ -168,13 +168,13 @@
 					type: "random"
 				},
 				{
-					id: "048BED3417E54BCC"
+					id: "07D7D2F849105D02"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "1C846D47F62B818A"
+				id: "34C0BAEF6FE6E838"
 				item: { count: 1, id: "ironjetpacks:jetpack" }
 				type: "item"
 			}]
@@ -192,13 +192,13 @@
 					type: "random"
 				},
 				{
-					id: "55BE2B3485188409"
+					id: "40E2CDD4B13487FF"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5EFBE8E4876B4530"
+				id: "5D546AA9FC0012A6"
 				item: { count: 1, id: "create_jetpack:jetpack" }
 				type: "item"
 			}]
@@ -217,13 +217,13 @@
 					type: "random"
 				},
 				{
-					id: "1989EC2157B809AA"
+					id: "0AD32694BB9778B7"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "13946A4A2F61EC74"
+				id: "71B909C6759FEDA5"
 				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
 				type: "item"
 			}]
@@ -242,13 +242,13 @@
 					type: "random"
 				},
 				{
-					id: "743F9F6B8360ECF3"
+					id: "430EBEB553833DD5"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "43D8DECA6319015A"
+				id: "5ECC8BD2697A6972"
 				item: { count: 1, id: "createbigcannons:cannon_mount" }
 				type: "item"
 			}]
@@ -268,7 +268,7 @@
 				}
 			]
 			tasks: [{
-				id: "6A88BF54F5E10462"
+				id: "050E9A4F4F2028FD"
 				item: { count: 1, id: "createbigcannons:solid_shot" }
 				type: "item"
 			}]
@@ -288,13 +288,13 @@
 					type: "random"
 				},
 				{
-					id: "0511180B5E4E4D79"
+					id: "24A609ACE357E32E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "660069B12CD5BBA8"
+				id: "64D0BF0BBE49F81D"
 				item: { count: 64, id: "create:track" }
 				type: "item"
 			}]
@@ -311,13 +311,13 @@
 					type: "random"
 				},
 				{
-					id: "5D4840D82D47A814"
+					id: "6A629D885A0D4EAC"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "18188C34B82C5542"
+				id: "17BBEB703F36685C"
 				item: { count: 1, id: "railways:conductor_whistle" }
 				type: "item"
 			}]
@@ -337,7 +337,7 @@
 				}
 			]
 			tasks: [{
-				id: "7C6EAA9C4414E87F"
+				id: "5AF65C26C4797A84"
 				item: { count: 1, id: "bellsandwhistles:headlight" }
 				type: "item"
 			}]
@@ -358,13 +358,13 @@
 					type: "random"
 				},
 				{
-					id: "0CF25856D4658181"
+					id: "16C811B994379354"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "7E2DD12D35E91623"
+				id: "5D23175B0719D01E"
 				item: { count: 32, id: "create:precision_mechanism" }
 				type: "item"
 			}]
@@ -383,13 +383,13 @@
 					type: "random"
 				},
 				{
-					id: "44AC84F122234DB6"
+					id: "76AB835C1DA41C99"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "2FB233D6D9692343"
+				id: "3DC0A131D79C0E56"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
@@ -409,13 +409,13 @@
 					type: "random"
 				},
 				{
-					id: "69C3EAF3DB1F41BD"
+					id: "4405B53AF89A1B00"
 					type: "xp"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "0CE3C4112E0CFC9B"
+				id: "1DDEC94812C20560"
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
@@ -434,13 +434,13 @@
 					type: "random"
 				},
 				{
-					id: "5E123B2FB6E75E29"
+					id: "3A061B101D9077E5"
 					type: "xp"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "57EFDCE29C3FB779"
+				id: "50B5B449AC2D56E5"
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
@@ -459,13 +459,13 @@
 					type: "random"
 				},
 				{
-					id: "7D27E62663F46649"
+					id: "5979CB554CB02810"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "62B57B67E0187D39"
+				id: "55B35556BFA5447A"
 				item: { count: 1, id: "constructionstick:netherite_stick" }
 				type: "item"
 			}]
@@ -484,13 +484,13 @@
 					type: "random"
 				},
 				{
-					id: "1CC1BD635B5DA1D9"
+					id: "2113E3C776E9B598"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "6E191ED38F945B21"
+				id: "7800C2A06EF20B00"
 				item: { count: 8, id: "tombstone:grave_dust" }
 				type: "item"
 			}]
@@ -510,7 +510,7 @@
 				}
 			]
 			tasks: [{
-				id: "0EA3F8D5F4707D4A"
+				id: "257FC36B3FF424AA"
 				item: { count: 1, id: "create_sa:brass_drill_head" }
 				type: "item"
 			}]
@@ -529,13 +529,13 @@
 					type: "random"
 				},
 				{
-					id: "59986D80198AE0ED"
+					id: "14DF5CC1468D6BA0"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5E327E29246BF3C0"
+				id: "4151B126DD8C5CCE"
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]

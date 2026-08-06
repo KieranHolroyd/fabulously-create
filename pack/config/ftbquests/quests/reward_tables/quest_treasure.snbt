@@ -29,13 +29,37 @@
 		{
 			id: "7200000000000004"
 			item: {
+				count: 16
+				id: "minecraft:iron_ingot"
+			}
+			weight: 11f
+		},
+		{
+			id: "7200000000000005"
+			item: {
+				count: 24
+				id: "minecraft:copper_ingot"
+			}
+			weight: 10f
+		},
+		{
+			id: "7200000000000006"
+			item: {
+				count: 32
+				id: "minecraft:coal"
+			}
+			weight: 9f
+		},
+		{
+			id: "7200000000000007"
+			item: {
 				count: 6
 				id: "minecraft:ender_eye"
 			}
 			weight: 8f
 		},
 		{
-			id: "7200000000000005"
+			id: "7200000000000008"
 			item: {
 				count: 12
 				id: "minecraft:blaze_rod"
@@ -43,7 +67,15 @@
 			weight: 8f
 		},
 		{
-			id: "7200000000000006"
+			id: "7200000000000009"
+			item: {
+				count: 16
+				id: "minecraft:leather"
+			}
+			weight: 8f
+		},
+		{
+			id: "720000000000000A"
 			item: {
 				count: 4
 				id: "minecraft:shulker_shell"
@@ -51,7 +83,7 @@
 			weight: 7f
 		},
 		{
-			id: "7200000000000007"
+			id: "720000000000000B"
 			item: {
 				count: 4
 				id: "minecraft:echo_shard"
@@ -59,7 +91,7 @@
 			weight: 6f
 		},
 		{
-			id: "7200000000000008"
+			id: "720000000000000C"
 			item: {
 				count: 6
 				id: "minecraft:dragon_breath"
@@ -67,7 +99,7 @@
 			weight: 6f
 		},
 		{
-			id: "7200000000000009"
+			id: "720000000000000D"
 			item: {
 				count: 8
 				id: "minecraft:nautilus_shell"
@@ -75,7 +107,7 @@
 			weight: 6f
 		},
 		{
-			id: "720000000000000A"
+			id: "720000000000000E"
 			item: {
 				count: 2
 				id: "minecraft:wither_skeleton_skull"
@@ -83,7 +115,15 @@
 			weight: 5f
 		},
 		{
-			id: "720000000000000B"
+			id: "720000000000000F"
+			item: {
+				count: 1
+				id: "minecraft:beacon"
+			}
+			weight: 2f
+		},
+		{
+			id: "7200000000000010"
 			item: {
 				count: 1
 				id: "minecraft:heart_of_the_sea"
@@ -91,7 +131,7 @@
 			weight: 4f
 		},
 		{
-			id: "720000000000000C"
+			id: "7200000000000011"
 			item: {
 				count: 1
 				id: "minecraft:trident"
@@ -99,7 +139,7 @@
 			weight: 3f
 		},
 		{
-			id: "720000000000000D"
+			id: "7200000000000012"
 			item: {
 				count: 3
 				id: "minecraft:netherite_scrap"
@@ -107,7 +147,7 @@
 			weight: 3f
 		},
 		{
-			id: "720000000000000E"
+			id: "7200000000000013"
 			item: {
 				count: 1
 				id: "minecraft:netherite_upgrade_smithing_template"
@@ -115,7 +155,7 @@
 			weight: 2.5f
 		},
 		{
-			id: "720000000000000F"
+			id: "7200000000000014"
 			item: {
 				count: 2
 				id: "minecraft:ominous_trial_key"
@@ -123,7 +163,7 @@
 			weight: 2.5f
 		},
 		{
-			id: "7200000000000010"
+			id: "7200000000000015"
 			item: {
 				count: 1
 				id: "minecraft:heavy_core"
@@ -131,7 +171,7 @@
 			weight: 1.5f
 		},
 		{
-			id: "7200000000000011"
+			id: "7200000000000016"
 			item: {
 				count: 1
 				id: "minecraft:enchanted_golden_apple"
@@ -139,7 +179,7 @@
 			weight: 1f
 		},
 		{
-			id: "7200000000000012"
+			id: "7200000000000017"
 			item: {
 				count: 1
 				id: "minecraft:netherite_ingot"
@@ -147,7 +187,7 @@
 			weight: 1f
 		},
 		{
-			id: "7200000000000013"
+			id: "7200000000000018"
 			item: {
 				count: 1
 				id: "minecraft:totem_of_undying"
@@ -155,7 +195,15 @@
 			weight: 1f
 		},
 		{
-			id: "7200000000000014"
+			id: "7200000000000019"
+			item: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
+			weight: 0.4f
+		},
+		{
+			id: "720000000000001A"
 			item: {
 				count: 1
 				id: "minecraft:nether_star"
@@ -163,7 +211,7 @@
 			weight: 0.5f
 		},
 		{
-			id: "7200000000000015"
+			id: "720000000000001B"
 			item: {
 				count: 1
 				id: "minecraft:elytra"
@@ -171,7 +219,39 @@
 			weight: 0.25f
 		},
 		{
-			id: "7200000000000016"
+			id: "720000000000001C"
+			item: {
+				count: 16
+				id: "create:zinc_ingot"
+			}
+			weight: 10f
+		},
+		{
+			id: "720000000000001D"
+			item: {
+				count: 8
+				id: "create:brass_ingot"
+			}
+			weight: 9f
+		},
+		{
+			id: "720000000000001E"
+			item: {
+				count: 16
+				id: "create:andesite_alloy"
+			}
+			weight: 9f
+		},
+		{
+			id: "720000000000001F"
+			item: {
+				count: 4
+				id: "create:electron_tube"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000020"
 			item: {
 				count: 2
 				id: "create:precision_mechanism"
@@ -179,7 +259,7 @@
 			weight: 7f
 		},
 		{
-			id: "7200000000000017"
+			id: "7200000000000021"
 			item: {
 				count: 4
 				id: "create:blaze_cake"
@@ -187,7 +267,7 @@
 			weight: 6f
 		},
 		{
-			id: "7200000000000018"
+			id: "7200000000000022"
 			item: {
 				count: 4
 				id: "create:sturdy_sheet"
@@ -195,12 +275,404 @@
 			weight: 4f
 		},
 		{
-			id: "7200000000000019"
+			id: "7200000000000023"
+			item: {
+				count: 1
+				id: "create_sa:brass_jetpack_chestplate"
+			}
+			weight: 0.6f
+		},
+		{
+			id: "7200000000000024"
+			item: {
+				count: 1
+				id: "create_jetpack:jetpack"
+			}
+			weight: 0.5f
+		},
+		{
+			id: "7200000000000025"
+			item: {
+				count: 16
+				id: "mekanism:ingot_osmium"
+			}
+			weight: 9f
+		},
+		{
+			id: "7200000000000026"
+			item: {
+				count: 12
+				id: "mekanism:ingot_steel"
+			}
+			weight: 8f
+		},
+		{
+			id: "7200000000000027"
+			item: {
+				count: 8
+				id: "mekanism:alloy_infused"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000028"
+			item: {
+				count: 4
+				id: "mekanism:alloy_atomic"
+			}
+			weight: 3f
+		},
+		{
+			id: "7200000000000029"
+			item: {
+				count: 4
+				id: "mekanism:advanced_control_circuit"
+			}
+			weight: 3.5f
+		},
+		{
+			id: "720000000000002A"
+			item: {
+				count: 1
+				id: "mekanism:atomic_disassembler"
+			}
+			weight: 0.8f
+		},
+		{
+			id: "720000000000002B"
+			item: {
+				count: 1
+				id: "mekanismgenerators:hohlraum"
+			}
+			weight: 0.5f
+		},
+		{
+			id: "720000000000002C"
+			item: {
+				count: 8
+				id: "powah:uraninite"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000002D"
+			item: {
+				count: 8
+				id: "powah:dielectric_paste"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000002E"
+			item: {
+				count: 8
+				id: "powah:steel_energized"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000002F"
+			item: {
+				count: 2
+				id: "powah:crystal_blazing"
+			}
+			weight: 3f
+		},
+		{
+			id: "7200000000000030"
+			item: {
+				count: 2
+				id: "powah:crystal_niotic"
+			}
+			weight: 2f
+		},
+		{
+			id: "7200000000000031"
+			item: {
+				count: 1
+				id: "powah:crystal_nitro"
+			}
+			weight: 1f
+		},
+		{
+			id: "7200000000000032"
+			item: {
+				count: 1
+				id: "powah:crystal_spirited"
+			}
+			weight: 0.8f
+		},
+		{
+			id: "7200000000000033"
+			item: {
+				count: 12
+				id: "immersiveengineering:ingot_steel"
+			}
+			weight: 8f
+		},
+		{
+			id: "7200000000000034"
+			item: {
+				count: 12
+				id: "immersiveengineering:coal_coke"
+			}
+			weight: 7f
+		},
+		{
+			id: "7200000000000035"
+			item: {
+				count: 16
+				id: "immersiveengineering:hemp_fiber"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000036"
+			item: {
+				count: 2
+				id: "immersiveengineering:graphite_electrode"
+			}
+			weight: 3f
+		},
+		{
+			id: "7200000000000037"
+			item: {
+				count: 12
+				id: "modern_industrialization:bronze_ingot"
+			}
+			weight: 8f
+		},
+		{
+			id: "7200000000000038"
+			item: {
+				count: 12
+				id: "modern_industrialization:steel_ingot"
+			}
+			weight: 7f
+		},
+		{
+			id: "7200000000000039"
+			item: {
+				count: 6
+				id: "modern_industrialization:electronic_circuit"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000003A"
+			item: {
+				count: 3
+				id: "modern_industrialization:digital_circuit"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000003B"
+			item: {
+				count: 2
+				id: "modern_industrialization:motor"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000003C"
+			item: {
+				count: 4
+				id: "industrialforegoing:pink_slime"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000003D"
+			item: {
+				count: 8
+				id: "industrialforegoing:plastic"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000003E"
+			item: {
+				count: 1
+				id: "industrialforegoing:machine_frame_advanced"
+			}
+			weight: 1.5f
+		},
+		{
+			id: "720000000000003F"
+			item: {
+				count: 8
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			weight: 6f
+		},
+		{
+			id: "7200000000000040"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_disk"
+			}
+			weight: 2.5f
+		},
+		{
+			id: "7200000000000041"
+			item: {
+				count: 1
+				id: "refinedstorage:wireless_grid"
+			}
+			weight: 1.5f
+		},
+		{
+			id: "7200000000000042"
+			item: {
+				count: 4
+				id: "rftoolsbase:dimensionalshard"
+			}
+			weight: 4f
+		},
+		{
+			id: "7200000000000043"
+			item: {
+				count: 1
+				id: "rftoolspower:cell1"
+			}
+			weight: 2f
+		},
+		{
+			id: "7200000000000044"
+			item: {
+				count: 8
+				id: "fluxnetworks:flux_dust"
+			}
+			weight: 5f
+		},
+		{
+			id: "7200000000000045"
+			item: {
+				count: 1
+				id: "fluxnetworks:basic_flux_storage"
+			}
+			weight: 2.5f
+		},
+		{
+			id: "7200000000000046"
+			item: {
+				count: 8
+				id: "bigreactors:yellorium_ingot"
+			}
+			weight: 4f
+		},
+		{
+			id: "7200000000000047"
+			item: {
+				count: 8
+				id: "bigreactors:graphite_ingot"
+			}
+			weight: 5f
+		},
+		{
+			id: "7200000000000048"
+			item: {
+				count: 4
+				id: "bigreactors:cyanite_ingot"
+			}
+			weight: 3f
+		},
+		{
+			id: "7200000000000049"
+			item: {
+				count: 2
+				id: "bigreactors:ludicrite_ingot"
+			}
+			weight: 1f
+		},
+		{
+			id: "720000000000004A"
+			item: {
+				count: 4
+				id: "silentgear:blueprint_paper"
+			}
+			weight: 5f
+		},
+		{
+			id: "720000000000004B"
+			item: {
+				count: 1
+				id: "silentgear:pickaxe_blueprint"
+			}
+			weight: 2f
+		},
+		{
+			id: "720000000000004C"
+			item: {
+				count: 1
+				id: "silentgear:sword_blueprint"
+			}
+			weight: 2f
+		},
+		{
+			id: "720000000000004D"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000004E"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}
+			weight: 3f
+		},
+		{
+			id: "720000000000004F"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:iron_chest"
+			}
+			weight: 2.5f
+		},
+		{
+			id: "7200000000000050"
+			item: {
+				count: 1
+				id: "ironchest:diamond_chest"
+			}
+			weight: 1f
+		},
+		{
+			id: "7200000000000051"
+			item: {
+				count: 2
+				id: "ironjetpacks:cell"
+			}
+			weight: 2f
+		},
+		{
+			id: "7200000000000052"
 			item: {
 				count: 1
 				id: "waystones:warp_stone"
 			}
 			weight: 5f
+		},
+		{
+			id: "7200000000000053"
+			item: {
+				count: 1
+				id: "naturescompass:naturescompass"
+			}
+			weight: 2f
+		},
+		{
+			id: "7200000000000054"
+			item: {
+				count: 4
+				id: "tombstone:grave_dust"
+			}
+			weight: 4f
 		}
 	]
 	title: "Quest Treasure"
