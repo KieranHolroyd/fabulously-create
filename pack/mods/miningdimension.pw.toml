@@ -1,9 +1,9 @@
 name = "Mining Dimension"
-filename = "miningdimension-1.0-SNAPSHOT.jar"
+filename = "miningdimension-2.0.0.jar"
 side = "both"
 
 # First-party mod, not published to a mod host. Hosted directly.
 [download]
-url = "https://storage.kieran.dev/miningdimension-1.0-SNAPSHOT.jar"
+url = "https://storage.kieran.dev/mods/miningdimension-2.0.0.jar"
 hash-format = "sha512"
-hash = "f32ae2f14b7c5373e9b017124cace2b1f87ee865659539419ac25ebe4b68dda86d07547a204a624bc06c51da70ecd3bb2bad547cc23ebb0623fac9082bf6a13e"
+hash = "056845e7d77e8eb6689f3e1e4d16a056ad7cb87f302a9b88f2dde9d614748fb2744f17627d604ab02b7f628fc84855d99077331d016d0fc352f5a56d3ee9a794"

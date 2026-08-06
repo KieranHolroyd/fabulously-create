@@ -297,6 +297,11 @@ hash = "e2ee2481b63a012bdfb8c9f588788dd2f116ff48298014bb3e00d08a224fe14f"
 metafile = true
 
 [[files]]
+file = "mods/elevatormod.pw.toml"
+hash = "58a52192b85fb49a4b772cd54677f84515a2dfc26a14d54eb880ed01f1186c5a"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
@@ -314,6 +319,11 @@ metafile = true
 [[files]]
 file = "mods/extrastorage.pw.toml"
 hash = "3e2431756f4544ca4f040d2f85d53433167a63eb606dfbeb8575548cc0b09e10"
+metafile = true
+
+[[files]]
+file = "mods/extreme-reactors.pw.toml"
+hash = "a0e98b12d824759f6b39eae1d428e7df6fe63a72b85d17dde4e3c002521e7261"
 metafile = true
 
 [[files]]
@@ -503,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/miningdimension.pw.toml"
-hash = "2c965730fa3a6258d72c88afd045d0373f96ccf6cf17409cd8795593726860b1"
+hash = "d46659f81336ed6076c01b1b57066e2b9f302a80627d855d8c56e85c83e96e98"
 metafile = true
 
 [[files]]
@@ -694,4 +704,9 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "b7549da2e8e2a3e91b49a7154f7d248c5fd46fed051dbdc5561439fe83eb3e97"
+metafile = true
+
+[[files]]
+file = "mods/zerocore.pw.toml"
+hash = "b51c9c50edbb8a8ef8823160e2cb5d6b1d20c06c5b86dc2d3541c456b8962ab3"
 metafile = true

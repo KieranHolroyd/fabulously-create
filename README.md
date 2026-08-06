@@ -56,7 +56,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 **Highlights:**
 
 - **Create** + addons (Aeronautics, Slice & Dice, Connected, Enchantment Industry, Diesel Generators, Stuff 'N Additions, Steam 'n' Rails beta, …)
-- **Modern Industrialization**, **Mekanism** + Generators, **Industrial Foregoing**, and **Immersive Engineering**
+- **Modern Industrialization**, **Mekanism** + Generators, **Industrial Foregoing**, **Immersive Engineering**, and **Extreme Reactors**
 - **Farmer's Delight** + Create food automation
 - **Integrated Dynamics** + Tunnels / Terminals / Crafting
 - **Powah** generators, energy storage, cables, reactors, and wireless charging
@@ -66,7 +66,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Silent Gear**, **Iron Jetpacks**, **Curios**, **Artifacts**
 - **Refined Storage** and **Applied Energistics 2** digital storage and autocrafting networks
 - **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
-- **Waystones**, Lootr, Comforts, Supplementaries, Another Furniture
+- **Waystones**, ElevatorMod, Lootr, Comforts, Supplementaries, Another Furniture
 - **FTB Ultimine**, **FTB Quests** (212 quests across 9 chapters, including dedicated Refined Storage, Powah, RFTools, and Flux Networks categories), Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
 - JourneyMap, Jade, JEI + ore-height distribution, AppleSkin, TrashSlot, Inventory Essentials

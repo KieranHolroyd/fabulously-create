@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.14** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.17** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -43,6 +43,8 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
+| [Extreme Reactors](https://modrinth.com/mod/extreme-reactors) | Multiblock fission reactors, turbines, and yellorium power generation |
+| [ZeroCore](https://modrinth.com/mod/zerocore) | Required by Extreme Reactors |
 | Mining Dimension (first-party) | Flat ore-rich mining dimension with linked portal pads; bulk gathering leaves the overworld intact |
 
 ## Farming & cooking
@@ -141,6 +143,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Inventory Essentials](https://modrinth.com/mod/inventory-essentials) | Inventory QoL shortcuts |
 | [Balm](https://modrinth.com/mod/balm) | Library for TrashSlot / Inventory Essentials / Waystones / Comforts |
 | [Waystones](https://modrinth.com/mod/waystones) | Placeable teleport points |
+| [ElevatorMod](https://modrinth.com/mod/elevatormod) | Colored elevator blocks for instant vertical travel |
 | [Nature's Compass](https://modrinth.com/mod/natures-compass) | Find biomes |
 | [Explorer's Compass](https://modrinth.com/mod/explorers-compass) | Find structures |
 | [Lootr](https://modrinth.com/mod/lootr) | Per-player loot chests |
