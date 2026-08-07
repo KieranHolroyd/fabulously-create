@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.24** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.25** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -141,6 +141,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [JourneyMap](https://modrinth.com/mod/journeymap) | In-game map and waypoints |
 | [Jade](https://modrinth.com/mod/jade) | Block/entity overlay tooltips (HWYLA-style) |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Recipe lookup |
+| [Polymorph](https://modrinth.com/mod/polymorph) | Choose between conflicting crafting, smelting, and smithing recipes |
 | [JEI WorldGen](https://modrinth.com/mod/jei-worldgen) | Ore generation and Y-level distribution inside JEI |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | Food/saturation HUD |
 | [TrashSlot](https://modrinth.com/mod/trashslot) | Dedicated trash slot in inventories |
