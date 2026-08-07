@@ -5,18 +5,19 @@ Design goals:
 - Teach Create + pack mods instead of bare item checklists
 - Flexible chapter exploration with optional side quests
 - One exciting weighted reward roll per quest, plus any configured XP
-- Multi-line quest text with tips and next-step hints
+- Compact quest text with at most two actionable steps
 
 Quest definitions live as an AST under scripts/ftb_quests/.
 """
 from __future__ import annotations
 
+import hashlib
 import re
-import secrets
 from pathlib import Path
 
 from ftb_quests import build_book
 from ftb_quests.compile import CompiledChapter, compile_book
+from ftb_quests.validate import validate_book
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTS = ROOT / "pack" / "config" / "ftbquests" / "quests"
@@ -136,17 +137,16 @@ COOL_REWARDS = [
 _BARE_AMP = re.compile(r"(?<!\\)&(?![0-9a-fk-orA-FK-OR])")
 
 
-def hid() -> str:
-    """Random 16-hex-digit FTB Quests id.
+def child_id(qid: str, role: str, index: int = 0) -> str:
+    """Stable signed-long-safe id for a task or non-table reward.
 
-    FTB Quests ids are parsed as signed 64-bit longs; a leading hex digit
-    of 8-F overflows Long.MAX_VALUE and gets silently discarded/regenerated
-    at load, orphaning any lang file keys that reference the original id.
-    Keep the leading nibble in 0-7.
+    Random child ids made identical generator runs rewrite every chapter.
+    Deriving them from the stable quest id keeps output reproducible.
     """
-    first = secrets.choice("01234567")
-    rest = secrets.token_hex(8).upper()[1:]
-    return first + rest
+    digest = hashlib.blake2b(
+        f"{qid}:{role}:{index}".encode(), digest_size=8
+    ).digest()
+    return f"{int.from_bytes(digest) & 0x7FFFFFFFFFFFFFFF:016X}"
 
 
 def escape_ftb_ampersands(s: str) -> str:
@@ -212,8 +212,12 @@ def quest_snbt(
 
     lines.append("\t\t\trewards: [")
     reward_blocks = []
-    for r in rewards:
-        rid = f"05{int(qid[2:], 16):014X}" if r["type"] == "random" else hid()
+    for reward_index, r in enumerate(rewards):
+        rid = (
+            f"05{int(qid[2:], 16):014X}"
+            if r["type"] == "random"
+            else child_id(qid, "reward", reward_index)
+        )
         rb = ["\t\t\t\t{"]
         rtype = r["type"]
         if rtype == "item":
@@ -244,7 +248,7 @@ def quest_snbt(
     lines.append("\t\t\t]")
 
     lines.append("\t\t\ttasks: [{")
-    lines.append(f'\t\t\t\tid: "{hid()}"')
+    lines.append(f'\t\t\t\tid: "{child_id(qid, "task")}"')
     if checkmark:
         lines.append('\t\t\t\ttype: "checkmark"')
     else:
@@ -383,6 +387,7 @@ def write_chapter(chapter: CompiledChapter, order_index: int) -> None:
 
 def main() -> None:
     book = build_book()
+    validate_book(book)
     compiled = compile_book(book)
 
     QUESTS.mkdir(parents=True, exist_ok=True)
@@ -447,7 +452,7 @@ def main() -> None:
     # silently discarded and regenerated at load, which orphans every lang
     # key referencing the original id — titles/subtitles happened to still
     # render because chapter titles are literal fields, not lang lookups.
-    # See hid() and ftb_quests/ids.py:quest_id() for the id-range fix.
+    # See child_id() and ftb_quests/ids.py:quest_id() for the id-range fix.
     lang_lines = [
         "{",
         f'\tfile.{FILE_ID}.title: "Fabulously Create"',

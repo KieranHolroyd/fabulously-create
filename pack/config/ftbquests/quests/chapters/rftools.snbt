@@ -28,13 +28,13 @@
 					type: "random"
 				},
 				{
-					id: "0AB96DCECFB245C0"
+					id: "07D35ADA25358CA4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1142E503E580DB75"
+				id: "1FFEB8DF73C88009"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -54,40 +54,17 @@
 					type: "random"
 				},
 				{
-					id: "245921CD7C3650F4"
+					id: "372937DF49D5474B"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7FCF79D3BB80BC5D"
+				id: "68D26D4F24209E08"
 				item: { count: 4, id: "rftoolsbase:machine_frame" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
-		},
-		{
-			dependencies: ["31000000000001BD"]
-			id: "31000000000001BE"
-			rewards: [
-				{
-					id: "05000000000001BE"
-					table_id: 8142508126285856769L
-					type: "random"
-				},
-				{
-					id: "18246DC0074913BE"
-					type: "xp"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "2DCDD5F71581321C"
-				item: { count: 1, id: "rftoolsbase:smartwrench" }
-				type: "item"
-			}]
-			x: 2.5d
 			y: 12.5d
 		},
 		{
@@ -100,13 +77,13 @@
 					type: "random"
 				},
 				{
-					id: "1590112C6715D39B"
+					id: "0CC4C9565BEE03E2"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1A8825C730968415"
+				id: "7AA1A1BC6926D40C"
 				item: { count: 1, id: "rftoolspower:coalgenerator" }
 				type: "item"
 			}]
@@ -123,13 +100,13 @@
 					type: "random"
 				},
 				{
-					id: "66B40E49444EB573"
+					id: "6D6243BA6EB71FD1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "694526E8337AF52E"
+				id: "1DC9487A08DB0DB5"
 				item: { count: 1, id: "rftoolspower:cell1" }
 				type: "item"
 			}]
@@ -146,13 +123,13 @@
 					type: "random"
 				},
 				{
-					id: "665F5183E03CB6C1"
+					id: "6C5B0CD4F325B5A1"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "74917335C42B90E7"
+				id: "3D57D9DCD20D40C3"
 				item: { count: 1, id: "rftoolspower:powercell_card" }
 				type: "item"
 			}]
@@ -171,13 +148,13 @@
 					type: "random"
 				},
 				{
-					id: "108C97DA12D07A83"
+					id: "3653A6D9B0C3344D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "716A5FF5192E5F8A"
+				id: "01F13DBAB89AA673"
 				item: { count: 1, id: "rftoolspower:dimensionalcell" }
 				type: "item"
 			}]
@@ -194,13 +171,13 @@
 					type: "random"
 				},
 				{
-					id: "09E37D626FE6A3C9"
+					id: "7357D21D5C91BF60"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "331D0E14882AABEA"
+				id: "1C16B20C4F6813B4"
 				item: { count: 1, id: "rftoolsutility:crafter1" }
 				type: "item"
 			}]
@@ -218,13 +195,13 @@
 					type: "random"
 				},
 				{
-					id: "60FE406A1524ACB6"
+					id: "52E04C1EBFC735B8"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7FCAC666EDC230AC"
+				id: "0A1BFB283E17014F"
 				item: { count: 1, id: "rftoolsutility:crafter3" }
 				type: "item"
 			}]
@@ -241,13 +218,13 @@
 					type: "random"
 				},
 				{
-					id: "300F2ED74CBB41F1"
+					id: "385D9C7BDF31AD9C"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "25E674733D3D882D"
+				id: "1DA3D1958BEA39AD"
 				item: { count: 1, id: "rftoolsutility:screen" }
 				type: "item"
 			}]
@@ -264,13 +241,13 @@
 					type: "random"
 				},
 				{
-					id: "176031F4092B9915"
+					id: "2AAD0CBD6AFB42FF"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4681CD7EB68F65E3"
+				id: "16B89217A9012707"
 				item: { count: 1, id: "rftoolsutility:screen_controller" }
 				type: "item"
 			}]
@@ -287,13 +264,13 @@
 					type: "random"
 				},
 				{
-					id: "3CE8EA41AFDDCBB1"
+					id: "4BAAAA001D6AC893"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "20AF4CF1DBE59BE8"
+				id: "2211C0FE09CDBDF8"
 				item: { count: 1, id: "rftoolspower:power_monitor" }
 				type: "item"
 			}]
@@ -310,13 +287,13 @@
 					type: "random"
 				},
 				{
-					id: "2A54CCD33E3ACE31"
+					id: "2A89D4C2E983CE8A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "18A45DA12CEE40C5"
+				id: "4247CA4A972F394D"
 				item: { count: 1, id: "rftoolsutility:matter_transmitter" }
 				type: "item"
 			}]
@@ -333,13 +310,13 @@
 					type: "random"
 				},
 				{
-					id: "5A0CD888806D5295"
+					id: "25DDBF36EB6242D2"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "43500E64E3176308"
+				id: "2E76FFD268BA93FD"
 				item: { count: 1, id: "rftoolsutility:matter_receiver" }
 				type: "item"
 			}]
@@ -358,13 +335,13 @@
 					type: "random"
 				},
 				{
-					id: "0C915CD6CBF9D79F"
+					id: "3E7781F5112E2B82"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1E18FD01D399A06A"
+				id: "07C9D79FF731ECBF"
 				item: { count: 1, id: "rftoolsutility:dialing_device" }
 				type: "item"
 			}]
@@ -381,13 +358,13 @@
 					type: "random"
 				},
 				{
-					id: "5A368EB1C9DAD3C2"
+					id: "0ABEC58C1C3E4C67"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0AF929347F2BF107"
+				id: "2644110AE7603DBB"
 				item: { count: 1, id: "rftoolsutility:environmental_controller" }
 				type: "item"
 			}]
@@ -404,13 +381,13 @@
 					type: "random"
 				},
 				{
-					id: "4DC5D3ADF8D7FCE8"
+					id: "1AD479C0C5689A7D"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "57A7B4F660373442"
+				id: "65452EDDBBE98A3B"
 				item: { count: 1, id: "rftoolsstorage:storage_module1" }
 				type: "item"
 			}]
@@ -427,13 +404,13 @@
 					type: "random"
 				},
 				{
-					id: "3F1A35AAFCF6C6DD"
+					id: "3ADBEE83631314B3"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "7473C7BDBE04C343"
+				id: "20E951B86BE8F233"
 				item: { count: 1, id: "rftoolsstorage:modular_storage" }
 				type: "item"
 			}]
@@ -451,13 +428,13 @@
 					type: "random"
 				},
 				{
-					id: "48B4F64F0BF3DA74"
+					id: "0BC93BF6CB7E6305"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "3EAA694E4ECB1082"
+				id: "12B9358983D167CC"
 				item: { count: 1, id: "rftoolsstorage:storage_scanner" }
 				type: "item"
 			}]
@@ -474,13 +451,13 @@
 					type: "random"
 				},
 				{
-					id: "0E339CD2D7463DE4"
+					id: "16A7AFDA608E5B60"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "26E36A0B58AB19E0"
+				id: "6ED06B81BA3E07D5"
 				item: { count: 1, id: "rftoolsstorage:tablet_scanner" }
 				type: "item"
 			}]
@@ -497,13 +474,13 @@
 					type: "random"
 				},
 				{
-					id: "44A6E0B2C3E0AB27"
+					id: "140A5279ACCFA030"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "082706D2D4563F6F"
+				id: "61BF12F38798904E"
 				item: { count: 1, id: "rftoolsstorage:crafting_manager" }
 				type: "item"
 			}]
@@ -520,13 +497,13 @@
 					type: "random"
 				},
 				{
-					id: "7CC4996FD323044E"
+					id: "5F201036B67B8C9D"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "500078FBA6A3080C"
+				id: "6E91F0DDED37B5D3"
 				item: { count: 8, id: "rftoolsbase:dimensionalshard" }
 				type: "item"
 			}]
@@ -543,13 +520,13 @@
 					type: "random"
 				},
 				{
-					id: "0D47EA07B4D69660"
+					id: "598727836B0BD28F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "3854D1CB0C766BD1"
+				id: "7F08CD3D67A3F124"
 				item: { count: 1, id: "rftoolsdim:dimlet_workbench" }
 				type: "item"
 			}]
@@ -566,13 +543,13 @@
 					type: "random"
 				},
 				{
-					id: "1F82238C62200169"
+					id: "2884F55075FC8E4F"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "327D8A15D9A92343"
+				id: "2DE99E80947616D3"
 				item: { count: 1, id: "rftoolsdim:researcher" }
 				type: "item"
 			}]
@@ -589,13 +566,13 @@
 					type: "random"
 				},
 				{
-					id: "50DA95EBB17C0238"
+					id: "3434C1B54F9D0441"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5AB7763E1E653FED"
+				id: "1DB65A162FA5BC95"
 				item: { count: 1, id: "rftoolsdim:enscriber" }
 				type: "item"
 			}]
@@ -614,13 +591,13 @@
 					type: "random"
 				},
 				{
-					id: "043F83CC6D6658E3"
+					id: "3CEA4F05E5615B12"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "2E9F13DFB42566A9"
+				id: "4F8A31019DB60EB6"
 				item: { count: 1, id: "rftoolsdim:dimension_builder" }
 				type: "item"
 			}]

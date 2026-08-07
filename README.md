@@ -67,7 +67,7 @@ See [INCLUDED-MODS.md](INCLUDED-MODS.md) for the full list.
 - **Refined Storage** and **Applied Energistics 2** digital storage and autocrafting networks
 - **Sophisticated** storage/backpacks, Functional Storage, Tom's, Pipez, Iron Chests, Iron Furnaces
 - **Waystones**, ElevatorMod, Lootr, Comforts, Supplementaries, Another Furniture
-- **FTB Ultimine**, **FTB Quests** (319 quests across 15 chapters, including dedicated Mekanism, Mekanism Reactors, Extreme Reactors, Modern Industrialization, Industrial Foregoing, Immersive Engineering, Refined Storage, Powah, RFTools, and Flux Networks categories), Corail Tombstone
+- **FTB Ultimine**, **FTB Quests** (336 quests across 16 chapters, including dedicated Create, storage, power, major-tech, and optional cross-mod Factory Challenges), Corail Tombstone
 - Sodium, Iris (beta), Entity Culling, ImmediatelyFast, ModernFix, FerriteCore
 - JourneyMap, Jade, JEI + ore-height distribution, AppleSkin, TrashSlot, Inventory Essentials
 

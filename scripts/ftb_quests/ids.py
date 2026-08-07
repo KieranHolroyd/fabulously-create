@@ -4,6 +4,7 @@ Foundations 100+, Create 200+, Storage 300+, Refined Storage 324+,
 Automation 400+, Powah 424+, RFTools 445+, Flux 470+, Late 500+,
 Mekanism 600+, Mek Generators 650+, Extreme Reactors 700+,
 Modern Industrialization 750+, Industrial Foregoing 800+, Immersive Engineering 850+.
+Factory Challenges 1000+.
 """
 
 
@@ -27,6 +28,10 @@ F_LEATHER = 123
 C_BRASS = 223
 C_PRECISION = 227
 C_TRACK = 238
+
+# Factory Challenge source milestones
+FLUX_GARGANTUAN = 479
+MEKANISM_ATOMIC_ALLOY = 621
 
 # Storage / automation bridges
 S_BACKPACK = 300

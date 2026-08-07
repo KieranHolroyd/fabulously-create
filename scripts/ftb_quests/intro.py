@@ -10,8 +10,8 @@ from .ast import Book, Chapter, Quest, xp_levels
 # refined_storage starts at 324). A small negative `n` like -1 would collide
 # with the previous chapter's last quest id. This sentinel offset keeps
 # every synthesized intro's absolute number (chapter.base + n) safely above
-# the highest real quest number in the book (867), while staying unique per
-# chapter since each chapter's base is unique.
+# every authored quest number, while staying unique per chapter since each
+# chapter's base is unique.
 INTRO_N = 90000
 
 FOUNDATIONS_KEY = "foundations"

@@ -28,13 +28,13 @@
 					type: "random"
 				},
 				{
-					id: "6BA022481369CC34"
+					id: "11C7F2FC49921E76"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "77D6A33E3107EFF6"
+				id: "6E74217F20542849"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -53,13 +53,13 @@
 					type: "random"
 				},
 				{
-					id: "207484486C1BEE57"
+					id: "65CBA052BB2D5344"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2B687C177E804D61"
+				id: "5D61A7F441B0BD4C"
 				item: { count: 16, id: "powah:dielectric_paste" }
 				type: "item"
 			}]
@@ -77,13 +77,13 @@
 					type: "random"
 				},
 				{
-					id: "40977F2F22B7299B"
+					id: "103FF676DFC7BED6"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "234AA214DAA8D7E0"
+				id: "5F1BFFB1FC205F71"
 				item: { count: 1, id: "powah:furnator_starter" }
 				type: "item"
 			}]
@@ -100,13 +100,13 @@
 					type: "random"
 				},
 				{
-					id: "142FFA6AA1B6BBF9"
+					id: "74BA241A9CF5D35E"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "4B6BF361521944A9"
+				id: "0DD479D989BFF5C7"
 				item: { count: 16, id: "powah:energy_cable_starter" }
 				type: "item"
 			}]
@@ -123,13 +123,13 @@
 					type: "random"
 				},
 				{
-					id: "6A97B951FF29576C"
+					id: "3F544C6FF8DC47C9"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "236FAD18B32FC245"
+				id: "5F81222C42640B2F"
 				item: { count: 1, id: "powah:energy_cell_starter" }
 				type: "item"
 			}]
@@ -146,13 +146,13 @@
 					type: "random"
 				},
 				{
-					id: "146E3D598941AA70"
+					id: "6CEAED78571DF2EA"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "0736D1597E801A46"
+				id: "3D194D28594FCED5"
 				item: { count: 1, id: "powah:thermo_generator_starter" }
 				type: "item"
 			}]
@@ -169,13 +169,13 @@
 					type: "random"
 				},
 				{
-					id: "1571B8D2003C6E36"
+					id: "3728E0E5CC8B49A4"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "2D9B449E85EEA5C7"
+				id: "5CB5DC2272942CB0"
 				item: { count: 1, id: "powah:magmator_starter" }
 				type: "item"
 			}]
@@ -192,13 +192,13 @@
 					type: "random"
 				},
 				{
-					id: "24F716818917C9F0"
+					id: "36BD650BA32C747A"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "1B613F28EB19F488"
+				id: "07588E2FEC5D0524"
 				item: { count: 1, id: "powah:solar_panel_starter" }
 				type: "item"
 			}]
@@ -217,13 +217,13 @@
 					type: "random"
 				},
 				{
-					id: "012003D9D765CF46"
+					id: "7A8D9FB72AE41044"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "5815535A6AD96D7F"
+				id: "7F5CD8E67A71303E"
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
@@ -240,13 +240,13 @@
 					type: "random"
 				},
 				{
-					id: "42C074D41D75B73B"
+					id: "4155110C8F81D824"
 					type: "xp"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
-				id: "21D5287EB1837F55"
+				id: "025CA6C6D3A59F14"
 				item: { count: 2, id: "powah:energizing_rod_starter" }
 				type: "item"
 			}]
@@ -263,13 +263,13 @@
 					type: "random"
 				},
 				{
-					id: "323BB4631243292F"
+					id: "1883436878AB59C4"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "1956C1C076960D65"
+				id: "56124E47DB6D0BB7"
 				item: { count: 8, id: "powah:steel_energized" }
 				type: "item"
 			}]
@@ -286,13 +286,13 @@
 					type: "random"
 				},
 				{
-					id: "69BCE86199A69A45"
+					id: "5548A5D0BF49D35B"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "72DC530206000DFE"
+				id: "73DD8637B961D304"
 				item: { count: 8, id: "powah:crystal_blazing" }
 				type: "item"
 			}]
@@ -309,13 +309,13 @@
 					type: "random"
 				},
 				{
-					id: "06A2FDFD7719E621"
+					id: "56ADB8A5D715BB04"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "6DE89BAA88C43D80"
+				id: "64B78E77E2182CB2"
 				item: { count: 8, id: "powah:crystal_niotic" }
 				type: "item"
 			}]
@@ -332,13 +332,13 @@
 					type: "random"
 				},
 				{
-					id: "4BEC76752BA671F9"
+					id: "496EC9344AACD907"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "04CFA5D3A6B93C43"
+				id: "11D2C594F73FB051"
 				item: { count: 8, id: "powah:crystal_spirited" }
 				type: "item"
 			}]
@@ -355,13 +355,13 @@
 					type: "random"
 				},
 				{
-					id: "131F47109B2F57FA"
+					id: "106FF51F50185A31"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "53AA2C30C50C3E45"
+				id: "30263634A46F8130"
 				item: { count: 4, id: "powah:crystal_nitro" }
 				type: "item"
 			}]
@@ -378,13 +378,13 @@
 					type: "random"
 				},
 				{
-					id: "4CEF0C5DC45339CD"
+					id: "4A945FB339C86E83"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "70556C59369907DC"
+				id: "7364103133E66F9A"
 				item: { count: 16, id: "powah:uraninite" }
 				type: "item"
 			}]
@@ -402,13 +402,13 @@
 					type: "random"
 				},
 				{
-					id: "4BA384DBDDCAB369"
+					id: "68076651FA620E1E"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "0A7D008033D227E9"
+				id: "2DC0026E0B12C49E"
 				item: { count: 1, id: "powah:reactor_starter" }
 				type: "item"
 			}]
@@ -427,13 +427,13 @@
 					type: "random"
 				},
 				{
-					id: "0884CFE669221C10"
+					id: "25B5224479AE2351"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "1D08B8F6C99B20A5"
+				id: "5EC2E2FCBEAB921B"
 				item: { count: 1, id: "powah:reactor_nitro" }
 				type: "item"
 			}]
@@ -450,13 +450,13 @@
 					type: "random"
 				},
 				{
-					id: "28938BD7512555FE"
+					id: "190ACA1F592DF2EA"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "50B93254F8AF0C6B"
+				id: "3E3A42F91E203143"
 				item: { count: 1, id: "powah:ender_cell_starter" }
 				type: "item"
 			}]
@@ -473,13 +473,13 @@
 					type: "random"
 				},
 				{
-					id: "0E9AF14899D5149E"
+					id: "27241F04586081FB"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "5B36349BAFAF9F42"
+				id: "36D7E89BBB0FAE5F"
 				item: { count: 2, id: "powah:ender_gate_starter" }
 				type: "item"
 			}]
@@ -498,13 +498,13 @@
 					type: "random"
 				},
 				{
-					id: "387ECB1A342AC852"
+					id: "0063080CAA737486"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "79D0FEA29CE7384B"
+				id: "55F646939F1247BD"
 				item: { count: 1, id: "powah:player_transmitter_starter" }
 				type: "item"
 			}]
@@ -521,13 +521,13 @@
 					type: "random"
 				},
 				{
-					id: "3394587F0E4F46E2"
+					id: "7E5215175D644BF4"
 					type: "xp"
 					xp_levels: 2
 				}
 			]
 			tasks: [{
-				id: "0CCF3FF17028B28A"
+				id: "5647F6C8D1FE062A"
 				item: { count: 1, id: "powah:battery_starter" }
 				type: "item"
 			}]

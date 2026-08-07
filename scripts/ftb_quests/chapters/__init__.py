@@ -7,6 +7,7 @@ from . import (
     automation,
     create_factory,
     extreme_reactors,
+    factory_challenges,
     flux_networks,
     foundations,
     immersive_engineering,
@@ -36,6 +37,7 @@ _CHAPTER_MODULES = [
     modern_industrialization,
     industrial_foregoing,
     immersive_engineering,
+    factory_challenges,
     late_game,
 ]
 

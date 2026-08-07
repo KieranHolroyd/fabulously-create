@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "factory_challenges"
+	group: "0100000000000001"
+	icon: {
+		id: "create:precision_mechanism"
+	}
+	id: "0200000000000010"
+	order_index: 14
+	quest_links: [
+		{
+			id: "052E7E2FCD39718D"
+			linked_quest: "31000000000000DF"
+			shape: "pentagon"
+			size: 1.25d
+			x: -2.5d
+			y: 0.0d
+		},
+		{
+			id: "14DCAC31A78D2780"
+			linked_quest: "310000000000026D"
+			shape: "pentagon"
+			size: 1.25d
+			x: 0.5d
+			y: 3.0d
+		},
+		{
+			id: "41D743306A175B4E"
+			linked_quest: "31000000000001DF"
+			shape: "pentagon"
+			size: 1.25d
+			x: 9.5d
+			y: 0.0d
+		},
+		{
+			id: "32016DB61DA1CEF0"
+			linked_quest: "31000000000000E3"
+			shape: "pentagon"
+			size: 1.25d
+			x: 12.5d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			id: "3100000000016378"
+			rewards: [
+				{
+					id: "0500000000016378"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "75F691F89B7C1E64"
+					type: "xp"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2D09CF8EDADC910C"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: [
+				"3100000000016378"
+				"31000000000000DF"
+			]
+			hide_until_deps_visible: true
+			id: "31000000000003E8"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003E8"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "58346A838CD79E2A"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "11858B543107C469"
+				item: { count: 256, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["31000000000000DF"]
+			hide_until_deps_visible: true
+			id: "31000000000003E9"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003E9"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "39BEEF95081030E9"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "38366B352B29EB9D"
+				item: { count: 128, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		},
+		{
+			id: "31000000000003EA"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003EA"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "278A1ECC59CF746D"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5D1DD9D0EFAD1068"
+				item: { count: 32, id: "refinedstorage:pattern" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["310000000000026D"]
+			hide_until_deps_visible: true
+			id: "31000000000003EB"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003EB"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "257FE8522187C2AA"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "22A461278CDC2DBA"
+				item: { count: 32, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		},
+		{
+			id: "31000000000003EC"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003EC"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "51CA00D702E490F9"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0401FF343DE0C048"
+				item: { count: 64, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			id: "31000000000003ED"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003ED"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "17FA7F88D0EC2B69"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0E1D6855B13B7C20"
+				item: { count: 32, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		},
+		{
+			id: "31000000000003EE"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003EE"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "3DC63D05DBD992C8"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0E97CA75E394E66F"
+				item: { count: 64, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		},
+		{
+			id: "31000000000003EF"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003EF"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "67AB0F22B5AC4CAD"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "3FB4E352A2603DB2"
+				item: { count: 16, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["31000000000001DF"]
+			hide_until_deps_visible: true
+			id: "31000000000003F0"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003F0"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "29F9634D43F95BD8"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6697CB398D70B91D"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		},
+		{
+			id: "31000000000003F1"
+			optional: true
+			rewards: [
+				{
+					id: "05000000000003F1"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "7E2481AFFB7E8F98"
+					type: "xp"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "51EDBDF9C6FA7D21"
+				item: { count: 1, id: "rftoolsdim:dimension_builder" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		},
+		{
+			dependencies: [
+				"31000000000003E8"
+				"31000000000003E9"
+				"31000000000003EB"
+				"31000000000003F0"
+				"31000000000000E3"
+			]
+			hide_until_deps_visible: true
+			id: "31000000000003F2"
+			optional: true
+			shape: "gear"
+			size: 2.0d
+			rewards: [
+				{
+					id: "05000000000003F2"
+					table_id: 8142508126285856769L
+					type: "random"
+				},
+				{
+					id: "2BFF7D9652772347"
+					type: "xp"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4D571940F4B20CA4"
+				item: { count: 256, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+	]
+	title: "15. Factory Challenges"
+}

@@ -1,4 +1,4 @@
-"""15. Beyond Brass quest chapter."""
+"""16. Beyond Brass quest chapter."""
 from __future__ import annotations
 
 from ftb_quests.ast import Chapter, Quest, item, require, xp_levels
@@ -12,7 +12,7 @@ def chapter() -> Chapter:
         base=500,
         chapter_id='0200000000000005',
         icon='minecraft:netherite_ingot',
-        title='15. Beyond Brass',
+        title='16. Beyond Brass',
         subtitle='Netherite, flight, railways, bosses, and the sky',
         quests=[
             Quest(
