@@ -1,0 +1,13 @@
+name = "JustSink"
+filename = "just_sink-neoforge-1.1.5-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wv3GcUL1/versions/cKqAq9uu/just_sink-neoforge-1.1.5-1.21.1.jar"
+hash-format = "sha512"
+hash = "f1ec0ea48507e116768269eebea5379baa12cd83966785edbcffa3bf37a2fe95195278097b1758b8456c223d61168d1cfd9c36f3ef7ef00deff2bff85e6b31ee"
+
+[update]
+[update.modrinth]
+mod-id = "wv3GcUL1"
+version = "cKqAq9uu"

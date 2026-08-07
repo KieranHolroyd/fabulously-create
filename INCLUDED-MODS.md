@@ -64,6 +64,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Crafting on a Stick](https://modrinth.com/mod/crafting-on-a-stick) | Portable crafting table (and other stations) on a stick |
 | [Supplementaries](https://modrinth.com/mod/supplementaries) | Functional décor and utility blocks |
 | [Another Furniture](https://modrinth.com/mod/another-furniture) | Extra furniture blocks |
+| [JustSink](https://modrinth.com/mod/justsink) | Functional kitchen sinks |
 | [Moonlight Lib](https://modrinth.com/mod/moonlight) | Required by Supplementaries |
 | [Glassential Renewed](https://modrinth.com/mod/glassential-renewed) | Utility glass (tinted, ethereal, luminous, blastproof, …) |
 | [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Glassential Renewed (client) |
