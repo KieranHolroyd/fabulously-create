@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.18** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.24** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -42,6 +42,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Mekanism](https://modrinth.com/mod/mekanism) | Advanced ore processing, factories, gases, logistics, and machinery |
 | [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
+| [Cursed Earth Returns](https://www.curseforge.com/minecraft/mc-mods/cursed-earth-returns) | Cursed earth blocks for contained hostile mob spawning |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
 | [Extreme Reactors](https://modrinth.com/mod/extreme-reactors) | Multiblock fission reactors, turbines, and yellorium power generation |
 | [ZeroCore](https://modrinth.com/mod/zerocore) | Required by Extreme Reactors |
@@ -63,6 +64,8 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Supplementaries](https://modrinth.com/mod/supplementaries) | Functional décor and utility blocks |
 | [Another Furniture](https://modrinth.com/mod/another-furniture) | Extra furniture blocks |
 | [Moonlight Lib](https://modrinth.com/mod/moonlight) | Required by Supplementaries |
+| [Glassential Renewed](https://modrinth.com/mod/glassential-renewed) | Utility glass (tinted, ethereal, luminous, blastproof, …) |
+| [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Glassential Renewed (client) |
 
 ## Storage
 
@@ -75,6 +78,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Titanium](https://modrinth.com/mod/titanium) | Required by Functional Storage |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Simple networked storage |
 | [Pipez](https://modrinth.com/mod/pipez) | Item/fluid/energy/gas pipes |
+| [[SBM] Cardboard Boxes](https://www.curseforge.com/minecraft/mc-mods/sbm-cardboardboxes) | Pick up tile entities (spawners, chests, …) in cardboard boxes |
 | [Iron Chests](https://modrinth.com/mod/iron-chests) | Larger metal chests (Iron → Obsidian, etc.) |
 | [Iron Furnaces](https://modrinth.com/mod/iron-furnaces) | Faster upgradeable furnaces |
 | [Refined Storage](https://modrinth.com/mod/refined-storage) | Networked item and fluid storage, transfer, and autocrafting |
@@ -155,6 +159,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | Fabric compatibility API for NeoForge |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Hold-to-zoom (replaces Zoomify) |
 | [Rapid Leaf Decay](https://modrinth.com/mod/rapid-leaf-decay) | Fast leaf decay after chopping trees |
+| [Torchmaster](https://modrinth.com/mod/torchmaster) | Mega Torch, Dread Lamp, and Feral Flare Lantern for spawn/light control |
 | [Tiny Coal](https://modrinth.com/mod/tiny-coal) | Split coal or charcoal into eight one-item fuel pieces |
 | [Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone) | Graves on death (same as ATM10) |
 | [Controlling](https://modrinth.com/mod/controlling) | Searchable keybind menu |
@@ -192,5 +197,5 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | --- | --- | --- |
 | Build | `./scripts/build-prism-instance.sh` | `./scripts/build-server-pack.sh` |
 | Mods | Full NeoForge pack | Server subset (no pure client UI/render mods) |
-| Excludes | — | Sodium, Iris, Entity Culling, ImmediatelyFast, Mouse Tweaks, Just Zoom, Controlling, Bring Back Chat / Connector, … |
+| Excludes | — | Sodium, Iris, Fusion, Entity Culling, ImmediatelyFast, Mouse Tweaks, Just Zoom, Controlling, Bring Back Chat / Connector, … |
 | Includes on server | — | JEI, Jade, JourneyMap, Create stack, Integrated Dynamics stack, Waystones, Lootr, … |

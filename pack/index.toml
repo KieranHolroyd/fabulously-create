@@ -267,6 +267,11 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/cursed-earth-returns.pw.toml"
+hash = "a0b970a164ce15f0730ec648e55d5773c574fdda3215b69c6119fd08677e57ed"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "ef0760a149c267b7b46784e034b0338422fdaa3b06c84ce40e0a38fff97f33f8"
 metafile = true
@@ -364,6 +369,16 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "9ed1eaf83cba3c914765631afb2dbea9291ca4314d092304ab23826b1a727c0b"
+metafile = true
+
+[[files]]
+file = "mods/glassential-renewed.pw.toml"
+hash = "c5dae4501297b8fa19b69337efbfb92edeea447c0437da2fca0d4c2116ba3ad0"
 metafile = true
 
 [[files]]
@@ -607,6 +622,11 @@ hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
 
 [[files]]
+file = "mods/sbm-cardboardboxes.pw.toml"
+hash = "85ba1bbf9271c9d25e65e817f9e89942719184c366116ae832dc2ae24d27c6de"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
@@ -679,6 +699,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "8757967b6fda327281f7f360f2ac4f8d6aab217ad9d1ce3d8fa5141b18a36175"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
 metafile = true
 
 [[files]]

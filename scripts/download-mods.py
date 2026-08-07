@@ -8,6 +8,7 @@ import hashlib
 import shutil
 import sys
 import urllib.request
+from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
@@ -52,7 +53,8 @@ def load_denylist(path: Path) -> set[str]:
 
 
 def curseforge_download_url(file_id: int, filename: str) -> str:
-    return f"https://edge.forgecdn.net/files/{file_id // 1000}/{file_id % 1000}/{filename}"
+    encoded_filename = quote(filename, safe="")
+    return f"https://edge.forgecdn.net/files/{file_id // 1000}/{file_id % 1000}/{encoded_filename}"
 
 
 def resolve_download(meta: dict) -> tuple[str | None, str | None, str | None]:
