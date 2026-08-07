@@ -1,6 +1,6 @@
 # Included mods
 
-**Fabulously Create v2.1.25** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
+**Fabulously Create v2.1.26** — Minecraft **1.21.1**, **NeoForge 21.1.244**.
 
 Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and game version; do not expect world compatibility with the Fabric pack.
 
@@ -43,6 +43,7 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Mekanism Generators](https://modrinth.com/mod/mekanism-generators) | Wind, solar, gas-burning, fission, and fusion power for Mekanism |
 | [Industrial Foregoing](https://modrinth.com/mod/industrial-foregoing) | Farming, mob, resource, and factory automation machines |
 | [Cursed Earth Returns](https://www.curseforge.com/minecraft/mc-mods/cursed-earth-returns) | Cursed earth blocks for contained hostile mob spawning |
+| [Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils) | Mob farm spikes, fans, conveyors, XP utilities, and related automation |
 | [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) | Industrial multiblocks, wires, tools, and diesel-era machinery |
 | [Extreme Reactors](https://modrinth.com/mod/extreme-reactors) | Multiblock fission reactors, turbines, and yellorium power generation |
 | [ZeroCore](https://modrinth.com/mod/zerocore) | Required by Extreme Reactors |
@@ -66,6 +67,9 @@ Migrated from Fabric 1.20.1 / Fabulously Optimized. This is a new loader and gam
 | [Moonlight Lib](https://modrinth.com/mod/moonlight) | Required by Supplementaries |
 | [Glassential Renewed](https://modrinth.com/mod/glassential-renewed) | Utility glass (tinted, ethereal, luminous, blastproof, …) |
 | [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures) | Required by Glassential Renewed (client) |
+| [Dark Utilities](https://modrinth.com/mod/dark-utilities) | Vector plates, filter blocks, damage plates, and other utility blocks |
+| [Bookshelf](https://modrinth.com/mod/bookshelf-lib) | Required by Dark Utilities |
+| [Prickle](https://modrinth.com/mod/prickle) | Required by Dark Utilities |
 
 ## Storage
 

@@ -132,6 +132,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
+metafile = true
+
+[[files]]
 file = "mods/bringbackchat.pw.toml"
 hash = "de1ff966f1bac060f484a6f4c1b4990fc5ef5395ce9a39a82e8a7795aa69043f"
 metafile = true
@@ -274,6 +279,11 @@ metafile = true
 [[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "ef0760a149c267b7b46784e034b0338422fdaa3b06c84ce40e0a38fff97f33f8"
+metafile = true
+
+[[files]]
+file = "mods/dark-utilities.pw.toml"
+hash = "654c9f414bbfc234b174ed91976f630e6b3026a0484a277f0fe319ab15612417"
 metafile = true
 
 [[files]]
@@ -512,6 +522,11 @@ hash = "d46659f81336ed6076c01b1b57066e2b9f302a80627d855d8c56e85c83e96e98"
 metafile = true
 
 [[files]]
+file = "mods/mob-grinding-utils.pw.toml"
+hash = "ed334bd8ff25757d72ac569a854f0a846b786d7704c2c36ebd95c00b97c7a6fe"
+metafile = true
+
+[[files]]
 file = "mods/modern-industrialization.pw.toml"
 hash = "f273e625e82d20133e630064c1452b9331f32384ac01560d77a77bcec638352f"
 metafile = true
@@ -564,6 +579,11 @@ metafile = true
 [[files]]
 file = "mods/powah.pw.toml"
 hash = "dc9fec9f7c8410ed73c1d9dec65df90b83af5a62a86e6a33b55dec5641f49f17"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
 
 [[files]]
